@@ -336,6 +336,9 @@ hr{border:0;border-top:1px solid var(--rule);margin:0}
 .fee__list{margin:26px 0 30px;border-top:1px solid var(--rule)}
 .fee__list li{padding:11px 0;border-bottom:1px solid var(--rule);font-size:.88rem;color:var(--text-soft);line-height:1.55}
 .fee .link{margin-top:auto}
+.fee__cta{margin-top:auto;padding-top:15px;padding-bottom:15px}
+.fee--noted .fee__cta{background:var(--brass);border-color:var(--brass);color:#fff}
+.fee--noted .fee__cta:hover{background:var(--ink);border-color:var(--ink)}
 
 .qualifier{
   margin-top:clamp(40px,5vw,56px);padding:28px 32px;background:var(--bone-warm);
