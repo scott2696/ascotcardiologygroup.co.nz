@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="robots" content="noindex, nofollow">
+<title>Mind Meld · The Parlour</title>
+<meta name="description" content="One player sees a hidden target on a scale and gives a single clue. Can the team land on it?">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;600;700&family=Young+Serif&display=swap">
+<link rel="stylesheet" href="/assets/site.css">
+<style>
+.ends { display: flex; justify-content: space-between; gap: 12px; font-family: var(--f-display); font-size: clamp(19px, 5vw, 26px); line-height: 1.15; }
+.ends span:last-child { text-align: right; }
+.scale { position: relative; height: 74px; border-radius: 10px; background: linear-gradient(90deg, #3f6f8f, #e8dcc0 50%, #c4553f); overflow: hidden; }
+.band { position: absolute; top: 0; bottom: 0; transform: translateX(-50%); display: grid; place-items: center; font-weight: 700; font-size: 13px; color: #1a211d; }
+.band.b2 { background: rgba(255,253,246,0.45); }
+.band.b3 { background: rgba(255,253,246,0.7); }
+.band.b4 { background: #fffdf6; }
+.marker { position: absolute; top: -4px; bottom: -4px; width: 4px; margin-left: -2px; background: #12322a; border-radius: 2px; box-shadow: 0 0 0 2px #fffdf6; }
+.marker::after { content: "Your guess"; position: absolute; bottom: -24px; left: 50%; transform: translateX(-50%); white-space: nowrap; font-size: 12px; font-weight: 700; color: var(--on-felt); }
+input[type=range].dial { width: 100%; height: 44px; accent-color: #e8c475; margin: 0; }
+.ticks { display: flex; justify-content: space-between; font-size: 12px; color: rgba(243,239,228,0.6); font-variant-numeric: tabular-nums; }
+</style>
+</head>
+<body>
+<header class="site-head"><div class="wrap"><a class="logo" href="/">The Parlour <span class="pips">♠<span class="r">♥</span>♣<span class="r">♦</span></span></a><nav><a href="/">All games</a></nav></div></header>
+
+<section class="hero"><div class="wrap narrow">
+  <div class="eyebrow">Teamwork · one phone</div>
+  <h1>Mind Meld</h1>
+  <p class="lede">A target is hidden somewhere on a scale between two opposites, like Cold and Hot. One player sees it and gives one clue. Everyone else tries to land on it.</p>
+  <div class="meta"><span class="chip">2–12 players</span><span class="chip">20 min</span><span class="chip">One phone</span><span class="chip">Everyone on one team</span></div>
+</div></section>
+
+<main><div class="wrap narrow stack">
+  <section>
+    <div class="section-title"><h2>How to play</h2></div>
+    <ol class="steps">
+      <li><div><b>Choose the first Reader.</b> Everyone else is the guessing team. You all play together and share one score.</div></li>
+      <li><div><b>The Reader taps "Show the target to the Reader"</b> while everyone else looks away. The target is the bright zone somewhere on the scale. The Reader remembers where it is, then taps <b>Hide</b>.</div></li>
+      <li><div><b>The Reader gives one clue</b> out loud. It can be any word, thing or person that belongs at that point on the scale.
+        <ul><li>For Cold ↔ Hot with the target near Hot, you might say "a cup of tea". For the very end you might say "the sun".</li><li>Once the clue is given, the Reader can't add anything else or react.</li></ul></div></li>
+      <li><div><b>The team talks it over</b> and drags the slider to where they think the target is.</div></li>
+      <li><div><b>Tap "Lock in".</b> The target is revealed:
+        <ul><li>Bullseye: <b>4 points</b></li><li>Close: <b>3 points</b></li><li>Near: <b>2 points</b></li></ul></div></li>
+      <li><div><b>Pass the phone to the left.</b> That person is the next Reader. After 8 rounds, look up your score: 16+ is good, 22+ is great, and 28+ means you're reading each other's minds.</div></li>
+    </ol>
+  </section>
+
+  <section class="example">
+    <div class="eyebrow">Example</div>
+    <p>The scale is <b>Useless ↔ Useful</b>. The target is a little past the middle, towards Useful.</p>
+    <p>The Reader says <b>"a spoon"</b>. The team argues: "Spoons are really useful!" "Yes, but not THAT useful." They put the slider at about 70%, and it's a bullseye for 4 points.</p>
+  </section>
+
+  <section class="table" id="game" aria-live="polite"></section>
+</div></main>
+
+<footer class="site-foot"><div class="wrap">The Parlour · games for a table full of people · <a href="/">All games</a></div></footer>
+
+<script src="/assets/kit.js"></script>
+<script>
+(function () {
+  const PAIRS = [
+    ["Cold","Hot"],["Useless","Useful"],["Boring","Exciting"],["Cheap","Expensive"],["Unhealthy","Healthy"],["Harmless","Dangerous"],
+    ["Tiny","Huge"],["Old-fashioned","Modern"],["For kids","For adults"],["Normal","Weird"],["Underrated","Overrated"],["Easy job","Hard job"],
+    ["Terrible gift","Perfect gift"],["Rare","Common"],["Fragile","Indestructible"],["Villain","Hero"],["Mild","Spicy"],["Unknown","Famous"],
+    ["Bad film","Great film"],["Tastes bad","Tastes great"],["Calm","Chaotic"],["Sweet","Savoury"],["Indoors","Outdoors"],["Easy to eat","Messy to eat"],
+    ["Useless superpower","Amazing superpower"],["Bad habit","Good habit"],["Smells bad","Smells good"],["Low effort","High effort"],["Ordinary","Magical"],
+    ["Safe","Risky"],["Bad advice","Good advice"],["Relaxing","Stressful"],["Quiet","Loud"],["Soft","Hard"],["Forgettable","Unforgettable"],
+    ["Sad song","Happy song"],["Dog person","Cat person"],["Lazy","Hardworking"],["Overpriced","Bargain"],["Bad first date","Great first date"]
+  ];
+  const ROUNDS = 8;
+  const el = Kit.$("game");
+  let G;
+
+  const zones = (t) => [[17, "b2", "2"], [10, "b3", "3"], [4, "b4", "4"]]
+    .map(([w, c, label]) => `<div class="band ${c}" style="left:${t}%;width:${w * 2}%">${c === "b4" ? label : ""}</div>`).join("");
+  const ends = (p) => `<div class="ends"><span>← ${Kit.esc(p[0])}</span><span>${Kit.esc(p[1])} →</span></div>`;
+  const score = (d) => (d <= 4 ? 4 : d <= 10 ? 3 : d <= 17 ? 2 : 0);
+
+  function start() { G = { round: 1, total: 0, deck: Kit.shuffle(PAIRS) }; intro(); }
+
+  function intro() {
+    el.innerHTML = `
+      <div class="scoreline"><span>Round <b>${G.round}</b> of ${ROUNDS}</span><span>Score <b>${G.total}</b></span></div>
+      <h2>New Reader, take the phone</h2>
+      <p>Everyone else, look away from the screen.</p>
+      <div class="btns"><button class="btn big" id="show">Show the target to the Reader</button></div>`;
+    Kit.$("show").onclick = reader;
+  }
+
+  function reader() {
+    const p = G.deck[(G.round - 1) % G.deck.length];
+    G.pair = p; G.target = 6 + Math.floor(Math.random() * 89);
+    el.innerHTML = `
+      <div class="eyebrow">Reader only</div>
+      ${ends(p)}
+      <div class="scale">${zones(G.target)}</div>
+      <p>The target is the bright zone. Think of one clue that belongs right there.</p>
+      <div class="btns"><button class="btn big" id="hide">Hide the target</button></div>`;
+    Kit.$("hide").onclick = guess;
+  }
+
+  function guess() {
+    el.innerHTML = `
+      <div class="scoreline"><span>Round <b>${G.round}</b> of ${ROUNDS}</span><span>Score <b>${G.total}</b></span></div>
+      <p>Reader, give your clue. Team, drag the slider to where you think the target is.</p>
+      ${ends(G.pair)}
+      <div class="scale" aria-hidden="true"></div>
+      <label for="dial" class="note">Your guess</label>
+      <input type="range" class="dial" id="dial" min="0" max="100" value="50" aria-label="Your guess on the scale">
+      <div class="btns"><button class="btn big" id="lock">Lock in</button></div>`;
+    Kit.$("lock").onclick = () => reveal(+Kit.$("dial").value);
+  }
+
+  function reveal(g) {
+    const pts = score(Math.abs(g - G.target));
+    G.total += pts;
+    const msg = pts === 4 ? "Bullseye! Mind meld complete." : pts === 3 ? "So close." : pts === 2 ? "In the zone." : "Missed it. The Reader may need to explain that clue.";
+    const last = G.round >= ROUNDS;
+    el.innerHTML = `
+      ${ends(G.pair)}
+      <div style="position:relative"><div class="scale">${zones(G.target)}</div><div class="marker" style="left:${g}%"></div></div>
+      <div style="height:16px"></div>
+      <div class="scoreline"><span class="big-num">+${pts}</span><span>${msg}<br>Total: <b>${G.total}</b></span></div>
+      <div class="btns"><button class="btn big" id="next">${last ? "See the final score" : "Next round: pass the phone left"}</button></div>`;
+    Kit.$("next").onclick = () => { if (last) end(); else { G.round++; intro(); } };
+  }
+
+  function end() {
+    const t = G.total;
+    const verdict = t >= 28 ? "You're reading each other's minds." : t >= 22 ? "Great. You know each other well." : t >= 16 ? "Good. You're mostly on the same wavelength." : "Plenty of room to get to know each other better.";
+    el.innerHTML = `
+      <div class="card" data-suit="♦"><div class="k">Final score</div><div class="w">${t} / ${ROUNDS * 4}</div><div class="s">${verdict}</div></div>
+      <div class="btns"><button class="btn big" id="again">Play again</button></div>`;
+    Kit.$("again").onclick = start;
+  }
+
+  start();
+})();
+</script>
+</body>
+</html>

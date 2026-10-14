@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="robots" content="noindex, nofollow">
+<title>Most Likely To · The Parlour</title>
+<meta name="description" content="Read the card, count to three, and everyone points at who is most likely to do it.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;600;700&family=Young+Serif&display=swap">
+<link rel="stylesheet" href="/assets/site.css">
+</head>
+<body>
+<header class="site-head"><div class="wrap"><a class="logo" href="/">The Parlour <span class="pips">♠<span class="r">♥</span>♣<span class="r">♦</span></span></a><nav><a href="/">All games</a></nav></div></header>
+
+<section class="hero"><div class="wrap narrow">
+  <div class="eyebrow">Icebreaker · one phone</div>
+  <h1>Most Likely To</h1>
+  <p class="lede">Read a card out loud and everyone points at the person most likely to do it. Then that person has to explain themselves.</p>
+  <div class="meta"><span class="chip">4–15 players</span><span class="chip">15 min</span><span class="chip">One phone</span></div>
+</div></section>
+
+<main><div class="wrap narrow stack">
+  <section>
+    <div class="section-title"><h2>How to play</h2></div>
+    <ol class="steps">
+      <li><div><b>Sit in a circle</b> where everyone can see each other.</div></li>
+      <li><div><b>Choose a deck</b> below. <b>Mild</b> is safe for any group and <b>Bold</b> is cheekier.</div></li>
+      <li><div><b>Tap "Next card"</b> and read the card out loud: "Who is most likely to…"</div></li>
+      <li><div><b>Count 3, 2, 1</b>, and on "1" everyone points at one person at the same time. You can't point at yourself.</div></li>
+      <li><div><b>The person with the most fingers</b> has 30 seconds to defend themselves, or to tell the story that proves everyone right.</div></li>
+      <li><div><b>Pass the phone</b> to the left and the next person reads a card.</div></li>
+      <li><div><b>Optional scoring:</b> every time you get the most fingers, you get a point. After 15 cards, the player with the most points chooses the next game.</div></li>
+    </ol>
+  </section>
+
+  <section class="example">
+    <div class="eyebrow">Example</div>
+    <p>The card says: <b>"…get lost using GPS?"</b> On 3, five fingers point at Ben.</p>
+    <p>Ben: "That was one time, and the road was closed!" Everyone else: "It was a ferry terminal, Ben."</p>
+  </section>
+
+  <section class="table" id="game" aria-live="polite"></section>
+</div></main>
+
+<footer class="site-foot"><div class="wrap">The Parlour · games for a table full of people · <a href="/">All games</a></div></footer>
+
+<script src="/assets/kit.js"></script>
+<script>
+(function () {
+  const DECKS = {
+    "Mild": [
+      "get lost using GPS","cry at a TV ad","become famous","survive a zombie apocalypse","forget their own birthday","adopt ten cats",
+      "win a reality TV show","become a millionaire","laugh at the worst possible moment","talk to their plants","eat something off the floor",
+      "start a business","move to another country on a whim","fall asleep at a party","run a marathon","forget where they parked",
+      "become a teacher","win a game show","get a tattoo they regret","be late to their own wedding","eat the last slice without asking",
+      "be the first to go in a horror film","know every word to a cheesy song","burn toast","befriend a stranger on a bus","start a podcast",
+      "still have their childhood teddy","talk their way out of a parking ticket","win an argument they're wrong about","go viral online",
+      "open every door on an advent calendar on day one","get stuck in a lift","organise everyone's birthday","be secretly great at dancing",
+      "write a book","go skydiving","keep a plant alive for ten years","send a text to the wrong person","become a grandparent first","live to 100"
+    ],
+    "Bold": [
+      "text an ex at 2am","lie about their age","fake being sick to skip work","read someone's messages over their shoulder",
+      "go through a friend's fridge without asking","pretend to know a song they've never heard","get kicked out of a bar",
+      "have a secret social media account","re-gift a present","get caught singing in the car","stalk an ex online","forget a friend's name mid-conversation",
+      "laugh at their own joke before finishing it","order for the whole table without asking","sneak food into a cinema","blame a smell on the dog",
+      "cheat at a board game","pretend to be on the phone to avoid someone","use a fake name at a coffee shop","say 'I'm five minutes away' while still in bed",
+      "flirt their way out of trouble","overshare on a first date","quit a job dramatically","get matching tattoos with a stranger","end up on the news"
+    ]
+  };
+  const KEY = "parlour-most-likely";
+  const S = Object.assign({ deck: "Mild" }, Kit.load(KEY, {}));
+  const el = Kit.$("game");
+  let pile = [], count = 0;
+
+  function refill() { pile = Kit.shuffle(DECKS[S.deck]); }
+
+  function home() {
+    el.innerHTML = `
+      <div><div class="eyebrow">Choose a deck</div><h2>Most Likely To</h2></div>
+      <div class="choices" id="decks"></div>
+      <div class="btns"><button class="btn big" id="draw">Next card</button></div>`;
+    Kit.choices(Kit.$("decks"), Object.keys(DECKS), S.deck, (v) => { S.deck = v; Kit.save(KEY, S); refill(); count = 0; });
+    Kit.$("draw").onclick = draw;
+  }
+
+  function draw() {
+    if (!pile.length) refill();
+    count++;
+    const q = pile.pop();
+    el.innerHTML = `
+      <div class="note">Card ${count} · ${S.deck} deck</div>
+      <div class="card" data-suit="${count % 2 ? "♥" : "♦"}"><div class="k">Who is most likely to…</div><div class="w" style="font-size:clamp(26px,6.5vw,38px)">${Kit.esc(q)}?</div><div class="s">Count 3, 2, 1… and point!</div></div>
+      <div class="btns"><button class="btn big" id="draw">Next card</button><button class="btn alt" id="home">Change deck</button></div>`;
+    Kit.$("draw").onclick = draw;
+    Kit.$("home").onclick = home;
+  }
+
+  refill();
+  home();
+})();
+</script>
+</body>
+</html>

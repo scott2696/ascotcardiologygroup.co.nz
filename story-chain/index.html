@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="robots" content="noindex, nofollow">
+<title>Story Chain · The Parlour</title>
+<meta name="description" content="Build one ridiculous story together, two sentences at a time, with words you must use and twists you can't avoid.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;600;700&family=Young+Serif&display=swap">
+<link rel="stylesheet" href="/assets/site.css">
+<style>
+.trio { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; }
+@media (max-width: 560px) { .trio { grid-template-columns: 1fr; } }
+.trio .card { min-height: 0; padding: 18px 14px; }
+.trio .card .w { font-size: 22px; }
+.progress { height: 6px; border-radius: 3px; background: rgba(243,239,228,0.2); overflow: hidden; }
+.progress i { display: block; height: 100%; background: #e8c475; }
+</style>
+</head>
+<body>
+<header class="site-head"><div class="wrap"><a class="logo" href="/">The Parlour <span class="pips">♠<span class="r">♥</span>♣<span class="r">♦</span></span></a><nav><a href="/">All games</a></nav></div></header>
+
+<section class="hero"><div class="wrap narrow">
+  <div class="eyebrow">Storytelling · one phone</div>
+  <h1>Story Chain</h1>
+  <p class="lede">Make up one story together, two sentences at a time. Each player gets a word they have to use, and every so often a twist turns the story upside down.</p>
+  <div class="meta"><span class="chip">3–10 players</span><span class="chip">15 min</span><span class="chip">One phone</span><span class="chip">No winners or losers</span></div>
+</div></section>
+
+<main><div class="wrap narrow stack">
+  <section>
+    <div class="section-title"><h2>How to play</h2></div>
+    <ol class="steps">
+      <li><div><b>Tap "Start a story".</b> You get a <b>hero</b>, a <b>place</b> and a <b>problem</b>. Read all three out loud.</div></li>
+      <li><div><b>The first player starts the story</b> with two sentences that introduce the hero, the place and the problem.</div></li>
+      <li><div><b>Pass the phone to the left and tap "Next turn".</b> The next player gets a <b>word they must use</b>. They carry on the story with two sentences that include that word.</div></li>
+      <li><div><b>Twist cards:</b> every few turns, a red Twist card appears instead of a word. That player has to make the twist happen in their two sentences.</div></li>
+      <li><div><b>After 12 turns</b> an Ending card appears. The last player finishes the story in that style.</div></li>
+      <li><div><b>Vote for the best line of the night.</b> The person who said it chooses the hero for the next story.</div></li>
+    </ol>
+  </section>
+
+  <section class="example">
+    <div class="eyebrow">Example</div>
+    <p><b>Hero:</b> a retired pirate. <b>Place:</b> a supermarket. <b>Problem:</b> the lights won't turn off.</p>
+    <p>Player 1: "Captain Mags hadn't sailed in forty years, but tonight she was trapped in aisle 7. The lights hummed, and they would not go off."</p>
+    <p>Player 2 gets the word <b>"banana"</b>: "She followed a trail of banana peels to the freezer. Someone had been there before her."</p>
+  </section>
+
+  <section class="table" id="game" aria-live="polite"></section>
+</div></main>
+
+<footer class="site-foot"><div class="wrap">The Parlour · games for a table full of people · <a href="/">All games</a></div></footer>
+
+<script src="/assets/kit.js"></script>
+<script>
+(function () {
+  const HEROES = ["a retired pirate","a nervous ghost","the world's worst wizard","a talking sheep","a time traveller with no watch","a grandma who used to be a spy","a robot learning to love","a lost astronaut","a detective who is scared of the dark","a famous chef who can't taste anything","a vampire on a diet","a kid who just became king","a dog who can read","a lighthouse keeper","a bored dragon","an influencer stuck in 1850","a postie with a secret","twins who swap lives","a magician whose tricks are real","a farmer who found a door in a field"];
+  const PLACES = ["a supermarket at midnight","a cruise ship","the Moon","a haunted school camp","a tiny island","inside a snow globe","a train that never stops","a wedding","a hospital waiting room","a castle made of sweets","the bottom of the sea","a petrol station in the desert","a museum after closing","a kitchen in a fancy restaurant","a cave full of glowing worms","a rugby stadium","a library with no exits","a ski lift stuck in the air","a theme park in the rain","a sheep farm"];
+  const PROBLEMS = ["the lights won't turn off","everyone has forgotten their name","it has started raining upwards","a priceless egg has gone missing","the clocks are running backwards","someone keeps leaving notes","the floor is slowly turning to jelly","a stranger claims to be them","all the doors have disappeared","a cat is in charge now","there's one hour until the wedding","nobody can stop singing","the map is lying","a ghost wants their sandwich back","the sun hasn't come up","their shadow has run away","the phone keeps ringing with no one there","a whale is stuck in the car park","a mysterious invitation arrives","the treasure is real"];
+  const WORDS = ["banana","umbrella","grandmother","volcano","whisper","spaghetti","trumpet","invisible","sock","moustache","tornado","pickle","crown","karaoke","secret","penguin","bathtub","midnight","sneeze","diamond","lasagne","helicopter","mirror","cheese","jellyfish","mustard","lighthouse","bicycle","wig","rocket","goat","cupcake","yodel","sunglasses","thunder","pyjamas","octopus","sandwich","fireworks","toothbrush","skeleton","marshmallow","tractor","glitter","ninja","balloon","trampoline","pineapple","haunted","boomerang","cactus","ukulele","burp","treasure","dinosaur","library","bagpipes","jam","waterfall","spatula"];
+  const TWISTS = ["It was all a dream… or was it?","The villain turns out to be the hero's mum.","Everyone suddenly swaps bodies.","It starts snowing indoors.","A long-lost twin arrives.","Gravity switches off for one minute.","The hero discovers they can understand animals.","Somebody has been lying the whole time.","A door appears that wasn't there before.","Everything is now happening on live TV.","The hero loses their memory.","An old enemy asks for help.","They're suddenly 100 years in the future.","The map was upside down the whole time.","A tiny dragon hatches from someone's pocket.","The hero wins the lottery.","The building starts to move.","Someone sneezes and time freezes.","A talking animal takes charge.","It turns out they're in a video game."];
+  const ENDINGS = ["a happy ending","a sad ending","a cliffhanger","a twist nobody saw coming","a wedding","everyone going home for dinner","a song","a moral lesson","the hero waking up","a sequel being announced"];
+  const TURNS = 12;
+  const el = Kit.$("game");
+  let T;
+
+  function home() {
+    el.innerHTML = `<div><div class="eyebrow">Ready?</div><h2>Start a new story</h2></div><p>Sit in a circle. Whoever holds the phone goes first.</p><div class="btns"><button class="btn big" id="go">Start a story</button></div>`;
+    Kit.$("go").onclick = start;
+  }
+
+  function start() {
+    T = { turn: 1, words: Kit.shuffle(WORDS), twists: Kit.shuffle(TWISTS), nextTwist: 3 + Math.floor(Math.random() * 2) };
+    el.innerHTML = `
+      ${bar()}
+      <div class="trio">
+        <div class="card" data-suit="♠"><div class="k">The hero</div><div class="w">${Kit.esc(Kit.pick(HEROES))}</div></div>
+        <div class="card" data-suit="♣"><div class="k">The place</div><div class="w">${Kit.esc(Kit.pick(PLACES))}</div></div>
+        <div class="card" data-suit="♦"><div class="k">The problem</div><div class="w">${Kit.esc(Kit.pick(PROBLEMS))}</div></div>
+      </div>
+      <p><b>Turn 1:</b> read these out, then begin the story in two sentences.</p>
+      <div class="btns"><button class="btn big" id="next">Pass left: next turn</button><button class="btn alt" id="redo">Different start</button></div>`;
+    Kit.$("next").onclick = next;
+    Kit.$("redo").onclick = start;
+  }
+
+  function bar() { return `<div class="scoreline note"><span>Turn ${T.turn} of ${TURNS}</span></div><div class="progress"><i style="width:${(T.turn / TURNS) * 100}%"></i></div>`; }
+
+  function next() {
+    T.turn++;
+    let card;
+    if (T.turn >= TURNS) {
+      card = `<div class="card" data-suit="♥"><div class="k">The ending</div><div class="w">Finish it with ${Kit.esc(Kit.pick(ENDINGS))}</div><div class="s">Last turn. Wrap up the whole story in two or three sentences.</div></div>`;
+    } else if (T.turn === T.nextTwist) {
+      T.nextTwist += 3 + Math.floor(Math.random() * 2);
+      card = `<div class="card" data-suit="♥" style="box-shadow:0 0 0 4px #b13a31,0 10px 28px rgba(0,0,0,.35)"><div class="k" style="color:#b13a31">Twist!</div><div class="w" style="font-size:clamp(24px,6vw,34px)">${Kit.esc(T.twists.pop())}</div><div class="s">Make this happen in your two sentences.</div></div>`;
+    } else {
+      card = `<div class="card" data-suit="♣"><div class="k">Your word</div><div class="w">${Kit.esc(T.words.pop())}</div><div class="s">Continue the story in two sentences using this word.</div></div>`;
+    }
+    const last = T.turn >= TURNS;
+    el.innerHTML = `${bar()}${card}<div class="btns">${last ? `<button class="btn big" id="vote">The story's done</button>` : `<button class="btn big" id="next">Pass left: next turn</button>`}</div>`;
+    if (last) {
+      Kit.$("vote").onclick = () => {
+        el.innerHTML = `<div class="card" data-suit="♠"><div class="k">The end</div><div class="w">Vote for the best line</div><div class="s">Count 3, 2, 1 and point at whoever said the best line. They choose the hero for the next story.</div></div><div class="btns"><button class="btn big" id="again">Start a new story</button></div>`;
+        Kit.$("again").onclick = start;
+      };
+    } else {
+      Kit.$("next").onclick = next;
+    }
+  }
+
+  home();
+})();
+</script>
+</body>
+</html>

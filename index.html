@@ -4,513 +4,123 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <meta name="robots" content="noindex, nofollow">
-<meta name="description" content="Saltmarrow Light: a six-chapter cooperative mystery for four players.">
-<style>:root{padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}body{margin:0}img{max-width:100%}[hidden]{display:none!important}</style>
-<title>Saltmarrow Light</title>
+<title>The Parlour · Games for a group</title>
+<meta name="description" content="Mysteries, bluffing games and party games to play together in one room, with step-by-step instructions for every game.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IM+Fell+English+SC&family=Spectral:ital,wght@0,400;0,600;1,400&family=Special+Elite&display=swap">
-<style>
-/* Layout: one narrow column like a logbook page, a slow lighthouse beam sweeping behind the header. Single dark theme by choice: it is night at sea. */
-:root {
-  --sea: #0a1517;
-  --sea-2: #10222a;
-  --sea-3: #163039;
-  --line: #2a434b;
-  --fog: #dde2dc;
-  --fog-dim: #93a6a3;
-  --brass: #c9a35b;
-  --lamp: #ffd47e;
-  --rust: #d86a55;
-  --paper: #e9e1cc;
-  --ink: #2a2318;
-  --f-display: "IM Fell English SC", "Iowan Old Style", Georgia, serif;
-  --f-body: "Spectral", "Iowan Old Style", Georgia, serif;
-  --f-type: "Special Elite", "Courier New", Courier, monospace;
-  color-scheme: dark;
-}
-html, body { height: 100%; }
-body {
-  background: var(--sea);
-  color: var(--fog);
-  font-family: var(--f-body);
-  font-size: 17px;
-  line-height: 1.6;
-}
-.wrap { max-width: 640px; margin: 0 auto; padding-inline: 18px; padding-block: 0 64px; position: relative; }
-
-header.top { position: relative; padding-block: 36px 20px; overflow: hidden; }
-.beam {
-  position: absolute; left: 50%; top: 40px; width: 900px; height: 900px; margin-left: -450px; margin-top: -450px;
-  background: conic-gradient(from 0deg, transparent 0deg, rgba(255,212,126,0.13) 8deg, transparent 22deg, transparent 180deg, rgba(255,212,126,0.08) 188deg, transparent 202deg);
-  animation: sweep 14s linear infinite; pointer-events: none;
-}
-@keyframes sweep { to { transform: rotate(360deg); } }
-.brand { position: relative; text-align: center; }
-.brand .eyebrow { font-family: var(--f-type); font-size: 12px; letter-spacing: 0.18em; color: var(--brass); text-transform: uppercase; }
-.brand h1 { font-family: var(--f-display); font-weight: 400; font-size: clamp(34px, 9vw, 52px); line-height: 1.05; margin: 6px 0 0; color: var(--fog); text-wrap: balance; }
-
-.lamps { display: flex; justify-content: center; gap: 14px; margin-top: 16px; position: relative; }
-.lamps span { width: 30px; text-align: center; font-family: var(--f-display); font-size: 13px; color: var(--fog-dim); border-top: 2px solid var(--line); padding-top: 4px; }
-.lamps span.lit { color: var(--lamp); border-color: var(--lamp); }
-.lamps span.now { color: var(--fog); border-color: var(--brass); }
-
-h2 { font-family: var(--f-display); font-weight: 400; font-size: 30px; line-height: 1.15; margin: 0; text-wrap: balance; }
-.place { font-family: var(--f-type); font-size: 12px; letter-spacing: 0.16em; text-transform: uppercase; color: var(--brass); }
-.story p { margin: 0 0 14px; }
-.story em { color: var(--lamp); font-style: italic; }
-section { display: flex; flex-direction: column; gap: 18px; }
-
-.panel { background: var(--sea-2); border: 1px solid var(--line); border-radius: 6px; padding: 18px; }
-.paper {
-  background: var(--paper); color: var(--ink); font-family: var(--f-type); font-size: 16px; line-height: 1.55;
-  padding: 18px; border-radius: 2px; box-shadow: 0 8px 24px rgba(0,0,0,0.45); transform: rotate(-0.4deg);
-}
-.paper .who { font-size: 12px; letter-spacing: 0.14em; text-transform: uppercase; opacity: 0.6; margin-bottom: 8px; }
-.paper p { margin: 0 0 10px; }
-.paper p:last-child { margin-bottom: 0; }
-.paper .big { font-size: 34px; letter-spacing: 0.06em; }
-.paper .morse { font-size: 22px; letter-spacing: 0.08em; word-spacing: 0.2em; overflow-wrap: anywhere; }
-.paper table { border-collapse: collapse; width: 100%; }
-.paper td { padding: 2px 6px; }
-.paper td.m { letter-spacing: 0.12em; }
-.log { border-left: 2px solid rgba(42,35,24,0.25); padding-left: 10px; }
-.log b { display: block; font-weight: 400; font-size: 13px; opacity: 0.65; }
-
-.facts { width: 100%; border-collapse: collapse; font-size: 15px; }
-.facts th { text-align: left; font-family: var(--f-type); font-weight: 400; font-size: 12px; letter-spacing: 0.12em; text-transform: uppercase; color: var(--brass); padding: 6px 8px; border-bottom: 1px solid var(--line); }
-.facts td { padding: 6px 8px; border-bottom: 1px solid var(--line); vertical-align: top; }
-.scroll { overflow-x: auto; }
-
-.plate { background: linear-gradient(160deg, #6b5426, #a8843f 45%, #6b5426); color: #1a1408; border-radius: 4px; padding: 18px; font-family: var(--f-display); text-align: center; box-shadow: inset 0 0 0 2px rgba(0,0,0,0.25); }
-.plate .t { font-size: 15px; letter-spacing: 0.14em; margin-bottom: 8px; }
-.plate .row { display: flex; justify-content: center; gap: 14px; font-size: 18px; flex-wrap: wrap; }
-.plate .yr { font-variant-numeric: tabular-nums; opacity: 0.75; }
-.plate .blanks { display: flex; flex-wrap: wrap; justify-content: center; gap: 6px 16px; margin-top: 6px; font-family: var(--f-type); letter-spacing: 0.25em; font-size: 16px; }
-
-label { font-family: var(--f-type); font-size: 12px; letter-spacing: 0.14em; text-transform: uppercase; color: var(--fog-dim); display: block; margin-bottom: 6px; }
-input[type=text] {
-  width: 100%; box-sizing: border-box; background: var(--sea); color: var(--fog); border: 1px solid var(--line);
-  border-radius: 4px; padding: 12px 14px; font-family: var(--f-type); font-size: 18px; letter-spacing: 0.06em;
-}
-input[type=text]:focus { outline: 2px solid var(--brass); outline-offset: 1px; border-color: var(--brass); }
-.row-in { display: flex; gap: 10px; }
-.row-in input { flex: 1; min-width: 0; }
-
-button {
-  font-family: var(--f-display); font-size: 18px; border-radius: 4px; padding: 11px 18px; cursor: pointer;
-  border: 1px solid var(--brass); background: var(--brass); color: #17120a;
-}
-button:hover { background: var(--lamp); border-color: var(--lamp); }
-button:focus-visible { outline: 2px solid var(--lamp); outline-offset: 2px; }
-button.ghost { background: transparent; color: var(--brass); }
-button.ghost:hover { background: var(--sea-3); color: var(--lamp); }
-button.small { font-size: 15px; padding: 7px 12px; }
-.btns { display: flex; flex-wrap: wrap; gap: 10px; }
-
-.feedback { min-height: 1.6em; font-style: italic; color: var(--rust); margin-top: 8px; }
-.hint { font-style: italic; color: var(--fog-dim); border-left: 2px solid var(--brass); padding-left: 10px; margin-top: 10px; }
-.success { border-color: var(--lamp); }
-.success .ans { font-family: var(--f-type); color: var(--lamp); letter-spacing: 0.12em; font-size: 20px; }
-
-.choice { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
-@media (max-width: 460px) { .choice { grid-template-columns: 1fr; } }
-.choice button { text-align: left; background: var(--sea-2); color: var(--fog); border-color: var(--line); font-family: var(--f-body); font-size: 15px; line-height: 1.4; padding: 14px; }
-.choice button strong { display: block; font-family: var(--f-display); font-weight: 400; font-size: 19px; color: var(--fog); margin-bottom: 4px; }
-.choice button[aria-pressed=true] { border-color: var(--lamp); background: var(--sea-3); }
-.choice button:hover { background: var(--sea-3); }
-.seats { display: grid; grid-template-columns: repeat(4, 1fr); gap: 8px; }
-.seats button { padding: 10px 4px; font-size: 15px; background: var(--sea-2); color: var(--fog); border-color: var(--line); overflow-wrap: anywhere; }
-.seats button[aria-pressed=true] { border-color: var(--lamp); color: var(--lamp); background: var(--sea-3); }
-.names { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
-@media (max-width: 460px) { .names { grid-template-columns: 1fr; } }
-
-.rules { margin: 0; padding-left: 20px; }
-.rules li { margin-bottom: 6px; }
-.muted { color: var(--fog-dim); font-size: 15px; }
-.envelopes { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
-.envelopes button { background: var(--sea-2); color: var(--fog); border-color: var(--line); font-size: 17px; }
-
-.overlay { position: fixed; inset: 0; background: rgba(4,9,10,0.94); display: flex; align-items: center; justify-content: center; padding: 18px; z-index: 10; overflow-y: auto; }
-.overlay .inner { max-width: 560px; width: 100%; display: flex; flex-direction: column; gap: 16px; }
-
-footer.foot { margin-top: 40px; display: flex; flex-wrap: wrap; gap: 10px; justify-content: space-between; align-items: center; border-top: 1px solid var(--line); padding-top: 14px; }
-
-.ending .lightburst { height: 140px; border-radius: 6px; background: radial-gradient(circle at 50% 60%, rgba(255,212,126,0.9), rgba(255,212,126,0.15) 35%, transparent 70%); animation: pulse 4s ease-in-out infinite; }
-@keyframes pulse { 50% { opacity: 0.55; } }
-.typed { white-space: pre-wrap; min-height: 12em; }
-.stat { font-family: var(--f-type); color: var(--brass); font-variant-numeric: tabular-nums; }
-
-@media (prefers-reduced-motion: reduce) {
-  .beam, .ending .lightburst { animation: none; }
-}
-</style>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;600;700&family=Young+Serif&display=swap">
+<link rel="stylesheet" href="/assets/site.css">
 </head>
 <body>
+<header class="site-head"><div class="wrap"><a class="logo" href="/">The Parlour <span class="pips">♠<span class="r">♥</span>♣<span class="r">♦</span></span></a><nav><a href="#games">Games</a></nav></div></header>
 
-<div class="wrap">
-  <header class="top">
-    <div class="beam" aria-hidden="true"></div>
-    <div class="brand">
-      <div class="eyebrow">A mystery for four keepers</div>
-      <h1>Saltmarrow Light</h1>
-      <div class="lamps" id="lamps" aria-label="Chapter progress"></div>
+<section class="hub-hero">
+  <div class="suits" aria-hidden="true">♠♥</div>
+  <div class="wrap">
+    <div class="eyebrow">Free · no apps · no sign-up</div>
+    <h1>Games for a table<br>full of people</h1>
+    <p class="lede">Mysteries to solve together, bluffing games, and loud ones for when the night gets going. Every game has step-by-step instructions, and most only need one phone.</p>
+    <div class="btns"><a class="btn big" href="#games" style="background:var(--on-felt);color:var(--felt-deep);border-color:var(--on-felt)">Choose a game</a><button class="btn big alt" id="surprise" style="color:var(--on-felt);border-color:rgba(243,239,228,.45)">Pick one for us</button></div>
+  </div>
+</section>
+
+<main><div class="wrap stack">
+  <section>
+    <div class="section-title"><h2>How it works</h2></div>
+    <ol class="steps cols" style="display:grid">
+      <li><div><b>Choose a game</b> that suits the size of your group. Each card below shows how many players it needs.</div></li>
+      <li><div><b>Read the "How to play" steps</b> out loud. Every game page starts with them, plus an example.</div></li>
+      <li><div><b>Play on the page.</b> Most games run on one phone you pass around. A few need everyone's phone or a deck of cards.</div></li>
+    </ol>
+  </section>
+
+  <section id="games">
+    <div class="section-title"><h2>The games</h2></div>
+    <div class="choices filters" id="filters"></div>
+    <div class="grid" id="grid">
+
+      <a class="game" href="/saltmarrow/" data-tags="mystery phones">
+        <div class="top"><span class="tag">Mystery adventure</span><span class="suit">♠</span></div>
+        <h3>Saltmarrow Light</h3>
+        <p>A keeper vanished in 1931. Six locked chapters, and every player holds a different piece of each clue. The ending is about you.</p>
+        <div class="facts"><span>4 players</span><span>45 min</span><span>A phone each</span></div>
+      </a>
+
+      <a class="game" href="/word-spy/" data-tags="onephone party">
+        <div class="top"><span class="tag">Bluffing</span><span class="suit r">♥</span></div>
+        <h3>Word Spy</h3>
+        <p>Everyone knows the secret word except the spy. Give clues that prove you know it without giving it away.</p>
+        <div class="facts"><span>3–10 players</span><span>10 min</span><span>One phone</span></div>
+      </a>
+
+      <a class="game" href="/mind-meld/" data-tags="onephone party">
+        <div class="top"><span class="tag">Teamwork</span><span class="suit">♣</span></div>
+        <h3>Mind Meld</h3>
+        <p>A target is hidden on a scale from Cold to Hot. One clue, one guess. How well do you really know each other?</p>
+        <div class="facts"><span>2–12 players</span><span>20 min</span><span>One phone</span></div>
+      </a>
+
+      <a class="game" href="/sealed-envelope/" data-tags="mystery onephone cards">
+        <div class="top"><span class="tag">Murder mystery</span><span class="suit r">♦</span></div>
+        <h3>The Sealed Envelope</h3>
+        <p>Find Lord Moreau's killer. Then open the envelope, which might reveal the killer was framed, or that Edgar is still alive.</p>
+        <div class="facts"><span>4 players</span><span>25 min</span><span>One phone</span></div>
+      </a>
+
+      <a class="game" href="/on-your-head/" data-tags="onephone party">
+        <div class="top"><span class="tag">Fast and loud</span><span class="suit">♠</span></div>
+        <h3>On Your Head</h3>
+        <p>Phone on your forehead, sixty seconds on the clock, and your team shouting clues at you.</p>
+        <div class="facts"><span>3–20 players</span><span>1 min a turn</span><span>One phone</span></div>
+      </a>
+
+      <a class="game" href="/hollowmere/" data-tags="mystery onephone cards">
+        <div class="top"><span class="tag">Hidden traitor</span><span class="suit r">♥</span></div>
+        <h3>Hollowmere House</h3>
+        <p>Three guests remember a room in the house, and the fourth is the house in disguise. Tell eerie memories and find the Hollow.</p>
+        <div class="facts"><span>4 players</span><span>30 min</span><span>One phone</span></div>
+      </a>
+
+      <a class="game" href="/most-likely/" data-tags="onephone party">
+        <div class="top"><span class="tag">Icebreaker</span><span class="suit">♣</span></div>
+        <h3>Most Likely To</h3>
+        <p>"Who is most likely to get lost using GPS?" Count to three, point, and make them explain.</p>
+        <div class="facts"><span>4–15 players</span><span>15 min</span><span>One phone</span></div>
+      </a>
+
+      <a class="game" href="/midnight-train/" data-tags="mystery cards">
+        <div class="top"><span class="tag">Bluffing mystery</span><span class="suit r">♦</span></div>
+        <h3>The Midnight Train</h3>
+        <p>Some of you are already ghosts. Everyone can see your fate except you, and one passenger is lying about it.</p>
+        <div class="facts"><span>4 players</span><span>20 min</span><span>Playing cards</span></div>
+      </a>
+
+      <a class="game" href="/story-chain/" data-tags="onephone party">
+        <div class="top"><span class="tag">Storytelling</span><span class="suit">♠</span></div>
+        <h3>Story Chain</h3>
+        <p>Build one story together, two sentences at a time, with a word you must use and twists you can't avoid.</p>
+        <div class="facts"><span>3–10 players</span><span>15 min</span><span>One phone</span></div>
+      </a>
+
     </div>
-  </header>
-  <main id="app"></main>
-  <footer class="foot" id="foot"></footer>
-</div>
-<div id="overlay"></div>
+    <p class="note" id="empty" hidden style="margin-top:12px">No games match that filter.</p>
+  </section>
+</div></main>
 
+<footer class="site-foot"><div class="wrap">The Parlour · games for a table full of people</div></footer>
+
+<script src="/assets/kit.js"></script>
 <script>
 (function () {
-  const KEY = "saltmarrow-light-v1";
-  const ROMAN = ["I", "II", "III", "IV", "V", "VI"];
-
-  function fresh() {
-    return { screen: "intro", mode: null, seat: null, names: ["", "", "", ""], chapter: 0, solved: [], hints: {}, startedAt: null, finishedAt: null };
-  }
-  function load() {
-    try { const s = JSON.parse(localStorage.getItem(KEY)); if (s && s.screen) return Object.assign(fresh(), s); } catch (e) {}
-    return null;
-  }
-  function save() { try { localStorage.setItem(KEY, JSON.stringify(state)); } catch (e) {} }
-
-  let state = fresh();
-  const $ = (id) => document.getElementById(id);
-  const esc = (s) => String(s).replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
-  const norm = (s) => String(s).toLowerCase().replace(/[^a-z0-9]/g, "");
-  const nameOf = (i) => (state.names[i] && state.names[i].trim()) || "Player " + (i + 1);
-  const today = () => new Date().toLocaleDateString("en-GB", { day: "numeric", month: "long", year: "numeric" });
-
-  const M1 = [["A","•—"],["B","—•••"],["C","—•—•"],["D","—••"],["E","•"],["F","••—•"],["G","——•"],["H","••••"],["I","••"],["J","•———"],["K","—•—"],["L","•—••"],["M","——"]];
-  const M2 = [["N","—•"],["O","———"],["P","•——•"],["Q","——•—"],["R","•—•"],["S","•••"],["T","—"],["U","••—"],["V","•••—"],["W","•——"],["X","—••—"],["Y","—•——"],["Z","——••"]];
-  const morseTable = (rows) => '<table>' + rows.map((r) => '<tr><td>' + r[0] + '</td><td class="m">' + r[1] + '</td></tr>').join("") + '</table>';
-
-  const CH = [
-    {
-      title: "The Door at the End of the Causeway",
-      place: "Saltmarrow Light · the outer door",
-      story: () => `
-        <p>The lighthouse has been dark since <em>31 October 1931</em>, the night its last keeper, Elias Crane, disappeared. Nobody has been inside since.</p>
-        <p>The four of you walk the causeway at low tide. The iron door has a brass lock with four dials. On the way up the path, each of you picked something up out of the grass.</p>
-        <p>Read your clue aloud and describe it to the others. <em>Don't show anyone your screen.</em></p>`,
-      clues: [
-        `<p>A slate tile. Scratched into it is the number</p><p class="big">4</p><p>Beside it is a small carved <b>anchor</b>.</p>`,
-        `<p>A rusted lid from a tin. Painted on the inside is</p><p class="big">9</p><p>Beside it is a crescent <b>moon</b>.</p>`,
-        `<p>A broken piece of green glass. Etched into it is</p><p class="big">1</p><p>Beside it is a small <b>star</b>.</p>`,
-        `<p>A brass tag on a rotted rope. Stamped on it is</p><p class="big">6</p><p>Beside it is a <b>lamp</b>.</p><p>The back of the tag is engraved:</p><p><i>"The anchor drops, the lamp is lit,<br>the moon climbs high, the star falls last."</i></p>`
-      ],
-      check: (a) => norm(a) === "4691",
-      placeholder: "Four digits",
-      hints: ["Each of you has one digit. One of you also has the order to put them in.", "The order is anchor, lamp, moon, star."],
-      after: "The dials click into place and the door swings inward. As the last of you steps inside, it shuts behind you, and you hear the lock turn on its own."
-    },
-    {
-      title: "The Keeper's Logbook",
-      place: "Ground floor · the keeper's desk",
-      story: () => `
-        <p>Inside it smells of salt and lamp oil. On the desk is a leather logbook with <em>E. Crane</em> inked on the cover. Most of its pages are glued together by damp. Each of you manages to peel a few loose pages free.</p>
-        <p>Something in the logbook tells you where to go next.</p>`,
-      clues: [
-        `<div class="log"><b>12 October 1931</b>Heard knocking beneath the floor again. Four knocks, then silence.</div><br><div class="log"><b>3 October 1931</b>Fog came in thick before dawn and never lifted. I kept the horn going for eleven hours.</div>`,
-        `<div class="log"><b>21 October 1931</b>Nothing answers when I call down the stairs. Something listens, though.</div><br><div class="log"><b>7 October 1931</b>Only one ship passed today. She didn't answer my signal.</div>`,
-        `<div class="log"><b>9 October 1931</b>Gulls are gone. All of them, at once, in the night.</div><br><div class="log"><b>18 October 1931</b>Remembered my brother's voice today, though I've not heard it since 1919.</div>`,
-        `<div class="log"><b>15 October 1931</b>October cold has got into my hands. They won't stop shaking.</div><br><p>Torn from the inside cover, in different ink:</p><p><i>"Read my days in order. Only the first letter of each day remembers the truth."</i></p>`
-      ],
-      check: (a) => norm(a) === "foghorn" || norm(a) === "foghornroom",
-      placeholder: "Where do you go?",
-      hints: ["Put all seven entries in date order, from 3 October to 21 October.", "Take the first letter of each entry. It spells a room in the lighthouse."],
-      after: "A narrow passage leads to the foghorn room. The air is cold there, as if the fog never left."
-    },
-    {
-      title: "The Foghorn's Last Message",
-      place: "The foghorn room",
-      story: () => `
-        <p>A brass horn as big as a rowing boat points out to sea. Pinned to the wall are Crane's notes: <em>"On the last night the horn sounded by itself. Short blasts and long ones. I wrote it all down."</em></p>
-        <p>His notes are in two halves, and so is the old signal chart beside them.</p>`,
-      clues: [
-        `<p>Crane's notes, first half. Each "/" marks a pause:</p><p class="morse">••— / —• / —•• / • / •—•</p>`,
-        `<p>Half of a signal chart, torn down the middle:</p>${morseTable(M1)}`,
-        `<p>The other half of the signal chart:</p>${morseTable(M2)}`,
-        `<p>Crane's notes, second half. Each "/" marks a pause:</p><p class="morse">••• / — / •— / •• / •—• / •••</p><p><i>"It spoke twice. I'm afraid I understood."</i></p>`
-      ],
-      check: (a) => ["understairs", "underthestairs", "beneaththestairs", "belowthestairs"].includes(norm(a)),
-      placeholder: "Two words",
-      hints: ["Two of you hold the message and two of you hold halves of the chart that translates it. Read it one letter at a time.", "The first half spells U-N-D-E-R."],
-      after: "There's a low door under the spiral stairs that none of you noticed before. When you push it, it opens without a sound."
-    },
-    {
-      title: "Four Portraits",
-      place: "Under the stairs",
-      story: () => `
-        <p>The cramped room under the stairs has four portraits on the wall, one for each keeper of Saltmarrow. Below them is a sea trunk with a four-dial lock. Scratched above the lock:</p>
-        <p><em>THE DROWNED MAN'S YEAR</em></p>
-        <div class="panel scroll"><table class="facts">
-          <tr><th>Keepers</th><th>Years they started</th><th>What happened</th></tr>
-          <tr><td>Abel Harrow</td><td>1887</td><td>Retired</td></tr>
-          <tr><td>Silas Finch</td><td>1899</td><td>Drowned</td></tr>
-          <tr><td>Jonah Morrow</td><td>1912</td><td>Went mad</td></tr>
-          <tr><td>Elias Crane</td><td>1931</td><td>Vanished</td></tr>
-        </table></div>
-        <p class="muted">The lists above are not matched up. Each column is in its own order. Work out which keeper goes with which year and which fate.</p>`,
-      clues: [
-        `<p>Written on the back of a portrait frame:</p><p><i>"Elias Crane was the last keeper before the light went dark."</i></p><p><i>"The man who went mad served after the man who drowned."</i></p>`,
-        `<p>A brass nameplate fallen from a frame:</p><p><i>"Abel Harrow, the very first keeper of Saltmarrow."</i></p><p>Scratched under it: <i>"He died in his own bed, an old man, far from the sea."</i></p>`,
-        `<p>A shipping record tucked behind a frame:</p><p><i>"Jonah Morrow did not arrive on the island until after 1900."</i></p>`,
-        `<p>Two lines carved into the trunk's lid:</p><p><i>"The keeper who vanished wrote the logbook you found."</i></p><p><i>"Morrow talked to the sea at night, and one night it started answering."</i></p>`
-      ],
-      check: (a) => norm(a) === "1899",
-      placeholder: "A year",
-      hints: ["Work out the years first. Harrow was first and Crane was last.", "Morrow came after 1900, so Morrow started in 1912 and Finch in 1899. Now work out who drowned."],
-      after: "The dials turn and the trunk opens. Inside is an oilskin coat that is still wet, though it must have been locked away for decades. Under it are four scraps of paper in Crane's handwriting."
-    },
-    {
-      title: "What Crane Was Afraid Of",
-      place: "Inside the trunk",
-      story: () => `
-        <p>Each scrap of paper has one line of a riddle on it. Crane underlined the last line three times.</p>
-        <p>Whatever the answer is, it's waiting at the top of the lighthouse.</p>`,
-      clues: [
-        `<p><i>"I have no voice, yet I answer every face."</i></p>`,
-        `<p><i>"I hang in hallways and lie still in lakes."</i></p>`,
-        `<p><i>"Break me, and I'll count your bad luck: seven years of it."</i></p>`,
-        `<p><i>"Look into me, and the keeper looks back."</i></p><p>Underlined three times.</p>`
-      ],
-      check: (a) => ["mirror", "amirror", "themirror", "lookingglass", "reflection"].includes(norm(a)),
-      placeholder: "One word",
-      hints: ["All four lines describe the same object.", "Seven years of bad luck if you break it."],
-      after: "You climb the 112 steps to the lamp room. Something tall stands against the wall, covered in a sailcloth."
-    },
-    {
-      title: "The Lamp Room",
-      place: "The top of the lighthouse",
-      story: () => {
-        const blanks = [0, 1, 2, 3].map((i) => "<span>" + "_".repeat(Math.max(3, norm(nameOf(i)).length)) + "</span>").join("");
-        return `
-        <p>You pull off the sailcloth. Behind it is a tall mirror, black with age. In the glass, <em>four figures stand behind you</em>. When you turn around, nobody is there.</p>
-        <p>Screwed to the mirror's frame is a brass plate:</p>
-        <div class="plate">
-          <div class="t">KEEPERS OF SALTMARROW LIGHT</div>
-          <div class="row"><span><span class="yr">1887</span> Harrow</span><span><span class="yr">1899</span> Finch</span></div>
-          <div class="row"><span><span class="yr">1912</span> Morrow</span><span><span class="yr">1931</span> Crane</span></div>
-          <div class="row" style="margin-top:8px"><span class="yr">${new Date().getFullYear()}</span></div>
-          <div class="blanks">${blanks}</div>
-        </div>
-        <p>The great lens behind you begins to turn by itself. A voice comes out of the brass, very quiet:</p>
-        <p><em>"Name the new keepers."</em></p>`;
-      },
-      clues: [
-        `<p>The last page of Crane's logbook, 31 October 1931:</p><p><i>"The light can't be left without a keeper. When I'm gone it will wait, however long it takes, for the next ones to come up the path."</i></p>`,
-        `<p>Scratched into the windowsill, the letters worn smooth:</p><p><i>"Next time it won't be one keeper. It will be FOUR."</i></p>`,
-        `<p>You look at the blanks on the plate more closely. Each one is exactly as long as a name.</p><p>You count them. You count the people in this room.</p>`,
-        `<p>In the dust on the floor are footprints, fresh ones, leading from the stairs to the mirror.</p><p>There are four sets. They match your shoes.</p>`
-      ],
-      check: (a) => {
-        const n = norm(a);
-        if (["us", "we", "ourselves", "theplayers", "thefourofus", "fourofus", "allofus", "weare", "itsus", "itisus", "me", "myself", "allfourofus"].includes(n)) return true;
-        const named = [0, 1, 2, 3].map((i) => norm(state.names[i] || "")).filter(Boolean);
-        return named.length === 4 && named.every((x) => n.includes(x));
-      },
-      placeholder: "Who are the new keepers?",
-      hints: ["Read the plate again. Who climbed the path tonight?", "Type one word that means all four of you together."],
-      after: ""
-    }
-  ];
-
-  const WRONG = ["The lock doesn't move.", "Somewhere below, something knocks four times. Not that.", "The wind picks up. Try again.", "Nothing happens. The lighthouse is waiting.", "That isn't it. Talk it over again."];
-
-  function renderLamps() {
-    const el = $("lamps");
-    if (state.screen === "intro") { el.innerHTML = ""; return; }
-    el.innerHTML = ROMAN.map((r, i) => {
-      const cls = state.screen === "end" || state.solved.includes(i) ? "lit" : i === state.chapter ? "now" : "";
-      return `<span class="${cls}">${r}</span>`;
-    }).join("");
-  }
-
-  function renderFoot() {
-    const f = $("foot");
-    if (state.screen === "intro") { f.innerHTML = '<span class="muted">Best played together in a dark room. About 45 minutes.</span>'; return; }
-    const who = state.mode === "phones" ? `You are <b>${esc(nameOf(state.seat))}</b> (Player ${state.seat + 1}). ` : "Shared-screen mode. ";
-    f.innerHTML = `<span class="muted">${who}<a href="#" id="changeSetup" style="color:var(--brass)">Change</a></span><button class="ghost small" id="restart">Restart game</button>`;
-    $("changeSetup").onclick = (e) => { e.preventDefault(); state.screen = "intro"; save(); render(); };
-    const r = $("restart");
-    r.onclick = () => {
-      if (r.dataset.armed) { const m = state.mode, s = state.seat, n = state.names; state = fresh(); state.mode = m; state.seat = s; state.names = n; save(); render(); return; }
-      r.dataset.armed = "1"; r.textContent = "Tap again to restart";
-      setTimeout(() => { if (r.isConnected) { delete r.dataset.armed; r.textContent = "Restart game"; } }, 3000);
-    };
-  }
-
-  function renderIntro() {
-    const app = $("app");
-    app.innerHTML = `
-      <section>
-        <div class="story">
-          <p>In 1931 the keeper of Saltmarrow Light disappeared. His lamp went out and it has never been lit again.</p>
-          <p>Tonight the four of you are going inside. There are six chapters, and each one is locked. <em>Every one of you holds a different piece of each clue.</em> You can only get through by talking to each other.</p>
-        </div>
-        <div class="panel">
-          <ol class="rules">
-            <li>Read your clue out loud and describe it, but <b>never show your screen</b> to anyone.</li>
-            <li>Anyone can type the answer. If you're on separate phones, everyone types the answer on their own phone to move on.</li>
-            <li>Stuck? Each chapter has two hints.</li>
-          </ol>
-        </div>
-        <div>
-          <label>How are you playing?</label>
-          <div class="choice">
-            <button id="mPhones" aria-pressed="${state.mode === "phones"}"><strong>A phone each</strong>Everyone opens this page on their own phone. Best way to play.</button>
-            <button id="mShared" aria-pressed="${state.mode === "shared"}"><strong>One shared screen</strong>Pass one device around. Each player looks at their clue alone.</button>
-          </div>
-        </div>
-        <div>
-          <label>Your names (use the same order on every phone)</label>
-          <div class="names">
-            ${[0, 1, 2, 3].map((i) => `<input type="text" id="name${i}" placeholder="Player ${i + 1}" value="${esc(state.names[i])}" maxlength="18" autocomplete="off">`).join("")}
-          </div>
-        </div>
-        <div id="seatBox" ${state.mode === "phones" ? "" : "hidden"}>
-          <label>Which one are you?</label>
-          <div class="seats" id="seats"></div>
-        </div>
-        <div class="btns">
-          <button id="begin">${state.startedAt && state.chapter > 0 ? "Return to the lighthouse" : "Enter the lighthouse"}</button>
-        </div>
-        <div class="feedback" id="introMsg"></div>
-      </section>`;
-    const drawSeats = () => {
-      $("seats").innerHTML = [0, 1, 2, 3].map((i) => `<button data-seat="${i}" aria-pressed="${state.seat === i}">${esc(nameOf(i))}</button>`).join("");
-      $("seats").querySelectorAll("button").forEach((b) => b.onclick = () => { state.seat = +b.dataset.seat; save(); drawSeats(); });
-    };
-    drawSeats();
-    [0, 1, 2, 3].forEach((i) => $("name" + i).addEventListener("input", (e) => { state.names[i] = e.target.value; save(); drawSeats(); }));
-    $("mPhones").onclick = () => { state.mode = "phones"; save(); renderIntro(); };
-    $("mShared").onclick = () => { state.mode = "shared"; save(); renderIntro(); };
-    $("begin").onclick = () => {
-      if (!state.mode) { $("introMsg").textContent = "Choose how you're playing first."; return; }
-      if (state.mode === "phones" && state.seat === null) { $("introMsg").textContent = "Pick which player you are."; return; }
-      if (!state.startedAt) state.startedAt = Date.now();
-      state.screen = state.finishedAt ? "end" : "chapter";
-      save(); render(); window.scrollTo(0, 0);
-    };
-  }
-
-  function clueCard(ci, i) {
-    return `<div class="paper"><div class="who">${esc(nameOf(i))}'s clue</div>${CH[ci].clues[i]}</div>`;
-  }
-
-  function renderChapter() {
-    const ci = state.chapter, c = CH[ci], solved = state.solved.includes(ci);
-    const used = state.hints[ci] || 0;
-    const clueArea = state.mode === "phones"
-      ? `<div><label>Your clue</label>${clueCard(ci, state.seat)}</div>`
-      : `<div><label>Clues. Tap your name and look alone.</label><div class="envelopes">${[0, 1, 2, 3].map((i) => `<button data-env="${i}">${esc(nameOf(i))}</button>`).join("")}</div></div>`;
-    const answerArea = solved
-      ? `<div class="panel success"><div class="ans">${esc(state.lastAnswer && state.lastAnswerCh === ci ? state.lastAnswer.toUpperCase() : "SOLVED")}</div><p>${c.after}</p><div class="btns"><button id="next">${ci === CH.length - 1 ? "See what happens" : "Continue to chapter " + ROMAN[ci + 1]}</button></div></div>`
-      : `<div class="panel">
-          <label for="answer">Your answer</label>
-          <form id="ansForm" class="row-in"><input type="text" id="answer" placeholder="${c.placeholder}" autocomplete="off" autocapitalize="off" spellcheck="false"><button type="submit">Try</button></form>
-          <div class="feedback" id="fb" role="status"></div>
-          ${c.hints.slice(0, used).map((h, k) => `<div class="hint">Hint ${k + 1}: ${h}</div>`).join("")}
-          ${used < c.hints.length ? `<div class="btns" style="margin-top:12px"><button class="ghost small" id="hintBtn">Show hint ${used + 1} of 2</button></div>` : ""}
-        </div>`;
-    $("app").innerHTML = `
-      <section>
-        <div><div class="place">Chapter ${ROMAN[ci]} · ${c.place}</div><h2>${c.title}</h2></div>
-        <div class="story">${c.story()}</div>
-        ${clueArea}
-        ${answerArea}
-      </section>`;
-    document.querySelectorAll("[data-env]").forEach((b) => b.onclick = () => openEnvelope(ci, +b.dataset.env));
-    if (solved) {
-      $("next").onclick = () => {
-        if (ci === CH.length - 1) { state.screen = "end"; if (!state.finishedAt) state.finishedAt = Date.now(); }
-        else state.chapter = ci + 1;
-        save(); render(); window.scrollTo(0, 0);
-      };
-      return;
-    }
-    $("ansForm").onsubmit = (e) => {
-      e.preventDefault();
-      const v = $("answer").value;
-      if (!v.trim()) return;
-      if (c.check(v)) {
-        if (!state.solved.includes(ci)) state.solved.push(ci);
-        state.lastAnswer = v.trim(); state.lastAnswerCh = ci;
-        save(); render();
-      } else {
-        $("fb").textContent = WRONG[Math.floor(Math.random() * WRONG.length)];
-      }
-    };
-    const hb = $("hintBtn");
-    if (hb) hb.onclick = () => { state.hints[ci] = used + 1; save(); renderChapter(); };
-  }
-
-  function openEnvelope(ci, i) {
-    const o = $("overlay");
-    o.innerHTML = `<div class="overlay" role="dialog" aria-modal="true"><div class="inner">
-      <h2>Pass the screen to ${esc(nameOf(i))}</h2>
-      <p class="muted">Everyone else, look away.</p>
-      <div class="btns"><button id="peek">I'm ${esc(nameOf(i))}. Show my clue.</button><button class="ghost" id="cancel">Cancel</button></div>
-    </div></div>`;
-    $("cancel").onclick = () => o.innerHTML = "";
-    $("peek").onclick = () => {
-      o.querySelector(".inner").innerHTML = `${clueCard(ci, i)}<p class="muted">Remember it, then hide it. You can describe it, but don't show it.</p><div class="btns"><button id="hide">Hide my clue</button></div>`;
-      $("hide").onclick = () => o.innerHTML = "";
-    };
-  }
-
-  function renderEnd() {
-    const names = [0, 1, 2, 3].map(nameOf);
-    const list = names.slice(0, 3).join(", ") + " and " + names[3];
-    const mins = state.startedAt && state.finishedAt ? Math.max(1, Math.round((state.finishedAt - state.startedAt) / 60000)) : null;
-    const hintsUsed = Object.values(state.hints).reduce((a, b) => a + b, 0);
-    const text = `Saltmarrow Light. ${today()}.
-
-Four of them came up the path tonight: ${list}.
-
-They opened my door with 4-6-9-1, the same code I set in 1931. They read my log, listened to my horn, found my trunk and uncovered my mirror. Then they did what I could never get anyone to do. They said their own names to the light.
-
-I should tell them now, since they'll find out soon enough. The door at the bottom of the stairs only opens from the outside.
-
-The lamp is theirs now. Keep it burning.
-
-I am finally going home.
-
-— E. Crane, keeper (1931 to tonight)`;
-    $("app").innerHTML = `
-      <section class="ending">
-        <div><div class="place">Epilogue · the lamp room</div><h2>The Light Comes On</h2></div>
-        <div class="lightburst" aria-hidden="true"></div>
-        <p class="story">For the first time in ninety-five years, the beam from Saltmarrow Light sweeps across the water. On the desk, the logbook falls open to a blank page, and fresh ink starts to appear on it.</p>
-        <div class="paper"><div class="who">The last entry</div><div class="typed" id="typed"></div></div>
-        <div class="panel">
-          <p style="margin:0">${mins ? `Time in the lighthouse: <span class="stat">${mins} min</span> · ` : ""}Hints used: <span class="stat">${hintsUsed} of 12</span></p>
-        </div>
-        <div class="btns"><button id="again">Play again</button></div>
-      </section>`;
-    const el = $("typed");
-    const reduce = window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
-    if (reduce) el.textContent = text;
-    else { let k = 0; const t = setInterval(() => { if (!el.isConnected) return clearInterval(t); el.textContent = text.slice(0, ++k); if (k >= text.length) clearInterval(t); }, 28); }
-    $("again").onclick = () => { const m = state.mode, s = state.seat, n = state.names; state = fresh(); state.mode = m; state.seat = s; state.names = n; save(); render(); window.scrollTo(0, 0); };
-  }
-
-  function render() {
-    renderLamps(); renderFoot();
-    if (state.screen === "intro") renderIntro();
-    else if (state.screen === "end") renderEnd();
-    else renderChapter();
-  }
-
-  function start(data) {
-    state = (data && data.screen ? Object.assign(fresh(), data) : null) || load() || fresh();
-    render();
-  }
-  try { window.claude?.hot?.snapshot?.(() => state); } catch (e) {}
-  window.claude?.hot?.ready ? window.claude.hot.ready(start) : start(window.claude?.hot?.data ?? {});
+  const FILTERS = { "All games": "", "One phone": "onephone", "A phone each": "phones", "Mysteries": "mystery", "Party games": "party", "Playing cards": "cards" };
+  const cards = [...document.querySelectorAll(".game")];
+  Kit.choices(Kit.$("filters"), Object.keys(FILTERS), "All games", (label) => {
+    const tag = FILTERS[label];
+    let shown = 0;
+    cards.forEach((c) => { const ok = !tag || c.dataset.tags.split(" ").includes(tag); c.hidden = !ok; if (ok) shown++; });
+    Kit.$("empty").hidden = shown > 0;
+  });
+  Kit.$("surprise").onclick = () => { location.href = Kit.pick(cards).getAttribute("href"); };
 })();
 </script>
 </body>
