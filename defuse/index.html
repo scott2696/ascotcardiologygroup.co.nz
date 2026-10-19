@@ -1,0 +1,260 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="robots" content="noindex, nofollow">
+<title>Defuse · The Parlour</title>
+<meta name="description" content="One player holds the bomb. Everyone else holds the manual. Talk fast.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;600;700&family=Young+Serif&family=Share+Tech+Mono&display=swap">
+<link rel="stylesheet" href="/assets/site.css">
+<style>
+.bomb { background: #2b2f2c; border-radius: 16px; padding: 14px; display: flex; flex-direction: column; gap: 12px; box-shadow: inset 0 0 0 4px #1b1e1c, 0 12px 30px rgba(0,0,0,.4); }
+.bomb-top { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; justify-content: space-between; }
+.clock { font-family: "Share Tech Mono", ui-monospace, monospace; font-size: 46px; line-height: 1; color: #ff4b3a; background: #0c0d0c; padding: 8px 14px; border-radius: 6px; font-variant-numeric: tabular-nums; letter-spacing: 2px; text-shadow: 0 0 10px rgba(255,75,58,.6); }
+.strikes { display: flex; gap: 6px; }
+.strikes i { width: 20px; height: 20px; border-radius: 50%; background: #0c0d0c; border: 2px solid #555; display: grid; place-items: center; color: #ff4b3a; font-style: normal; font-weight: 700; font-size: 14px; }
+.serial { font-family: "Share Tech Mono", ui-monospace, monospace; background: #f4f1e8; color: #111; padding: 4px 10px; border-radius: 3px; font-size: 18px; letter-spacing: 2px; }
+.serial small { font-family: var(--f-body); font-size: 10px; letter-spacing: .08em; display: block; color: #555; }
+.mods { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 12px; }
+.mod { background: #3a3f3b; border-radius: 10px; padding: 14px; position: relative; min-height: 190px; display: flex; flex-direction: column; justify-content: center; gap: 10px; color: #eee; }
+.mod .led { position: absolute; top: 10px; right: 10px; width: 14px; height: 14px; border-radius: 50%; background: #111; box-shadow: inset 0 0 0 2px #555; }
+.mod.done .led { background: #3dff7a; box-shadow: 0 0 10px #3dff7a; }
+.mod.done { opacity: .75; }
+.mod .name { font-size: 11px; letter-spacing: .14em; text-transform: uppercase; color: #aaa; }
+.wire { height: 18px; border-radius: 9px; border: 0; cursor: pointer; position: relative; box-shadow: inset 0 -3px 0 rgba(0,0,0,.25); padding: 0; width: 100%; }
+.wire.cut { background: transparent !important; box-shadow: none; }
+.wire.cut::before, .wire.cut::after { content: ""; position: absolute; top: 0; height: 18px; width: 44%; border-radius: 9px; background: var(--c); }
+.wire.cut::before { left: 0; } .wire.cut::after { right: 0; }
+.wires { display: flex; flex-direction: column; gap: 12px; padding: 4px 22px 4px 4px; }
+.bigbtn { width: 130px; height: 130px; border-radius: 50%; border: 6px solid #1b1e1c; font: 800 18px var(--f-body); letter-spacing: .06em; cursor: pointer; margin: 0 auto; touch-action: none; user-select: none; -webkit-user-select: none; box-shadow: 0 6px 0 #111; }
+.bigbtn:active { transform: translateY(4px); box-shadow: 0 2px 0 #111; }
+.strip { height: 14px; border-radius: 4px; background: #111; margin: 0 auto; width: 130px; }
+.keys { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+.keys button { height: 70px; font-size: 38px; background: #f4f1e8; color: #111; border: 0; border-radius: 6px; cursor: pointer; font-variant-emoji: text; box-shadow: 0 4px 0 #999; position: relative; }
+.keys button.ok::after { content: ""; position: absolute; top: 6px; right: 6px; width: 10px; height: 10px; border-radius: 50%; background: #2fbf5a; }
+.pw { display: flex; gap: 6px; justify-content: center; }
+.pw div { display: flex; flex-direction: column; align-items: center; gap: 4px; }
+.pw button { width: 44px; height: 30px; border: 0; border-radius: 4px; background: #555; color: #fff; cursor: pointer; font-size: 14px; }
+.pw span { width: 44px; height: 50px; display: grid; place-items: center; background: #0c0d0c; color: #3dff7a; font: 28px "Share Tech Mono", ui-monospace, monospace; border-radius: 4px; }
+.flash { animation: fl .4s; }
+@keyframes fl { from { box-shadow: inset 0 0 0 100vmax rgba(255,60,40,.55); } }
+@media (prefers-reduced-motion: reduce) { .flash { animation: none; } }
+</style>
+</head>
+<body>
+<header class="site-head"><div class="wrap"><a class="logo" href="/">The Parlour <span class="pips">♠<span class="r">♥</span>♣<span class="r">♦</span></span></a><nav><a href="/">All games</a></nav></div></header>
+
+<section class="hero"><div class="wrap narrow">
+  <div class="eyebrow">Teamwork under pressure · new</div>
+  <h1>Defuse</h1>
+  <p class="lede">One player has a bomb on their phone. Everyone else has the manual on theirs. The Defuser can't see the manual, and the Experts can't see the bomb. You have five minutes to talk each other through it.</p>
+  <div class="meta"><span class="chip">2–6 players</span><span class="chip">5 min a bomb</span><span class="chip">One phone for the bomb, others for the manual</span></div>
+</div></section>
+
+<main><div class="wrap narrow stack">
+  <section>
+    <div class="section-title"><h2>How to play</h2></div>
+    <ol class="steps">
+      <li><div><b>Pick one Defuser.</b> Everyone else is an <b>Expert</b>.</div></li>
+      <li><div><b>Experts open the manual</b> on their own phones: <b style="overflow-wrap:anywhere">ascotcardiologygroup.co.nz/defuse/manual</b> (<a href="/defuse/manual/">open it here</a>).
+        <ul><li>With 2 or more Experts, split it up: one takes <b>Wires and The Button</b>, the other takes <b>Symbols and Password</b>.</li></ul></div></li>
+      <li><div><b>Sit so the Experts can't see the bomb</b> and the Defuser can't see the manual. Back to back works well.</div></li>
+      <li><div><b>The Defuser chooses a difficulty and taps "Arm the bomb".</b> The clock starts.</div></li>
+      <li><div><b>The Defuser describes what they see:</b> wire colours, the button's colour and word, the strange symbols, the serial number.</div></li>
+      <li><div><b>The Experts find the right rule</b> in the manual and tell the Defuser exactly what to do.</div></li>
+      <li><div><b>Each part has a light</b> that turns green when it's defused. A mistake gives you a <b>strike</b> and costs <b>30 seconds</b>. Three strikes and it blows up.</div></li>
+      <li><div><b>Defuse every part before the clock hits zero.</b> Then swap Defuser and try a harder bomb.</div></li>
+    </ol>
+  </section>
+
+  <section class="example">
+    <div class="eyebrow">Example</div>
+    <p><b>Defuser:</b> "Four wires: red, yellow, blue, yellow. Serial ends in 7!"</p>
+    <p><b>Expert:</b> "Four wires… more than one yellow wire, so cut the <b>last yellow</b> one. That's the fourth wire!" <i>Snip.</i> The light goes green.</p>
+  </section>
+
+  <section class="table" id="game" aria-live="polite"></section>
+</div></main>
+
+<footer class="site-foot"><div class="wrap">The Parlour · games for a table full of people · <a href="/">All games</a></div></footer>
+
+<script src="/assets/kit.js"></script>
+<script>
+(function () {
+  const HEX = { red: "#d63b2f", blue: "#2f6fd6", yellow: "#f2c230", white: "#f4f1e8", black: "#161616" };
+  const COLS = [
+    ["Ω","ϗ","Ѯ","☾","¶","Ж"],
+    ["Ψ","Ω","★","Ϟ","Ѫ","λ"],
+    ["✿","¶","Ҩ","ϗ","∆","★"],
+    ["Ϡ","Ж","∆","✠","Ψ","♆"],
+    ["λ","✠","☾","Ѭ","✿","∞"]
+  ];
+  const WORDS = ["about","after","again","below","could","every","first","found","great","house","large","learn","never","other","place","plant","point","right","small","sound","spell","still","study","their","there","these","thing","think","three","water","where","which","world","would","write"];
+  const LEVELS = { "Easy": { mods: 2, secs: 300 }, "Normal": { mods: 3, secs: 300 }, "Hard": { mods: 4, secs: 240 } };
+  const el = Kit.$("game");
+  let B = null, level = Kit.load("parlour-defuse", "Easy"), audio = null, muted = false;
+
+  // Sound: short beeps and a boom, made in the browser.
+  function ac() { if (!audio) try { audio = new (window.AudioContext || window.webkitAudioContext)(); } catch (e) {} return audio; }
+  function beep(f, d, v) { const a = ac(); if (!a || muted) return; const o = a.createOscillator(), g = a.createGain(); o.frequency.value = f; g.gain.value = v || 0.05; o.connect(g).connect(a.destination); o.start(); g.gain.exponentialRampToValueAtTime(0.0001, a.currentTime + d); o.stop(a.currentTime + d); }
+  function boom() { const a = ac(); if (!a || muted) return; const n = a.sampleRate * 1.5, buf = a.createBuffer(1, n, a.sampleRate), d = buf.getChannelData(0); for (let i = 0; i < n; i++) d[i] = (Math.random() * 2 - 1) * Math.pow(1 - i / n, 2); const s = a.createBufferSource(), f = a.createBiquadFilter(); f.type = "lowpass"; f.frequency.value = 600; s.buffer = buf; s.connect(f).connect(a.destination); s.start(); }
+
+  const rnd = (n) => Math.floor(Math.random() * n);
+  function serial() { const L = "ABCDEFGHIJKLMNPQRSTUVWXZ"; let s = ""; for (let i = 0; i < 5; i++) s += rnd(2) ? L[rnd(L.length)] : rnd(10); return s + rnd(10); }
+  const odd = () => +B.serial.slice(-1) % 2 === 1;
+  const vowel = () => /[AEIOU]/.test(B.serial);
+
+  function solveWires(w) {
+    const c = (x) => w.filter((y) => y === x).length, first = (x) => w.indexOf(x), last = (x) => w.lastIndexOf(x);
+    if (w.length === 3) return c("red") === 0 ? 1 : w[0] === "black" ? 2 : first("red");
+    if (w.length === 4) return c("yellow") > 1 ? last("yellow") : odd() ? 0 : c("white") === 0 ? 3 : 1;
+    if (w.length === 5) return w[4] === "black" && !odd() ? 3 : c("red") === 1 && c("yellow") > 1 ? 0 : c("blue") === 0 ? 1 : first("blue");
+    return c("yellow") === 0 && odd() ? 2 : c("yellow") === 1 && c("white") > 1 ? 3 : c("red") === 0 ? 5 : 3;
+  }
+  function buttonAction(b) {
+    if (b.color === "red" && b.label === "HOLD") return "tap";
+    if (b.label === "DETONATE" && vowel()) return "tap";
+    if (b.color === "white") return "hold";
+    if (b.color === "blue" && b.label === "ABORT") return "hold";
+    if (b.label === "PRESS" && !odd()) return "tap";
+    return "hold";
+  }
+  const STRIP = { blue: "4", yellow: "5", white: "1", red: "3" };
+
+  function makeModule(type) {
+    if (type === "wires") { const n = 3 + rnd(4); const w = Array.from({ length: n }, () => Kit.pick(Object.keys(HEX))); return { type, wires: w, cut: [] }; }
+    if (type === "button") return { type, color: Kit.pick(["red", "blue", "yellow", "white"]), label: Kit.pick(["ABORT", "HOLD", "PRESS", "DETONATE"]), strip: Kit.pick(Object.keys(STRIP)) };
+    if (type === "keys") {
+      for (;;) {
+        const col = Kit.pick(COLS), four = Kit.shuffle(col).slice(0, 4);
+        if (COLS.filter((cc) => four.every((s) => cc.includes(s))).length === 1) return { type, order: col.filter((s) => four.includes(s)), shown: Kit.shuffle(four), pressed: 0 };
+      }
+    }
+    for (;;) {
+      const word = Kit.pick(WORDS), A = "abcdefghijklmnopqrstuvwxyz";
+      const sets = [...word].map((ch) => Kit.shuffle([ch, ...Kit.shuffle([...A].filter((x) => x !== ch)).slice(0, 4)]));
+      const fits = WORDS.filter((w) => [...w].every((ch, i) => sets[i].includes(ch)));
+      if (fits.length === 1) return { type: "pw", word, sets, pos: [0, 0, 0, 0, 0] };
+    }
+  }
+
+  function fmt(s) { s = Math.max(0, s); return Math.floor(s / 60) + ":" + String(Math.floor(s % 60)).padStart(2, "0"); }
+
+  function setup() {
+    el.innerHTML = `
+      <div><div class="eyebrow">Defuser only</div><h2>Arm a bomb</h2></div>
+      <p>Make sure your Experts have the manual open on their phones.</p>
+      <div class="field"><label>Difficulty</label><div class="choices" id="lv"></div></div>
+      <p class="note">Easy: 2 parts, 5 minutes · Normal: 3 parts, 5 minutes · Hard: 4 parts, 4 minutes</p>
+      <div class="btns"><button class="btn big red" id="arm">Arm the bomb</button></div>`;
+    Kit.choices(Kit.$("lv"), Object.keys(LEVELS), level, (v) => { level = v; Kit.save("parlour-defuse", v); });
+    Kit.$("arm").onclick = arm;
+  }
+
+  function arm() {
+    ac(); Kit.wake();
+    const L = LEVELS[level];
+    const types = Kit.shuffle(["wires", "button", "keys", "pw"]).slice(0, L.mods);
+    B = { serial: serial(), left: L.secs, strikes: 0, mods: [], over: false };
+    B.mods = types.map(makeModule);
+    draw();
+    B.timer = setInterval(() => {
+      B.left -= 1;
+      if (B.left <= 0) return end(false, "Time ran out.");
+      beep(B.left <= 30 ? 1100 : 880, 0.06, B.left <= 30 ? 0.07 : 0.04);
+      const c = el.querySelector(".clock"); if (c) c.textContent = fmt(B.left);
+    }, 1000);
+  }
+
+  function strike() {
+    B.strikes++; B.left -= 30;
+    beep(160, 0.4, 0.15);
+    const b = el.querySelector(".bomb"); if (b) { b.classList.remove("flash"); void b.offsetWidth; b.classList.add("flash"); }
+    if (navigator.vibrate) try { navigator.vibrate(300); } catch (e) {}
+    if (B.strikes >= 3) return end(false, "Three strikes.");
+    if (B.left <= 0) return end(false, "Time ran out.");
+    drawTop();
+  }
+  function solved(m) { m.done = true; beep(1500, 0.15, 0.06); if (B.mods.every((x) => x.done)) end(true); else draw(); }
+
+  function drawTop() {
+    const t = el.querySelector(".bomb-top"); if (!t) return;
+    t.innerHTML = `<div class="clock">${fmt(B.left)}</div><div class="strikes" aria-label="${B.strikes} strikes">${[0, 1, 2].map((i) => `<i>${i < B.strikes ? "✕" : ""}</i>`).join("")}</div><div class="serial"><small>SERIAL NO.</small>${B.serial}</div>`;
+  }
+
+  function draw() {
+    el.innerHTML = `<div class="bomb"><div class="bomb-top"></div><div class="mods" id="mods"></div></div>
+      <div class="btns"><button class="btn alt" id="mute">${muted ? "Sound on" : "Sound off"}</button><button class="btn alt" id="quit">Give up</button></div>`;
+    drawTop();
+    const box = Kit.$("mods");
+    B.mods.forEach((m) => {
+      const d = document.createElement("div");
+      d.className = "mod" + (m.done ? " done" : "");
+      d.innerHTML = '<span class="led"></span>';
+      box.appendChild(d);
+      if (m.type === "wires") {
+        d.insertAdjacentHTML("beforeend", '<div class="name">Wires</div><div class="wires"></div>');
+        const ws = d.querySelector(".wires");
+        m.wires.forEach((c, i) => {
+          const w = document.createElement("button");
+          w.className = "wire" + (m.cut.includes(i) ? " cut" : "");
+          w.style.background = HEX[c]; w.style.setProperty("--c", HEX[c]);
+          w.setAttribute("aria-label", "Wire " + (i + 1) + ", " + c);
+          w.onclick = () => { if (m.done || m.cut.includes(i)) return; m.cut.push(i); if (i === solveWires(m.wires)) solved(m); else { w.classList.add("cut"); strike(); } };
+          ws.appendChild(w);
+        });
+      } else if (m.type === "button") {
+        d.insertAdjacentHTML("beforeend", `<div class="name">The Button</div><button class="bigbtn" style="background:${HEX[m.color]};color:${m.color === "white" || m.color === "yellow" ? "#111" : "#fff"}">${m.label}</button><div class="strip"></div>`);
+        const btn = d.querySelector(".bigbtn"), strip = d.querySelector(".strip");
+        let t0 = 0, held = null;
+        btn.onpointerdown = (e) => { if (m.done) return; e.preventDefault(); t0 = Date.now(); held = setTimeout(() => { strip.style.background = HEX[m.strip]; }, 500); };
+        const up = () => {
+          if (!t0 || m.done) return;
+          clearTimeout(held); const dur = Date.now() - t0; t0 = 0; strip.style.background = "";
+          const need = buttonAction(m);
+          if (dur < 500) { need === "tap" ? solved(m) : strike(); return; }
+          if (need === "tap") return strike();
+          fmt(B.left).includes(STRIP[m.strip]) ? solved(m) : strike();
+        };
+        btn.onpointerup = up; btn.onpointerleave = up; btn.onpointercancel = up;
+        btn.oncontextmenu = (e) => e.preventDefault();
+      } else if (m.type === "keys") {
+        d.insertAdjacentHTML("beforeend", '<div class="name">Symbols</div><div class="keys"></div>');
+        const k = d.querySelector(".keys");
+        m.shown.forEach((s) => {
+          const b = document.createElement("button");
+          b.textContent = s;
+          if (m.order.indexOf(s) < m.pressed) b.className = "ok";
+          b.onclick = () => { if (m.done || m.order.indexOf(s) < m.pressed) return; if (m.order[m.pressed] === s) { m.pressed++; b.className = "ok"; beep(1200, 0.05); if (m.pressed === 4) solved(m); } else strike(); };
+          k.appendChild(b);
+        });
+      } else {
+        d.insertAdjacentHTML("beforeend", '<div class="name">Password</div><div class="pw"></div><button class="btn" style="background:#555;border-color:#555;color:#fff;padding:10px">Submit</button>');
+        const pw = d.querySelector(".pw");
+        const show = () => {
+          pw.innerHTML = m.sets.map((set, i) => `<div><button data-i="${i}" data-d="-1" aria-label="Previous letter">▲</button><span>${set[m.pos[i]].toUpperCase()}</span><button data-i="${i}" data-d="1" aria-label="Next letter">▼</button></div>`).join("");
+          pw.querySelectorAll("button").forEach((b) => b.onclick = () => { if (m.done) return; const i = +b.dataset.i; m.pos[i] = (m.pos[i] + +b.dataset.d + 5) % 5; show(); });
+        };
+        show();
+        d.querySelector(".btn").onclick = () => { if (m.done) return; const guess = m.sets.map((s, i) => s[m.pos[i]]).join(""); guess === m.word ? solved(m) : strike(); };
+      }
+    });
+    Kit.$("mute").onclick = () => { muted = !muted; Kit.$("mute").textContent = muted ? "Sound on" : "Sound off"; };
+    Kit.$("quit").onclick = () => end(false, "You gave up.");
+  }
+
+  function end(win, why) {
+    if (B.over) return; B.over = true; clearInterval(B.timer);
+    if (win) { beep(880, .15); setTimeout(() => beep(1320, .3), 160); } else { boom(); if (navigator.vibrate) try { navigator.vibrate([400, 100, 400]); } catch (e) {} }
+    el.innerHTML = `<div class="card" data-suit="${win ? "♥" : "♠"}"><div class="k">${win ? "Bomb defused with " + fmt(B.left) + " left" : why}</div><div class="w">${win ? "You saved everyone" : "BOOM"}</div><div class="s">${win ? "Swap Defuser and try a harder bomb." : "Swap Defuser and try again. The next bomb will be different."}</div></div><div class="btns"><button class="btn big" id="again">New bomb</button></div>`;
+    Kit.$("again").onclick = setup;
+  }
+
+  setup();
+})();
+</script>
+</body>
+</html>

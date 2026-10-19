@@ -1,0 +1,203 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="robots" content="noindex, nofollow">
+<title>Fib Finder · The Parlour</title>
+<meta name="description" content="Strange-but-true trivia. Write fake answers to fool your friends, then try to spot the truth.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;600;700&family=Young+Serif&display=swap">
+<link rel="stylesheet" href="/assets/site.css">
+<style>
+.names-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
+@media (max-width: 460px) { .names-grid { grid-template-columns: 1fr; } }
+.answers { display: flex; flex-direction: column; gap: 8px; }
+.answers button { text-align: left; padding: 14px 16px; border-radius: 10px; border: 2px solid rgba(243,239,228,.35); background: transparent; color: var(--on-felt); font: 700 19px var(--f-body); cursor: pointer; }
+.answers button:disabled { opacity: .35; cursor: not-allowed; }
+.answers button.armed { background: var(--on-felt); color: var(--felt-deep); }
+.reveal { display: flex; flex-direction: column; gap: 8px; }
+.reveal div { background: rgba(0,0,0,.2); border-radius: 10px; padding: 12px 14px; }
+.reveal div.truth { background: #fffdf6; color: #1a211d; }
+.reveal .a { font-weight: 700; font-size: 18px; }
+.reveal .by { font-size: 14px; opacity: .85; }
+.board { display: flex; flex-wrap: wrap; gap: 6px 16px; font-variant-numeric: tabular-nums; }
+.q { font-family: var(--f-display); font-size: clamp(22px, 5.5vw, 30px); line-height: 1.3; }
+</style>
+</head>
+<body>
+<header class="site-head"><div class="wrap"><a class="logo" href="/">The Parlour <span class="pips">♠<span class="r">♥</span>♣<span class="r">♦</span></span></a><nav><a href="/">All games</a></nav></div></header>
+
+<section class="hero"><div class="wrap narrow">
+  <div class="eyebrow">Bluffing trivia · new</div>
+  <h1>Fib Finder</h1>
+  <p class="lede">Every question has a strange but true answer. Everyone secretly writes a fake one. Then all the answers are shuffled together. Spot the truth, and fool everyone else with your lie.</p>
+  <div class="meta"><span class="chip">3–8 players</span><span class="chip">20 min</span><span class="chip">One phone</span></div>
+</div></section>
+
+<main><div class="wrap narrow stack">
+  <section>
+    <div class="section-title"><h2>How to play</h2></div>
+    <ol class="steps">
+      <li><div><b>Type everyone's names</b> below and tap <b>Start</b>.</div></li>
+      <li><div><b>Read the question out loud.</b> It has a blank, like "A group of flamingos is called a ___".</div></li>
+      <li><div><b>Pass the phone around.</b> Each player secretly types a <b>fake answer</b> that sounds believable. If you happen to type the real answer, the phone will ask you to think of a different one.</div></li>
+      <li><div><b>The phone shuffles</b> all the fake answers together with the real one.</div></li>
+      <li><div><b>Pass the phone again.</b> Each player secretly taps the answer they think is <b>true</b>. You can't pick your own.</div></li>
+      <li><div><b>Reveal!</b> The phone shows who wrote each lie and who fell for it.
+        <ul><li>You find the truth: <b>+2 points</b></li><li>Someone picks your lie: <b>+1 point for each player you fooled</b></li></ul></div></li>
+      <li><div><b>Play 6 rounds.</b> The player with the most points is the best liar at the table.</div></li>
+    </ol>
+  </section>
+
+  <section class="example">
+    <div class="eyebrow">Example</div>
+    <p>"Scotland's national animal is the ___."</p>
+    <p>The answers: <b>Highland cow · Golden eagle · Unicorn · Loch Ness monster</b>. Two players pick "Highland cow" (Anna's lie, so Anna gets +2). Ben picks <b>Unicorn</b>. It's true, so Ben gets +2.</p>
+  </section>
+
+  <section class="table" id="game" aria-live="polite"></section>
+</div></main>
+
+<footer class="site-foot"><div class="wrap">The Parlour · games for a table full of people · <a href="/">All games</a></div></footer>
+
+<script src="/assets/kit.js"></script>
+<script>
+(function () {
+  const Q = [
+    ["A group of flamingos is called a ___.", "a flamboyance", ["flamboyance"]],
+    ["Scotland's national animal is the ___.", "unicorn", ["unicorn", "unicorns"]],
+    ["The little dot above a lowercase \"i\" is called a ___.", "tittle", ["tittle"]],
+    ["In Switzerland, it's illegal to own just one ___.", "guinea pig", ["guineapig", "guineapigs"]],
+    ["A baby puffin is called a ___.", "puffling", ["puffling"]],
+    ["Wombats are famous for doing poos shaped like ___.", "cubes", ["cube", "cubes", "dice", "squares", "boxes"]],
+    ["An octopus has ___ hearts.", "three", ["three", "3"]],
+    ["The plastic tip on the end of a shoelace is called an ___.", "aglet", ["aglet"]],
+    ["Bananas are very slightly ___.", "radioactive", ["radioactive"]],
+    ["The man who designed the Pringles can asked for some of his ashes to be buried in ___.", "a Pringles can", ["pringlescan", "pringles", "apringlescan", "pringlestube"]],
+    ["On Venus, a single day lasts longer than a ___.", "year", ["year", "venusyear", "yearonvenus"]],
+    ["Sea otters sometimes hold ___ while they sleep.", "hands", ["hands", "paws", "eachothershands", "handswitheachother"]],
+    ["A shrimp's heart is in its ___.", "head", ["head"]],
+    ["Cleopatra lived closer in time to the ___ than to the building of the Great Pyramid.", "Moon landing", ["moonlanding", "moonlandings", "firstmoonlanding", "landingonthemoon"]],
+    ["Oxford University is older than the ___ Empire.", "Aztec", ["aztec", "aztecs"]],
+    ["Butterflies taste with their ___.", "feet", ["feet", "legs", "foot"]],
+    ["In 1923, jockey Frank Hayes won a horse race even though he was ___.", "dead", ["dead", "deceased"]],
+    ["Nintendo started in 1889 as a company making ___.", "playing cards", ["playingcards", "cards", "cardgames"]],
+    ["Peanuts aren't really nuts. They're ___.", "legumes", ["legume", "legumes", "beans", "bean", "pulses", "peas"]],
+    ["Before rubber erasers, people rubbed out pencil marks with ___.", "bread", ["bread", "breadcrumbs", "stalebread"]],
+    ["The Spanish national anthem has no ___.", "words", ["words", "lyrics"]],
+    ["Botanically, strawberries aren't berries, but ___ are.", "bananas", ["banana", "bananas"]],
+    ["Honey found in ancient Egyptian tombs was still ___.", "edible", ["edible", "goodtoeat", "eatable", "fresh"]],
+    ["The Eiffel Tower can grow up to 15 cm taller in ___.", "summer", ["summer", "thesummer", "hotweather", "theheat"]],
+    ["Under their white fur, polar bears have ___ skin.", "black", ["black"]],
+    ["The first product ever scanned with a barcode was a packet of ___.", "chewing gum", ["chewinggum", "gum", "wrigleysgum", "wrigleys"]],
+    ["Mr. Potato Head was the first toy ever advertised on ___.", "television", ["tv", "television"]],
+    ["Lobster was once so cheap in America that it was fed to ___.", "prisoners", ["prisoners", "prisoner", "inmates", "convicts"]]
+  ];
+  const ROUNDS = 6, KEY = "parlour-fib";
+  const norm = (s) => String(s).toLowerCase().replace(/^(a|an|the)\s+/, "").replace(/[^a-z0-9]/g, "");
+  const el = Kit.$("game");
+  let names = Kit.load(KEY, ["", "", "", ""]), G;
+
+  function setup() {
+    el.innerHTML = `
+      <div><div class="eyebrow">Set up</div><h2>Who's playing?</h2></div>
+      <div class="field"><label>Number of players</label><div class="stepper" id="np" data-min="3" data-max="8"></div></div>
+      <div class="field"><label>Names</label><div class="names-grid" id="nm"></div></div>
+      <div class="btns"><button class="btn big" id="go">Start</button></div>`;
+    const draw = () => {
+      Kit.$("nm").innerHTML = names.map((n, i) => `<input type="text" id="fn${i}" maxlength="14" placeholder="Player ${i + 1}" value="${Kit.esc(n)}" autocomplete="off">`).join("");
+      names.forEach((_, i) => Kit.$("fn" + i).oninput = (e) => { names[i] = e.target.value; Kit.save(KEY, names); });
+    };
+    Kit.stepper(Kit.$("np"), names.length, (v) => { while (names.length < v) names.push(""); names.length = v; Kit.save(KEY, names); draw(); });
+    draw();
+    Kit.$("go").onclick = () => {
+      const list = names.map((n, i) => n.trim() || "Player " + (i + 1));
+      G = { players: list, score: list.map(() => 0), deck: Kit.shuffle(Q), round: 0 };
+      round();
+    };
+  }
+
+  const board = () => `<div class="board">${G.players.map((p, i) => `<span>${Kit.esc(p)}: <b>${G.score[i]}</b></span>`).join("")}</div>`;
+
+  function round() {
+    G.round++;
+    const [q, a, ok] = G.deck[G.round - 1];
+    G.cur = { q, a, ok, fakes: [], votes: [] };
+    el.innerHTML = `<div class="note">Round ${G.round} of ${ROUNDS}</div><div class="q">${Kit.esc(q)}</div><p>Read the question out loud. Then pass the phone to <b>${Kit.esc(G.players[0])}</b> to write the first fake answer.</p><div class="btns"><button class="btn big" id="go">Start writing lies</button></div>${board()}`;
+    Kit.$("go").onclick = () => write(0);
+  }
+
+  function write(i) {
+    if (i >= G.players.length) return buildOptions();
+    el.innerHTML = `<div class="note">Lie ${i + 1} of ${G.players.length}</div><h2>Pass the phone to ${Kit.esc(G.players[i])}</h2><div class="btns"><button class="btn big" id="me">I'm ${Kit.esc(G.players[i])}</button></div>`;
+    Kit.$("me").onclick = () => {
+      el.innerHTML = `<div class="q">${Kit.esc(G.cur.q)}</div>
+        <form id="f" class="field"><label for="lie">Your fake answer</label><input type="text" id="lie" maxlength="40" autocomplete="off" autocapitalize="off" placeholder="Make it believable"><div class="note" id="m" role="status"></div><div class="btns"><button class="btn big" type="submit">Lock it in</button></div></form>`;
+      const inp = Kit.$("lie"); inp.focus();
+      Kit.$("f").onsubmit = (e) => {
+        e.preventDefault();
+        const v = inp.value.trim();
+        if (!v) return;
+        if (G.cur.ok.includes(norm(v))) { Kit.$("m").textContent = "That's actually the real answer! Keep it to yourself and write a different, fake one."; inp.value = ""; return; }
+        G.cur.fakes.push({ text: v, by: i });
+        write(i + 1);
+      };
+    };
+  }
+
+  function buildOptions() {
+    const groups = new Map();
+    G.cur.fakes.forEach((f) => { const k = norm(f.text); if (!groups.has(k)) groups.set(k, { text: f.text, by: [] }); groups.get(k).by.push(f.by); });
+    G.cur.options = Kit.shuffle([{ text: G.cur.a, truth: true, by: [] }, ...groups.values()]);
+    vote(0);
+  }
+
+  function vote(i) {
+    if (i >= G.players.length) return reveal();
+    el.innerHTML = `<div class="note">Vote ${i + 1} of ${G.players.length}</div><h2>Pass the phone to ${Kit.esc(G.players[i])}</h2><div class="btns"><button class="btn big" id="me">I'm ${Kit.esc(G.players[i])}</button></div>`;
+    Kit.$("me").onclick = () => {
+      el.innerHTML = `<div class="q">${Kit.esc(G.cur.q)}</div><p>Which one is <b>true</b>? Tap twice to confirm.</p><div class="answers">${G.cur.options.map((o, k) => `<button data-k="${k}" ${o.by.includes(i) ? "disabled" : ""}>${Kit.esc(o.text)}${o.by.includes(i) ? " (yours)" : ""}</button>`).join("")}</div>`;
+      el.querySelectorAll(".answers button").forEach((b) => b.onclick = () => {
+        if (!b.classList.contains("armed")) { el.querySelectorAll(".answers button").forEach((x) => x.classList.remove("armed")); b.classList.add("armed"); return; }
+        G.cur.votes[i] = +b.dataset.k; vote(i + 1);
+      });
+    };
+  }
+
+  function reveal() {
+    const o = G.cur.options;
+    G.cur.votes.forEach((k, voter) => {
+      if (o[k].truth) G.score[voter] += 2;
+      else o[k].by.forEach((author) => { G.score[author] += 1; });
+    });
+    const who = (k) => G.cur.votes.map((v, p) => (v === k ? G.players[p] : null)).filter(Boolean);
+    const rows = o.map((x, k) => {
+      const fooled = who(k);
+      if (x.truth) return `<div class="truth"><div class="a">✓ ${Kit.esc(x.text)}: TRUE</div><div class="by">${fooled.length ? "Found by " + fooled.map(Kit.esc).join(", ") + " (+2 each)" : "Nobody found it!"}</div></div>`;
+      return `<div><div class="a">${Kit.esc(x.text)}</div><div class="by">A lie by ${x.by.map((b) => Kit.esc(G.players[b])).join(" & ")}. ${fooled.length ? "Fooled " + fooled.map(Kit.esc).join(", ") + " (+" + fooled.length + ")" : "Fooled nobody."}</div></div>`;
+    });
+    const last = G.round >= ROUNDS;
+    el.innerHTML = `<div class="q">${Kit.esc(G.cur.q)}</div><p class="note">Reveal them one at a time for drama.</p><div class="reveal" id="rv"></div><div class="btns"><button class="btn big" id="one">Reveal next</button></div><div id="after" hidden>${board()}<div class="btns" style="margin-top:12px"><button class="btn big" id="nx">${last ? "Final scores" : "Next question"}</button></div></div>`;
+    const order = [...rows.keys()].sort((a, b) => (o[a].truth ? 1 : 0) - (o[b].truth ? 1 : 0));
+    let shown = 0;
+    Kit.$("one").onclick = () => {
+      Kit.$("rv").insertAdjacentHTML("beforeend", rows[order[shown++]]);
+      if (shown >= rows.length) { Kit.$("one").parentElement.remove(); Kit.$("after").hidden = false; }
+    };
+    Kit.$("nx").onclick = () => (last ? end() : round());
+  }
+
+  function end() {
+    const top = Math.max(...G.score);
+    const winners = G.players.filter((_, i) => G.score[i] === top);
+    el.innerHTML = `<div class="card" data-suit="♦"><div class="k">The best liar at the table</div><div class="w">${winners.map(Kit.esc).join(" & ")}</div><div class="s">${top} points</div></div>${board()}<div class="btns"><button class="btn big" id="again">Play again</button></div>`;
+    Kit.$("again").onclick = setup;
+  }
+
+  setup();
+})();
+</script>
+</body>
+</html>

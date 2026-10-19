@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="robots" content="noindex, nofollow">
+<title>Bomb Manual · Defuse · The Parlour</title>
+<meta name="description" content="The Experts' manual for Defuse. Don't show it to the Defuser.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;600;700&family=Young+Serif&display=swap">
+<link rel="stylesheet" href="/assets/site.css">
+<style>
+.toc { position: sticky; top: env(safe-area-inset-top, 0px); z-index: 5; background: var(--bg); padding-block: 10px; border-bottom: 1px solid var(--line); }
+.manual section { scroll-margin-top: 70px; }
+.rule { list-style: none; padding: 0; margin: 10px 0 0; display: flex; flex-direction: column; gap: 6px; counter-reset: r; }
+.rule li { counter-increment: r; padding: 10px 12px; background: var(--surface); border: 1px solid var(--line); border-radius: 8px; }
+.rule li::before { content: counter(r) ". "; font-weight: 700; color: var(--gold); }
+.rule li b { color: var(--red); }
+.cols5 { display: grid; grid-template-columns: repeat(5, 1fr); gap: 8px; }
+.cols5 > div { background: var(--surface); border: 1px solid var(--line); border-radius: 8px; padding: 8px 4px; display: flex; flex-direction: column; align-items: center; gap: 4px; }
+.cols5 .h { font-size: 12px; font-weight: 700; color: var(--muted); }
+.cols5 span { font-size: 30px; line-height: 1.25; font-variant-emoji: text; }
+.words { display: grid; grid-template-columns: repeat(auto-fill, minmax(78px, 1fr)); gap: 6px; font-family: ui-monospace, "SF Mono", Menlo, monospace; font-size: 17px; text-transform: uppercase; }
+.words span { background: var(--surface); border: 1px solid var(--line); border-radius: 6px; padding: 6px; text-align: center; }
+.sw { display: inline-block; width: 14px; height: 14px; border-radius: 3px; vertical-align: -2px; margin-right: 4px; border: 1px solid var(--line); }
+</style>
+</head>
+<body>
+<header class="site-head"><div class="wrap"><a class="logo" href="/">The Parlour <span class="pips">♠<span class="r">♥</span>♣<span class="r">♦</span></span></a><nav><a href="/defuse/">Back to the bomb</a></nav></div></header>
+
+<main class="manual" style="padding-top:0"><div class="wrap narrow stack">
+  <div class="toc"><div class="choices"><a class="btn alt" style="padding:8px 12px;font-size:15px" href="#wires">Wires</a><a class="btn alt" style="padding:8px 12px;font-size:15px" href="#button">The Button</a><a class="btn alt" style="padding:8px 12px;font-size:15px" href="#symbols">Symbols</a><a class="btn alt" style="padding:8px 12px;font-size:15px" href="#password">Password</a></div></div>
+
+  <section>
+    <div class="eyebrow">For Experts only. Never show this to the Defuser.</div>
+    <h1 style="font-size:40px;margin-top:6px">Bomb Manual</h1>
+    <ol class="steps" style="margin-top:16px">
+      <li><div>Ask the Defuser which parts the bomb has, and for the <b>serial number</b>. Several rules depend on its <b>last digit</b> (odd or even) and whether it contains a <b>vowel</b> (A, E, I, O, U).</div></li>
+      <li><div>Find the matching section below and read the rules <b>in order</b>. Use the <b>first rule that fits</b> and ignore the rest.</div></li>
+      <li><div>Tell the Defuser exactly what to do. A mistake costs a strike and 30 seconds.</div></li>
+    </ol>
+  </section>
+
+  <section id="wires">
+    <h2>Wires</h2>
+    <p class="note" style="margin-top:6px">3 to 6 coloured wires. Cut exactly one. Count wires from the top. Colours: <span class="sw" style="background:#d63b2f"></span>red <span class="sw" style="background:#2f6fd6"></span>blue <span class="sw" style="background:#f2c230"></span>yellow <span class="sw" style="background:#f4f1e8"></span>white <span class="sw" style="background:#161616"></span>black</p>
+    <h3 style="margin-top:14px">3 wires</h3>
+    <ol class="rule"><li>If there are no red wires, cut the <b>second</b> wire.</li><li>If the first wire is black, cut the <b>third</b> wire.</li><li>Otherwise, cut the <b>first red</b> wire.</li></ol>
+    <h3 style="margin-top:14px">4 wires</h3>
+    <ol class="rule"><li>If there is more than one yellow wire, cut the <b>last yellow</b> wire.</li><li>If the serial number ends in an odd digit, cut the <b>first</b> wire.</li><li>If there are no white wires, cut the <b>fourth</b> wire.</li><li>Otherwise, cut the <b>second</b> wire.</li></ol>
+    <h3 style="margin-top:14px">5 wires</h3>
+    <ol class="rule"><li>If the last wire is black and the serial ends in an even digit, cut the <b>fourth</b> wire.</li><li>If there is exactly one red wire and more than one yellow wire, cut the <b>first</b> wire.</li><li>If there are no blue wires, cut the <b>second</b> wire.</li><li>Otherwise, cut the <b>first blue</b> wire.</li></ol>
+    <h3 style="margin-top:14px">6 wires</h3>
+    <ol class="rule"><li>If there are no yellow wires and the serial ends in an odd digit, cut the <b>third</b> wire.</li><li>If there is exactly one yellow wire and more than one white wire, cut the <b>fourth</b> wire.</li><li>If there are no red wires, cut the <b>last</b> wire.</li><li>Otherwise, cut the <b>fourth</b> wire.</li></ol>
+  </section>
+
+  <section id="button">
+    <h2>The Button</h2>
+    <p class="note" style="margin-top:6px">A big coloured button with one word on it. You either <b>tap</b> it (press and let go quickly) or <b>hold</b> it.</p>
+    <ol class="rule"><li>If the button is red and says HOLD, <b>tap</b> it.</li><li>If it says DETONATE and the serial number contains a vowel, <b>tap</b> it.</li><li>If the button is white, <b>hold</b> it.</li><li>If the button is blue and says ABORT, <b>hold</b> it.</li><li>If it says PRESS and the serial ends in an even digit, <b>tap</b> it.</li><li>Otherwise, <b>hold</b> it.</li></ol>
+    <h3 style="margin-top:14px">If you hold it</h3>
+    <p style="margin-top:6px">A coloured strip lights up under the button. Let go when the countdown clock shows this digit <b>anywhere</b>:</p>
+    <div class="t-scroll" style="margin-top:8px"><table class="t"><tr><th>Strip colour</th><th>Let go when the clock shows a…</th></tr>
+      <tr><td><span class="sw" style="background:#2f6fd6"></span>Blue</td><td><b>4</b></td></tr>
+      <tr><td><span class="sw" style="background:#f2c230"></span>Yellow</td><td><b>5</b></td></tr>
+      <tr><td><span class="sw" style="background:#f4f1e8"></span>White</td><td><b>1</b></td></tr>
+      <tr><td><span class="sw" style="background:#d63b2f"></span>Red</td><td><b>3</b></td></tr></table></div>
+  </section>
+
+  <section id="symbols">
+    <h2>Symbols</h2>
+    <p class="note" style="margin-top:6px">Four buttons, each with a strange symbol. Exactly <b>one column</b> below contains all four. Press them in the order they appear in that column, <b>top to bottom</b>.</p>
+    <div class="cols5" style="margin-top:12px">
+      <div><span class="h">A</span><span>Ω</span><span>ϗ</span><span>Ѯ</span><span>☾</span><span>¶</span><span>Ж</span></div>
+      <div><span class="h">B</span><span>Ψ</span><span>Ω</span><span>★</span><span>Ϟ</span><span>Ѫ</span><span>λ</span></div>
+      <div><span class="h">C</span><span>✿</span><span>¶</span><span>Ҩ</span><span>ϗ</span><span>∆</span><span>★</span></div>
+      <div><span class="h">D</span><span>Ϡ</span><span>Ж</span><span>∆</span><span>✠</span><span>Ψ</span><span>♆</span></div>
+      <div><span class="h">E</span><span>λ</span><span>✠</span><span>☾</span><span>Ѭ</span><span>✿</span><span>∞</span></div>
+    </div>
+    <p class="note" style="margin-top:8px">Tip: give the symbols silly names together, like "horseshoe", "pitchfork" or "the lightning bolt".</p>
+  </section>
+
+  <section id="password">
+    <h2>Password</h2>
+    <p class="note" style="margin-top:6px">Five letter wheels. Each wheel can show 5 different letters. Only <b>one</b> word below can be spelled. Ask the Defuser to read out every letter each wheel can show, then rule words out. When you've found it, they set the wheels and press Submit.</p>
+    <div class="words" style="margin-top:12px">
+      <span>about</span><span>after</span><span>again</span><span>below</span><span>could</span><span>every</span><span>first</span><span>found</span><span>great</span><span>house</span><span>large</span><span>learn</span><span>never</span><span>other</span><span>place</span><span>plant</span><span>point</span><span>right</span><span>small</span><span>sound</span><span>spell</span><span>still</span><span>study</span><span>their</span><span>there</span><span>these</span><span>thing</span><span>think</span><span>three</span><span>water</span><span>where</span><span>which</span><span>world</span><span>would</span><span>write</span>
+    </div>
+  </section>
+</div></main>
+
+<footer class="site-foot"><div class="wrap">The Parlour · <a href="/defuse/">Back to Defuse</a> · <a href="/">All games</a></div></footer>
+</body>
+</html>

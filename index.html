@@ -39,6 +39,41 @@
     <div class="choices filters" id="filters"></div>
     <div class="grid" id="grid">
 
+      <a class="game" href="/blackwood/" data-tags="new mystery onephone party">
+        <div class="top"><span class="tag">New · hidden roles</span><span class="suit">♠</span></div>
+        <h3>Blackwood Manor</h3>
+        <p>Wolves hide among the guests. The phone narrates every night out loud, so nobody has to sit out as host. Even dead players keep playing as ghosts.</p>
+        <div class="facts"><span>5–12 players</span><span>30–45 min</span><span>One phone</span></div>
+      </a>
+
+      <a class="game" href="/defuse/" data-tags="new phones party">
+        <div class="top"><span class="tag">New · teamwork under pressure</span><span class="suit r">♦</span></div>
+        <h3>Defuse</h3>
+        <p>One player holds a ticking bomb. Everyone else holds the manual. Nobody can see what the others see. Five minutes. Talk fast.</p>
+        <div class="facts"><span>2–6 players</span><span>5 min a bomb</span><span>A phone each</span></div>
+      </a>
+
+      <a class="game" href="/fib-finder/" data-tags="new onephone party">
+        <div class="top"><span class="tag">New · bluffing trivia</span><span class="suit">♣</span></div>
+        <h3>Fib Finder</h3>
+        <p>Strange-but-true trivia. Write a fake answer good enough to fool your friends, then try to spot the real one.</p>
+        <div class="facts"><span>3–8 players</span><span>20 min</span><span>One phone</span></div>
+      </a>
+
+      <a class="game" href="/alibi/" data-tags="new onephone party">
+        <div class="top"><span class="tag">New · interrogation</span><span class="suit r">♥</span></div>
+        <h3>Alibi</h3>
+        <p>Two suspects get five minutes to invent a story. The detectives question them separately and count every crack.</p>
+        <div class="facts"><span>4–12 players</span><span>15 min a case</span><span>One phone</span></div>
+      </a>
+
+      <a class="game" href="/hot-potato/" data-tags="new onephone party">
+        <div class="top"><span class="tag">New · fast and loud</span><span class="suit">♠</span></div>
+        <h3>Hot Potato</h3>
+        <p>Say a word, pass the phone. The ticking gets faster and the timer is hidden. Don't be holding it when it explodes.</p>
+        <div class="facts"><span>3–15 players</span><span>10 min</span><span>One phone</span></div>
+      </a>
+
       <a class="game" href="/saltmarrow/" data-tags="mystery phones">
         <div class="top"><span class="tag">Mystery adventure</span><span class="suit">♠</span></div>
         <h3>Saltmarrow Light</h3>
@@ -112,7 +147,7 @@
 <script src="/assets/kit.js"></script>
 <script>
 (function () {
-  const FILTERS = { "All games": "", "One phone": "onephone", "A phone each": "phones", "Mysteries": "mystery", "Party games": "party", "Playing cards": "cards" };
+  const FILTERS = { "All games": "", "New": "new", "One phone": "onephone", "A phone each": "phones", "Mysteries": "mystery", "Party games": "party", "Playing cards": "cards" };
   const cards = [...document.querySelectorAll(".game")];
   Kit.choices(Kit.$("filters"), Object.keys(FILTERS), "All games", (label) => {
     const tag = FILTERS[label];

@@ -1,0 +1,302 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="robots" content="noindex, nofollow">
+<title>Blackwood Manor · The Parlour</title>
+<meta name="description" content="A werewolf game where the phone is the narrator. Hidden wolves, a seer, a doctor and a house full of suspects.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;600;700&family=Young+Serif&display=swap">
+<link rel="stylesheet" href="/assets/site.css">
+<style>
+.names-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
+@media (max-width: 460px) { .names-grid { grid-template-columns: 1fr; } }
+.pick { display: grid; grid-template-columns: repeat(auto-fill, minmax(130px, 1fr)); gap: 8px; }
+.pick button { padding: 14px 8px; font: 700 17px var(--f-body); border-radius: 8px; border: 2px solid rgba(243,239,228,.35); background: transparent; color: var(--on-felt); cursor: pointer; overflow-wrap: anywhere; }
+.pick button.armed { background: #b13a31; border-color: #b13a31; color: #fff; }
+.pick button.dead { opacity: .35; text-decoration: line-through; cursor: default; }
+.night { background: #070b0a; color: #cdd6d1; border-radius: 14px; padding: 24px; min-height: 340px; display: flex; flex-direction: column; gap: 16px; justify-content: center; }
+.night .say { font-family: var(--f-display); font-size: clamp(22px, 5vw, 30px); line-height: 1.3; }
+.night .pick button { border-color: #2c3a35; color: #cdd6d1; }
+.timer { font-family: var(--f-display); font-size: 64px; line-height: 1; font-variant-numeric: tabular-nums; }
+.roster { display: flex; flex-wrap: wrap; gap: 6px 14px; font-size: 15px; }
+.roster .x { text-decoration: line-through; opacity: .6; }
+</style>
+</head>
+<body>
+<header class="site-head"><div class="wrap"><a class="logo" href="/">The Parlour <span class="pips">♠<span class="r">♥</span>♣<span class="r">♦</span></span></a><nav><a href="/">All games</a></nav></div></header>
+
+<section class="hero"><div class="wrap narrow">
+  <div class="eyebrow">Hidden roles · the phone narrates · new</div>
+  <h1>Blackwood Manor</h1>
+  <p class="lede">Wolves are hiding among the guests at Blackwood Manor. Each night they strike. Each day, everyone argues, accuses and votes someone out. The phone is the narrator and speaks out loud, so everyone gets to play.</p>
+  <div class="meta"><span class="chip">5–12 players</span><span class="chip">30–45 min</span><span class="chip">One phone with sound</span></div>
+</div></section>
+
+<main><div class="wrap narrow stack">
+  <section class="box">
+    <h3>The roles</h3>
+    <div class="t-scroll" style="margin-top:8px"><table class="t">
+      <tr><td><b>Wolf</b> 🐺</td><td>Knows the other wolves. Each night, the wolves choose someone to kill. They win when there are as many wolves as everyone else.</td></tr>
+      <tr><td><b>Seer</b> 👁</td><td>Each night, checks one person to learn whether they're a wolf.</td></tr>
+      <tr><td><b>Doctor</b> ✚</td><td>Each night, protects one person (themselves included) from the wolves.</td></tr>
+      <tr><td><b>Guest</b></td><td>No powers, just your wits. Find the wolves and vote them out.</td></tr>
+    </table></div>
+    <p class="note" style="margin-top:8px">1 wolf for 5–6 players, 2 wolves for 7–10, and 3 wolves for 11–12.</p>
+  </section>
+
+  <section>
+    <div class="section-title"><h2>How to play</h2></div>
+    <ol class="steps">
+      <li><div><b>Turn the sound up</b> on the phone. The phone narrates the whole game out loud, so nobody has to sit out as the host.</div></li>
+      <li><div><b>Type everyone's names</b> below, in the order you're sitting, then tap <b>Deal roles</b>.</div></li>
+      <li><div><b>Pass the phone around.</b> Each person looks at their role alone, taps Hide and passes it on. Keep a straight face.</div></li>
+      <li><div><b>Put the phone in the middle</b> of the table and tap <b>Begin the night</b>. Everyone closes their eyes and <b>drums their fingers softly on the table</b>, which hides the sound of anyone moving.</div></li>
+      <li><div><b>Follow the voice.</b> When your role is called, open your eyes, quietly reach for the phone, tap your choice, and close your eyes again.
+        <ul><li>Wolves agree silently, by pointing at each other, and one of them taps the victim.</li><li>The Seer taps a person and sees whether they're a wolf.</li><li>The Doctor taps someone to protect.</li></ul></div></li>
+      <li><div><b>Morning.</b> The phone tells you who was found dead, if anyone. That player is now a ghost (see below).</div></li>
+      <li><div><b>Day: discuss and accuse.</b> Start the timer and argue it out. Wolves pretend to be guests. The Seer can drop hints, but if they reveal too much the wolves will come for them.</div></li>
+      <li><div><b>Vote.</b> Count 3, 2, 1, and everyone alive points at someone. Tap the player with the most fingers. The phone reveals their role.</div></li>
+      <li><div><b>Repeat night and day</b> until all the wolves are gone (the guests win) or the wolves equal everyone else (the wolves win).</div></li>
+    </ol>
+  </section>
+
+  <section class="cols">
+    <div class="box">
+      <h3>Ghosts keep playing 👻</h3>
+      <p style="margin-top:6px">If you die, stay at the table. You can't talk, but every morning each ghost may say <b>one single word</b> out loud. Choose it carefully. And at night, ghosts may make spooky noises.</p>
+    </div>
+    <div class="example">
+      <div class="eyebrow">Example</div>
+      <p>Morning: "Cara was found in the library, a candle still burning beside her." Cara the ghost says one word: <b>"Left."</b></p>
+      <p>Everyone looks at the person on her left. Ben gets very defensive…</p>
+    </div>
+  </section>
+
+  <section class="table" id="game" aria-live="polite"></section>
+</div></main>
+
+<footer class="site-foot"><div class="wrap">The Parlour · games for a table full of people · <a href="/">All games</a></div></footer>
+
+<script src="/assets/kit.js"></script>
+<script>
+(function () {
+  const KEY = "parlour-blackwood";
+  const el = Kit.$("game");
+  const saved = Kit.load(KEY, {});
+  let names = saved.names || ["", "", "", "", ""];
+  let G = null, audio = null, rain = null, voice = null;
+
+  const DEATHS = [
+    "{n} was found in the library, a candle still burning beside them.",
+    "The maids found {n} at the foot of the grand staircase. There were claw marks on the banister.",
+    "{n}'s bed was empty. A trail of muddy pawprints led out into the garden.",
+    "A scream rang out at three in the morning. By the time anyone reached the west wing, {n} was gone.",
+    "{n} was found in the conservatory, surrounded by broken glass.",
+    "The dogs howled all night. At dawn, {n} was found by the frozen fountain.",
+    "{n}'s portrait in the hall has been slashed, and {n} was found beneath it."
+  ];
+
+  // Voice narration
+  function pickVoice() {
+    try { const vs = speechSynthesis.getVoices().filter((v) => /^en/i.test(v.lang)); voice = vs.find((v) => /GB|UK|Daniel|Arthur/i.test(v.name + v.lang)) || vs[0] || null; } catch (e) {}
+  }
+  if ("speechSynthesis" in window) { pickVoice(); speechSynthesis.onvoiceschanged = pickVoice; }
+  function say(text) {
+    const box = el.querySelector(".say"); if (box) box.textContent = text;
+    return new Promise((res) => {
+      const fallback = setTimeout(res, 1500 + text.split(" ").length * 420);
+      try {
+        if (!("speechSynthesis" in window)) return;
+        speechSynthesis.cancel();
+        const u = new SpeechSynthesisUtterance(text);
+        if (voice) u.voice = voice;
+        u.rate = 0.88; u.pitch = 0.8;
+        u.onend = () => { clearTimeout(fallback); setTimeout(res, 400); };
+        speechSynthesis.speak(u);
+      } catch (e) {}
+    });
+  }
+  const wait = (ms) => new Promise((r) => setTimeout(r, ms));
+  function rainOn(on) {
+    try {
+      if (!audio) audio = new (window.AudioContext || window.webkitAudioContext)();
+      if (on && !rain) {
+        const n = audio.sampleRate * 2, b = audio.createBuffer(1, n, audio.sampleRate), d = b.getChannelData(0);
+        for (let i = 0; i < n; i++) d[i] = Math.random() * 2 - 1;
+        const s = audio.createBufferSource(), f = audio.createBiquadFilter(), g = audio.createGain();
+        s.buffer = b; s.loop = true; f.type = "lowpass"; f.frequency.value = 900; g.gain.value = 0.06;
+        s.connect(f).connect(g).connect(audio.destination); s.start(); rain = s;
+      } else if (!on && rain) { rain.stop(); rain = null; }
+    } catch (e) {}
+  }
+
+  const alive = () => G.players.filter((p) => p.alive);
+  const wolvesAlive = () => alive().filter((p) => p.role === "Wolf").length;
+  const ROLE_TEXT = {
+    Wolf: "You are a WOLF. Each night, you and any other wolves choose someone to kill. By day, act innocent.",
+    Seer: "You are the SEER. Each night, check one person to learn whether they're a wolf. Be careful who you tell.",
+    Doctor: "You are the DOCTOR. Each night, protect one person from the wolves. You can protect yourself.",
+    Guest: "You are a GUEST. No powers, just your wits. Find the wolves and vote them out."
+  };
+
+  function setup() {
+    el.innerHTML = `
+      <div><div class="eyebrow">Set up</div><h2>Who's at the manor?</h2></div>
+      <div class="field"><label>Number of players</label><div class="stepper" id="np" data-min="5" data-max="12"></div></div>
+      <div class="field"><label>Names, in seating order</label><div class="names-grid" id="nm"></div></div>
+      <div class="btns"><button class="btn big" id="deal">Deal roles</button></div>
+      <div class="note" id="msg" role="status"></div>`;
+    const drawNames = () => {
+      Kit.$("nm").innerHTML = names.map((n, i) => `<input type="text" id="pn${i}" maxlength="14" placeholder="Player ${i + 1}" value="${Kit.esc(n)}" autocomplete="off">`).join("");
+      names.forEach((_, i) => Kit.$("pn" + i).oninput = (e) => { names[i] = e.target.value; Kit.save(KEY, { names }); });
+    };
+    Kit.stepper(Kit.$("np"), names.length, (v) => { while (names.length < v) names.push(""); names.length = v; Kit.save(KEY, { names }); drawNames(); });
+    drawNames();
+    Kit.$("deal").onclick = () => {
+      const list = names.map((n, i) => n.trim() || "Player " + (i + 1));
+      if (new Set(list.map((x) => x.toLowerCase())).size !== list.length) { Kit.$("msg").textContent = "Two players have the same name. Give everyone a different name."; return; }
+      const n = list.length, w = n <= 6 ? 1 : n <= 10 ? 2 : 3;
+      const roles = Kit.shuffle([...Array(w).fill("Wolf"), "Seer", "Doctor", ...Array(n - w - 2).fill("Guest")]);
+      G = { players: list.map((name, i) => ({ name, role: roles[i], alive: true })), night: 0, talk: 180 };
+      say("");
+      pass(0);
+    };
+  }
+
+  function pass(i) {
+    if (i >= G.players.length) return ready();
+    const p = G.players[i];
+    el.innerHTML = `<div class="note">Role ${i + 1} of ${G.players.length}</div><h2>Pass the phone to ${Kit.esc(p.name)}</h2><p>Everyone else, look away.</p><div class="btns"><button class="btn big" id="see">I'm ${Kit.esc(p.name)}. Show my role.</button></div>`;
+    Kit.$("see").onclick = () => {
+      const mates = p.role === "Wolf" ? G.players.filter((q) => q.role === "Wolf" && q !== p).map((q) => q.name) : [];
+      el.innerHTML = `<div class="card" data-suit="${p.role === "Wolf" ? "♠" : "♥"}"><div class="k">${Kit.esc(p.name)}, you are</div><div class="w">${p.role === "Guest" ? "A Guest" : "The " + p.role}</div><div class="s">${ROLE_TEXT[p.role]}${mates.length ? "<br><br>Your fellow wolf: <b>" + mates.map(Kit.esc).join(", ") + "</b>" : ""}</div></div><div class="btns"><button class="btn big" id="hide">Hide and pass on</button></div>`;
+      Kit.$("hide").onclick = () => pass(i + 1);
+    };
+  }
+
+  function ready() {
+    el.innerHTML = `<div class="eyebrow">Everyone knows their role</div><h2>Put the phone in the middle</h2><p>Turn the volume up. When you tap Begin, the phone will tell everyone what to do.</p>
+      <div class="field"><label>Daytime discussion</label><div class="choices" id="tl"></div></div>
+      <div class="btns"><button class="btn big" id="go">Begin the night</button></div>`;
+    Kit.choices(Kit.$("tl"), ["2 min", "3 min", "5 min"], G.talk / 60 + " min", (v) => G.talk = parseInt(v, 10) * 60);
+    Kit.$("go").onclick = night;
+  }
+
+  function choose(prompt, options, confirmText) {
+    return new Promise((res) => {
+      const box = el.querySelector(".night");
+      const area = document.createElement("div");
+      area.innerHTML = `<p>${prompt}</p><div class="pick">${options.map((p, i) => `<button data-i="${i}">${Kit.esc(p.name)}</button>`).join("")}</div><p class="note" style="color:#7d8a85">Tap a name twice to confirm.</p>`;
+      box.appendChild(area);
+      area.querySelectorAll("button").forEach((b) => b.onclick = () => {
+        if (b.classList.contains("armed")) { area.remove(); res(options[+b.dataset.i]); return; }
+        area.querySelectorAll("button").forEach((x) => x.classList.remove("armed"));
+        b.classList.add("armed"); b.textContent = confirmText + " " + options[+b.dataset.i].name + "?";
+      });
+    });
+  }
+
+  async function roleTurn(role, open, ask, close, act) {
+    await say(open);
+    const actor = alive().find((p) => p.role === role);
+    if (actor) await act(); else await wait(6000 + Math.random() * 5000);
+    await say(close);
+  }
+
+  async function night() {
+    Kit.wake(); rainOn(true);
+    G.night++;
+    el.innerHTML = `<div class="night"><div class="eyebrow" style="color:#7d8a85">Night ${G.night}</div><div class="say"></div></div>`;
+    await say(`Night ${G.night} falls on Blackwood Manor. Everyone, close your eyes, and drum your fingers softly on the table.`);
+    await wait(2500);
+    let victim = null, saved = null;
+    await roleTurn("Wolf", "Wolves, open your eyes. Silently agree on your victim. Then one of you, tap their name on the phone.", "", "Wolves, close your eyes.", async () => {
+      victim = await choose("Wolves: who dies tonight?", alive().filter((p) => p.role !== "Wolf"), "Kill");
+    });
+    await wait(1500);
+    await roleTurn("Seer", "Seer, open your eyes. Tap one person to learn whether they are a wolf.", "", "Seer, close your eyes.", async () => {
+      const seer = alive().find((p) => p.role === "Seer");
+      const t = await choose("Seer: who do you want to check?", alive().filter((p) => p !== seer), "Check");
+      const box = el.querySelector(".night"), d = document.createElement("div");
+      d.innerHTML = `<div class="card" data-suit="${t.role === "Wolf" ? "♠" : "♥"}"><div class="w" style="font-size:32px">${Kit.esc(t.name)}</div><div class="s"><b>${t.role === "Wolf" ? "IS a wolf." : "is NOT a wolf."}</b></div></div><div class="btns" style="margin-top:12px"><button class="btn big">Got it</button></div>`;
+      box.appendChild(d);
+      await new Promise((r) => d.querySelector("button").onclick = r);
+      d.remove();
+    });
+    await wait(1500);
+    await roleTurn("Doctor", "Doctor, open your eyes. Tap one person to protect tonight.", "", "Doctor, close your eyes.", async () => {
+      saved = await choose("Doctor: who do you protect?", alive(), "Protect");
+    });
+    await wait(1500);
+    let story;
+    if (victim && victim !== saved) { victim.alive = false; story = Kit.pick(DEATHS).replaceAll("{n}", victim.name); }
+    else story = "The wolves struck in the night, but someone was standing guard. Nobody died.";
+    await say("Morning comes. Everyone, open your eyes.");
+    rainOn(false);
+    morning(story, victim && !victim.alive ? victim : null);
+  }
+
+  function roster() {
+    return `<div class="roster">${G.players.map((p) => `<span class="${p.alive ? "" : "x"}">${Kit.esc(p.name)}</span>`).join("")}</div>`;
+  }
+
+  function checkWin() {
+    const w = wolvesAlive(), others = alive().length - w;
+    if (w === 0) return "guests";
+    if (w >= others) return "wolves";
+    return null;
+  }
+
+  function morning(story, dead) {
+    el.innerHTML = `<div class="eyebrow">Day ${G.night}</div><div class="card" data-suit="♠"><div class="k">At dawn</div><div class="s say" style="font-size:20px">${Kit.esc(story)}</div></div>${roster()}
+      ${G.players.some((p) => !p.alive) ? `<p class="note">👻 Ghosts: each of you may now say <b>one single word</b>.</p>` : ""}
+      <div class="btns"><button class="btn big" id="talk">Start the discussion</button></div>`;
+    say(story + (dead ? " " + dead.name + ", you are now a ghost." : ""));
+    const win = checkWin(); if (win) return gameOver(win);
+    Kit.$("talk").onclick = discuss;
+  }
+
+  function discuss() {
+    let left = G.talk;
+    el.innerHTML = `<div class="eyebrow">Day ${G.night}: discuss and accuse</div><div class="timer" id="tm"></div>${roster()}<div class="btns"><button class="btn big" id="vote">Go to the vote</button><button class="btn alt" id="more">+1 minute</button></div>`;
+    const tick = () => { Kit.$("tm") && (Kit.$("tm").textContent = Math.floor(left / 60) + ":" + String(left % 60).padStart(2, "0")); };
+    tick();
+    const t = setInterval(() => { left--; tick(); if (left === 30) say("Thirty seconds."); if (left <= 0) { clearInterval(t); say("Time's up. Prepare to vote."); } }, 1000);
+    Kit.$("more").onclick = () => { left += 60; tick(); };
+    Kit.$("vote").onclick = () => { clearInterval(t); vote(); };
+  }
+
+  function vote() {
+    say("Everyone still alive: count three, two, one, and point at who you think is a wolf.");
+    el.innerHTML = `<div class="eyebrow">The vote</div><h2>Count 3, 2, 1 and point</h2><p>Tap the player with the most fingers pointing at them. If there's a tie, vote again between the tied players.</p>
+      <div class="pick" id="pk">${alive().map((p) => `<button data-n="${Kit.esc(p.name)}">${Kit.esc(p.name)}</button>`).join("")}</div>
+      <div class="btns"><button class="btn alt" id="none">Nobody (still tied)</button></div>`;
+    el.querySelectorAll("#pk button").forEach((b) => b.onclick = () => {
+      if (!b.classList.contains("armed")) { el.querySelectorAll("#pk button").forEach((x) => { x.classList.remove("armed"); x.textContent = x.dataset.n; }); b.classList.add("armed"); b.textContent = "Vote out " + b.dataset.n + "?"; return; }
+      const p = G.players.find((q) => q.name === b.dataset.n); p.alive = false;
+      const line = `${p.name} is dragged from the manor. ${p.name} was ${p.role === "Guest" ? "an innocent guest" : "the " + p.role}.`;
+      el.innerHTML = `<div class="card" data-suit="${p.role === "Wolf" ? "♠" : "♥"}"><div class="k">Voted out</div><div class="w">${Kit.esc(p.name)}</div><div class="s">was ${p.role === "Guest" ? "an innocent Guest" : "<b>the " + p.role + "</b>"}.</div></div><div class="btns"><button class="btn big" id="nx">Night falls…</button></div>`;
+      say(line);
+      const win = checkWin(); if (win) return gameOver(win);
+      Kit.$("nx").onclick = night;
+    });
+    Kit.$("none").onclick = () => { say("The manor could not decide. Nobody leaves today."); night(); };
+  }
+
+  function gameOver(win) {
+    const text = win === "guests" ? "The last wolf is gone. The guests of Blackwood Manor survive the night." : "The wolves now outnumber the guests. Blackwood Manor belongs to them.";
+    setTimeout(() => say(text), 7000);
+    el.innerHTML = `<div class="card" data-suit="${win === "guests" ? "♥" : "♠"}"><div class="k">Game over</div><div class="w">${win === "guests" ? "The guests win" : "The wolves win"}</div><div class="s">${text}</div></div>
+      <div class="box" style="color:var(--ink)"><b>Who was who</b><div class="roster" style="margin-top:6px">${G.players.map((p) => `<span>${Kit.esc(p.name)}: <b>${p.role}</b>${p.alive ? "" : " 👻"}</span>`).join("")}</div></div>
+      <div class="btns"><button class="btn big" id="again">Play again</button></div>`;
+    Kit.$("again").onclick = setup;
+  }
+
+  setup();
+})();
+</script>
+</body>
+</html>

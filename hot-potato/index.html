@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="robots" content="noindex, nofollow">
+<title>Hot Potato · The Parlour</title>
+<meta name="description" content="Say a word that fits, pass the phone. A hidden timer ticks. Don't be holding it when it explodes.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;600;700&family=Young+Serif&display=swap">
+<link rel="stylesheet" href="/assets/site.css">
+<style>
+.hot { position: fixed; inset: 0; z-index: 30; background: #1d120c; color: #fff4e6; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 18px; padding: 24px; text-align: center; transition: background .3s; }
+.hot .kind { font-size: 14px; font-weight: 700; letter-spacing: .14em; text-transform: uppercase; opacity: .75; }
+.hot .prompt { font-family: var(--f-display); font-size: clamp(54px, 16vw, 130px); line-height: 1; overflow-wrap: anywhere; }
+.hot .prompt.long { font-size: clamp(34px, 9vw, 70px); }
+.hot .tip { font-size: 17px; opacity: .85; max-width: 32ch; }
+.hot .potato { font-size: 64px; animation: wob .5s ease-in-out infinite alternate; }
+@keyframes wob { from { transform: rotate(-8deg) scale(1); } to { transform: rotate(8deg) scale(1.08); } }
+.hot.boom { background: #c92a1c; }
+.hot.boom .prompt { font-size: clamp(80px, 24vw, 180px); }
+.hot button { font: 700 18px var(--f-body); padding: 14px 22px; border-radius: 8px; border: 2px solid #fff4e6; background: #fff4e6; color: #1d120c; cursor: pointer; }
+.hot button.alt { background: transparent; color: #fff4e6; }
+.lives { display: flex; flex-wrap: wrap; gap: 8px; justify-content: center; }
+.lives button { padding: 10px 14px; font-size: 16px; }
+.names-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
+.tally { display: flex; flex-wrap: wrap; gap: 6px 16px; }
+.tally .out { text-decoration: line-through; opacity: .55; }
+@media (prefers-reduced-motion: reduce) { .hot .potato { animation: none; } }
+</style>
+</head>
+<body>
+<header class="site-head"><div class="wrap"><a class="logo" href="/">The Parlour <span class="pips">♠<span class="r">♥</span>♣<span class="r">♦</span></span></a><nav><a href="/">All games</a></nav></div></header>
+
+<section class="hero"><div class="wrap narrow">
+  <div class="eyebrow">Fast and loud · new</div>
+  <h1>Hot Potato</h1>
+  <p class="lede">The phone is a ticking bomb. Say a word that fits the prompt and pass it on, quickly. Nobody knows when it will go off, and the ticking keeps getting faster.</p>
+  <div class="meta"><span class="chip">3–15 players</span><span class="chip">10 min</span><span class="chip">One phone with sound</span></div>
+</div></section>
+
+<main><div class="wrap narrow stack">
+  <section>
+    <div class="section-title"><h2>How to play</h2></div>
+    <ol class="steps">
+      <li><div><b>Sit in a circle.</b> If you want to keep score, type your names below. Everyone starts with <b>3 lives</b>.</div></li>
+      <li><div><b>Choose a type of prompt:</b> Letters, Categories or Rhymes. Then tap <b>Light the fuse</b>.</div></li>
+      <li><div><b>A prompt appears</b>, like <b>"ING"</b>, <b>"Things in a kitchen"</b> or <b>"Rhymes with CAT"</b>. The phone starts ticking.</div></li>
+      <li><div><b>Say a word that fits, out loud, then pass the phone to your left.</b>
+        <ul><li>Letters: a word containing those letters ("ING": <i>swing</i>, <i>kingdom</i>).</li><li>Categories: something in that category.</li><li>Rhymes: a word that rhymes.</li><li>No repeats! If someone challenges your word, the group decides.</li><li>You can't pass the phone until you've said a word.</li></ul></div></li>
+      <li><div><b>BOOM!</b> The timer is hidden and random, somewhere between 10 and 45 seconds. Whoever is holding the phone when it explodes <b>loses a life</b>.</div></li>
+      <li><div><b>The loser starts the next round.</b> Lose all 3 lives and you're out. The last player standing wins.</div></li>
+    </ol>
+  </section>
+
+  <section class="example">
+    <div class="eyebrow">Example</div>
+    <p>The prompt is <b>"ST"</b>. Anna: "Stop!" and passes. Ben: "Toast!" and passes. Cara panics: "Er… st… STRAWBERRY!" She passes it to Dan, and it explodes in Dan's hands. 💥 Dan loses a life.</p>
+  </section>
+
+  <section class="table" id="game" aria-live="polite"></section>
+</div></main>
+
+<footer class="site-foot"><div class="wrap">The Parlour · games for a table full of people · <a href="/">All games</a></div></footer>
+
+<script src="/assets/kit.js"></script>
+<script>
+(function () {
+  const P = {
+    "Letters": ["ST","ING","TH","OU","AR","CH","EA","PL","OR","ER","AN","SH","ACK","IGHT","OO","BR","ENT","AL","IN","OW","TR","SP","ION","GR","ET","UN","AY","CK","ATE","LL"],
+    "Categories": ["Animals","Things in a kitchen","Countries","Fruit and vegetables","Things that are red","Jobs","Sports","Things you take on holiday","Film titles","Body parts","Things that fly","Board games","Things in a bathroom","Musical instruments","Car brands","Pizza toppings","Cities","Things that are cold","Breakfast foods","Things with wheels","Things in a school","Things at the beach","Colours","Drinks","Things that are sticky","Superheroes","Clothes","Things in a garden","Insects","Things that make noise"],
+    "Rhymes": ["CAT","DAY","BEE","LIGHT","FUN","CAKE","BEAR","BALL","RAIN","GO","BLUE","BED","KING","SHOP","NOSE","TOWN","SING","HAT","CHAIR","BOAT"]
+  };
+  const KEY = "parlour-potato";
+  const S = Object.assign({ mode: "Letters", names: ["", "", "", ""] }, Kit.load(KEY, {}));
+  const el = Kit.$("game");
+  let audio = null, lives = null;
+
+  function ac() { if (!audio) try { audio = new (window.AudioContext || window.webkitAudioContext)(); } catch (e) {} return audio; }
+  function tick(f) { const a = ac(); if (!a) return; const o = a.createOscillator(), g = a.createGain(); o.frequency.value = f; g.gain.value = 0.08; o.connect(g).connect(a.destination); o.start(); g.gain.exponentialRampToValueAtTime(0.0001, a.currentTime + 0.05); o.stop(a.currentTime + 0.06); }
+  function boom() { const a = ac(); if (!a) return; const n = a.sampleRate * 1.6, b = a.createBuffer(1, n, a.sampleRate), d = b.getChannelData(0); for (let i = 0; i < n; i++) d[i] = (Math.random() * 2 - 1) * Math.pow(1 - i / n, 2.2); const s = a.createBufferSource(), f = a.createBiquadFilter(), g = a.createGain(); f.type = "lowpass"; f.frequency.value = 700; g.gain.value = 0.9; s.buffer = b; s.connect(f).connect(g).connect(a.destination); s.start(); }
+
+  function names() { return S.names.map((n) => n.trim()).filter(Boolean); }
+
+  function setup() {
+    el.innerHTML = `
+      <div><div class="eyebrow">Set up</div><h2>Light the fuse</h2></div>
+      <div class="field"><label>Prompt type</label><div class="choices" id="md"></div></div>
+      <div class="field"><label>Players (optional, for keeping score with 3 lives each)</label><div class="names-grid" id="nm"></div><div class="btns"><button class="btn alt" id="add" type="button" style="padding:8px 12px;font-size:15px">+ Add a player</button></div></div>
+      ${lives ? `<div class="tally">${Object.entries(lives).map(([n, l]) => `<span class="${l <= 0 ? "out" : ""}">${Kit.esc(n)}: ${"♥".repeat(Math.max(0, l)) || "out"}</span>`).join("")}</div>` : ""}
+      <div class="btns"><button class="btn big red" id="go">Light the fuse</button>${lives ? `<button class="btn alt" id="reset">New game (reset lives)</button>` : ""}</div>`;
+    Kit.choices(Kit.$("md"), Object.keys(P), S.mode, (v) => { S.mode = v; Kit.save(KEY, S); });
+    const drawNames = () => {
+      Kit.$("nm").innerHTML = S.names.map((n, i) => `<input type="text" id="hn${i}" maxlength="14" placeholder="Player ${i + 1}" value="${Kit.esc(n)}" autocomplete="off">`).join("");
+      S.names.forEach((_, i) => Kit.$("hn" + i).oninput = (e) => { S.names[i] = e.target.value; Kit.save(KEY, S); });
+    };
+    drawNames();
+    Kit.$("add").onclick = () => { if (S.names.length < 15) { S.names.push(""); drawNames(); } };
+    Kit.$("go").onclick = play;
+    if (lives) Kit.$("reset").onclick = () => { lives = null; setup(); };
+  }
+
+  function play() {
+    ac(); Kit.wake();
+    const list = names();
+    if (list.length >= 2 && (!lives || Object.keys(lives).join() !== list.join())) { lives = {}; list.forEach((n) => (lives[n] = 3)); }
+    const prompt = Kit.pick(P[S.mode]);
+    const total = 10000 + Math.random() * 35000, t0 = Date.now();
+    const h = document.createElement("div");
+    h.className = "hot";
+    const label = S.mode === "Letters" ? "Say a word containing" : S.mode === "Rhymes" ? "Say a word that rhymes with" : "Name something in this category";
+    h.innerHTML = `<div class="potato" aria-hidden="true">💣</div><div class="kind">${label}</div><div class="prompt ${prompt.length > 8 ? "long" : ""}">${Kit.esc(prompt)}</div><div class="tip">Say it, then pass the phone left. No repeats!</div>`;
+    document.body.appendChild(h);
+    let alive = true;
+    (function loop() {
+      if (!alive) return;
+      const frac = (Date.now() - t0) / total;
+      if (frac >= 1) return explode();
+      tick(frac > 0.75 ? 1300 : 1000);
+      setTimeout(loop, Math.max(120, 620 - frac * 520));
+    })();
+    function explode() {
+      alive = false; boom();
+      if (navigator.vibrate) try { navigator.vibrate([500, 100, 300]); } catch (e) {}
+      h.classList.add("boom");
+      const still = lives ? Object.keys(lives).filter((n) => lives[n] > 0) : [];
+      h.innerHTML = `<div class="prompt">BOOM</div><div class="tip">Whoever is holding the phone loses a life.</div>
+        ${still.length ? `<div class="kind">Who was holding it?</div><div class="lives">${still.map((n) => `<button data-n="${Kit.esc(n)}">${Kit.esc(n)}</button>`).join("")}</div>` : `<button id="ok">Next round</button>`}`;
+      const close = () => { h.remove(); setup(); window.scrollTo({ top: el.offsetTop - 20 }); };
+      if (still.length) h.querySelectorAll("[data-n]").forEach((b) => b.onclick = () => {
+        lives[b.dataset.n]--;
+        const left = Object.keys(lives).filter((n) => lives[n] > 0);
+        if (left.length === 1) { h.innerHTML = `<div class="kind">Last one standing</div><div class="prompt long">${Kit.esc(left[0])} wins!</div><button id="ok">Play again</button>`; h.querySelector("#ok").onclick = () => { lives = null; close(); }; return; }
+        close();
+      });
+      else h.querySelector("#ok").onclick = close;
+    }
+  }
+
+  setup();
+})();
+</script>
+</body>
+</html>
