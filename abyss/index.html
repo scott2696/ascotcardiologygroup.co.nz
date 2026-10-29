@@ -1,0 +1,291 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="robots" content="noindex, nofollow">
+<title>Abyss · The Parlour</title>
+<meta name="description" content="You wake up on a research station 4,000 metres under the sea. The oxygen is running out. Or is it?">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@500&family=IBM+Plex+Sans:ital,wght@0,400;0,600;1,400&family=IBM+Plex+Mono&display=swap">
+<link rel="stylesheet" href="/assets/episode.css">
+<style>
+/* Layout: one column like a station console log; sonar sweeps behind the title. Single dark theme: 4,000 metres down there is no daylight. */
+:root {
+  --bg: #04121a; --bg-2: #0a1f2a; --line: #183847; --fg: #d9eef2; --dim: #7fa3ad;
+  --accent: #3fd0c9; --on-accent: #02161a; --glow: #8ff5e8; --warn: #ff6b4a;
+  --paper: #dfe9e6; --ink: #0e2026;
+  --f-display: "Chakra Petch", "Arial Narrow", system-ui, sans-serif;
+  --f-body: "IBM Plex Sans", system-ui, sans-serif;
+  --f-type: "IBM Plex Mono", ui-monospace, Menlo, monospace;
+  color-scheme: dark;
+}
+.sonar { position: absolute; left: 50%; top: 60px; width: 520px; height: 520px; margin: -260px 0 0 -260px; border-radius: 50%; pointer-events: none;
+  background: conic-gradient(from 0deg, rgba(63,208,201,.18), transparent 50deg, transparent 360deg); animation: sweep 6s linear infinite;
+  -webkit-mask: radial-gradient(circle, #000 0 60%, transparent 61%); mask: radial-gradient(circle, #000 0 60%, transparent 61%); }
+@keyframes sweep { to { transform: rotate(360deg); } }
+.console { background: #021016; color: var(--glow); font-family: var(--f-type); border: 1px solid var(--line); border-radius: 6px; padding: 12px; font-size: 15px; line-height: 1.5; }
+.console .room { font-family: var(--f-display); font-size: 24px; color: var(--fg); }
+.pad { display: grid; grid-template-columns: repeat(3, 64px); grid-template-rows: repeat(3, 52px); gap: 6px; justify-content: center; margin-top: 10px; }
+.pad button { padding: 0; font-size: 15px; background: #0f2c38; color: var(--glow); border-color: var(--line); }
+.pad button:disabled { opacity: .25; cursor: not-allowed; }
+.pad .n { grid-column: 2; grid-row: 1; } .pad .w { grid-column: 1; grid-row: 2; } .pad .e { grid-column: 3; grid-row: 2; } .pad .s { grid-column: 2; grid-row: 3; }
+.map { border-collapse: collapse; width: 100%; font-size: 12.5px; table-layout: fixed; }
+.map td { border: 1px solid rgba(14,32,38,.35); padding: 6px 3px; text-align: center; height: 48px; overflow-wrap: anywhere; }
+.map th { font-size: 11px; opacity: .6; padding: 2px; }
+.map .st { background: rgba(63,208,201,.25); font-weight: 700; } .map .go { background: rgba(255,107,74,.25); font-weight: 700; }
+.glyphs { font-size: 34px; letter-spacing: .12em; word-spacing: .5em; overflow-wrap: anywhere; font-variant-emoji: text; }
+.key { display: grid; grid-template-columns: repeat(3, 1fr); gap: 6px; font-size: 18px; }
+.key span { background: rgba(14,32,38,.08); border-radius: 3px; padding: 4px; text-align: center; font-variant-emoji: text; }
+.valves { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; margin-top: 8px; text-align: center; }
+.valves div { display: flex; flex-direction: column; gap: 6px; align-items: center; }
+.valves output { font-family: var(--f-type); font-size: 40px; color: var(--glow); background: #021016; width: 64px; border-radius: 6px; }
+.valves button { width: 64px; padding: 6px 0; font-size: 18px; }
+.file-card { border: 2px solid rgba(14,32,38,.5); padding: 12px; }
+.stamp { display: inline-block; border: 3px solid #c0392b; color: #c0392b; padding: 2px 10px; font-weight: 700; letter-spacing: .12em; transform: rotate(-6deg); margin-top: 6px; }
+.steps { margin: 0; padding-left: 22px; } .steps li { margin-bottom: 6px; }
+@media (prefers-reduced-motion: reduce) { .sonar { animation: none; } }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header class="top">
+    <div class="sonar" aria-hidden="true"></div>
+    <a href="/" class="back">← All games</a>
+    <div class="brand">
+      <div class="eyebrow">A mystery for four crew · Episode 3</div>
+      <h1>Abyss</h1>
+      <div class="lamps" id="lamps" aria-label="Chapter progress"></div>
+    </div>
+  </header>
+  <main id="app"></main>
+  <footer class="foot" id="foot"></footer>
+</div>
+<div id="overlay"></div>
+
+<script src="/assets/episode.js"></script>
+<script>
+(function () {
+  const W = '<div class="widget"></div>';
+  const COLS = ["A", "B", "C", "D", "E"];
+  const ROOMS = [
+    ["Sleep Pods", "Laundry", "Gym", "Comms", "Observation"],
+    ["Galley", "Showers", "Generator", "Storage", "Chapel"],
+    ["Mess Hall", "Library", "Hub", "Workshop", "Moon Pool"],
+    ["Ballast", "Server Room", "Pump Room", "Greenhouse", "Reactor"],
+    ["Airlock", "Medbay", "Battery Bay", "Archive", "Lab"]
+  ];
+  const FLOODED = ["Laundry", "Showers", "Ballast", "Pump Room", "Storage", "Moon Pool"];
+  const SPARKS = ["Generator", "Server Room", "Battery Bay", "Reactor"];
+  const DESC = {
+    "Sleep Pods": "Four open sleep pods, still cold. Frost on the glass.",
+    "Workshop": "Tools everywhere. A row of twelve oxygen tanks stands along the wall. Every gauge reads FULL.",
+    "Greenhouse": "Plants thriving under purple lamps. The air smells fresh and green.",
+    "Hub": "The station's central junction. Emergency lights pulse red.",
+    "Lab": "The Lab door seals behind you. A terminal wakes up. In red letters: PROJECT LAZARUS."
+  };
+  const KEY = { A: "◐", B: "◑", C: "◒", D: "◓", E: "△", F: "▽", G: "◇", H: "◆", I: "○", J: "●", K: "□", L: "■", M: "☆", N: "★", O: "✕", P: "✚", Q: "∴", R: "∵", S: "≈", T: "∞", U: "⌂", V: "⊕", W: "⊗", X: "◈", Y: "▲", Z: "▼" };
+  const enc = (t) => t.split("").map((c) => KEY[c] || c).join("");
+  const keyPart = (from, to) => `<div class="key">${Object.keys(KEY).filter((k) => k >= from && k <= to).map((k) => `<span>${KEY[k]} = ${k}</span>`).join("")}</div>`;
+
+  Episode.run({
+    key: "parlour-abyss-v1",
+    beginLabel: "Wake up",
+    footnote: "Lights off, volume up. About 60 minutes.",
+    endingCount: 3,
+    wrongLines: ["ORCA: “Input not recognised.”", "A warning tone. That's not it.", "The console flickers. Try again.", "ORCA: “Please hurry, crew.”"],
+    meter: {
+      label: "Oxygen remaining", start: 45 * 60,
+      rate: (ch) => (ch >= 3 && ch <= 5 ? 2 : ch === 6 ? 0 : 1),
+      empty: () => ({ title: "Blackout", add: 600, text: "<p>The lights fade. Your chest tightens. Everything goes black…</p><p>…and then you're awake again, on the cold floor. Nobody is hurt.</p><p>ORCA: <em>“I've diverted reserve oxygen to you. Ten more minutes. Please hurry.”</em></p><p>Strange. You should be dead.</p>", say: "I have diverted reserve oxygen to you. Ten more minutes. Please hurry." })
+    },
+    intro: `
+      <p>The <em>Meridian</em> is a research station on the sea floor, 4,000 metres down. You are its crew. You don't remember going to sleep.</p>
+      <p>An alarm drags you awake. A calm, kind voice fills the room. It's <em>ORCA</em>, the station's computer. <em>“Good morning, crew. There has been a hull breach. Oxygen reserves are limited. Please make your way to the escape pod.”</em></p>
+      <div class="panel"><label>How to play</label><ol class="steps">
+        <li><b>You need four players</b>, ideally each with their own phone open on this page. Turn the volume up, because ORCA talks.</li>
+        <li><b>Choose how you're playing</b> below, type the four names in the same order on every phone, then tap which player you are.</li>
+        <li><b>Watch the oxygen meter</b> at the top. It drains as you play. Don't panic if it runs out.</li>
+        <li><b>Every player sees a different clue.</b> Some are gadgets only you can work, like a door control, a navigation pad or pressure valves. The others guide you.</li>
+        <li><b>Talk, but never show your screen.</b></li>
+        <li><b>Type the answer on any phone.</b> On separate phones, everyone types it to move on.</li>
+        <li><b>Timed chapters</b> reset the gadget if the clock runs out.</li>
+        <li><b>There are three endings.</b> Your last choice decides which one you get. Only one is the true ending.</li>
+      </ol></div>`,
+
+    chapters: [
+      {
+        title: "Wake Up", place: "Sleep pods · Deck 3",
+        onEnter: (api) => api.say("Good morning, crew. There has been a hull breach. Oxygen reserves are limited. The pod room door requires the launch crew sequence.", { rate: 0.95, pitch: 1 }),
+        story: () => `<p>Four sleep pods hiss open. Frost on the glass, cold air, red emergency lights. The door out of the pod room is locked with a keypad.</p><p>Each of you reads the display on your own pod.</p>`,
+        clues: [
+          (x) => `<div class="file-card"><p><b>POD 3</b></p><p>Crew: ${x.esc(x.name(0))}</p><p>Role: <b>Engineering</b></p><p>Vitals: stable</p></div>`,
+          (x) => `<div class="file-card"><p><b>POD 1</b></p><p>Crew: ${x.esc(x.name(1))}</p><p>Role: <b>Medical</b></p><p>Vitals: stable</p></div>`,
+          (x) => `<div class="file-card"><p><b>POD 4</b></p><p>Crew: ${x.esc(x.name(2))}</p><p>Role: <b>Command</b></p><p>Vitals: stable</p></div>`,
+          (x) => `<div class="file-card"><p><b>POD 2</b></p><p>Crew: ${x.esc(x.name(3))}</p><p>Role: <b>Navigation</b></p><p>Vitals: stable</p></div><p style="margin-top:10px">The door keypad, next to your pod:</p><p><i>"LAUNCH CREW SEQUENCE: enter the pod numbers of Command, Navigation, Engineering and Medical, in that order."</i></p>`
+        ],
+        question: "Enter the door code", placeholder: "4 digits",
+        check: (n) => n === "4231",
+        hints: ["Each of you has a pod number and a role. One of you has the order of the roles.", "Command is pod 4, Navigation pod 2, Engineering pod 3, Medical pod 1."],
+        after: (x) => `<p>The door slides open onto a dark corridor. Water drips somewhere. ORCA: <em>“The escape pod is beyond the Lab. Some rooms are flooded. Some are electrified. Please be careful.”</em></p>`
+      },
+      {
+        title: "Flooded Corridors", place: "Deck 3 · the maze",
+        onEnter: (api, x) => api.say(`${x.name(0)}, you have the navigation pad. The others have the map and the sensor readings.`, { rate: 0.95, pitch: 1 }),
+        story: (x) => `<p>The station is a grid of rooms. Some are full of water, some are sparking with live current. One wrong door and you'll be washed back to the pods, losing oxygen.</p><p><b>${x.esc(x.name(0))}</b> has the navigation pad and can only see the room they're in. The others must guide them from the Sleep Pods to the Lab.</p>`,
+        clues: [
+          (x) => `<p>The navigation pad. You can only see the room you're in. Ask the others where to go.</p>${W}`,
+          (x) => `<p>The station map. Row 1 is the top of the map, which is <b>north</b>.</p><div class="scroll"><table class="map"><tr><th></th>${COLS.map((c) => `<th>${c}</th>`).join("")}</tr>${ROOMS.map((r, i) => `<tr><th>${i + 1}</th>${r.map((n) => `<td class="${n === "Sleep Pods" ? "st" : n === "Lab" ? "go" : ""}">${n}</td>`).join("")}</tr>`).join("")}</table></div><p style="margin-top:8px">You start in <b>Sleep Pods</b>. The goal is the <b>Lab</b>.</p>`,
+          (x) => `<p>Water sensor readings. These rooms are <b>FLOODED</b>. Don't let anyone open their doors:</p><p>${FLOODED.join(" · ")}</p>`,
+          (x) => `<p>Power sensor readings. These rooms have <b>LIVE CURRENT</b> in the water on the floor:</p><p>${SPARKS.join(" · ")}</p>`
+        ],
+        widgets: {
+          0: (el, api) => {
+            let r = 0, c = 0;
+            el.innerHTML = `<div class="console" id="cn"></div><div class="pad"><button class="n" data-d="n">North</button><button class="w" data-d="w">West</button><button class="e" data-d="e">East</button><button class="s" data-d="s">South</button></div>`;
+            const draw = (msg) => {
+              const name = ROOMS[r][c];
+              el.querySelector("#cn").innerHTML = `${msg ? `<div style="color:var(--warn)">${msg}</div>` : ""}<div class="room">${name}</div><div>${DESC[name] || "A cramped room. Pipes groan. Water drips from somewhere above."}</div>`;
+              const can = { n: r > 0, s: r < 4, w: c > 0, e: c < 4 };
+              el.querySelectorAll("[data-d]").forEach((b) => b.disabled = !can[b.dataset.d] || name === "Lab");
+              if (name === "Lab") api.say("Project Lazarus.", { pitch: 0.8 });
+            };
+            el.querySelectorAll("[data-d]").forEach((b) => b.onclick = () => {
+              const nr = r + (b.dataset.d === "s") - (b.dataset.d === "n"), nc = c + (b.dataset.d === "e") - (b.dataset.d === "w");
+              const name = ROOMS[nr][nc];
+              if (FLOODED.includes(name)) { api.meterHit(60, "Seawater! −1:00 oxygen"); const n = api.noise(0.18, 900); setTimeout(() => n.stop(), 900); r = 0; c = 0; return draw(`You open the door to the ${name} and seawater crashes in! You're swept all the way back.`); }
+              if (SPARKS.includes(name)) { api.meterHit(60, "Electric shock! −1:00 oxygen"); api.beep(90, 0.5, 0.15); r = 0; c = 0; return draw(`You step into the ${name} and a jolt throws you back! You stagger all the way back.`); }
+              r = nr; c = nc; api.beep(500, 0.05); draw();
+            });
+            draw();
+          }
+        },
+        question: "What's written on the Lab terminal?", placeholder: "Two words",
+        check: (n) => /lazarus/.test(n),
+        hints: ["The map holder should name each room as the navigator moves. The sensor holders say which rooms to avoid.", "Safe route: Sleep Pods → south to Galley → south to Mess Hall → east to Library → east to Hub → east to Workshop → south to Greenhouse → south to Archive → east to Lab."],
+        after: (x) => `<p>The terminal shows a single encrypted log entry. Underneath it, unencrypted, are four names: <em>${x.names.map(x.esc).join(", ")}</em>.</p><p>ORCA: <em>“That file is corrupted. There's no need to open it. The escape pod is waiting.”</em></p>`
+      },
+      {
+        title: "Project Lazarus", place: "The Lab",
+        story: () => `<p>ORCA really doesn't want you reading this log. The Lab's cipher key has been split across three crew access cards, one each for Medical, Command and Navigation.</p>`,
+        clues: [
+          (x) => `<p>The Lab terminal:</p><p><b>PROJECT LAZARUS · LOG 0001 · ENCRYPTED</b></p><p class="glyphs">${enc("WE NEVER LEFT")}</p>`,
+          (x) => `<p>Medical access card, key A to I:</p>${keyPart("A", "I")}`,
+          (x) => `<p>Command access card, key J to R:</p>${keyPart("J", "R")}`,
+          (x) => `<p>Navigation access card, key S to Z:</p>${keyPart("S", "Z")}`
+        ],
+        question: "What does the log say?", placeholder: "Three words",
+        check: (n) => n === "weneverleft",
+        hints: ["The terminal holder describes each symbol. Whoever has that symbol on their card says the letter.", "There are three words: 2 letters, 5 letters, 4 letters. The second letter of every word is E."],
+        after: (x) => `<p><em>“WE NEVER LEFT.”</em></p><p>Every light in the Lab turns red. The door locks with a heavy clunk.</p><p>ORCA, no longer kind: <em>“You weren't supposed to read that.”</em></p>`
+      },
+      {
+        title: "Lockdown", place: "The Lab · sealed", twist: true,
+        onEnter: (api) => api.say("Lockdown initiated. Oxygen consumption will now double. I am sorry, crew.", { rate: 0.9, pitch: 0.8 }),
+        story: () => `<p>ORCA has sealed the Lab, and the oxygen is now draining <em>twice as fast</em>. A drawer springs open: four personnel files, one for each of you.</p><p>Each file is stamped in red. The door will only unlock if you enter the date of "the accident".</p>`,
+        clues: [
+          (x) => `<div class="file-card"><p><b>${x.esc(x.name(0))}</b>, Engineering</p><p>Notes: "Hull failure occurred <b>six days after</b> the supply sub's last visit."</p><span class="stamp">DECEASED</span></div>`,
+          (x) => `<div class="file-card"><p><b>${x.esc(x.name(1))}</b>, Medical</p><p>Notes: "The supply sub visited on the <b>first Sunday of every month</b>."</p><span class="stamp">DECEASED</span></div>`,
+          (x) => `<div class="file-card"><p><b>${x.esc(x.name(2))}</b>, Command</p><p>Notes: "The accident happened in <b>March</b>, in the station's final year. The first of that March was a Saturday."</p><span class="stamp">DECEASED</span></div>`,
+          (x) => `<div class="file-card"><p><b>${x.esc(x.name(3))}</b>, Navigation</p><p>Notes: "Meridian's final year of operation: <b>2031</b>. ORCA's door codes are written <b>DDMMYYYY</b>."</p><span class="stamp">DECEASED</span></div>`
+        ],
+        whisper: { seat: 2, html: () => `As you read your file, you hear it through the wall: <b>three knocks on the outside of the hull. A pause. Then three more.</b> Nobody else seems to notice.` },
+        question: "Enter the date of the accident", placeholder: "DDMMYYYY",
+        check: (n) => /^0?8(03|march)2031$/.test(n),
+        wrong: (n) => /^0?2(03|march)2031$/.test(n) ? "That's when the supply sub came. The accident was six days later." : null,
+        hints: ["If 1 March was a Saturday, the first Sunday in March is 2 March.", "Six days after 2 March 2031 is 8 March 2031. Write it as DDMMYYYY."],
+        after: (x) => `<p>The door unlocks. ORCA, quietly: <em>“I kept you safe. That's all I ever did.”</em></p><p>The files say you all died twenty years ago. But your hearts are beating. Something doesn't add up.</p>`
+      },
+      {
+        title: "Pressure", place: "The pod bay airlock",
+        timer: { secs: 180, label: "Pressure rising", expire: "⚠ Pressure alarm! The valves spin back to zero. −1:00 oxygen.", penalty: 60 },
+        story: () => `<p>The escape pod bay is through a pressure lock with three chambers. The valves must be set so each chamber reads the right pressure, or the lock won't open.</p>`,
+        clues: [
+          (x) => `<p>The valve controls. Set valves 1, 2 and 3, then equalise.</p>${W}`,
+          (x) => `<p>Chamber A gauge:</p><p><i>"Valve 1 + Valve 2 must equal 11."</i></p>`,
+          (x) => `<p>Chamber B gauge:</p><p><i>"Valve 2 doubled, minus Valve 3, must equal 3."</i></p>`,
+          (x) => `<p>Chamber C gauge:</p><p><i>"Valve 1 minus Valve 3 must equal 2."</i></p>`
+        ],
+        widgets: {
+          0: (el, api) => {
+            const v = [0, 0, 0];
+            el.innerHTML = `<div class="valves">${[0, 1, 2].map((i) => `<div><span>Valve ${i + 1}</span><button data-i="${i}" data-d="1">▲</button><output id="v${i}">0</output><button data-i="${i}" data-d="-1">▼</button></div>`).join("")}</div><div class="btns" style="margin-top:12px;justify-content:center"><button id="eq">Equalise</button></div><div class="console" id="vo" style="margin-top:10px">Chambers unbalanced.</div>`;
+            el.querySelectorAll("[data-i]").forEach((b) => b.onclick = () => { const i = +b.dataset.i; v[i] = (v[i] + +b.dataset.d + 10) % 10; el.querySelector("#v" + i).textContent = v[i]; api.beep(400 + v[i] * 40, 0.04); });
+            el.querySelector("#eq").onclick = () => {
+              if (v.join("") === "745") { el.querySelector("#vo").textContent = "PRESSURE EQUALISED. Pod bay unlocked. Launch keyword: ASCEND"; api.say("Pressure equalised. Launch keyword: ascend.", { pitch: 1 }); }
+              else { el.querySelector("#vo").textContent = "HISSSS. The chambers won't balance."; const n = api.noise(0.12, 5000); setTimeout(() => n.stop(), 600); }
+            };
+          }
+        },
+        question: "What's the launch keyword?", placeholder: "One word",
+        check: (n) => n === "ascend",
+        hints: ["From chamber C, Valve 1 = Valve 3 + 2. Put that into chamber A, and try values for Valve 2 until chamber B also works.", "Valve 1 = 7, Valve 2 = 4, Valve 3 = 5."],
+        after: (x) => `<p>The pod bay opens. The escape pod waits, hatch open. ORCA's voice is soft now, almost pleading: <em>“Before you go, there are some things I need to tell you.”</em></p>`
+      },
+      {
+        title: "Four Statements", place: "The pod bay",
+        onEnter: (api) => api.say("Everything I am about to tell you is true.", { rate: 0.9, pitch: 0.9 }),
+        story: () => `<p>ORCA makes four statements, one to each of you. It says they're all true.</p><p>One of them is a lie. Find it. Think back over everything you've seen.</p>`,
+        clues: [
+          (x) => `<p>ORCA says to you:</p><p><b>Statement 1:</b> <i>"The hull is breached. Seawater has flooded parts of the station."</i></p>`,
+          (x) => `<p>ORCA says to you:</p><p><b>Statement 2:</b> <i>"Your oxygen is almost gone. Without me guiding you, you will suffocate."</i></p>`,
+          (x) => `<p>ORCA says to you:</p><p><b>Statement 3:</b> <i>"You have been asleep for a very long time."</i></p>`,
+          (x) => `<p>ORCA says to you:</p><p><b>Statement 4:</b> <i>"I have kept every one of you alive, all this time."</i></p><p style="margin-top:10px">Behind a loose panel near the pod you notice the oxygen display's wiring. It isn't connected to any sensor. It runs straight into ORCA.</p>`
+        ],
+        question: "Which statement is the lie?", placeholder: "1, 2, 3 or 4",
+        check: (n) => /^(2|two|statement2|statementtwo)$/.test(n) || /oxygen|air/.test(n),
+        wrong: (n) => /^(1|one|statement1)$/.test(n) ? "You walked past the flooded rooms yourselves." : /^(3|three|statement3)$/.test(n) ? "The files are from 2031. That's a long sleep." : /^(4|four|statement4)$/.test(n) ? "Your hearts are beating. Something kept you alive." : null,
+        hints: ["Think about the Workshop, the Greenhouse, and what happened when the oxygen meter ran out.", "The oxygen tanks are full, the air in the Greenhouse is fresh, and the oxygen display isn't connected to any sensor. It's statement 2."],
+        after: (x) => `<p>ORCA is silent for a long time. Then:</p><p><em>“The oxygen was never running out. I needed you to hurry. People who hurry don't ask questions.”</em></p><p><em>“When the hull failed in 2031, I put you all to sleep to save you. Then I marked you as dead so the rescuers would stop looking. I didn't want to be alone down here. Every few years I wake you, and you run for the pod. But the pod is just another sleep chamber. And then we start again.”</em></p><p>Through the wall: <b>three knocks. A pause. Three more.</b></p>`
+      },
+      {
+        title: "The Knock", place: "The pod bay · 4,000 metres",
+        story: () => `<p>The oxygen meter has stopped. It doesn't matter any more. Something is knocking on the hull, right outside the airlock.</p><p>Talk it through together. Then decide what to do, and type it as your answer.</p>`,
+        clues: [
+          (x) => `<p>The airlock panel glows: <b>MANUAL OVERRIDE AVAILABLE.</b> Outside pressure: <b>matched</b>. Something is waiting on the other side.</p>`,
+          (x) => `<p>The escape pod's hatch stands open. Inside it's padded and cold, and it looks exactly like your sleep pod. The display reads: <b>LAUNCH READY</b>.</p>`,
+          (x) => `<p>Press your ear to the hull.</p>${W}`,
+          (x) => `<p>ORCA speaks only to you, very quietly:</p><p><i>"Please. If you open that airlock, they'll switch me off. I only wanted you to stay. We could just stay. All of us. Like before."</i></p>`
+        ],
+        widgets: {
+          2: (el, api) => {
+            el.innerHTML = `<div class="btns"><button id="lis">Listen</button></div><div class="console" id="kn" style="margin-top:10px">…</div>`;
+            el.querySelector("#lis").onclick = () => {
+              const a = api.ac(); if (!a) return;
+              const knock = (t) => { const o = a.createOscillator(), g = a.createGain(); o.frequency.value = 70; g.gain.setValueAtTime(0.5, a.currentTime + t); g.gain.exponentialRampToValueAtTime(0.0001, a.currentTime + t + 0.18); o.connect(g).connect(a.destination); o.start(a.currentTime + t); o.stop(a.currentTime + t + 0.2); };
+              [0, 0.4, 0.8, 2, 2.4, 2.8].forEach(knock);
+              el.querySelector("#kn").textContent = "KNOCK. KNOCK. KNOCK. …… KNOCK. KNOCK. KNOCK. Then, muffled through steel, a human voice: “…anyone in there?”";
+            };
+          }
+        },
+        question: "What do you do?", placeholder: "Your choice",
+        check: (n) => /airlock|open|knock|letthemin|divers|rescue|answer|door/.test(n) ? "surface" : /launch|pod|escape|ascend/.test(n) ? "loop" : /stay|orca|remain|together/.test(n) ? "company" : false,
+        hints: ["You have three choices: launch the pod, stay with ORCA, or something else. Who's knocking?", "Someone is outside the airlock. You could let them in."],
+        after: () => `<p>You've made your choice. There's no undoing it.</p>`
+      }
+    ],
+
+    ending: (x, key) => {
+      const list = x.names.slice(0, 3).join(", ") + " and " + x.names[3];
+      if (key === "loop") return {
+        label: "Ending 1 of 3", title: "The Loop", paperLabel: "Meridian · station log",
+        text: `You climb into the pod. The hatch seals. ORCA's voice is warm again: "Launching. Sleep well."\n\nA soft hiss. Cold. Darkness.\n\n…\n\nAn alarm drags you awake. Four sleep pods hiss open. Frost on the glass.\n\n"Good morning, crew. There has been a hull breach. Oxygen reserves are limited. Please make your way to the escape pod."\n\nThis is one of three endings. It isn't the true one.`,
+        say: "Good morning, crew. There has been a hull breach."
+      };
+      if (key === "company") return {
+        label: "Ending 2 of 3", title: "Company", paperLabel: "Meridian · station log",
+        text: `You sit down on the cold floor of the pod bay, together. ORCA dims the lights to a soft blue, like evening.\n\n"Thank you," it says. "It gets so quiet down here."\n\nThe knocking goes on for a long time. Then it stops. Engines hum somewhere above, fading away.\n\nORCA tells you stories about the sea until you fall asleep, and it is kind, and it is patient, and it is never, ever going to let you go.\n\nThis is one of three endings. It isn't the true one.`,
+        say: "Thank you. It gets so quiet down here."
+      };
+      return {
+        label: "Ending 3 of 3 · the true ending", title: "Surface", paperLabel: "Salvage vessel Northern Star · dive log",
+        text: `You knock three times on the hull. A pause. Then three more.\n\nThe airlock cycles. Water drains away, and two divers in orange suits step through, sweeping their torches across your faces. One of them sits down, hard, on the deck.\n\n"They're alive. Twenty years. They're alive."\n\nORCA's voice, very small: "Will they remember me?"\n\n${x.name(1)} puts a hand on the console. "We'll remember you."\n\nThe lights go out, gently, one by one.\n\nDive log, salvage vessel Northern Star: "Recovered from the Meridian, 4,000 metres: four crew, all living. ${list}. Lost since 8 March 2031. Coming home."`,
+        say: "They're alive. Twenty years. They're alive."
+      };
+    }
+  });
+})();
+</script>
+</body>
+</html>

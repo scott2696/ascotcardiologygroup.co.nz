@@ -1,0 +1,307 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="robots" content="noindex, nofollow">
+<title>The Last Broadcast · The Parlour</title>
+<meta name="description" content="A pirate radio station went silent in 1987. Tonight it's back on air, and the DJ is reading out your names.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Righteous&family=Spectral:ital,wght@0,400;0,600;1,400&family=Courier+Prime&family=VT323&display=swap">
+<link rel="stylesheet" href="/assets/episode.css">
+<style>
+/* Layout: one column like a station logbook; radio rings pulse behind the title. Single dark theme: it's midnight in 1987. */
+:root {
+  --bg: #120d0b; --bg-2: #1d1512; --line: #3a2b24; --fg: #f1e6d8; --dim: #a89282;
+  --accent: #ff8a3d; --on-accent: #1a0f08; --glow: #ffc46b; --warn: #ff5a5f;
+  --paper: #efe3c8; --ink: #2b1d14;
+  --f-display: "Righteous", "Arial Rounded MT Bold", system-ui, sans-serif;
+  --f-body: "Spectral", Georgia, serif;
+  --f-type: "Courier Prime", "Courier New", monospace;
+  color-scheme: dark;
+}
+.rings { position: absolute; left: 50%; top: 70px; width: 0; height: 0; pointer-events: none; }
+.rings i { position: absolute; left: 0; top: 0; width: 40px; height: 40px; margin: -20px; border: 2px solid var(--accent); border-radius: 50%; opacity: 0; animation: ring 4s linear infinite; }
+.rings i:nth-child(2) { animation-delay: 1.3s; } .rings i:nth-child(3) { animation-delay: 2.6s; }
+@keyframes ring { from { transform: scale(1); opacity: .5; } to { transform: scale(14); opacity: 0; } }
+.vfd { font-family: "VT323", ui-monospace, monospace; background: #0b0806; color: var(--glow); border: 1px solid var(--line); border-radius: 4px; padding: 8px 12px; text-shadow: 0 0 8px rgba(255,196,107,.6); }
+.dial-read { font-size: 46px; line-height: 1; text-align: center; }
+.dial-read small { font-size: 22px; }
+.scale { display: flex; justify-content: space-between; font-family: "VT323", monospace; font-size: 15px; color: var(--ink); opacity: .7; }
+input[type=range] { width: 100%; accent-color: var(--accent); height: 40px; }
+.transcript { margin-top: 10px; font-family: "VT323", monospace; font-size: 21px; line-height: 1.3; background: #0b0806; color: #9dff9a; padding: 12px; border-radius: 4px; min-height: 3em; text-shadow: 0 0 6px rgba(157,255,154,.5); }
+.lift { display: grid; grid-template-columns: repeat(4, 1fr); gap: 10px; justify-items: center; margin-top: 10px; }
+.lift button { width: 58px; height: 58px; border-radius: 50%; background: #c9b48a; color: #2b1d14; border: 3px solid #8a7550; font-family: "VT323", monospace; font-size: 28px; padding: 0; box-shadow: inset 0 -3px 0 rgba(0,0,0,.2); }
+.lift button.lit { background: var(--glow); box-shadow: 0 0 14px var(--glow); }
+.faders { display: grid; gap: 10px; margin-top: 8px; }
+.faders div { display: grid; grid-template-columns: 76px 1fr 30px; align-items: center; gap: 8px; font-size: 14px; }
+.faders output { font-family: "VT323", monospace; font-size: 24px; text-align: right; }
+.switches { display: grid; grid-template-columns: repeat(4, 1fr); gap: 8px; margin-top: 8px; }
+.switches button { height: 92px; display: flex; flex-direction: column; align-items: center; justify-content: space-between; padding: 8px 4px; font-family: var(--f-type); font-size: 13px; color: #fff; border: 2px solid #000; background: #2a2420; }
+.switches button i { width: 22px; height: 40px; border-radius: 4px; background: #555; position: relative; }
+.switches button i::after { content: ""; position: absolute; left: 2px; right: 2px; height: 18px; bottom: 2px; background: #ddd; border-radius: 3px; transition: bottom .12s; }
+.switches button[aria-pressed=true] i::after { bottom: 20px; }
+.switches button[aria-pressed=true] i { background: var(--c); box-shadow: 0 0 10px var(--c); }
+.deck { display: grid; grid-template-columns: repeat(5, 1fr); gap: 6px; margin-top: 8px; }
+.deck button { font-family: var(--f-type); font-size: 14px; padding: 12px 2px; background: #2a2420; color: var(--fg); border-color: #000; }
+.reels { display: flex; justify-content: center; gap: 40px; margin: 8px 0; }
+.reels i { width: 48px; height: 48px; border-radius: 50%; border: 6px dotted #6b5b4a; }
+.reels.spin i { animation: spin 1s linear infinite; } .reels.back i { animation: spin .5s linear infinite reverse; }
+@keyframes spin { to { transform: rotate(360deg); } }
+.req { border: 1px solid rgba(0,0,0,.25); padding: 10px 12px; background: rgba(255,255,255,.35); }
+.req .sig { font-family: "Homemade Apple", cursive; font-size: 20px; }
+.steps { margin: 0; padding-left: 22px; }
+.steps li { margin-bottom: 6px; }
+@media (prefers-reduced-motion: reduce) { .rings i, .reels i { animation: none !important; } }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header class="top">
+    <div class="rings" aria-hidden="true"><i></i><i></i><i></i></div>
+    <a href="/" class="back">← All games</a>
+    <div class="brand">
+      <div class="eyebrow">A mystery for four listeners · Episode 2</div>
+      <h1>The Last Broadcast</h1>
+      <div class="lamps" id="lamps" aria-label="Chapter progress"></div>
+    </div>
+  </header>
+  <main id="app"></main>
+  <footer class="foot" id="foot"></footer>
+</div>
+<div id="overlay"></div>
+
+<script src="/assets/episode.js"></script>
+<script>
+(function () {
+  const W = '<div class="widget"></div>';
+
+  Episode.run({
+    key: "parlour-last-broadcast-v1",
+    beginLabel: "Switch on the radio",
+    footnote: "Lights off, volume up. About 60 minutes.",
+    endingCount: 3,
+    wrongLines: ["Static. Nothing but static.", "The signal drops. That's not it.", "Somewhere a needle skips. Try again.", "The station goes quiet. Talk it over."],
+    intro: `
+      <p>On the night of <em>31 October 1987</em>, Radio Nightjar, a pirate station broadcasting from the top floor of the Belvedere Hotel, went silent halfway through a song. Its DJ, Mickey Vane, was never seen again. The hotel closed a month later.</p>
+      <p>Tonight, the four of you are driving along the coast road when the car radio drifts to static, and then to a voice. It's Mickey Vane. Live. And he's reading out your names.</p>
+      <div class="panel"><label>How to play</label><ol class="steps">
+        <li><b>You need four players</b>, ideally each with their own phone open on this page. Turn the volume up, because some clues talk.</li>
+        <li><b>Choose how you're playing</b> below, type the four names in the same order on every phone, then tap which player you are.</li>
+        <li><b>Read the chapter's story.</b> Everyone sees the same story.</li>
+        <li><b>Every player gets a different clue.</b> Some clues are gadgets only you can work, like a radio dial, a lift panel or a sound desk. The others will have to tell you what to do with it.</li>
+        <li><b>Talk, but never show your screen.</b> Describe what you see, read it out, ask questions.</li>
+        <li><b>Type the answer on any phone.</b> On separate phones, everyone types it to move on.</li>
+        <li><b>Some chapters are timed.</b> If the clock runs out, the gadget resets and you try again.</li>
+        <li><b>There are three endings.</b> Your last choice decides which one you get. Only one is the true ending.</li>
+      </ol></div>`,
+
+    chapters: [
+      {
+        title: "Ninety-Seven Point Something", place: "The coast road · 11:52 pm",
+        story: (x) => `<p>The car radio crackles. A warm, tired voice comes through the static, then drifts away before you can catch it. You pull over.</p><p>${x.esc(x.name(0))} has the radio. Everyone else has found something in the glovebox. Find the station's frequency, and tune in.</p>`,
+        clues: [
+          (x) => `<p>The car radio. Tune it slowly. The others know where the station is.</p>${W}`,
+          (x) => `<p>A faded flyer:</p><p class="big">RADIO NIGHTJAR · 9_._ FM</p><p><i>"Two numbers missing? First: how many floors the Belvedere has. Second: how many nights a week we're on air."</i></p>`,
+          (x) => `<p>A postcard of a grand seaside hotel:</p><p><i>"THE BELVEDERE: Seven Floors of Splendour by the Sea"</i></p><p>On the back, in biro: <i>"Studio's at the very top. M."</i></p>`,
+          (x) => `<p>A page torn from a 1987 TV and radio guide:</p><p><i>"RADIO NIGHTJAR (pirate). Mickey Vane plays requests until dawn. On air Thursday, Friday and Saturday nights only."</i></p>`
+        ],
+        widgets: {
+          0: (el, api, x) => {
+            el.innerHTML = `<div class="vfd dial-read"><span id="fq">88.0</span> <small>FM</small></div>
+              <input type="range" id="dial" min="875" max="1080" value="880" aria-label="Radio frequency">
+              <div class="scale"><span>87.5</span><span>92</span><span>96</span><span>100</span><span>104</span><span>108</span></div>
+              <div class="btns" style="margin-top:8px"><button class="small" id="pwr">Switch on the sound</button></div>
+              <div class="transcript" id="tx">…static…</div>`;
+            let hiss = null, spoken = false;
+            const line = `This is Mickey Vane, on Radio Nightjar, ninety-seven point three. It's been a long time. I've got a request here for ${x.names.slice(0, 3).join(", ")} and ${x.names[3]}. Come up to the studio. Seventh floor of the Belvedere. And tell the service door: silver tide.`;
+            const upd = () => {
+              const v = +el.querySelector("#dial").value, d = Math.abs(v - 973);
+              el.querySelector("#fq").textContent = (v / 10).toFixed(1);
+              if (hiss) hiss.set(d === 0 ? 0.004 : Math.min(0.12, 0.02 + d * 0.004));
+              const tx = el.querySelector("#tx");
+              if (d === 0) { tx.textContent = "“" + line + "”"; if (!spoken) { spoken = true; api.say(line, { rate: 0.85, pitch: 0.75 }); } }
+              else if (d <= 3) { tx.textContent = "“…Mickey… Nightjar… request for… " + x.name(Math.floor(Math.random() * 4)) + "… seventh fl…”"; spoken = false; api.hush(); }
+              else { tx.textContent = "…static…"; spoken = false; }
+            };
+            el.querySelector("#dial").oninput = upd;
+            el.querySelector("#pwr").onclick = (e) => { if (!hiss) { hiss = api.noise(0.08); api.onCleanup(() => hiss.stop()); e.target.textContent = "Sound on"; upd(); } };
+            upd();
+          }
+        },
+        question: "What do you tell the service door?", placeholder: "The password",
+        check: (n) => n === "silvertide",
+        wrong: (n) => /97|973/.test(n) ? "That's the station. Now tune in and listen to what Mickey says." : null,
+        hints: ["The flyer's missing numbers: the hotel's floors, then the nights a week the station is on air.", "Tune the radio to 97.3 and listen to the very end of Mickey's message."],
+        after: (x) => `<p>You drive to the Belvedere. It's been boarded up for decades, but the service door at the back has a brass grille. You say the words. <em>A bolt slides back.</em></p>`
+      },
+      {
+        title: "The Lift", place: "The Belvedere lobby · 12:14 am",
+        story: (x) => `<p>Inside, the lobby is perfectly preserved. 1987 magazines, an ashtray with a cigarette still smouldering, a calendar showing <em>October 1987</em>. Behind the desk is the hotel register.</p><p>The old brass lift is the only way up, but when you press 7, nothing happens. Taped to the panel is a note in Mickey's handwriting.</p>`,
+        clues: [
+          (x) => `<p>A brass plaque by the lift:</p><p><i>"At the Belvedere, the first digit of every room number is the floor."</i></p>`,
+          (x) => `<p>Mickey's note, taped to the lift:</p><p><i>"Lift won't go to 7 unless you visit the guests first. The ones who never checked out. In the order they arrived."</i></p>`,
+          (x) => `<p>The lift panel. Press the floors in the right order. The others know which.</p>${W}`,
+          (x) => `<p>The hotel register, October 1987:</p><div class="scroll"><table><tr><th>Guest</th><th>Arrived</th><th>Room</th><th>Checked out</th></tr>
+            <tr><td>Mr A. Holt</td><td>12 Oct</td><td>214</td><td>Yes</td></tr>
+            <tr><td>Mrs D. Fairweather</td><td>3 Oct</td><td>412</td><td><b>No</b></td></tr>
+            <tr><td>Mr L. Okafor</td><td>19 Oct</td><td>108</td><td><b>No</b></td></tr>
+            <tr><td>Miss R. Lindqvist</td><td>8 Oct</td><td>603</td><td><b>No</b></td></tr>
+            <tr><td>Dr S. Mendez</td><td>22 Oct</td><td>517</td><td>Yes</td></tr>
+            <tr><td>Mr T. Byrne</td><td>28 Oct</td><td>209</td><td><b>No</b></td></tr></table></div>`
+        ],
+        widgets: {
+          2: (el, api) => {
+            el.innerHTML = `<div class="vfd" id="ld" style="text-align:center;font-size:30px">– – – –</div><div class="lift">${[7, 6, 5, 4, 3, 2, 1].map((f) => `<button data-f="${f}">${f}</button>`).join("")}<button data-f="R" style="font-size:16px">RESET</button></div><div class="transcript" id="lt" style="color:var(--glow)">The lift hums, waiting.</div>`;
+            let seq = [];
+            const show = () => { el.querySelector("#ld").textContent = seq.concat(["–", "–", "–", "–"]).slice(0, 4).join(" "); };
+            el.querySelectorAll("[data-f]").forEach((b) => b.onclick = () => {
+              if (b.dataset.f === "R") { seq = []; el.querySelectorAll(".lift button").forEach((x) => x.classList.remove("lit")); el.querySelector("#lt").textContent = "The lift hums, waiting."; return show(); }
+              if (seq.length >= 4) return;
+              seq.push(+b.dataset.f); b.classList.add("lit"); api.beep(660 + seq.length * 110, 0.12); show();
+              if (seq.length === 4) {
+                if (seq.join("") === "4612") { el.querySelector("#lt").textContent = "DING. The lift rises past floor 4… 6… 1… 2… and up to 7. The doors open on a corridor. A light above a door reads: GRAVEYARD SHIFT."; api.say("Graveyard shift.", { pitch: 0.6 }); }
+                else { el.querySelector("#lt").textContent = "The lift shudders and sinks back. Nothing. Press RESET and try again."; api.beep(150, 0.4, 0.1); }
+              }
+            });
+            show();
+          }
+        },
+        question: "What does the light above the door say?", placeholder: "Two words",
+        check: (n) => n === "graveyardshift",
+        hints: ["Find the four guests who never checked out, and put them in order of arrival, earliest first.", "Fairweather (3 Oct), Lindqvist, Okafor, Byrne. Their room numbers start with their floor: 4, 6, 1, 2."],
+        after: (x) => `<p>The lift stops at each floor on the way up. At every one, the doors open on an empty corridor and the faint sound of a radio. On the seventh floor, a red light glows above a padded door: <em>ON AIR</em>.</p>`
+      },
+      {
+        title: "Studio B", place: "Seventh floor · 12:31 am",
+        story: (x) => `<p>The studio is exactly as Mickey left it. Coffee cups, a cardigan over the chair, a cartridge tape loaded in the machine marked <em>"PLAY ME"</em>.</p><p>But the mixing desk is a mess. Every fader is in the wrong place, and the tape just screams feedback. Sticky notes are everywhere.</p>`,
+        clues: [
+          (x) => `<p>A yellow sticky note on the microphone:</p><p><i>"Voice is always TWICE the Music. Always."</i></p>`,
+          (x) => `<p>The mixing desk. Set the four faders, then play the tape.</p><p><i>Label on the desk: "Overloads above 21. Push the four faders to a total of EXACTLY 21."</i></p>${W}`,
+          (x) => `<p>A pink sticky note on the jingle cart:</p><p><i>"Music and Jingle together = 9."</i></p>`,
+          (x) => `<p>A blue sticky note on the effects unit:</p><p><i>"Effects is always ONE less than the Jingle."</i></p>`
+        ],
+        widgets: {
+          1: (el, api) => {
+            const F = ["Voice", "Music", "Jingle", "Effects"];
+            el.innerHTML = `<div class="faders">${F.map((f, i) => `<div><span>${f}</span><input type="range" min="0" max="10" value="${[3, 7, 2, 9][i]}" data-i="${i}" aria-label="${f} fader"><output>${[3, 7, 2, 9][i]}</output></div>`).join("")}</div>
+              <div class="vfd" style="margin-top:8px">TOTAL: <span id="tot">21</span></div>
+              <div class="btns" style="margin-top:8px"><button class="small" id="play">▶ Play the tape</button></div><div class="transcript" id="ft">Tape loaded: "PLAY ME"</div>`;
+            const vals = () => [...el.querySelectorAll("input")].map((i) => +i.value);
+            el.querySelectorAll("input").forEach((inp) => inp.oninput = () => { inp.nextElementSibling.textContent = inp.value; el.querySelector("#tot").textContent = vals().reduce((a, b) => a + b, 0); });
+            el.querySelector("#tot").textContent = vals().reduce((a, b) => a + b, 0);
+            el.querySelector("#play").onclick = () => {
+              const v = vals();
+              if (v.join() === "8,4,5,4") {
+                const t = "If you're hearing this, it's already too late to turn back. You've been here before. You just don't remember. Check the request book.";
+                el.querySelector("#ft").textContent = "“" + t + "”";
+                api.say(t, { rate: 0.82, pitch: 0.7 });
+              } else {
+                el.querySelector("#ft").textContent = "SCREEEEEEEECH. Feedback. The levels are wrong.";
+                const n = api.noise(0.15, 6000); setTimeout(() => n.stop(), 700);
+              }
+            };
+          }
+        },
+        question: "What does the tape tell you to check?", placeholder: "Two words",
+        check: (n) => /requestbook/.test(n),
+        hints: ["Call the Music fader M. Then Voice is 2M, Jingle is 9 − M and Effects is 8 − M. They must add up to 21.", "Music is 4. So Voice 8, Music 4, Jingle 5, Effects 4."],
+        after: (x) => `<p>The request book lies open by the turntables. A thick, leather-bound ledger of song requests sent in by listeners. The last page is dated <em>31 October 1987</em>.</p><p>The last four requests on it are in your handwriting.</p>`
+      },
+      {
+        title: "The Request Book", place: "Studio B · 12:48 am", twist: true,
+        story: (x) => `<p>It isn't possible. The ink is old and brown. The paper is dated 1987. But each of you finds your own name, signed in your own handwriting, at the bottom of a request.</p><p>Mickey played requests in a very particular way. Work out what your four requests are telling you.</p>`,
+        clues: [
+          (x) => `<div class="req"><p><b>11:40 pm.</b> Request: <i>"Cold Moon Rising"</i>, side A, track 2.</p><p>Signed: <b>${x.esc(x.name(0))}</b>, in handwriting exactly like yours.</p></div><p style="margin-top:10px">Pinned above the turntables, Mickey's rule card:</p><p><i>"Requests get played in the order they came in. The track number tells you which letter of the song title matters."</i></p>`,
+          (x) => `<div class="req"><p><b>11:10 pm.</b> Request: <i>"Running Up The Stairs"</i>, side A, track 1.</p><p>Signed: <b>${x.esc(x.name(1))}</b>, in handwriting exactly like yours.</p></div>`,
+          (x) => `<div class="req"><p><b>11:55 pm.</b> Request: <i>"Fade To Static"</i>, side B, track 1.</p><p>Signed: <b>${x.esc(x.name(2))}</b>, in handwriting exactly like yours.</p></div>`,
+          (x) => `<div class="req"><p><b>11:25 pm.</b> Request: <i>"Ghost Of The Pier"</i>, side B, track 3.</p><p>Signed: <b>${x.esc(x.name(3))}</b>, in handwriting exactly like yours.</p></div>`
+        ],
+        whisper: { seat: 1, html: (x) => `Under your request, in tiny letters only you notice: <b>"Whatever happens, don't pull the plug. M."</b>` },
+        question: "Where does Mickey want you to go?", placeholder: "One word",
+        check: (n) => /^(the)?roof$/.test(n),
+        hints: ["Put the four requests in time order. For each one, the track number tells you which letter of the song title to take.", "11:10 Running (1st letter R), 11:25 Ghost (3rd letter O), 11:40 Cold (2nd letter O), 11:55 Fade (1st letter F)."],
+        after: (x) => `<p>A fire door at the end of the corridor leads up to the roof. Outside, a storm is rolling in off the sea. The station's transmitter mast stands against the sky, and it's <em>humming</em>.</p>`
+      },
+      {
+        title: "The Mast", place: "The roof · 1:06 am",
+        timer: { secs: 150, label: "Storm overhead", expire: "⚡ Lightning hits the mast! The switch panel resets." },
+        story: (x) => `<p>Rain lashes the roof. The transmitter panel has four big switches and a lever marked <em>TRANSMIT</em>. Lightning is getting closer. If it hits the mast, the panel resets.</p><p>Set the switches correctly before the storm reaches you.</p>`,
+        clues: [
+          (x) => `<p>The transmitter panel. A label riveted to it says:</p><p><i>"Red must never be on with Green. If Blue is on, Green must be on too."</i></p>${W}`,
+          (x) => `<p>A laminated card hanging off the mast:</p><p><i>"Exactly ONE of Red and Blue is on."</i></p>`,
+          (x) => `<p>Scratched into the fire door:</p><p><i>"Green is on only if Yellow is off."</i></p>`,
+          (x) => `<p>Mickey's handwriting on the back of your hand-torch:</p><p><i>"Exactly TWO switches on. And Yellow is always one of them."</i></p>`
+        ],
+        widgets: {
+          0: (el, api) => {
+            const S = [["Red", "#ff3b30"], ["Blue", "#2f7bff"], ["Green", "#2fd16a"], ["Yellow", "#ffd23d"]];
+            el.innerHTML = `<div class="switches">${S.map(([n, c], i) => `<button data-i="${i}" aria-pressed="false" style="--c:${c}"><span>${n}</span><i></i><span>OFF</span></button>`).join("")}</div>
+              <div class="btns" style="margin-top:10px"><button id="tx" style="background:var(--warn);border-color:var(--warn)">Pull TRANSMIT</button></div><div class="transcript" id="mt">The mast hums. Rain everywhere.</div>`;
+            el.querySelectorAll("[data-i]").forEach((b) => b.onclick = () => { const on = b.getAttribute("aria-pressed") !== "true"; b.setAttribute("aria-pressed", on); b.lastElementChild.textContent = on ? "ON" : "OFF"; api.beep(on ? 500 : 300, 0.05); });
+            el.querySelector("#tx").onclick = () => {
+              const s = [...el.querySelectorAll("[data-i]")].map((b) => b.getAttribute("aria-pressed") === "true" ? 1 : 0).join("");
+              if (s === "1001") { el.querySelector("#mt").textContent = "The mast blazes with light. A screen flickers on: LIVE · 97.3 FM · CALL SIGN: BELVEDERE ONE"; api.say("You are live. Call sign: Belvedere One.", { pitch: 0.7 }); }
+              else { el.querySelector("#mt").textContent = "Sparks fly from the panel! Wrong combination."; const n = api.noise(0.2, 8000); setTimeout(() => n.stop(), 300); }
+            };
+          }
+        },
+        question: "What's the call sign on the screen?", placeholder: "Two words",
+        check: (n) => /^belvedere(one|1)$/.test(n),
+        hints: ["Yellow is on and exactly two switches are on, so exactly one of Red, Blue and Green is on.", "Green can't be on with Yellow. Blue needs Green. So it's Red and Yellow."],
+        after: (x) => `<p>Back in Studio B, every light is on. The clock on the wall has stopped at <em>11:59, 31 October 1987</em>. Under the desk, taped where only someone sitting in Mickey's chair would find it, is a letter.</p>`
+      },
+      {
+        title: "On Air", place: "Studio B · 11:59 pm, 1987",
+        story: (x) => `<p>The microphone is live. The tape deck has one tape in it, labelled <em>"Last Show"</em>. Mickey's letter has been torn into four pieces, and each of you holds one.</p><p>When you're ready, decide together what to do. Type it as your answer.</p>`,
+        clues: [
+          (x) => `<p><b>Letter, part I</b></p><p><i>"If you're reading this, you heard your names on the radio, just like I heard mine in 1987. The station always calls. It always will."</i></p>`,
+          (x) => `<p><b>Letter, part II</b></p><p><i>"There are two things you can do. BROADCAST, and the next listeners will hear their names and come, and you'll be free. Or PULL THE PLUG, and the station dies, but you stay here with it, like the guests who never checked out."</i></p><p>The tape deck in front of you:</p>${W}`,
+          (x) => `<p><b>Letter, part III</b></p><p><i>"I couldn't choose. I've been sitting at this desk for thirty-nine years. Time doesn't go forward in this building. It only goes round and round, like a tape."</i></p>`,
+          (x) => `<p><b>Letter, part IV</b></p><p><i>"Every tape in this building plays forwards. Maybe that's the problem. Maybe someone just has to play it from the end."</i></p>`
+        ],
+        widgets: {
+          1: (el, api) => {
+            el.innerHTML = `<div class="reels" id="rl"><i></i><i></i></div><div class="deck"><button data-k="rew">◀◀ REW</button><button data-k="play">▶ PLAY</button><button data-k="stop">■ STOP</button><button data-k="ff">▶▶ FF</button><button data-k="ej">⏏ EJECT</button></div><div class="transcript" id="dt">Tape: "Last Show"</div>`;
+            const R = el.querySelector("#rl"), T = el.querySelector("#dt");
+            const act = {
+              play: ["spin", "“…this is Radio Nightjar, playing your requests until dawn… until dawn… until dawn…” It loops.", "This is Radio Nightjar, playing your requests until dawn. Until dawn. Until dawn."],
+              ff: ["spin", "The tape screeches to the end. Silence. Then, very faintly: “You've been here before.”", "You've been here before."],
+              rew: ["back", "The reels spin backwards. Under the hiss, Mickey's voice runs in reverse… and then, suddenly clear: “Yes. That's the way out.”", "Yes. That's the way out."],
+              stop: ["", "The reels stop. The red ON AIR light stays lit.", ""],
+              ej: ["", "The deck won't open. Something holds it shut.", ""]
+            };
+            el.querySelectorAll("[data-k]").forEach((b) => b.onclick = () => { const [cls, txt, sp] = act[b.dataset.k]; R.className = "reels " + cls; T.textContent = txt; if (sp) api.say(sp, { rate: 0.8, pitch: 0.7 }); else api.hush(); });
+          }
+        },
+        question: "What do you do?", placeholder: "Your choice",
+        check: (n) => /rewind|rew$|backwards|reverse|playitfromtheend|fromtheend/.test(n) ? "rewind" : /broadcast|onair|transmit|warn|speak|talk/.test(n) ? "relay" : /pull|plug|unplug|switchoff|turnoff|power/.test(n) ? "guests" : false,
+        hints: ["Mickey gives you two choices. Read part IV again. Is there a third?", "Try every button on the tape deck. One of them plays the tape from the end."],
+        after: (x) => `<p>You've made your choice. There's no undoing it.</p>`
+      }
+    ],
+
+    ending: (x, key) => {
+      const list = x.names.slice(0, 3).join(", ") + " and " + x.names[3];
+      if (key === "relay") return {
+        label: "Ending 1 of 3", title: "The Relay", paperLabel: "Radio Nightjar · 97.3 FM",
+        text: `You lean into the microphone and speak.\n\nYour voices go out over 97.3 FM, across the dark water, into car radios on the coast road. Somewhere, four strangers pull over as they hear their own names.\n\nYou blink, and you're standing in the car park at dawn. Free.\n\nYou drive home in silence. As you reach your street, the car radio crackles to life on its own:\n\n"Thanks for the requests, ${list}. See you next Halloween."\n\nThis is one of three endings. It isn't the true one.`,
+        say: "Thanks for the requests. See you next Halloween."
+      };
+      if (key === "guests") return {
+        label: "Ending 2 of 3", title: "The Guests", paperLabel: "The Belvedere register",
+        text: `You yank the cable out of the wall. The hum dies. For the first time in thirty-nine years, Radio Nightjar is silent.\n\nYou take the lift down to the lobby. The lights are on. The receptionist looks up and smiles.\n\n"Checking in?"\n\nShe writes in the register, under Mr T. Byrne, 28 October 1987:\n\n${x.names.join("\n")}\n\nChecked out: No.\n\nNobody ever checks out of the Belvedere.\n\nThis is one of three endings. It isn't the true one.`,
+        say: "Checking in?"
+      };
+      return {
+        label: "Ending 3 of 3 · the true ending", title: "Signing Off", paperLabel: "The last entry in the request book",
+        text: `${x.name(1)} presses REWIND.\n\nThe reels spin backwards. The clock on the wall runs 11:59… 11:58… 11:57… Outside, the rain falls up into the clouds.\n\nThe chair behind the desk creaks. Mickey Vane is sitting in it, old and grey, laughing and crying at the same time.\n\n"You played it backwards. Thirty-nine years, and nobody ever thought of that."\n\nFootsteps on the stairs. Mrs Fairweather. Miss Lindqvist. Mr Okafor. Mr Byrne. Still in their 1987 clothes, blinking like people waking from a long sleep.\n\nAt dawn, nine people walk out of the Belvedere Hotel. Behind you, someone has written CHECKED OUT beside every name in the register.\n\nOn the drive home, the radio finds 97.3 one last time. Static, then a warm, tired voice:\n\n"This is Radio Nightjar, signing off. For good. Goodnight, ${list}. And thank you."\n\nThen nothing but the sea.`,
+        say: "This is Radio Nightjar, signing off. For good. Goodnight. And thank you."
+      };
+    }
+  });
+})();
+</script>
+</body>
+</html>
