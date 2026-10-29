@@ -36,10 +36,12 @@ window.Episode = (function () {
   const hush = () => { try { speechSynthesis.cancel(); } catch (e) {} };
 
   function run(EP) {
-    const KEY = EP.key;
-    const fresh = () => ({ screen: "intro", mode: null, seat: null, names: ["", "", "", ""], chapter: 0, solved: [], hints: {}, startedAt: null, finishedAt: null, ending: null, endings: [], meter: EP.meter ? EP.meter.start : null, last: {} });
+    const KEY = EP.key, P = EP.players || 4, SEATS = [...Array(P).keys()];
+    const words = ["", "", "two", "three", "four", "five", "six", "seven", "eight"];
+    const fresh = () => ({ screen: "intro", mode: null, seat: null, names: Array(P).fill(""), chapter: 0, solved: [], hints: {}, startedAt: null, finishedAt: null, ending: null, endings: [], meter: EP.meter ? EP.meter.start : null, last: {} });
     let state = fresh();
     try { const s = JSON.parse(localStorage.getItem(KEY)); if (s && s.screen) state = Object.assign(fresh(), s); } catch (e) {}
+    while (state.names.length < P) state.names.push("");
     const save = () => { try { localStorage.setItem(KEY, JSON.stringify(state)); } catch (e) {} };
     const app = $("app"), foot = $("foot"), lamps = $("lamps"), ov = $("overlay");
     let timers = [], cleanups = [];
@@ -48,7 +50,7 @@ window.Episode = (function () {
 
     const nameOf = (i) => (state.names[i] && state.names[i].trim()) || "Player " + (i + 1);
     const ctx = () => ({
-      name: nameOf, names: [0, 1, 2, 3].map(nameOf), seat: state.seat, state, esc,
+      name: nameOf, names: SEATS.map(nameOf), players: P, seat: state.seat, state, esc,
       today: new Date().toLocaleDateString("en-GB", { day: "numeric", month: "long", year: "numeric" }),
       year: new Date().getFullYear()
     });
@@ -115,19 +117,19 @@ window.Episode = (function () {
             </div>
           </div>
           <div>
-            <label>Your four names (same order on every phone)</label>
-            <div class="names">${[0, 1, 2, 3].map((i) => `<input type="text" id="name${i}" placeholder="Player ${i + 1}" value="${esc(state.names[i])}" maxlength="18" autocomplete="off">`).join("")}</div>
+            <label>Your ${words[P] || P} names (same order on every phone)</label>
+            <div class="names">${SEATS.map((i) => `<input type="text" id="name${i}" placeholder="Player ${i + 1}" value="${esc(state.names[i])}" maxlength="18" autocomplete="off">`).join("")}</div>
           </div>
-          <div id="seatBox" ${state.mode === "phones" ? "" : "hidden"}><label>Which one are you?</label><div class="seats" id="seats"></div></div>
+          <div id="seatBox" ${state.mode === "phones" ? "" : "hidden"}><label>Which one are you?</label><div class="seats" id="seats" style="grid-template-columns:repeat(${P > 4 ? 3 : 4},1fr)"></div></div>
           <div class="btns"><button id="begin">${state.startedAt ? "Return to the game" : esc(EP.beginLabel || "Begin")}</button></div>
           <div class="feedback" id="introMsg"></div>
         </section>`;
       const seats = () => {
-        $("seats").innerHTML = [0, 1, 2, 3].map((i) => `<button data-seat="${i}" aria-pressed="${state.seat === i}">${esc(nameOf(i))}</button>`).join("");
+        $("seats").innerHTML = SEATS.map((i) => `<button data-seat="${i}" aria-pressed="${state.seat === i}">${esc(nameOf(i))}</button>`).join("");
         $("seats").querySelectorAll("button").forEach((b) => b.onclick = () => { state.seat = +b.dataset.seat; save(); seats(); });
       };
       seats();
-      [0, 1, 2, 3].forEach((i) => $("name" + i).addEventListener("input", (e) => { state.names[i] = e.target.value; save(); seats(); }));
+      SEATS.forEach((i) => $("name" + i).addEventListener("input", (e) => { state.names[i] = e.target.value; save(); seats(); }));
       $("mPhones").onclick = () => { state.mode = "phones"; save(); intro(); };
       $("mShared").onclick = () => { state.mode = "shared"; save(); intro(); };
       $("begin").onclick = () => {
@@ -155,7 +157,7 @@ window.Episode = (function () {
       const ci = state.chapter, c = EP.chapters[ci], x = ctx(), solved = state.solved.includes(ci), used = state.hints[ci] || 0;
       const clueArea = state.mode === "phones"
         ? `<div id="myclue"><label>Your clue</label>${clueHTML(ci, state.seat)}</div>`
-        : `<div><label>Clues. Tap your name and look alone.</label><div class="envelopes">${[0, 1, 2, 3].map((i) => `<button data-env="${i}">${esc(nameOf(i))}</button>`).join("")}</div></div>`;
+        : `<div><label>Clues. Tap your name and look alone.</label><div class="envelopes">${SEATS.map((i) => `<button data-env="${i}">${esc(nameOf(i))}</button>`).join("")}</div></div>`;
       const ans = solved
         ? `<div class="panel success"><div class="ans">${esc((state.last[ci] || "Solved").toUpperCase())}</div><div class="story">${c.after(x)}</div><div class="btns"><button id="next">${ci === EP.chapters.length - 1 ? "See what happens" : "Continue to chapter " + (ci + 2)}</button></div></div>`
         : `<div class="panel">

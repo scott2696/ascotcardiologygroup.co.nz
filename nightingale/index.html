@@ -1,0 +1,286 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="robots" content="noindex, nofollow">
+<title>The Nightingale Job · The Parlour</title>
+<meta name="description" content="A six-player heist. Six specialists, one diamond, and one of you is secretly working for the police.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,wght@0,500;1,500&family=Manrope:wght@400;600;700&family=DM+Mono&display=swap">
+<link rel="stylesheet" href="/assets/episode.css">
+<style>
+/* Layout: one column like a heist dossier; a slow searchlight crosses the title. Single dark theme: it's a night job. */
+:root {
+  --bg: #0d0b10; --bg-2: #17141c; --line: #2c2733; --fg: #efe9e1; --dim: #9a90a3;
+  --accent: #d4af37; --on-accent: #120f05; --glow: #f5d77a; --warn: #e5484d;
+  --paper: #f4efe6; --ink: #1b1720;
+  --f-display: "Bodoni Moda", Didot, Georgia, serif;
+  --f-body: "Manrope", system-ui, sans-serif;
+  --f-type: "DM Mono", ui-monospace, Menlo, monospace;
+  color-scheme: dark;
+}
+.search { position: absolute; top: -40px; left: -30%; width: 60%; height: 260px; background: radial-gradient(ellipse at center, rgba(245,215,122,.16), transparent 65%); animation: search 9s ease-in-out infinite alternate; pointer-events: none; }
+@keyframes search { to { left: 70%; } }
+.role { display: inline-block; font-family: var(--f-type); font-size: 11px; letter-spacing: .14em; text-transform: uppercase; background: var(--ink); color: var(--paper); padding: 2px 8px; border-radius: 2px; margin-bottom: 8px; }
+.secret { margin-top: 12px; background: #2a0d10; color: #ffd9d9; border: 1px solid var(--warn); border-radius: 4px; padding: 12px; font-family: var(--f-body); }
+.secret b { color: #fff; }
+.keypad { display: grid; grid-template-columns: repeat(3, 64px); gap: 8px; justify-content: center; margin-top: 10px; }
+.keypad button { height: 56px; padding: 0; font-family: var(--f-type); font-size: 22px; background: #1d1a22; color: var(--glow); border-color: #3b3542; }
+.lcd { font-family: var(--f-type); background: #0b0a0e; color: #7dffb0; border: 1px solid #333; border-radius: 4px; padding: 10px 12px; text-align: center; font-size: 26px; letter-spacing: .3em; }
+.msg { font-family: var(--f-type); background: #0b0a0e; color: var(--glow); border-radius: 4px; padding: 10px 12px; margin-top: 10px; font-size: 15px; min-height: 2.5em; }
+.hall { display: grid; grid-template-columns: 1fr; gap: 6px; margin-top: 10px; }
+.hall div { height: 22px; border-radius: 3px; background: #1d1a22; border: 1px solid #333; font-family: var(--f-type); font-size: 12px; color: #777; padding-left: 8px; display: flex; align-items: center; }
+.hall div.done { background: #1f3b2a; color: #7dffb0; }
+.hall div.next { border-color: var(--glow); color: var(--glow); }
+.sec { font-family: var(--f-type); font-size: 76px; line-height: 1; text-align: center; color: var(--glow); }
+.dial { width: 150px; height: 150px; border-radius: 50%; margin: 10px auto; background: radial-gradient(circle, #2a2530 0 55%, #4a4250 56% 60%, #1a1720 61%); display: grid; place-items: center; font-family: var(--f-type); font-size: 44px; color: var(--glow); box-shadow: inset 0 0 0 3px #000, 0 6px 16px rgba(0,0,0,.5); }
+.turns { display: grid; grid-template-columns: repeat(4, 1fr); gap: 6px; }
+.turns button { padding: 10px 0; font-family: var(--f-type); font-size: 14px; }
+.sets { font-family: var(--f-type); text-align: center; margin-top: 8px; color: var(--glow); }
+.paper table { font-size: 14px; }
+.steps { margin: 0; padding-left: 22px; } .steps li { margin-bottom: 6px; }
+.roles { display: grid; grid-template-columns: 1fr 1fr; gap: 6px 14px; font-size: 15px; margin-top: 6px; }
+@media (max-width: 460px) { .roles { grid-template-columns: 1fr; } }
+@media (prefers-reduced-motion: reduce) { .search { animation: none; } }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header class="top">
+    <div class="search" aria-hidden="true"></div>
+    <a href="/" class="back">← All games</a>
+    <div class="brand">
+      <div class="eyebrow">A heist for six · Episode 4</div>
+      <h1>The Nightingale Job</h1>
+      <div class="lamps" id="lamps" aria-label="Chapter progress"></div>
+    </div>
+  </header>
+  <main id="app"></main>
+  <footer class="foot" id="foot"></footer>
+</div>
+<div id="overlay"></div>
+
+<script src="/assets/episode.js"></script>
+<script>
+(function () {
+  const W = '<div class="widget"></div>';
+  const ROLES = ["Mastermind", "Hacker", "Safecracker", "Lookout", "Driver", "Insider"];
+  // The informant is picked from the names, so every phone agrees without talking to each other.
+  const mole = (x) => { let h = 7; for (const ch of x.names.join("|").toLowerCase()) h = (h * 31 + ch.charCodeAt(0)) >>> 0; return h % 6; };
+  const tag = (i) => `<div class="role">${ROLES[i]}</div>`;
+  const C = (i, body, secret) => (x) => tag(i) + (typeof body === "function" ? body(x) : body) + (secret && mole(x) === i ? `<div class="secret">${secret(x)}</div>` : "");
+  const SECRET1 = () => `🔒 <b>Only you can see this.</b> You're secretly working for the police. Help the crew get the diamond. Then, at the very end, steer them into the trap. Never admit it.`;
+  const SECRET5 = () => `🔒 <b>Only you know:</b> it was you who called the police tip line at 11:41. When the crew chooses a getaway, get them to the <b>harbour</b>. A police boat is waiting.`;
+
+  const LASER_OFF = [[3, 4], [6, 7], [1, 2], [5, 6], [8, 1]];
+
+  Episode.run({
+    key: "parlour-nightingale-v1",
+    players: 6,
+    beginLabel: "Start the job",
+    footnote: "Six players, six phones. About 60 minutes.",
+    endingCount: 3,
+    wrongLines: ["That's not it. Check the plan again.", "The Mastermind shakes their head. Try again.", "Wrong. Somewhere, a guard yawns.", "No good. Talk it through."],
+    intro: `
+      <p>The <em>Nightingale</em> is the largest blue diamond in the southern hemisphere. Tonight it's on display at the Montclair Gallery's charity gala, and tonight the six of you are going to steal it.</p>
+      <p>Everyone has a specialist role, and each of you holds a different piece of every part of the plan. Nobody can do this alone.</p>
+      <p><em>But one of you is secretly working for the police.</em></p>
+      <div class="panel"><label>Your roles (by player number)</label><div class="roles">
+        <div><b>Player 1</b>: Mastermind</div><div><b>Player 2</b>: Hacker</div><div><b>Player 3</b>: Safecracker</div>
+        <div><b>Player 4</b>: Lookout</div><div><b>Player 5</b>: Driver</div><div><b>Player 6</b>: Insider</div></div></div>
+      <div class="panel"><label>How to play</label><ol class="steps">
+        <li><b>You need six players</b>, ideally each with their own phone open on this page. Turn the volume up.</li>
+        <li><b>Choose how you're playing</b> below, type the six names in the <b>same order on every phone</b> (it matters!), then tap which player you are. Your player number decides your role.</li>
+        <li><b>Read the chapter's story.</b> Everyone sees the same story.</li>
+        <li><b>Every player gets a different clue.</b> Some are gadgets only you can work, like a door keypad, a laser corridor or a vault dial. The others have to tell you what to do.</li>
+        <li><b>Talk, but never show your screen.</b> Read your clue out loud.</li>
+        <li><b>Type the answer on any phone.</b> On separate phones, everyone types it to move on.</li>
+        <li><b>The informant:</b> one random player gets a secret message saying they're working for the police. Their goal is to lead the crew into a trap at the very end. Everyone else, watch each other closely.</li>
+        <li><b>There are three endings.</b> The getaway route you choose decides which one you get.</li>
+      </ol></div>`,
+
+    chapters: [
+      {
+        title: "The Plan", place: "A garage across town · 9:15 pm",
+        story: () => `<p>Six people, one map of the Montclair Gallery spread across the bonnet of a van. Before anything else, you need to agree on the exact time you go in.</p>`,
+        clues: [
+          C(0, `<p>Your rule for every job:</p><p><i>"We go in during a guard shift change, while the cameras are rebooting. Both at once, or we don't go."</i></p>`, SECRET1),
+          C(1, `<p><i>"I can only loop the camera feeds while the cameras are rebooting. Any other time, they'll see us."</i></p>`, SECRET1),
+          C(2, `<p><i>"The alarm system runs a full self-test at 2:00 am. I need at least 30 minutes on the vault before then."</i></p>`, SECRET1),
+          C(3, `<p>Your notebook from a week of watching the building:</p><p><i>"Guard shifts change at 10:00 pm, 11:30 pm and 1:00 am."</i></p>`, SECRET1),
+          C(4, `<p><i>"The Harbour Bridge closes at midnight for repairs, until 2 am. I'll get you there and park before then."</i></p>`, SECRET1),
+          C(5, `<p>From inside the gallery staff room:</p><p><i>"The security cameras reboot every hour at half past, for four minutes."</i></p>`, SECRET1)
+        ],
+        question: "What time do you go in?", placeholder: "e.g. 9:45",
+        check: (n) => /^(1130|1130pm|2330|halfpasteleven)$/.test(n),
+        wrong: (n) => /^(10|1000|1000pm|100|100am|0100)$/.test(n) ? "That's a guard change, but are the cameras rebooting then?" : null,
+        hints: ["You need a guard change AND a camera reboot at the same moment.", "Cameras reboot at half past the hour. The only guard change at half past is 11:30."],
+        after: () => `<p>11:30 pm it is. The van rolls out. The city lights slide past, and nobody says much.</p>`
+      },
+      {
+        title: "The Staff Door", place: "Montclair Gallery · service lane · 11:30 pm",
+        story: (x) => `<p>The guards are swapping over. The cameras blink off. You have four minutes.</p><p>The staff door has a keypad. <b>${x.esc(x.name(1))}</b>, the Hacker, is at the keypad. Everyone else, feed them the code.</p>`,
+        clues: [
+          C(0, `<p>The gala invitation in your pocket:</p><p><i>"The Montclair Gallery Charity Gala. Friday <b>14 November</b>."</i></p>`),
+          C(1, `<p>The staff door keypad. The others know the code.</p>${W}`),
+          C(2, `<p><i>"That keypad has no zero key. If your code has a 0 in it, you've got it wrong."</i></p>`),
+          C(3, `<p>A gallery brochure you picked up last week:</p><p><i>"The East Wing holds 12 Dutch masters, 9 pencil sketches and the famous Nightingale portrait."</i></p>`),
+          C(4, `<p><i>"When a code says 'plus', you ADD the numbers together. You don't stick them side by side."</i></p>`),
+          C(5, `<p>The staff noticeboard:</p><p><i>"The staff door code changes every day. It's today's date written DDMM, PLUS the number of artworks in the East Wing."</i></p>`)
+        ],
+        widgets: {
+          1: (el, api) => {
+            el.innerHTML = `<div class="lcd" id="lcd">____</div><div class="keypad">${[1, 2, 3, 4, 5, 6, 7, 8, 9].map((d) => `<button data-k="${d}">${d}</button>`).join("")}<button data-k="C">CLR</button><button data-k="E" style="grid-column:span 2">ENTER</button></div><div class="msg" id="km">Waiting for code…</div>`;
+            let code = "";
+            const show = () => (el.querySelector("#lcd").textContent = (code + "____").slice(0, 4));
+            el.querySelectorAll("[data-k]").forEach((b) => b.onclick = () => {
+              const k = b.dataset.k;
+              if (k === "C") { code = ""; return show(); }
+              if (k === "E") {
+                if (code === "1433") { el.querySelector("#km").textContent = "✔ ACCESS GRANTED. Service corridor clear. Crew signal word: MAGPIE"; api.beep(1200, 0.15); }
+                else { el.querySelector("#km").textContent = "✖ ACCESS DENIED"; api.beep(160, 0.4, 0.1); code = ""; show(); }
+                return;
+              }
+              if (code.length < 4) { code += k; api.beep(700, 0.04); show(); }
+            });
+          }
+        },
+        question: "What's the crew signal word?", placeholder: "One word",
+        check: (n) => n === "magpie",
+        hints: ["Today's date as DDMM is 1411. Count every artwork in the East Wing, the portrait included.", "12 + 9 + 1 = 22. 1411 + 22 = 1433."],
+        after: () => `<p>The door clicks. You slip into a dim service corridor that smells of floor polish. Ahead is the Long Gallery, crossed by invisible laser beams.</p>`
+      },
+      {
+        title: "The Laser Hall", place: "The Long Gallery · 11:38 pm",
+        story: (x) => `<p>Five laser beams cross the hall, and each one switches off for a moment on a repeating 8-second cycle. <b>${x.esc(x.name(2))}</b>, the Safecracker, must cross alone, one row at a time, stepping forward only when the beam ahead is <em>off</em>.</p><p>The Safecracker can't see the beams. The rest of you have the timings. Count out loud, and shout <b>GO</b>.</p>`,
+        clues: [
+          C(0, `<p>The rule:</p><p><i>"You may step into a beam's row only while that beam is OFF. Once you're standing in a row, you're safe from that beam. One wrong step and the alarm resets you to the start."</i></p>`),
+          C(1, `<p>Timings pulled from the security system (seconds in the 8-second cycle):</p><p><b>Beam 1</b> is OFF on seconds <b>3 and 4</b>.<br><b>Beam 2</b> is OFF on seconds <b>6 and 7</b>.</p>`),
+          C(2, `<p>The crossing. Watch the counter and listen to your crew. Tap STEP when they say GO.</p>${W}`),
+          C(3, `<p>Your binoculars on the beam emitters:</p><p><b>Beam 3</b> is OFF on seconds <b>1 and 2</b>.<br><b>Beam 4</b> is OFF on seconds <b>5 and 6</b>.</p>`),
+          C(4, `<p>Advice from the van:</p><p><i>"The Safecracker's counter runs 1 to 8, then starts again at 1. Get them to read it out every second, and call GO just as the right number appears."</i></p>`),
+          C(5, `<p>From the staff manual:</p><p><b>Beam 5</b> (nearest the vault) is OFF on seconds <b>8 and 1</b>.</p>`)
+        ],
+        widgets: {
+          2: (el, api) => {
+            el.innerHTML = `<div class="sec" id="sc">1</div><div class="hall" id="hl">${[1, 2, 3, 4, 5].map((i) => `<div>Beam ${i}</div>`).join("")}</div><div class="btns" style="margin-top:10px;justify-content:center"><button id="step" style="font-size:22px;padding:16px 40px">STEP</button></div><div class="msg" id="lm">You're at the start of the hall.</div>`;
+            let s = 1, row = 0;
+            const rows = () => el.querySelectorAll("#hl div").forEach((d, i) => { d.className = i < row ? "done" : i === row ? "next" : ""; });
+            rows();
+            api.every(1000, () => { s = s % 8 + 1; el.querySelector("#sc").textContent = s; api.beep(s === 1 ? 900 : 600, 0.03, 0.03); });
+            el.querySelector("#step").onclick = () => {
+              if (row >= 5) return;
+              if (LASER_OFF[row].includes(s)) {
+                row++; rows(); api.beep(1100, 0.08);
+                el.querySelector("#lm").textContent = row >= 5 ? "You're across! The vault door ahead has a brass plate: KESTREL 39." : `Through beam ${row}. Wait for beam ${row + 1}…`;
+                if (row >= 5) api.say("Kestrel thirty-nine.");
+              } else {
+                row = 0; rows();
+                el.querySelector("#lm").textContent = "🚨 You broke the beam! Alarm reset, back to the start.";
+                const n = api.noise(0.15, 7000); setTimeout(() => n.stop(), 500);
+              }
+            };
+          }
+        },
+        question: "What's the name on the vault door's plate?", placeholder: "One word",
+        check: (n) => /kestrel/.test(n),
+        hints: ["Everyone with timings: say your beam's OFF seconds. The Safecracker reads the counter out loud every second.", "The order is: step on 3 or 4, then 6 or 7, then 1 or 2, then 5 or 6, then 8 or 1."],
+        after: () => `<p>The vault is old-fashioned: a heavy steel door with a numbered dial. It's 11:52.</p>`
+      },
+      {
+        title: "The Vault", place: "Beneath the East Wing · 11:52 pm",
+        story: (x) => `<p><b>${x.esc(x.name(0))}</b>, the Mastermind, has their hands on the dial. It has three numbers, and the direction you turn matters.</p>`,
+        clues: [
+          C(0, `<p>The vault dial, numbered 0 to 39. Turning LEFT counts down and RIGHT counts up. Press SET after reaching each number.</p>${W}`),
+          C(1, `<p>The manufacturer's manual for the KESTREL 39:</p><p><i>"Turn LEFT to the first number, RIGHT to the second, then LEFT to the third."</i></p>`),
+          C(2, `<p><i>"The diamond we're here for is called 'The Nightingale'."</i></p><p><i>"Leave out 'The'. It's only the name that counts."</i></p>`),
+          C(3, `<p>A sticker inside the manual:</p><p><i>"Second number: the number of letters in the diamond's name."</i></p>`),
+          C(4, `<p>On the back of the gallery floor plan:</p><p><i>"Third number: add the first two together, then take away 20."</i></p>`),
+          C(5, `<p>From the gallery archives:</p><p><i>"The vault was installed in <b>1931</b>. Its first number has always been the last two digits of that year."</i></p>`)
+        ],
+        widgets: {
+          0: (el, api) => {
+            el.innerHTML = `<div class="dial" id="dv">0</div><div class="turns"><button data-t="-5">◀◀ L5</button><button data-t="-1">◀ L1</button><button data-t="1">R1 ▶</button><button data-t="5">R5 ▶▶</button></div><div class="btns" style="margin-top:8px;justify-content:center"><button id="set">SET</button><button class="ghost" id="rs">Reset</button></div><div class="sets" id="sv">—</div><div class="msg" id="vm">The dial is cold and heavy.</div>`;
+            let v = 0, dir = "", sets = [];
+            const show = () => { el.querySelector("#dv").textContent = v; el.querySelector("#sv").textContent = sets.length ? sets.map((s) => s[1] + " " + s[0]).join("  ·  ") : "—"; };
+            el.querySelectorAll("[data-t]").forEach((b) => b.onclick = () => { const t = +b.dataset.t; v = (v + t + 40) % 40; dir = t < 0 ? "LEFT" : "RIGHT"; api.beep(300, 0.02, 0.04); show(); });
+            el.querySelector("#rs").onclick = () => { v = 0; dir = ""; sets = []; el.querySelector("#vm").textContent = "The dial is cold and heavy."; show(); };
+            el.querySelector("#set").onclick = () => {
+              if (!dir || sets.length >= 3) return;
+              sets.push([v, dir]); dir = ""; api.beep(800, 0.06); show();
+              if (sets.length === 3) {
+                if (sets.map((s) => s[1][0] + s[0]).join() === "L31,R11,L22") { el.querySelector("#vm").textContent = "CLUNK. The door swings open. On black velvet sits the Nightingale. You hold it up to the light… it's GLASS. Under it is a card: “Too slow. — M.”"; api.say("Too slow."); }
+                else { el.querySelector("#vm").textContent = "Nothing. The dial won't budge. Press Reset and try again."; api.beep(150, 0.4, 0.1); }
+              }
+            };
+            show();
+          }
+        },
+        question: "What's wrong with the diamond?", placeholder: "One word",
+        check: (n) => /fake|glass|replica|copy|notreal|forgery|counterfeit/.test(n),
+        hints: ["First number 31. Second: count the letters in NIGHTINGALE. Third: (first + second) − 20.", "LEFT to 31, RIGHT to 11, LEFT to 22. Press SET after each one."],
+        after: () => `<p>The diamond is a fake. "M" means <em>Montclair</em>, the gallery owner. He swapped it himself so he can claim the insurance <em>and</em> keep the real stone.</p><p>Then you hear it, far off but getting closer: <b>sirens.</b> Someone has tipped off the police.</p>`
+      },
+      {
+        title: "Montclair's Office", place: "Top floor · 12:20 am", twist: true,
+        timer: { secs: 180, label: "Police arriving", expire: "🚨 The sirens get louder! You lose your nerve and start the search again." },
+        story: () => `<p>Montclair's private office. Six paintings hang on the walls, and one of them hides his safe. You have three minutes before the police reach the building.</p>`,
+        clues: [
+          C(0, `<p>The paintings and the wall each hangs on:</p><div class="scroll"><table><tr><td>Storm at Sea</td><td>North</td></tr><tr><td>Lady in Blue</td><td>North</td></tr><tr><td>The Orchard</td><td>North</td></tr><tr><td>Old Mill</td><td>South</td></tr><tr><td>Night Harbour</td><td>North</td></tr><tr><td>Self-Portrait</td><td>East</td></tr></table></div>`, SECRET5),
+          C(1, `<p>The gallery's records, the year each painting was hung:</p><p>Storm at Sea 2015 · Lady in Blue 2018 · The Orchard 2019 · Old Mill 2016 · Night Harbour 2021 · Self-Portrait 2010</p>`, SECRET5),
+          C(2, `<p>You measure the frames with your fingers:</p><p>Storm at Sea 8 cm · Lady in Blue 6 cm · The Orchard 7 cm · Old Mill 9 cm · Night Harbour 4 cm · Self-Portrait 10 cm</p>`, SECRET5),
+          C(3, `<p>From the window opposite, you've watched Montclair for weeks:</p><p>Storm at Sea: seascape · Lady in Blue: portrait · The Orchard: landscape · Old Mill: landscape · Night Harbour: seascape · Self-Portrait: portrait</p>`, SECRET5),
+          C(4, `<p>The builder who fitted the safe told you, for a price:</p><p><i>"You need a frame wider than 5 cm to hide that safe. And I put it in during 2017, so the painting went up after that."</i></p>`, SECRET5),
+          C(5, `<p>Overheard from Montclair's assistant:</p><p><i>"His safe is behind a painting on the NORTH wall. And he'd never hide anything behind a portrait. He says the eyes follow him."</i></p>`, SECRET5)
+        ],
+        question: "Which painting hides the safe?", placeholder: "The painting's name",
+        check: (n) => /orchard/.test(n),
+        wrong: (n) => /storm/.test(n) ? "Check when it was hung." : /nightharbour|harbour/.test(n) ? "Check the frame." : /lady|blue|self/.test(n) ? "He'd never use a portrait." : /mill/.test(n) ? "Check which wall it's on." : null,
+        hints: ["North wall and not a portrait leaves Storm at Sea, The Orchard and Night Harbour.", "Night Harbour's frame is too thin. Storm at Sea went up before 2017. So it's…"],
+        after: (x) => `<p>Behind The Orchard: the safe, already open. Inside is the <em>real</em> Nightingale, blazing blue, and Montclair's spare phone.</p><p>On the phone: a missed call log. <b>Police tip line, 11:41 pm</b>. But the number that called it is one of yours. <em>The informant is in this room.</em></p>`
+      },
+      {
+        title: "The Getaway", place: "The gallery basement · 12:40 am",
+        story: () => `<p>You have the diamond. The police are at the front of the building. There are four ways out:</p><p><b>The harbour</b> (by boat) · <b>The bridge</b> (in the van) · <b>The front door</b> (blend in with the gala crowd) · <b>The old railway tunnel</b> under the gallery (on foot).</p><p>Everyone shares what they know. But remember: one of you wants you caught. Agree on a route and type it in.</p>`,
+        clues: [
+          C(0, `<p><i>"The old railway tunnel comes out at the disused station, two streets from where the van is parked."</i></p>`),
+          C(1, `<p><i>"I've checked every camera feed. The railway tunnel's CCTV has been dead since 2019. Also, the front door cameras just switched on facial recognition."</i></p>`),
+          C(2, `<p><i>"I heard it on the guard's radio: 'Coastguard boat moving into the harbour.'"</i></p>`),
+          C(3, `<p>Your police scanner crackles:</p><p><i>"All units: cover the harbour and the Harbour Bridge."</i></p>`),
+          C(4, `<p><i>"Remember, the Harbour Bridge is closed from midnight until 2 am. It's 12:40."</i></p>`),
+          C(5, `<p><i>"Every guest leaving the gala through the front door is being searched, one by one."</i></p>`)
+        ].map((f, i) => (x) => mole(x) === i
+          ? `${tag(i)}<div class="secret">🔒 <b>You're the informant.</b> Your handler wants the crew at the <b>harbour</b>, where a police boat is waiting. Your real clue has been hidden. Read this out loud as if it were your clue, and keep a straight face:</div><p style="margin-top:12px"><i>"My cousin has a fast boat waiting at the harbour, engine running. It's by far the quickest way out. The police will never expect it."</i></p>`
+          : f(x)),
+        question: "Which way do you escape?", placeholder: "Your route",
+        check: (n) => /tunnel|railway|rail|station|underground/.test(n) ? "tunnel" : /harbour|harbor|boat|sea|water/.test(n) ? "harbour" : /bridge|van|drive|front|door|crowd|gala/.test(n) ? "caught" : false,
+        hints: ["Which routes do at least two people warn you about?", "The harbour, the bridge and the front door are all covered. The tunnel isn't."],
+        after: () => `<p>You've chosen. There's no going back.</p>`
+      }
+    ],
+
+    ending: (x, key) => {
+      const m = x.name(mole(x));
+      if (key === "harbour") return {
+        label: "Ending 1 of 3", title: "The Trap", paperLabel: "Police report · 1:02 am",
+        text: `You sprint down to the harbour. A boat is waiting, engine running, exactly as promised.\n\nThen the floodlights snap on.\n\n"POLICE! Hands where we can see them!"\n\nAs the cuffs click on, you turn. ${m} is standing behind the officers, next to a detective, not cuffed at all.\n\n"Sorry," ${m} says. "Nothing personal."\n\nThe informant was ${m}. They led you straight into the trap. ${m} wins.\n\nThis is one of three endings. It isn't the best one.`,
+        say: "Police! Hands where we can see them!"
+      };
+      if (key === "caught") return {
+        label: "Ending 2 of 3", title: "So Close", paperLabel: "Police report · 1:10 am",
+        text: `You almost make it.\n\nBut the route you chose was covered, and within minutes you're surrounded by blue lights. An officer takes the Nightingale from your hand and holds it up to the street light.\n\nIn the back of the police van, ${m} won't meet anyone's eye. Later, you find out that ${m} called the tip line at 11:41.\n\nThe informant was ${m}. They didn't get you to the harbour, but they didn't need to.\n\nThis is one of three endings. It isn't the best one.`,
+        say: "You almost made it."
+      };
+      return {
+        label: "Ending 3 of 3 · the best ending", title: "The Clean Getaway", paperLabel: "The morning paper",
+        text: `The railway tunnel is pitch black and smells of rust. You run, hands on each other's shoulders, until a grey square of night appears ahead.\n\nThe van is exactly where it should be. Nobody follows.\n\nAt the safe house, you lay the Nightingale on the kitchen table. Six faces lit up in blue.\n\nThen a phone buzzes. Everyone turns to look. It's ${m}'s phone, and the message reads:\n\n"Harbour's empty. Where ARE they? — DI Shaw"\n\nThe informant was ${m}. Did you suspect? Say it now.\n\nNext morning, the papers have only one story: GALLERY OWNER ARRESTED IN INSURANCE FRAUD — FAKE DIAMOND FOUND IN VAULT, ANONYMOUS TIP LEADS POLICE TO MONTCLAIR'S EMPTY SAFE.\n\nThe Nightingale is never seen again.`,
+        say: "Harbour's empty. Where are they?"
+      };
+    }
+  });
+})();
+</script>
+</body>
+</html>
