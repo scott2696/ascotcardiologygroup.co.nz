@@ -1,0 +1,410 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="robots" content="noindex, nofollow">
+<title>The Ravensmoor Murder · The Parlour</title>
+<meta name="description" content="Two teams race to solve the same murder. Seven chapters, each harder than the last. First to name the killer, the weapon and the motive wins.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;600;700&family=Young+Serif&family=Special+Elite&display=swap">
+<link rel="stylesheet" href="/assets/site.css">
+<style>
+.status { position: sticky; top: env(safe-area-inset-top, 0px); z-index: 6; background: var(--felt-deep); color: var(--on-felt); border-radius: 12px; padding: 12px 14px; display: flex; flex-wrap: wrap; gap: 8px 18px; align-items: center; justify-content: space-between; box-shadow: 0 6px 18px rgba(0,0,0,.25); }
+.status .clock { font-family: var(--f-display); font-size: 28px; font-variant-numeric: tabular-nums; line-height: 1; }
+.status .pen { font-size: 13px; color: #e8c475; }
+.danger { display: flex; gap: 3px; align-items: center; }
+.danger i { width: 12px; height: 18px; border-radius: 2px; background: rgba(243,239,228,.18); }
+.danger span { font-size: 11px; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; margin-right: 6px; opacity: .8; }
+.chapter-head { display: flex; flex-direction: column; gap: 4px; }
+.file { background: #f3ecd9; color: #2a2318; border-radius: 3px; padding: 18px; font-family: "Special Elite", "Courier New", monospace; font-size: 15.5px; line-height: 1.55; box-shadow: 0 8px 22px rgba(0,0,0,.35); display: flex; flex-direction: column; gap: 10px; }
+.file .lab { font-size: 12px; letter-spacing: .14em; text-transform: uppercase; opacity: .6; }
+.file ul { margin: 0; padding-left: 18px; display: flex; flex-direction: column; gap: 8px; }
+.file table { border-collapse: collapse; width: 100%; font-size: 14.5px; }
+.file td, .file th { text-align: left; vertical-align: top; padding: 5px 6px; border-bottom: 1px dashed rgba(42,35,24,.25); }
+.file .stmt b { display: block; }
+.cipher { font-size: clamp(20px, 6vw, 28px); letter-spacing: .12em; word-spacing: .4em; overflow-wrap: anywhere; }
+.abc { display: grid; grid-template-columns: repeat(13, 1fr); gap: 2px; font-size: 13px; text-align: center; }
+.abc span { background: rgba(42,35,24,.08); border-radius: 2px; padding: 2px 0; }
+.abc small { display: block; font-size: 9px; opacity: .6; }
+.plan { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 6px; font-size: 13px; text-align: center; }
+.plan div { border: 2px solid rgba(42,35,24,.5); padding: 10px 4px; border-radius: 2px; }
+.plan .study { background: rgba(178,58,49,.15); font-weight: 700; }
+.plan .dr { border-style: dashed; }
+.story p + p { margin-top: 10px; }
+.story { font-size: 17.5px; }
+.strips { display: flex; flex-direction: column; gap: 8px; }
+.strips div { background: #fffaf0; color: #2a2318; font-family: "Special Elite", "Courier New", monospace; padding: 10px 14px; border-radius: 2px; box-shadow: 0 3px 8px rgba(0,0,0,.25); }
+.strips div:nth-child(odd) { transform: rotate(-.6deg); } .strips div:nth-child(even) { transform: rotate(.5deg); }
+.strips b { font-family: var(--f-body); color: #b13a31; margin-right: 8px; }
+.accuse { display: flex; flex-direction: column; gap: 14px; }
+.accuse select { background: var(--felt-deep); color: var(--on-felt); }
+.fb { min-height: 1.5em; color: #ffb4a8; font-weight: 600; }
+.hint { border-left: 3px solid #e8c475; padding-left: 10px; font-style: italic; }
+.shout { background: #e8c475; color: #12322a; border-radius: 10px; padding: 12px 14px; font-weight: 700; text-align: center; font-size: 18px; }
+details.notes { background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: 12px 16px; }
+details.notes summary { cursor: pointer; font-weight: 700; }
+details.notes .inner { margin-top: 12px; display: flex; flex-direction: column; gap: 14px; }
+details.notes .file { box-shadow: none; }
+.suspects { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 10px; }
+.suspects div { background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: 12px; font-size: 15px; }
+.suspects b { font-family: var(--f-display); font-weight: 400; font-size: 18px; display: block; }
+.cardplay { position: fixed; inset: 0; z-index: 40; background: #b13a31; color: #fff; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 16px; padding: 24px; text-align: center; }
+.cardplay .w { font-family: var(--f-display); font-size: clamp(44px, 13vw, 90px); line-height: 1; }
+.cardplay .t { font-size: 20px; max-width: 30ch; }
+.cardplay .n { font-family: var(--f-display); font-size: 70px; font-variant-numeric: tabular-nums; }
+.cardplay button { font: 700 18px var(--f-body); padding: 14px 22px; border-radius: 8px; border: 2px solid #fff; background: #fff; color: #b13a31; cursor: pointer; }
+.mycards { display: flex; flex-wrap: wrap; gap: 8px; }
+.mycards button { border: 2px dashed #e8c475; background: transparent; color: var(--on-felt); border-radius: 8px; padding: 8px 12px; font: 700 14px var(--f-body); cursor: pointer; }
+</style>
+</head>
+<body>
+<header class="site-head"><div class="wrap"><a class="logo" href="/">The Parlour <span class="pips">♠<span class="r">♥</span>♣<span class="r">♦</span></span></a><nav><a href="/">All games</a></nav></div></header>
+
+<section class="hero"><div class="wrap narrow">
+  <div class="eyebrow">Team race · murder mystery · new</div>
+  <h1>The Ravensmoor Murder</h1>
+  <p class="lede">Two teams. One murder. Seven chapters, each harder and darker than the last. The first team to name the killer, the weapon and the motive wins.</p>
+  <div class="meta"><span class="chip">2 teams of 1–6</span><span class="chip">45–75 min</span><span class="chip">One phone per team</span><span class="chip">Pen and paper help</span></div>
+</div></section>
+
+<main><div class="wrap narrow stack">
+  <section>
+    <div class="section-title"><h2>How to play</h2></div>
+    <ol class="steps">
+      <li><div><b>Split into two teams</b> and sit apart, far enough that you can't hear each other whisper.</div></li>
+      <li><div><b>Each team opens this page on one phone</b>, types a team name below, and gets a pen and paper ready for notes.</div></li>
+      <li><div><b>Start together.</b> Count down "3, 2, 1" out loud, and both teams tap <b>Start the race</b> at the same moment. Your clock starts.</div></li>
+      <li><div><b>Solve each chapter.</b> Read the story and the evidence, work it out as a team, and type your answer. A correct answer unlocks the next chapter.</div></li>
+      <li><div><b>Shout it out!</b> When you crack a chapter, shout <b>"Chapter 3 cracked!"</b> so the other team feels the pressure.</div></li>
+      <li><div><b>Stuck?</b> Each chapter has 2 hints, but each hint <b>adds 2 minutes</b> to your time.</div></li>
+      <li><div><b>Sabotage cards.</b> After chapters 2, 4 and 6 you win a card to play on the other team: freeze them, make them whisper, or add a minute to their time. Tap the card to show it to them.</div></li>
+      <li><div><b>The final accusation.</b> In chapter 7, name the <b>killer</b>, the <b>weapon</b> and the <b>motive</b>. All three must be right. A wrong accusation costs <b>5 minutes</b> and locks you out for 60 seconds.</div></li>
+      <li><div><b>Who wins?</b> Your final time is the clock plus all penalties. When the first team finishes, they show their final time. The other team keeps going, and if they finish with a <b>lower</b> final time, they win.</div></li>
+    </ol>
+  </section>
+
+  <section class="example">
+    <div class="eyebrow">Example</div>
+    <p>Team Foxes cracks Chapter 2 first and shouts it. They win a <b>Freeze</b> card and play it straight away. The other team has to put their phone face down for 30 seconds. 😈</p>
+    <p>But the Foxes used 3 hints along the way, so 6 minutes get added to their time. The race is closer than it looks.</p>
+  </section>
+
+  <section class="stack" id="game" style="gap:18px" aria-live="polite"></section>
+</div></main>
+
+<footer class="site-foot"><div class="wrap">The Parlour · games for a table full of people · <a href="/">All games</a></div></footer>
+
+<script src="/assets/kit.js"></script>
+<script>
+(function () {
+  const KEY = "parlour-ravensmoor-v1";
+  const HINT_PEN = 120, WRONG_PEN = 300, LOCK = 60;
+  const norm = (s) => String(s).toLowerCase().replace(/[^a-z0-9]/g, "");
+  const E = Kit.esc;
+
+  const SUSPECTS = [
+    ["Margaret Ashby", "Victor's wife, 52. Married him eight years ago. Stands to inherit half of everything."],
+    ["Oliver Ashby", "Victor's son, 29. Owes a lot of money from gambling. Argued with Victor at the party."],
+    ["Dr Helena Price", "The family doctor, 55. Has looked after the Ashbys for twenty years."],
+    ["Simon Kerr", "Victor's business partner, 48. Victor was planning to buy him out."],
+    ["Lucy Fenn", "The housekeeper, 60. Has worked at Ravensmoor for thirty years."],
+    ["Jack Moreno", "The chef, 35. Hired for the party. Barely knew the family."]
+  ];
+
+  const CH = [
+    {
+      t: "The Body", place: "The study · 12:30 am",
+      story: `<p>Ravensmoor House, Saturday 24 October 2026. Victor Ashby, owner of Ashby Hotels, is celebrating his 60th birthday with family and friends.</p><p>At 10:45 pm he taps his glass and tells the ballroom he has <b>"a special announcement"</b> to make at midnight. He goes to his study to fetch it. He never comes back.</p><p>At 12:30 am the housekeeper, Lucy Fenn, finds him dead on the study floor.</p>`,
+      file: `<div class="lab">Crime scene notes</div><ul>
+        <li>Victor lies by the fireplace with a wound on the back of his head. A heavy iron poker lies beside him.</li>
+        <li>His gold wristwatch is smashed. The hands are stopped at <b>11:45</b>.</li>
+        <li><b>Police doctor:</b> "Body temperature taken at 1:00 am: 35.0°C. A living body is 37.0°C. In a warm room like this, a body cools by about 1°C per hour."</li>
+        <li><b>Family note:</b> Victor married Margaret eight years ago, two years after his first wife, Eleanor, died.</li></ul>`,
+      q: "What time did Victor really die?", ph: "e.g. 9:30",
+      check: (n) => /^(11|1100|11pm|1100pm|2300|11oclock|eleven|elevenpm|elevenoclock)$/.test(n),
+      wrong: (n) => n.includes("1145") ? "That's what the smashed watch says. Smashing a watch is an old trick to fake the time. Check the doctor's note." : null,
+      hints: ["Don't trust the watch. Someone wanted you to believe he died at 11:45.", "He cooled from 37.0°C to 35.0°C. That's 2 degrees, so 2 hours before 1:00 am."],
+      after: "Victor died at <b>11:00 pm</b>, forty-five minutes before the time on his watch. Whoever smashed it wanted everyone to think he died later, when they had an alibi."
+    },
+    {
+      t: "Where Were You at Eleven?", place: "The drawing room · 1:40 am",
+      story: `<p>The police gather everyone in the drawing room. Nobody is allowed to leave. One by one, each suspect says where they were at 11:00 pm.</p>`,
+      file: `<div class="lab">Statements</div>
+        <div class="stmt"><b>Margaret Ashby (wife)</b>"I had a migraine. I went up to my bedroom at 10:50 and lay down in the dark. I was alone."</div>
+        <div class="stmt"><b>Oliver Ashby (son)</b>"Yes, Dad and I argued at 10:30. He said I'd get nothing. I went out to the terrace to cool off. I was alone, smoking."</div>
+        <div class="stmt"><b>Dr Helena Price (doctor)</b>"I was in the ballroom all evening, talking to the other guests."</div>
+        <div class="stmt"><b>Simon Kerr (business partner)</b>"I was in the kitchen with Jack from about 10:45 until 11:30, complaining about the canapés."</div>
+        <div class="stmt"><b>Jack Moreno (chef)</b>"Mr Kerr was in my kitchen from quarter to eleven until half past. He never left. Neither did I."</div>
+        <div class="stmt"><b>Lucy Fenn (housekeeper)</b>"I was in the ballroom clearing glasses from 10:45 until midnight. Dr Price? No, she wasn't there. She slipped out at about ten to eleven, said she needed some air. I didn't see her again until after half past."</div>
+        <div class="stmt"><b>Three guests</b>"Lucy was in the ballroom the whole time. We watched her drop a tray."</div>`,
+      q: "Three suspects have NO confirmed alibi at 11:00. Type their first initials.", ph: "e.g. ABC",
+      check: (n) => {
+        if (/helena|price/.test(n) && /margaret/.test(n) && /oliver/.test(n) && !/simon|jack|lucy/.test(n)) return true;
+        return n.length === 3 && [...n].sort().join("") === "hmo";
+      },
+      wrong: (n) => /s|j/.test(n) && n.length <= 3 ? "Simon and Jack were together, and each confirms the other." : /l/.test(n) && n.length <= 3 ? "Three guests confirm that Lucy was in the ballroom." : n.length === 2 ? "There are three. Is everyone who claims the ballroom really backed up?" : null,
+      hints: ["An alibi only counts if someone else confirms it.", "Lucy is confirmed to have been in the ballroom, and she says someone who claims the ballroom actually left."],
+      after: "<b>Margaret, Oliver and Dr Price</b> can't prove where they were. And Dr Price lied about being in the ballroom.",
+      card: true
+    },
+    {
+      t: "The Weapon", place: "The study · 3:10 am",
+      story: `<p>The pathologist calls with the first results. Something is wrong. The poker doesn't add up.</p>`,
+      file: `<div class="lab">Pathologist and evidence</div><ul>
+        <li>"The head wound bled <b>very little</b>. When the heart has already stopped, wounds hardly bleed."</li>
+        <li>"Before he died, Victor's heart slowed down and beat irregularly."</li>
+        <li>His brandy glass sits on the desk, <b>rinsed and still wet</b>. It's the only clean glass in the house. Every other glass from the party is dirty.</li>
+        <li>In the fireplace ash: unburnt scraps of flowers. <b>Tall stem, purple bell-shaped flowers, speckled inside.</b></li></ul>
+        <div class="lab" style="margin-top:6px">The gardener's notebook, from the conservatory</div>
+        <table><tr><td><b>Lavender</b></td><td>Purple spikes of tiny flowers. Harmless. Calms the nerves.</td></tr>
+        <tr><td><b>Bluebell</b></td><td>Small, drooping blue bells. Mildly toxic. Upsets the stomach.</td></tr>
+        <tr><td><b>Monkshood</b></td><td>Purple flowers shaped like a monk's hood. Deadly. Causes numbness and tingling.</td></tr>
+        <tr><td><b>Foxglove</b></td><td>Tall stem of purple bells, speckled inside. Deadly. Slows and disturbs the heartbeat. Doctors make the heart drug <i>digitalis</i> from it.</td></tr></table>`,
+      q: "What really killed Victor? Be specific.", ph: "The cause of death",
+      check: (n) => /foxglove|digitalis|digoxin/.test(n),
+      wrong: (n) => /poker|blow|hit|head|iron/.test(n) ? "If the poker had killed him, he would have bled a lot." : /monkshood/.test(n) ? "Look at the shape and the speckles again, and at what it does to the heart." : /poison/.test(n) ? "Poison, yes. Which one?" : null,
+      hints: ["The head wound was made after he died. So what stopped his heart?", "Match the flower scraps in the fireplace to the gardener's notebook."],
+      after: "<b>Foxglove in his brandy.</b> The blow with the poker came after Victor was already dead, to make it look like a fight. Whoever did this knew exactly how much foxglove it takes to stop a heart."
+    },
+    {
+      t: "A Second Victim", place: "The cellar stairs · 3:25 am", twist: true,
+      story: `<p><b>A crash from the cellar stairs.</b> Lucy Fenn lies at the bottom, unconscious. Someone pushed her.</p><p>She's alive, but she's rushed to hospital and can't speak. The killer is still in the house, and they know Lucy saw something.</p><p>In her apron pocket, the police find a note written in code.</p>`,
+      file: `<div class="lab">Lucy's note</div><div class="cipher">RWLDD HPYE ESCZFRS RCPPY OZZC</div>
+        <div class="lab">On the back, in pencil</div><div>"Same as the larder code. Count back by the hour he died."</div>
+        <div class="lab">Alphabet</div><div class="abc">${"ABCDEFGHIJKLMNOPQRSTUVWXYZ".split("").map((c, i) => `<span>${c}<small>${i + 1}</small></span>`).join("")}</div>`,
+      q: "Decode Lucy's note. What did she see?", ph: "Her message",
+      check: (n) => /greendoor/.test(n),
+      wrong: (n) => /glass/.test(n) ? "You've started well. Keep decoding to the end." : null,
+      hints: ["Victor died at 11. Move every letter 11 places back in the alphabet. R becomes G.", "The first word is GLASS. Keep going."],
+      after: "<b>\"GLASS WENT THROUGH GREEN DOOR.\"</b> Lucy saw the poisoned brandy glass being carried out of the study through the green door. That's why someone tried to silence her.",
+      card: true
+    },
+    {
+      t: "The Green Door", place: "Ravensmoor, by torchlight · 3:55 am",
+      story: `<p>The power goes out. Somebody has cut it. By torchlight, the police study the floor plan of Ravensmoor and the camera footage.</p>`,
+      file: `<div class="lab">Ground floor plan</div>
+        <div class="plan"><div>Back stairs (up to bedrooms)</div><div class="dr">Back corridor</div><div>Library</div><div>Dining room</div><div class="study">STUDY</div><div>Kitchen</div><div>Ballroom</div><div>Main hall + main staircase</div><div>Terrace (outside)</div></div>
+        <div class="lab">The study's three doors</div><ul>
+        <li><b>Oak door</b>: into the main hall, directly opposite the ballroom doors.</li>
+        <li><b>Red door</b>: into the dining room.</li>
+        <li><b>Green door</b>: into the narrow back corridor. This corridor leads <b>only</b> to the library and the back stairs.</li>
+        <li>The library also has a door out to the garden path, which runs around the house to the side of the ballroom.</li></ul>
+        <div class="lab">More evidence</div><ul>
+        <li>The carpet on the back stairs was being replaced, so the door at the top was <b>locked all evening</b>. The only key hung in the kitchen, and Jack says nobody touched it.</li>
+        <li>Two guests stood at the ballroom doors from 10:45 until midnight, watching the main staircase. <b>Nobody came down it.</b></li>
+        <li>The terrace motion camera recorded one person from 10:41 to 11:22 pm, smoking and <b>never leaving the frame</b>: a man in a <b>blue suit</b>.</li>
+        <li>What people wore: Oliver, a blue suit. Simon, a grey suit. Jack, chef's whites. Victor, black tie.</li>
+        <li>In the library, behind a row of medical encyclopaedias, police find a <b>damp brandy glass</b>.</li></ul>`,
+      q: "Margaret, Oliver or Dr Price: who carried the glass through the green door?", ph: "A name",
+      check: (n) => /helena|price|doctor/.test(n),
+      wrong: (n) => /margaret|wife/.test(n) ? "Margaret was upstairs. Could she have got down to the study? Check both staircases." : /oliver|son/.test(n) ? "Check the terrace camera and what everyone was wearing." : null,
+      hints: ["Rule out the two people who couldn't have been in the study at 11.", "Oliver is on camera the whole time, and Margaret couldn't come down either staircase. That leaves one person."],
+      after: "<b>Dr Helena Price</b>, who left the ballroom at 10:50 \"for some air\", went in through the green door and hid the glass in the library. But why would the family doctor of twenty years kill Victor?"
+    },
+    {
+      t: "The Safe", place: "The study · 4:30 am",
+      story: `<p>Victor's "special announcement" wasn't found on his body. Behind a painting in the study, police find a small safe with a <b>4-digit code</b>.</p><p>Margaret, pale and shaking, says: <i>"He always used the year he lost her. He never got over it."</i></p>`,
+      file: `<div class="lab">Check your case notes</div><div>Everything you need is in an earlier chapter.</div>`,
+      q: "What's the safe code?", ph: "4 digits",
+      check: (n) => n === "2016",
+      wrong: (n) => n === "2018" ? "That's the year he married Margaret." : n === "2026" ? "That's this year." : null,
+      hints: ["Who did Victor 'lose'? Look back at the family note in Chapter 1.", "The party is in 2026. He married Margaret 8 years ago, two years after Eleanor died."],
+      after: "The safe clicks open. Inside is a speech, torn into strips. Victor must have torn it up in a hurry, or someone else did.",
+      card: true
+    },
+    {
+      t: "The Accusation", place: "The drawing room · dawn", final: true,
+      story: `<p>These are the strips from the safe, in the order you found them. Put them in order and read Victor's speech. Then make your accusation.</p>`,
+      file: `<div class="strips">
+        <div><b>A</b>Then Helena signed the death certificate herself: "natural causes."</div>
+        <div><b>B</b>For ten years I believed her heart simply failed. Last month I found her old medicine records.</div>
+        <div><b>C</b>On Monday I hand everything to the police. Helena, I'm sorry, but Eleanor deserved the truth.</div>
+        <div><b>D</b>My friends, before we raise our glasses, I owe you the truth about Eleanor.</div>
+        <div><b>E</b>The prescription was written and signed by our dear friend, Dr Helena Price.</div>
+        <div><b>F</b>She was given ten times the correct dose of digitalis, the heart drug made from foxglove.</div></div>`
+    }
+  ];
+
+  const KILLERS = SUSPECTS.map((s) => s[0]);
+  const WEAPONS = ["The iron poker", "Foxglove poison in his brandy", "Monkshood in his food", "He fell and hit his head"];
+  const MOTIVES = ["To inherit Victor's money", "Because Victor refused to pay off gambling debts", "To stop Victor buying out the business", "To stop Victor exposing that she caused Eleanor's death", "Because she was secretly in love with Victor"];
+  const ANSWER = { k: "Dr Helena Price", w: "Foxglove poison in his brandy", m: "To stop Victor exposing that she caused Eleanor's death" };
+
+  const CARDS = [
+    { n: "FREEZE", t: "The other team puts their phone face down and stops talking for 30 seconds.", s: 30 },
+    { n: "WHISPER", t: "For the next 2 minutes, the other team may only whisper.", s: 120 },
+    { n: "TIME TAX", t: "The other team taps \"We were hit by a Time Tax\" on their phone. +1 minute to their time.", s: 0 }
+  ];
+
+  const blank = () => ({ team: "", startAt: null, pen: 0, ch: 0, hints: {}, cards: [], lockUntil: 0, wrongs: 0, doneAt: null });
+  let S = Object.assign(blank(), Kit.load(KEY, {}));
+  const save = () => Kit.save(KEY, S);
+  const el = Kit.$("game");
+  let tick = null;
+
+  const fmt = (s) => { s = Math.max(0, Math.round(s)); const h = Math.floor(s / 3600), m = Math.floor((s % 3600) / 60), x = s % 60; return (h ? h + ":" + String(m).padStart(2, "0") : m) + ":" + String(x).padStart(2, "0"); };
+  const elapsed = () => ((S.doneAt || Date.now()) - S.startAt) / 1000;
+
+  function start() {
+    el.innerHTML = `
+      <div class="table">
+        <div><div class="eyebrow">Your team</div><h2>Ready, detectives?</h2></div>
+        <div class="field"><label for="tn">Team name</label><input type="text" id="tn" maxlength="24" placeholder="e.g. The Foxes" value="${E(S.team)}" autocomplete="off"></div>
+        <p class="note">Both teams count down out loud together and tap Start at the same moment.</p>
+        <div class="btns"><button class="btn big red" id="go">Start the race</button></div>
+      </div>
+      ${suspectsPanel(true)}`;
+    Kit.$("tn").oninput = (e) => { S.team = e.target.value; save(); };
+    Kit.$("go").onclick = () => { S.team = S.team.trim() || "Team " + Kit.pick(["Raven", "Fox", "Owl", "Wolf"]); S.startAt = Date.now(); save(); Kit.wake(); render(); };
+  }
+
+  function suspectsPanel(open) {
+    return `<details class="notes" ${open ? "open" : ""}><summary>The suspects</summary><div class="inner"><div class="suspects">${SUSPECTS.map(([n, d]) => `<div><b>${E(n)}</b>${E(d)}</div>`).join("")}</div></div></details>`;
+  }
+
+  function statusBar() {
+    const lvl = S.ch + 1;
+    const reds = ["#5b7a5f", "#7d8a4a", "#a8892d", "#c07a2a", "#cf5f2c", "#d6452c", "#e0262a"];
+    return `<div class="status">
+      <div><div style="font-size:13px;opacity:.8">${E(S.team)}</div><div class="clock" id="clk">${fmt(elapsed())}</div>${S.pen ? `<div class="pen">+${fmt(S.pen)} in penalties</div>` : ""}</div>
+      <div class="danger" aria-label="Danger level ${lvl} of 7"><span>Danger</span>${[0, 1, 2, 3, 4, 5, 6].map((i) => `<i style="${i < lvl ? "background:" + reds[i] : ""}"></i>`).join("")}</div>
+    </div>`;
+  }
+
+  function notes() {
+    if (S.ch === 0) return suspectsPanel(false);
+    const done = CH.slice(0, S.ch).map((c, i) => `<div><div class="eyebrow">Chapter ${i + 1} · ${E(c.t)}</div><div class="file" style="margin-top:6px">${c.file}<div class="lab">What you worked out</div><div>${c.after}</div></div></div>`).join("");
+    return `<details class="notes"><summary>Case notes: everything you've found so far</summary><div class="inner">${done}</div></details>${suspectsPanel(false)}`;
+  }
+
+  function cardsBar() {
+    return `<div class="table" style="gap:10px"><div class="eyebrow">Sabotage</div>
+      ${S.cards.length ? `<div class="mycards">${S.cards.map((c, i) => `<button data-c="${i}">▶ Play ${E(CARDS[c].n)}</button>`).join("")}</div>` : `<p class="note">Win a card by cracking chapters 2, 4 and 6.</p>`}
+      <div class="btns"><button class="btn alt" id="taxed" style="padding:8px 12px;font-size:15px">We were hit by a Time Tax (+1 min)</button></div></div>`;
+  }
+
+  function playCard(i) {
+    const c = CARDS[S.cards[i]];
+    S.cards.splice(i, 1); save();
+    const o = document.createElement("div");
+    o.className = "cardplay";
+    o.innerHTML = `<div style="font-size:14px;letter-spacing:.14em;text-transform:uppercase">${E(S.team)} plays</div><div class="w">${E(c.n)}</div><div class="t">${E(c.t)}</div>${c.s ? `<div class="n" id="cn">${fmt(c.s)}</div>` : ""}<button id="cx">Done</button>`;
+    document.body.appendChild(o);
+    let left = c.s;
+    const t = c.s ? setInterval(() => { left--; const n = o.querySelector("#cn"); if (n) n.textContent = fmt(left); if (left <= 0) { clearInterval(t); if (n) n.textContent = "Time!"; } }, 1000) : null;
+    o.querySelector("#cx").onclick = () => { clearInterval(t); o.remove(); render(); };
+  }
+
+  function chapter() {
+    const c = CH[S.ch], used = S.hints[S.ch] || 0;
+    let body;
+    if (c.final) body = accusation();
+    else body = `
+      <div class="table">
+        <div class="field"><label for="ans">${E(c.q)}</label>
+          <form id="af" class="btns" style="flex-wrap:nowrap"><input type="text" id="ans" placeholder="${E(c.ph)}" autocomplete="off" autocapitalize="off" spellcheck="false" style="flex:1;min-width:0"><button class="btn" type="submit">Try</button></form></div>
+        <div class="fb" id="fb" role="status"></div>
+        ${c.hints.slice(0, used).map((h, k) => `<div class="hint">Hint ${k + 1}: ${h}</div>`).join("")}
+        ${used < 2 ? `<div class="btns"><button class="btn alt" id="hb" style="padding:8px 12px;font-size:15px">Show hint ${used + 1} of 2 (+2 min)</button></div>` : ""}
+      </div>`;
+    el.innerHTML = `${statusBar()}
+      <div class="chapter-head"><div class="eyebrow" style="${c.twist ? "color:var(--red)" : ""}">${c.twist ? "Twist · " : ""}Chapter ${S.ch + 1} of 7 · ${E(c.place)}</div><h2>${E(c.t)}</h2></div>
+      <div class="story">${c.story}</div>
+      <div class="file">${c.file}</div>
+      ${body}
+      ${cardsBar()}
+      ${notes()}`;
+    wire();
+    if (!c.final) {
+      Kit.$("af").onsubmit = (e) => {
+        e.preventDefault();
+        const n = norm(Kit.$("ans").value);
+        if (!n) return;
+        if (c.check(n)) return solved();
+        Kit.$("fb").textContent = (c.wrong && c.wrong(n)) || Kit.pick(["Not quite. Look at the evidence again.", "That doesn't fit the facts.", "The police aren't convinced. Try again."]);
+      };
+      const hb = Kit.$("hb");
+      if (hb) hb.onclick = () => { S.hints[S.ch] = used + 1; S.pen += HINT_PEN; save(); render(); };
+    }
+  }
+
+  function solved() {
+    const c = CH[S.ch];
+    let won = null;
+    if (c.card) { won = Kit.pick([0, 0, 1, 2]); S.cards.push(won); }
+    S.ch++; save();
+    el.innerHTML = `${statusBar()}
+      <div class="table">
+        <div class="eyebrow">Chapter ${S.ch} cracked</div>
+        <div class="shout">📣 Shout it out: "CHAPTER ${S.ch} CRACKED!"</div>
+        <div class="story">${c.after}</div>
+        ${won !== null ? `<div class="card" data-suit="♠"><div class="k">You won a sabotage card</div><div class="w" style="font-size:36px">${CARDS[won].n}</div><div class="s">${CARDS[won].t}<br>Play it whenever you like from the Sabotage box.</div></div>` : ""}
+        <div class="btns"><button class="btn big" id="nx">On to Chapter ${S.ch + 1}</button></div>
+      </div>`;
+    Kit.$("nx").onclick = () => { render(); window.scrollTo({ top: el.offsetTop - 10 }); };
+  }
+
+  function accusation() {
+    const locked = S.lockUntil > Date.now();
+    const sel = (id, label, opts) => `<div class="field"><label for="${id}">${label}</label><select id="${id}"><option value="">Choose…</option>${opts.map((o) => `<option>${E(o)}</option>`).join("")}</select></div>`;
+    return `<div class="table accuse">
+      <div class="eyebrow">Your final accusation</div>
+      ${sel("ak", "Who killed Victor Ashby?", KILLERS)}
+      ${sel("aw", "How?", WEAPONS)}
+      ${sel("am", "Why?", MOTIVES)}
+      <div class="fb" id="fb" role="status">${S.wrongs ? "Wrong accusations so far: " + S.wrongs : ""}</div>
+      <div class="btns"><button class="btn big red" id="acc" ${locked ? "disabled" : ""}>${locked ? "Locked out…" : "Make the accusation"}</button></div>
+      <p class="note">A wrong accusation adds 5 minutes and locks you out for 60 seconds.</p>
+    </div>`;
+  }
+
+  function wire() {
+    el.querySelectorAll("[data-c]").forEach((b) => b.onclick = () => playCard(+b.dataset.c));
+    const tx = Kit.$("taxed");
+    if (tx) tx.onclick = () => { S.pen += 60; save(); render(); };
+    const acc = Kit.$("acc");
+    if (!acc) return;
+    if (S.lockUntil > Date.now()) {
+      const t = setInterval(() => { const b = Kit.$("acc"); if (!b) return clearInterval(t); const left = Math.ceil((S.lockUntil - Date.now()) / 1000); if (left <= 0) { clearInterval(t); b.disabled = false; b.textContent = "Make the accusation"; } else b.textContent = "Locked out… " + left + "s"; }, 500);
+    }
+    acc.onclick = () => {
+      const k = Kit.$("ak").value, w = Kit.$("aw").value, m = Kit.$("am").value;
+      if (!k || !w || !m) { Kit.$("fb").textContent = "Choose a killer, a weapon and a motive."; return; }
+      const right = (k === ANSWER.k) + (w === ANSWER.w) + (m === ANSWER.m);
+      if (right === 3) { S.doneAt = Date.now(); save(); return finish(); }
+      S.wrongs++; S.pen += WRONG_PEN; S.lockUntil = Date.now() + LOCK * 1000; save();
+      render();
+      Kit.$("fb").textContent = `Wrong! ${right} of your 3 answers ${right === 1 ? "is" : "are"} right. +5 minutes. Locked out for 60 seconds.`;
+    };
+  }
+
+  function finish() {
+    clearInterval(tick);
+    const raw = elapsed(), total = raw + S.pen;
+    el.innerHTML = `
+      <div class="card" data-suit="♠"><div class="k">${E(S.team)} · case closed</div><div class="w">${fmt(total)}</div><div class="s">Final time: ${fmt(raw)} on the clock + ${fmt(S.pen)} in penalties<br>(${Object.values(S.hints).reduce((a, b) => a + b, 0)} hints, ${S.wrongs} wrong accusation${S.wrongs === 1 ? "" : "s"})</div></div>
+      <div class="shout">📣 Shout: "CASE CLOSED!" and show the other team this screen.</div>
+      <div class="table">
+        <div class="eyebrow">What really happened</div>
+        <div class="story"><p>Ten years ago, Dr Helena Price gave Victor's first wife, Eleanor, ten times the right dose of digitalis. Eleanor died, and Helena signed the death certificate herself: "natural causes."</p><p>Last month, Victor found the records. His "special announcement" at midnight would have ended her career and sent her to prison.</p><p>At 10:50 Helena slipped out of the ballroom "for some air", walked round the garden path, came in through the library, and entered the study by the green door. She poured foxglove, the plant digitalis comes from, into Victor's brandy. When he collapsed at 11:00, she hit his head with the poker to fake a fight, smashed his watch at 11:45 to fake the time, and carried the glass out the back way. She hid it in the library and tore up his speech, but he had already put a copy in the safe.</p><p>Lucy saw the glass go through the green door. At dawn, Lucy wakes up in hospital and tells the police everything. Dr Helena Price is arrested on the front steps of Ravensmoor.</p></div>
+      </div>
+      <div class="btns"><button class="btn alt" id="reset">Reset this phone for a new game</button></div>`;
+    const r = Kit.$("reset");
+    r.onclick = () => { if (!r.dataset.armed) { r.dataset.armed = 1; r.textContent = "Tap again to reset"; return; } S = blank(); save(); render(); };
+  }
+
+  function render() {
+    clearInterval(tick);
+    if (!S.startAt) return start();
+    if (S.doneAt) return finish();
+    chapter();
+    tick = setInterval(() => { const c = Kit.$("clk"); if (c) c.textContent = fmt(elapsed()); }, 1000);
+  }
+
+  render();
+})();
+</script>
+</body>
+</html>
