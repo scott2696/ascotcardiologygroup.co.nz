@@ -1,18 +1,18 @@
 ---
 url: https://ascotcardiologygroup.co.nz/nz/casino-reviews/
 title: "Online Casino Reviews NZ [October 2026]: Trusted or Not?"
-meta_description: "Honest NZ casino reviews: 17 online casinos and betting sites checked on licence, owner, NZD banking, withdrawal limits and safety, and whether each can be trusted."
-h1: "Online Casino Reviews NZ [October 2026]: 17 Casinos and Betting Sites Rated on Licence, Owner and Limits"
+meta_description: "Honest NZ casino reviews: 15 online casinos and betting sites checked on licence, owner, NZD banking, withdrawal limits and safety, and whether each can be trusted."
+h1: "Online Casino Reviews NZ [October 2026]: 15 Casinos and Betting Sites Rated on Licence, Owner and Limits"
 author: Hana McAllister
-words: 1483
+words: 1405
 ---
 
-# Online Casino Reviews NZ [October 2026] : 17 Casinos and Betting Sites Rated on Licence, Owner and Limits
+# Online Casino Reviews NZ [October 2026] : 15 Casinos and Betting Sites Rated on Licence, Owner and Limits
 
-Seventeen casino and betting sites that New Zealanders ask about, each checked against public licence records, the operator's own terms and independent safety data. No links, no sign-up offers, sources on every page.Written by [**Hana McAllister** ](https://ascotcardiologygroup.co.nz/nz/authors/#hana-mcallister), Editor Checked by [Wiremu Salter](https://ascotcardiologygroup.co.nz/nz/authors/#wiremu-salter) Updated 30 October 2026    
+Fifteen casino and betting sites that New Zealanders ask about, each checked against public licence records, the operator's own terms and independent safety data. No links, no sign-up offers, sources on every page.Written by [**Hana McAllister** ](https://ascotcardiologygroup.co.nz/nz/authors/#hana-mcallister), Editor Checked by [Wiremu Salter](https://ascotcardiologygroup.co.nz/nz/authors/#wiremu-salter) Updated 30 October 2026    
 
-- **17** sites reviewed 
-- **11** with an NZD balance 
+- **15** sites reviewed 
+- **9** with an NZD balance 
 - **8.9** highest Safety Index 
 - **0** casino links 
 
@@ -20,7 +20,7 @@ The legal position, in short
 
 The casinos and bookmakers on this site are licensed overseas, not by New Zealand's Department of Internal Affairs. Under the [Online Casino Gambling Act 2026](https://ascotcardiologygroup.co.nz/nz/nz-online-casino-law/) it is unlawful to advertise unlicensed online casino gambling to people in New Zealand, so we publish no links to these sites and no sign-up offers on their behalf. From 1 December 2026, casinos that have not applied for a New Zealand licence must stop serving New Zealand players, and none of the companies behind these casinos won a place in the DIA's October 2026 licence auction. This page is information, not a recommendation to gamble. 
 
-## All 17 reviews
+## All 15 reviews
 
 Listed in our editor's order. Each row links to the full review.
 
@@ -40,9 +40,7 @@ Listed in our editor's order. Each row links to the full review.
 | [Trixino](https://ascotcardiologygroup.co.nz/nz/casino-reviews/trixino/) | 777% across six deposits, up to €7,777 in total, at 7x wagering | Licence: Not confirmed; NZD balance: Not confirmed; Withdrawal limit: Not published; Safety Index: No profile | 4.1/10 |
 | [Rivo](https://ascotcardiologygroup.co.nz/nz/casino-reviews/rivo/) | None on record | Licence: Anjouan; NZD balance: No; Withdrawal limit: €1,000 a day; Safety Index: 6.2 | 6.3/10 |
 | [Bet&Play](https://ascotcardiologygroup.co.nz/nz/casino-reviews/betandplay/) | None on record | Licence: Anjouan + Tobique; NZD balance: Yes; Withdrawal limit: €5,000 a week; Safety Index: 6.8 | 7.1/10 |
-| [Roby Casino](https://ascotcardiologygroup.co.nz/nz/casino-reviews/roby-casino/) | None on record | Licence: Not verified; NZD balance: Yes; Withdrawal limit: NZ$1,000 a day; Safety Index: 5.7 | 4.9/10 |
 | [Spino](https://ascotcardiologygroup.co.nz/nz/casino-reviews/spino/) | None on record | Licence: Anjouan; NZD balance: No; Withdrawal limit: Not published; Safety Index: 7.2 | 6.0/10 |
-| [Ivibet Casino](https://ascotcardiologygroup.co.nz/nz/casino-reviews/ivibet/) | None on record | Licence: Kahnawake; NZD balance: Yes; Withdrawal limit: €16,000 a week; Safety Index: 3.8 | 5.5/10 |
 
 **About this list.** Sites are shown in the order set by our editor, which is not the score order. The **Ledger score** comes from five published inputs and is the number to compare; [see every site sorted by score](https://ascotcardiologygroup.co.nz/nz/casino-reviews/#by-score). We do not link to any casino or carry sign-up offers. [How we score](https://ascotcardiologygroup.co.nz/nz/how-we-review/).
 
@@ -65,9 +63,7 @@ Highest first. The score weights independent safety (40%), licence (20%), owners
 | [MadCasino](https://ascotcardiologygroup.co.nz/nz/casino-reviews/madcasino/) | Casino + Sport | Curaçao (CGA) | Yes | NZ$4,500 a week | 6.7 | **6.5** |
 | [Rivo](https://ascotcardiologygroup.co.nz/nz/casino-reviews/rivo/) | Casino + Sport | Anjouan | No | €1,000 a day | 6.2 | **6.3** |
 | [Spino](https://ascotcardiologygroup.co.nz/nz/casino-reviews/spino/) | Casino + Sport | Anjouan | No | Not published | 7.2 | **6.0** |
-| [Ivibet Casino](https://ascotcardiologygroup.co.nz/nz/casino-reviews/ivibet/) | Casino | Kahnawake | Yes | €16,000 a week | 3.8 | **5.5** |
 | [Smash](https://ascotcardiologygroup.co.nz/nz/casino-reviews/smash/) | Casino + Sport | Anjouan | No | €2,000 a week | 3.9 | **5.1** |
-| [Roby Casino](https://ascotcardiologygroup.co.nz/nz/casino-reviews/roby-casino/) | Casino + Sport | Not verified | Yes | NZ$1,000 a day | 5.7 | **4.9** |
 | [CrownSlots](https://ascotcardiologygroup.co.nz/nz/casino-reviews/crownslots/) | Casino | Curaçao (reported) | Not confirmed | Not published | No profile | **4.8** |
 | [Kingdom](https://ascotcardiologygroup.co.nz/nz/casino-reviews/kingdom/) | Casino + Sport | Not confirmed | Not confirmed | Not published | No profile | **4.1** |
 | [Trixino](https://ascotcardiologygroup.co.nz/nz/casino-reviews/trixino/) | Casino + Sport | Not confirmed | Not confirmed | Not published | No profile | **4.1** |
@@ -76,7 +72,7 @@ Highest first. The score weights independent safety (40%), licence (20%), owners
 
 Five brands score 8 or more: Spinjo, Lucky7even, Lucky Vibe, Rooster Bet and Fortune Play. They share three traits: a named owner, two or more licences that an independent database has verified, and an NZD balance with published NZD withdrawal limits. All five belong to two groups, Hollycorn N.V. and Novatrix S.R.L., which is worth knowing: a dispute with one brand often involves the same support and payments team as its sister sites.
 
-At the other end, Kingdom, Trixino, CrownSlots and Roby Casino score below 5 mainly because we could not confirm a licence or an owner. Ivibet and Smash have licences, but their independent Safety Index is below 4.
+At the other end, Kingdom, Trixino and CrownSlots score below 5 mainly because we could not confirm a licence or an owner. Smash has a licence, but its independent Safety Index is below 4.
 
 ## How to read a review
 

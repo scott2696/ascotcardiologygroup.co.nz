@@ -164,7 +164,7 @@ def online_betting():
                                                   ("Gambling winnings tax", "When betting and casino wins are taxable in New Zealand.", "/gambling-winnings-tax-nz/"),
                                                   ("Responsible gambling", "Bank blocks, deposit limits, self-exclusion and free help.", "/responsible-gambling/"),
                                                   ("Payment methods", "Cards, e-wallets, bank transfer and crypto from New Zealand.", "/payment-methods/"),
-                                                  ("Casino reviews", "All 17 casino and betting sites, checked and scored.", "/casino-reviews/")], 3)
+                                                  ("Casino reviews", "All 15 casino and betting sites, checked and scored.", "/casino-reviews/")], 3)
             + authorbox(A) + "</div></section>")
     schema = [schema_webpage(P), schema_crumbs(P, [("Online betting NZ", P)]), schema_article(P, h1, A, C),
               schema_itemlist(P, SPORTS, "Offshore sportsbooks New Zealanders ask about"), schema_faq(P, ents),

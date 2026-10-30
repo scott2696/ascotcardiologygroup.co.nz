@@ -187,12 +187,12 @@ def build_hub():
     ]
     faq_html, ents = faq(faqs)
     rows_score = compare(BY_SCORE, ["products", "licence", "nzd", "limit", "safety", "score"])
-    body = (hero(h1, "Seventeen casino and betting sites that New Zealanders ask about, each checked against public licence "
+    body = (hero(h1, "Fifteen casino and betting sites that New Zealanders ask about, each checked against public licence "
                  "records, the operator's own terms and independent safety data. No links, no sign-up offers, sources on "
                  "every page.", AUTH, CHECK,
                  [(str(len(OPS)), "sites reviewed"), (str(sum(1 for o in OPS if o["nzd"])), "with an NZD balance"), ("8.9", "highest Safety Index"), ("0", "casino links")])
             + crumbs(trail)
-            + f'<section class="sec"><div class="wrap">{law_note()}<h2>All 17 reviews</h2>'
+            + f'<section class="sec"><div class="wrap">{law_note()}<h2>All 15 reviews</h2>'
               '<p class="intro">Listed in our editor\'s order. Each row links to the full review.</p>'
             + toplist(OPS) + rg_line() + "</div></section>"
             + '<section class="sec sec--alt"><div class="wrap">'
@@ -206,9 +206,9 @@ def build_hub():
               "with published NZD withdrawal limits. All five belong to two groups, Hollycorn N.V. and Novatrix S.R.L., "
               "which is worth knowing: a dispute with one brand often involves the same support and payments team as its "
               "sister sites.</p>"
-            + "<p>At the other end, Kingdom, Trixino, CrownSlots and Roby Casino score below 5 mainly because we could not "
-              "confirm a licence or an owner. Ivibet and Smash have licences, but "
-              "their independent Safety Index is below 4.</p>"
+            + "<p>At the other end, Kingdom, Trixino and CrownSlots score below 5 mainly because we could not "
+              "confirm a licence or an owner. Smash has a licence, but "
+              "its independent Safety Index is below 4.</p>"
             + "<h2>How to read a review</h2>"
             + steps([("Start with the key facts box", "Licence numbers, owner, NZD support and limits are at the top of every review, with the date we checked them."),
                      ("Check the licence yourself", "Copy the licence number into the regulator's public register. If the casino's footer shows a different number from ours, trust the register."),

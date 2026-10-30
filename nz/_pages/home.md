@@ -4,17 +4,17 @@ title: "Best Online Casino Sites NZ [October 2026]: Top Rated"
 meta_description: "Top online casinos in New Zealand rated for Kiwis: licences, real money NZD banking, payout limits and safety scores, plus which casinos must leave NZ on 1 December."
 h1: "Best Online Casino Sites NZ [October 2026]: Real Money Casinos Checked on Licence, NZD Banking and Payout Limits"
 author: Hana McAllister
-words: 6554
+words: 6413
 ---
 
 Facts checked 8 October 2026
 
 # Best Online Casino Sites NZ [October 2026] : Real Money Casinos Checked on Licence, NZD Banking and Payout Limits
 
-We checked 15 online casinos that New Zealanders ask about against the things that decide whether you get paid: who owns the site, which licence it holds, whether it keeps your money in NZ dollars, and how much it lets you withdraw. Every fact is sourced and dated. There are no casino links on this site, and the 2026 change in New Zealand law is explained below.Written by [**Hana McAllister** ](https://ascotcardiologygroup.co.nz/nz/authors/#hana-mcallister), Editor Checked by [Wiremu Salter](https://ascotcardiologygroup.co.nz/nz/authors/#wiremu-salter) Updated 30 October 2026    
+We checked 13 online casinos that New Zealanders ask about against the things that decide whether you get paid: who owns the site, which licence it holds, whether it keeps your money in NZ dollars, and how much it lets you withdraw. Every fact is sourced and dated. There are no casino links on this site, and the 2026 change in New Zealand law is explained below.Written by [**Hana McAllister** ](https://ascotcardiologygroup.co.nz/nz/authors/#hana-mcallister), Editor Checked by [Wiremu Salter](https://ascotcardiologygroup.co.nz/nz/authors/#wiremu-salter) Updated 30 October 2026    
 
-- **15** casinos checked 
-- **9** with an NZD balance 
+- **13** casinos checked 
+- **7** with an NZD balance 
 - **52%** of Trustpilot complaints are about withdrawals 
 - **0** casino links or paid offers 
 
@@ -22,7 +22,7 @@ The legal position, in short
 
 The casinos and bookmakers on this site are licensed overseas, not by New Zealand's Department of Internal Affairs. Under the [Online Casino Gambling Act 2026](https://ascotcardiologygroup.co.nz/nz/nz-online-casino-law/) it is unlawful to advertise unlicensed online casino gambling to people in New Zealand, so we publish no links to these sites and no sign-up offers on their behalf. From 1 December 2026, casinos that have not applied for a New Zealand licence must stop serving New Zealand players, and none of the companies behind these casinos won a place in the DIA's October 2026 licence auction. This page is information, not a recommendation to gamble. 
 
-## The 15 online casino sites New Zealanders ask about most
+## The 13 online casino sites New Zealanders ask about most
 
 Each row shows the four facts that matter most for a New Zealand player: the licence, whether there is an NZD balance, the published withdrawal limit and the independent Casino Guru Safety Index. The **Ledger score** combines them; it is explained under [what makes a casino site best](#best).
 
@@ -40,9 +40,7 @@ Each row shows the four facts that matter most for a New Zealand player: the lic
 | [Smash](https://ascotcardiologygroup.co.nz/nz/casino-reviews/smash/) | None on record | Licence: Anjouan; NZD balance: No; Withdrawal limit: €2,000 a week; Safety Index: 3.9 | 5.1/10 |
 | [Trixino](https://ascotcardiologygroup.co.nz/nz/casino-reviews/trixino/) | 777% across six deposits, up to €7,777 in total, at 7x wagering | Licence: Not confirmed; NZD balance: Not confirmed; Withdrawal limit: Not published; Safety Index: No profile | 4.1/10 |
 | [Rivo](https://ascotcardiologygroup.co.nz/nz/casino-reviews/rivo/) | None on record | Licence: Anjouan; NZD balance: No; Withdrawal limit: €1,000 a day; Safety Index: 6.2 | 6.3/10 |
-| [Roby Casino](https://ascotcardiologygroup.co.nz/nz/casino-reviews/roby-casino/) | None on record | Licence: Not verified; NZD balance: Yes; Withdrawal limit: NZ$1,000 a day; Safety Index: 5.7 | 4.9/10 |
 | [Spino](https://ascotcardiologygroup.co.nz/nz/casino-reviews/spino/) | None on record | Licence: Anjouan; NZD balance: No; Withdrawal limit: Not published; Safety Index: 7.2 | 6.0/10 |
-| [Ivibet Casino](https://ascotcardiologygroup.co.nz/nz/casino-reviews/ivibet/) | None on record | Licence: Kahnawake; NZD balance: Yes; Withdrawal limit: €16,000 a week; Safety Index: 3.8 | 5.5/10 |
 
 **About this list.** Sites are shown in the order set by our editor, which is not the score order. The **Ledger score** comes from five published inputs and is the number to compare; [see every site sorted by score](https://ascotcardiologygroup.co.nz/nz/casino-reviews/#by-score). We do not link to any casino or carry sign-up offers. [How we score](https://ascotcardiologygroup.co.nz/nz/how-we-review/).
 
@@ -63,9 +61,7 @@ Each row shows the four facts that matter most for a New Zealand player: the lic
 | [Smash](https://ascotcardiologygroup.co.nz/nz/casino-reviews/smash/) | Anjouan | No | €2,000 a week | 3.9 | 3.3 | **5.1** |
 | [Trixino](https://ascotcardiologygroup.co.nz/nz/casino-reviews/trixino/) | Not confirmed | Not confirmed | Not published | No profile | Removed | **4.1** |
 | [Rivo](https://ascotcardiologygroup.co.nz/nz/casino-reviews/rivo/) | Anjouan | No | €1,000 a day | 6.2 | Removed | **6.3** |
-| [Roby Casino](https://ascotcardiologygroup.co.nz/nz/casino-reviews/roby-casino/) | Not verified | Yes | NZ$1,000 a day | 5.7 | 1.8 | **4.9** |
 | [Spino](https://ascotcardiologygroup.co.nz/nz/casino-reviews/spino/) | Anjouan | No | Not published | 7.2 | None | **6.0** |
-| [Ivibet Casino](https://ascotcardiologygroup.co.nz/nz/casino-reviews/ivibet/) | Kahnawake | Yes | €16,000 a week | 3.8 | 2.9 | **5.5** |
 
 R18. Gambling can cause harm. Free, confidential help 24/7: Gambling Helpline [0800 654 655](tel:0800654655) or text 8006. [Tools and support](https://ascotcardiologygroup.co.nz/nz/responsible-gambling/). 
 
@@ -93,9 +89,9 @@ Novatrix-run, verified licences, Safety Index 8.4, NZD limits of $7,500 a week.R
 
 Anjouan licence, Safety Index 7.2, no complaints logged. No NZD balance; only for people already comfortable with crypto.Read the guide ](https://ascotcardiologygroup.co.nz/nz/casino-reviews/spino/)[
 
-### Higher daily limits: Ivibet
+### Highest NZD limits: Gunsbet
 
-€4,000 a day under a Kahnawake licence, but a low independent safety rating (3.8).Read the guide ](https://ascotcardiologygroup.co.nz/nz/fast-payout-casinos/)  
+NZ$3,000 a day and NZ$7,500 a week, the same as the Hollycorn and Novatrix casinos, with a Safety Index of 6.8.Read the guide ](https://ascotcardiologygroup.co.nz/nz/fast-payout-casinos/)  
 
 1. [The list](#the-list)
 2. [Comparison table](#compare)
@@ -159,13 +155,11 @@ Read 8 October 2026.
 | [CrownSlots](https://ascotcardiologygroup.co.nz/nz/casino-reviews/crownslots/) | 3.6 / 5 | 7 | 4.8 |
 | [Fortune Play](https://ascotcardiologygroup.co.nz/nz/casino-reviews/fortune-play/) | 3.4 / 5 | 161 | 8.1 |
 | [Smash](https://ascotcardiologygroup.co.nz/nz/casino-reviews/smash/) | 3.3 / 5 | 242 | 5.1 |
-| [Ivibet Casino](https://ascotcardiologygroup.co.nz/nz/casino-reviews/ivibet/) | 2.9 / 5 | 319 | 5.5 |
 | [Lucky7even](https://ascotcardiologygroup.co.nz/nz/casino-reviews/lucky7even/) | 2.4 / 5 | 137 | 8.0 |
 | [Lucky Circus](https://ascotcardiologygroup.co.nz/nz/casino-reviews/lucky-circus/) | 2.4 / 5 | 38 | 6.8 |
 | [Rooster Bet](https://ascotcardiologygroup.co.nz/nz/casino-reviews/rooster-bet/) | 2.0 / 5 | 205 | 8.1 |
 | [Bet&Play](https://ascotcardiologygroup.co.nz/nz/casino-reviews/betandplay/) | 1.9 / 5 | 112 | 7.1 |
 | [Lucky Vibe](https://ascotcardiologygroup.co.nz/nz/casino-reviews/lucky-vibe/) | 1.8 / 5 | 49 | 8.1 |
-| [Roby Casino](https://ascotcardiologygroup.co.nz/nz/casino-reviews/roby-casino/) | 1.8 / 5 | 66 | 4.9 |
 
 Suspended and removed profiles
 
@@ -269,7 +263,7 @@ No casino on this list deducts New Zealand tax, and New Zealand does not tax cas
 
 ### Can I use PayPal, Apple Pay, a Prezzy card or POLi?
 
-**PayPal** : none of the payment lists we checked for these 17 brands includes it. **Apple Pay** : listed at MadCasino, Smash, Rivo and Ivibet. **Prezzy card** : a prepaid Visa, so it may work where Visa does, but it cannot receive withdrawals. **POLi** : still running in New Zealand, but rare offshore; one 2026 review reports it at Spinjo and Lucky Vibe. Full details: [payment methods](https://ascotcardiologygroup.co.nz/nz/payment-methods/).
+**PayPal** : none of the payment lists we checked for these 15 brands includes it. **Apple Pay** : listed at MadCasino, Smash and Rivo. **Prezzy card** : a prepaid Visa, so it may work where Visa does, but it cannot receive withdrawals. **POLi** : still running in New Zealand, but rare offshore; one 2026 review reports it at Spinjo and Lucky Vibe. Full details: [payment methods](https://ascotcardiologygroup.co.nz/nz/payment-methods/).
 
 ### Are NZ$1, NZ$5 and NZ$10 deposit casinos worth it?
 
@@ -301,7 +295,6 @@ These casinos score below 5.5 on the public record. That is not an accusation of
 | [Kingdom](https://ascotcardiologygroup.co.nz/nz/casino-reviews/kingdom/) | 4.1 | Licence not confirmed; Name shared with a closed casino |
 | [Smash](https://ascotcardiologygroup.co.nz/nz/casino-reviews/smash/) | 5.1 | Low Safety Index (3.9); No NZD balance |
 | [Trixino](https://ascotcardiologygroup.co.nz/nz/casino-reviews/trixino/) | 4.1 | Licence not confirmed; Owner not confirmed |
-| [Roby Casino](https://ascotcardiologygroup.co.nz/nz/casino-reviews/roby-casino/) | 4.9 | No licence verified by Casino Guru; Players report payouts below the stated limits |
 
 ## How to check any online casino in five minutes
 
@@ -340,7 +333,7 @@ Check the casino's complaint history on an independent database and its recent r
 
 ## NZD banking and payment methods
 
-Of the 15 casinos here, 9 let you hold a balance in New Zealand dollars. That is worth more than most welcome bonuses. When a casino only holds euros or US dollars, your bank converts each deposit and each withdrawal, and the combined fee and exchange spread is commonly 2% to 3% each way. Over a year of regular deposits that adds up to real money, and none of it appears in the casino's offer.
+Of the 13 casinos here, 7 let you hold a balance in New Zealand dollars. That is worth more than most welcome bonuses. When a casino only holds euros or US dollars, your bank converts each deposit and each withdrawal, and the combined fee and exchange spread is commonly 2% to 3% each way. Over a year of regular deposits that adds up to real money, and none of it appears in the casino's offer.
 
 | Method | Offered by | Good to know | Watch for |
 |---|---|---|---|
@@ -355,7 +348,7 @@ Before you deposit anywhere, consider turning on your bank's gambling block if y
 
 ## Withdrawal limits compared
 
-The limit is the most underrated number in online gambling. A casino with a NZ$1,000 daily limit and a NZ$13,000 monthly limit, like Roby Casino, would need months to pay a NZ$50,000 jackpot. Daily win caps are stricter still: at Lucky Circus and Bet&Play, net winnings above US$50,000 in a day are not paid at all.Withdrawal limits as published in each brand's Casino Guru profile, read 8 October 2026. Euro limits are not converted.
+The limit is the most underrated number in online gambling. A casino with a NZ$1,000 daily limit and a NZ$13,000 monthly limit would need months to pay a NZ$50,000 jackpot. Daily win caps are stricter still: at Lucky Circus and Bet&Play, net winnings above US$50,000 in a day are not paid at all.Withdrawal limits as published in each brand's Casino Guru profile, read 8 October 2026. Euro limits are not converted.
 
 | Site | Daily or first limit | Weekly or monthly limit | Daily win cap | NZD balance |
 |---|---|---|---|---|
@@ -371,9 +364,7 @@ The limit is the most underrated number in online gambling. A casino with a NZ$1
 | [Smash](https://ascotcardiologygroup.co.nz/nz/casino-reviews/smash/) | €1,000 a day | €2,000 a week | €100,000 a day | No |
 | [Trixino](https://ascotcardiologygroup.co.nz/nz/casino-reviews/trixino/) | Not published | Not published | None recorded | Not confirmed |
 | [Rivo](https://ascotcardiologygroup.co.nz/nz/casino-reviews/rivo/) | €1,000 a day | €10,000 a month | €100,000 a day | No |
-| [Roby Casino](https://ascotcardiologygroup.co.nz/nz/casino-reviews/roby-casino/) | NZ$1,000 a day | NZ$13,000 a month | None recorded | Yes |
 | [Spino](https://ascotcardiologygroup.co.nz/nz/casino-reviews/spino/) | Not published | Not published | None recorded | No |
-| [Ivibet Casino](https://ascotcardiologygroup.co.nz/nz/casino-reviews/ivibet/) | €4,000 a day | €16,000 a week | None recorded | Yes |
 
 For the payout methods that move money fastest, see [fast payout casinos](https://ascotcardiologygroup.co.nz/nz/fast-payout-casinos/).
 
@@ -447,11 +438,11 @@ Not yet. The DIA's auction closed on 12 October 2026: 11 companies, including Sk
 
 ### Which online casinos accept New Zealand dollars?
 
-9 of the 15 casinos we checked list NZD as a balance currency, including Spinjo, Lucky7even, Lucky Vibe, Rooster Bet, Fortune Play, Lucky Circus, MadCasino, Roby Casino and Ivibet. Smash, Rivo and Spino do not. For CrownSlots, Kingdom and Trixino we could not confirm it. 
+7 of the 13 casinos we checked list NZD as a balance currency, including Spinjo, Lucky7even, Lucky Vibe, Rooster Bet, Fortune Play, Lucky Circus, and MadCasino. Smash, Rivo and Spino do not. For CrownSlots, Kingdom and Trixino we could not confirm it. 
 
 ### Which online casino pays out the most?
 
-No casino 'pays out more' in the sense of better odds across the board; the return depends on the game and its RTP setting. What differs is how much a casino lets you withdraw. Ivibet publishes €4,000 a day and €16,000 a week; the NZD sites in the Hollycorn and Novatrix groups publish NZ$3,000 a day and NZ$7,500 a week. See [high payout casinos](https://ascotcardiologygroup.co.nz/nz/high-payout-casinos/). 
+No casino 'pays out more' in the sense of better odds across the board; the return depends on the game and its RTP setting. What differs is how much a casino lets you withdraw. The NZD sites in the Hollycorn and Novatrix groups publish the highest limits here: NZ$3,000 a day and NZ$7,500 a week. See [high payout casinos](https://ascotcardiologygroup.co.nz/nz/high-payout-casinos/). 
 
 ### Do I pay tax on online casino winnings in New Zealand?
 

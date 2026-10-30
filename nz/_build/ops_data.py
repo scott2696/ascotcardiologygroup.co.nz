@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Source of truth for the 17 operators, in the order supplied by the publisher.
+"""Source of truth for the 15 operators, in the order supplied by the publisher.
 
 Run this file to regenerate _build/operators.json.
 
@@ -214,17 +214,6 @@ OPS = [
       sources=[("Casino Guru Bet&Play review", CG + "betandplay-casino-review")],
       flags=["Daily win cap"]),
 
- dict(slug="roby-casino", name="Roby Casino", logo="/logos/roby-casino.jpg",
-      casino=True, sports=True, crypto=True,
-      owner="Not published", owner_note="Casino Guru does not name an owner.",
-      licences=[("None verified by Casino Guru", "other sites cite Anjouan or Curaçao")],
-      licence_short="Not verified", licence_year=None, launched="2024 (reported)",
-      safety=5.7, complaints=2, nzd=True,
-      limits=["NZ$1,000 a day", "NZ$13,000 a month"], win_cap=None,
-      payments=["Visa", "Mastercard", "Skrill", "Neteller", "Paysafecard", "Neosurf", "bank transfer", "Bitcoin", "Ethereum", "XRP", "Tron"],
-      n_pay=47, offer=None, offer_detail=None, wagering=None,
-      sources=[("Casino Guru Roby Casino review", CG + "roby-casino-review")],
-      flags=["No licence verified by Casino Guru", "Players report payouts below the stated limits"]),
 
  dict(slug="spino", name="Spino", logo="/logos/spino.jpg",
       casino=True, sports=True, crypto=True,
@@ -238,17 +227,6 @@ OPS = [
       sources=[("Casino Guru Casino Spino review", CG + "casino-spino-review")],
       flags=["Crypto-first cashier", "Owner not published"]),
 
- dict(slug="ivibet", name="Ivibet Casino", logo="/logos/ivibet.png",
-      casino=True, sports=False, crypto=True,
-      owner="Not published", owner_note="Casino Guru does not name an owner; older reviews link the brand to TechOptions Group B.V.",
-      licences=[("Kahnawake Gaming Commission", "01031")],
-      licence_short="Kahnawake", licence_year=None, launched="2022 (reported)",
-      safety=3.8, complaints=1, nzd=True,
-      limits=["€4,000 a day", "€16,000 a week", "€50,000 a month"], win_cap=None,
-      payments=["Visa", "Mastercard", "Apple Pay", "Skrill", "Paysafecard", "Jeton", "Revolut", "bank transfer", "Bitcoin", "Litecoin", "XRP"],
-      n_pay=21, offer=None, offer_detail=None, wagering=None,
-      sources=[("Casino Guru IviBet review", CG + "ivibet-casino-review")],
-      flags=["Low Safety Index (3.8)"]),
 
 
 
@@ -273,9 +251,7 @@ TRUSTPILOT = {
     "trixino": (None, None, "Profile removed by Trustpilot"),
     "rivo": (None, None, "Profile removed by Trustpilot"),
     "betandplay": (1.9, 112, ""),
-    "roby-casino": (1.8, 66, ""),
     "spino": (None, None, "No profile found"),
-    "ivibet": (2.9, 319, ""),
 }
 
 # ---------------------------------------------------------------------------

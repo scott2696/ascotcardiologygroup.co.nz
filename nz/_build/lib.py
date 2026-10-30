@@ -227,8 +227,8 @@ PAGE_META = {
    "Is online betting legal in NZ? TAB NZ and Betcha are the only legal betting sites. Rugby, racing and sports betting odds, margins, bet types and safer betting tools."),
  "/best-sports-betting-sites/": ("Best Sports Betting Sites NZ", "Bookmakers", "Top Bookies Compared on Licence, Limits and the 2025 Law",
    "Best betting sites NZ punters search for: TAB NZ against offshore bookmakers on licence, NZD banking, limits and odds, and what the 2025 offshore betting ban changed."),
- "/casino-reviews/": ("Online Casino Reviews NZ", "Trusted or Not?", "17 Casinos and Betting Sites Rated on Licence, Owner and Limits",
-   "Honest NZ casino reviews: 17 online casinos and betting sites checked on licence, owner, NZD banking, withdrawal limits and safety, and whether each can be trusted."),
+ "/casino-reviews/": ("Online Casino Reviews NZ", "Trusted or Not?", "15 Casinos and Betting Sites Rated on Licence, Owner and Limits",
+   "Honest NZ casino reviews: 15 online casinos and betting sites checked on licence, owner, NZD banking, withdrawal limits and safety, and whether each can be trusted."),
  "/payment-methods/": ("Casino Payment Methods NZ", "NZD Deposits", "Deposits and Withdrawals by Card, E-Wallet, Bank Transfer and Crypto",
    "Online casino deposit and withdrawal methods in NZ: Visa, Mastercard, Apple Pay, Skrill, Neosurf, POLi, bank transfer and crypto, NZD conversion fees and bank blocks."),
  "/nz-online-casino-law/": ("Is Online Gambling Legal in NZ", "Licences", "The Online Casino Gambling Act 2026 in Plain English",
@@ -766,7 +766,7 @@ def save_lastmod():
 # FAQ > related guides > author box.
 # ---------------------------------------------------------------------------
 RELATED = [
-    ("Best online casino sites NZ", "All 17 sites in one list, with licence, NZD banking and limits side by side.", "/"),
+    ("Best online casino sites NZ", "All 15 sites in one list, with licence, NZD banking and limits side by side.", "/"),
     ("NZ online casino law", "The 2026 Act, the advertising ban and the 1 December cut-off, explained.", "/nz-online-casino-law/"),
     ("Online pokies NZ", "RTP, variable RTP settings, volatility and jackpots, in plain English.", "/online-pokies/"),
     ("Fast payout casinos", "Published withdrawal limits in NZD and why cashouts stall.", "/fast-payout-casinos/"),

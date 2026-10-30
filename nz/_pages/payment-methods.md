@@ -4,7 +4,7 @@ title: "Casino Payment Methods NZ [October 2026]: NZD Deposits"
 meta_description: "Online casino deposit and withdrawal methods in NZ: Visa, Mastercard, Apple Pay, Skrill, Neosurf, POLi, bank transfer and crypto, NZD conversion fees and bank blocks."
 h1: "Casino Payment Methods NZ [October 2026]: Deposits and Withdrawals by Card, E-Wallet, Bank Transfer and Crypto"
 author: Tama Rewiti
-words: 1356
+words: 1331
 ---
 
 Checked 8 October 2026
@@ -14,7 +14,7 @@ Checked 8 October 2026
 Cards, e-wallets, vouchers, bank transfer and crypto compared from a New Zealand point of view: what each costs, how fast it is, what goes wrong, and how a bank gambling block works.Written by [**Tama Rewiti** ](https://ascotcardiologygroup.co.nz/nz/authors/#tama-rewiti), Payments Writer Checked by [Hana McAllister](https://ascotcardiologygroup.co.nz/nz/authors/#hana-mcallister) Updated 30 October 2026    
 
 - **2–3%** typical conversion cost each way 
-- **9** casinos with NZD 
+- **7** casinos with NZD 
 - **6** method types compared 
 - **0** casino links 
 
@@ -53,7 +53,7 @@ Most casinos on our list accept several coins. Crypto is often the most direct w
 
 ## POLi and Apple Pay
 
-POLi, the bank-to-bank payment service, closed in Australia in 2023 but still operates in New Zealand. It is rare at offshore casinos and does not appear in Casino Guru's payment lists for any brand here, though one 2026 review reports it at Spinjo and Lucky Vibe. Apple Pay appears at a few brands on our list, including MadCasino, Smash, Rivo and Ivibet, usually as a way of paying by card.
+POLi, the bank-to-bank payment service, closed in Australia in 2023 but still operates in New Zealand. It is rare at offshore casinos and does not appear in Casino Guru's payment lists for any brand here, though one 2026 review reports it at Spinjo and Lucky Vibe. Apple Pay appears at a few brands on our list, including MadCasino, Smash and Rivo, usually as a way of paying by card.
 
 ## What currency conversion really costs
 
@@ -65,7 +65,7 @@ If a casino has no NZD balance, each deposit and each withdrawal is converted. S
 | NZ$200 | NZ$2,400 | NZ$60 |
 | NZ$500 | NZ$6,000 | NZ$150 |
 
-9 of the 15 casinos we checked list NZD as a balance currency.
+7 of the 13 casinos we checked list NZD as a balance currency.
 
 ## Bank gambling blocks
 
@@ -90,9 +90,7 @@ Payment lists from each brand's Casino Guru profile or other named source, read 
 | [Trixino](https://ascotcardiologygroup.co.nz/nz/casino-reviews/trixino/) | n/a | Not confirmed | Cards, crypto |
 | [Rivo](https://ascotcardiologygroup.co.nz/nz/casino-reviews/rivo/) | 34 | No | Visa, Mastercard, American Express, Apple Pay, Skrill, Neteller, bank transfer |
 | [Bet&Play](https://ascotcardiologygroup.co.nz/nz/casino-reviews/betandplay/) | 19 | Yes | Visa, Mastercard, Skrill, Neteller, Paysafecard, MiFinity, MuchBetter |
-| [Roby Casino](https://ascotcardiologygroup.co.nz/nz/casino-reviews/roby-casino/) | 47 | Yes | Visa, Mastercard, Skrill, Neteller, Paysafecard, Neosurf, bank transfer |
 | [Spino](https://ascotcardiologygroup.co.nz/nz/casino-reviews/spino/) | n/a | No | Bitcoin, Ethereum, Litecoin, USDT, Solana, Dogecoin, XRP |
-| [Ivibet Casino](https://ascotcardiologygroup.co.nz/nz/casino-reviews/ivibet/) | 21 | Yes | Visa, Mastercard, Apple Pay, Skrill, Paysafecard, Jeton, Revolut |
 
 ## Frequently asked questions
 
@@ -121,7 +119,7 @@ Casinos rarely charge deposit fees themselves, but your bank or e-wallet may cha
 
 ### Best online casino sites NZ
 
-All 17 sites in one list, with licence, NZD banking and limits side by side.Read the guide ](https://ascotcardiologygroup.co.nz/nz/)[
+All 15 sites in one list, with licence, NZD banking and limits side by side.Read the guide ](https://ascotcardiologygroup.co.nz/nz/)[
 
 ### NZ online casino law
 

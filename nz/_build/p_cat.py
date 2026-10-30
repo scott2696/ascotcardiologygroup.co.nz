@@ -88,7 +88,7 @@ def pokies():
 # ---------------------------------------------------------------------------
 def new_casinos():
     P = "/new-online-casinos/"
-    ops = pick(["crownslots", "spinjo", "lucky-vibe", "fortune-play", "lucky-circus", "smash", "trixino", "rivo", "spino", "ivibet"])
+    ops = pick(["crownslots", "spinjo", "lucky-vibe", "fortune-play", "lucky-circus", "smash", "trixino", "rivo", "spino"])
     lic_rows = sorted([o for o in ops if o["licence_year"] or o["launched"]], key=lambda o: o["name"])
     content = (
         toc([("What counts as new", "new"), ("Dating a casino by its licence", "dating"), ("Checks for any new casino", "checks"),
@@ -186,9 +186,8 @@ def high_payout():
           "If a casino consistently runs the lower settings, its pokies are a worse deal everywhere in the lobby, however "
           "generous its bonus looks.</p>"
         + '<h2 id="limits">Limits: the other half of paying out</h2>'
-        + "<p>The highest published limits on our list belong to Ivibet at €4,000 a day and €16,000 a "
-          "week, though it has a low independent safety rating. The NZD-balance sites in the Hollycorn and Novatrix "
-          "groups publish NZ$3,000 a day, NZ$7,500 a week and NZ$30,000 a month. At the low end, Roby Casino publishes NZ$1,000 "
+        + "<p>The highest published limits on our list belong to the NZD-balance sites in the Hollycorn and Novatrix "
+          "groups: NZ$3,000 a day, NZ$7,500 a week and NZ$30,000 a month. At the low end, Smash and Rivo publish €1,000 "
           "a day, Smash €2,000 a week and Lucky Circus €2,500 a week. Lucky Circus, Bet&Play, Rivo and Smash also have daily "
           "win caps.</p>"
         + '<h2 id="tips">How to get the best return</h2>'
@@ -200,9 +199,8 @@ def high_payout():
     )
     faqs = [
         ("Which online casino has the highest payout in NZ?",
-         "<p>No casino has a single payout rate. What you can compare is the RTP of the games and the withdrawal limits. Ivibet "
-         "publishes the highest limits on our list, at €4,000 a day, but has a low safety rating; the "
-         "best-documented NZD sites publish NZ$3,000 a day.</p>"),
+         "<p>No casino has a single payout rate. What you can compare is the RTP of the games and the withdrawal limits. The "
+         "best-documented NZD sites publish the highest limits on our list, at NZ$3,000 a day and NZ$7,500 a week.</p>"),
         ("What casino game has the best odds?",
          "<p>Blackjack played with basic strategy, at about 0.5% house edge, followed by baccarat on the banker bet (1.06%) and "
          "European roulette (2.7%).</p>"),

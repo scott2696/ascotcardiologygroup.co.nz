@@ -4,7 +4,7 @@ title: "Fastest Payout Casinos NZ [October 2026]: Fast Cashouts"
 meta_description: "Fast withdrawal casinos for Kiwis: the quickest NZ casino payout methods, published NZD withdrawal limits, ID checks and why an 'instant withdrawal' casino still stalls."
 h1: "Fastest Payout Casinos NZ [October 2026]: Fast Withdrawal Casinos, Payout Limits and Why Cashouts Stall"
 author: Tama Rewiti
-words: 1595
+words: 1524
 ---
 
 Facts checked 8 October 2026
@@ -37,8 +37,6 @@ Only casinos whose limits we could source are listed, in our editor's order.
 | [Lucky Circus](https://ascotcardiologygroup.co.nz/nz/casino-reviews/lucky-circus/) | None on record | Licence: Anjouan + Tobique; NZD balance: Yes; Withdrawal limit: €2,500 a week; Safety Index: 6.8 | 6.8/10 |
 | [Smash](https://ascotcardiologygroup.co.nz/nz/casino-reviews/smash/) | None on record | Licence: Anjouan; NZD balance: No; Withdrawal limit: €2,000 a week; Safety Index: 3.9 | 5.1/10 |
 | [Rivo](https://ascotcardiologygroup.co.nz/nz/casino-reviews/rivo/) | None on record | Licence: Anjouan; NZD balance: No; Withdrawal limit: €1,000 a day; Safety Index: 6.2 | 6.3/10 |
-| [Roby Casino](https://ascotcardiologygroup.co.nz/nz/casino-reviews/roby-casino/) | None on record | Licence: Not verified; NZD balance: Yes; Withdrawal limit: NZ$1,000 a day; Safety Index: 5.7 | 4.9/10 |
-| [Ivibet Casino](https://ascotcardiologygroup.co.nz/nz/casino-reviews/ivibet/) | None on record | Licence: Kahnawake; NZD balance: Yes; Withdrawal limit: €16,000 a week; Safety Index: 3.8 | 5.5/10 |
 
 **About this list.** Sites are shown in the order set by our editor, which is not the score order. The **Ledger score** comes from five published inputs and is the number to compare; [see every site sorted by score](https://ascotcardiologygroup.co.nz/nz/casino-reviews/#by-score). We do not link to any casino or carry sign-up offers. [How we score](https://ascotcardiologygroup.co.nz/nz/how-we-review/).*Casino Guru Safety Index, read 8 October 2026. Ledger score: our five-input score.
 
@@ -53,8 +51,6 @@ Only casinos whose limits we could source are listed, in our editor's order.
 | [Lucky Circus](https://ascotcardiologygroup.co.nz/nz/casino-reviews/lucky-circus/) | €2,500 a week | US$50,000 a day (net win) | Yes | 21 | **6.8** |
 | [Smash](https://ascotcardiologygroup.co.nz/nz/casino-reviews/smash/) | €2,000 a week | €100,000 a day | No | 21 | **5.1** |
 | [Rivo](https://ascotcardiologygroup.co.nz/nz/casino-reviews/rivo/) | €1,000 a day | €100,000 a day | No | 34 | **6.3** |
-| [Roby Casino](https://ascotcardiologygroup.co.nz/nz/casino-reviews/roby-casino/) | NZ$1,000 a day | None published | Yes | 47 | **4.9** |
-| [Ivibet Casino](https://ascotcardiologygroup.co.nz/nz/casino-reviews/ivibet/) | €16,000 a week | None published | Yes | 21 | **5.5** |
 
 R18. Gambling can cause harm. Free, confidential help 24/7: Gambling Helpline [0800 654 655](tel:0800654655) or text 8006. [Tools and support](https://ascotcardiologygroup.co.nz/nz/responsible-gambling/). 
 
@@ -152,7 +148,7 @@ The most a casino will pay you in a day, week or month. Wins above it are paid i
 
 ### Best online casino sites NZ
 
-All 17 sites in one list, with licence, NZD banking and limits side by side.Read the guide ](https://ascotcardiologygroup.co.nz/nz/)[
+All 15 sites in one list, with licence, NZD banking and limits side by side.Read the guide ](https://ascotcardiologygroup.co.nz/nz/)[
 
 ### NZ online casino law
 

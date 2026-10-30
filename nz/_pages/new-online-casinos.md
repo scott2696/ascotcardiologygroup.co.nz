@@ -4,7 +4,7 @@ title: "New Online Casinos NZ [October 2026]: Newest Casino Sites"
 meta_description: "Newest online casino sites in NZ for 2026, dated by licence rather than launch hype, why no new casino may enter NZ under the 2026 Act, and what the DIA auction means."
 h1: "New Online Casinos NZ [October 2026]: Best New Casino Sites, Dated by Licence and Checked Before You Join"
 author: Hana McAllister
-words: 1770
+words: 1728
 ---
 
 Facts checked 8 October 2026
@@ -13,7 +13,7 @@ Facts checked 8 October 2026
 
 Ten newer casino brands that New Zealanders ask about, dated by their licence numbers rather than marketing claims. Plus the six checks for any new casino and why the 2026 Act stopped new brands entering New Zealand.Written by [**Hana McAllister** ](https://ascotcardiologygroup.co.nz/nz/authors/#hana-mcallister), Editor Checked by [Wiremu Salter](https://ascotcardiologygroup.co.nz/nz/authors/#wiremu-salter) Updated 30 October 2026    
 
-- **10** newer brands checked 
+- **9** newer brands checked 
 - **June 2026** newest licence on our list 
 - **1 May 2026** no new entrants from 
 - **0** casino links 
@@ -37,7 +37,6 @@ Brands reported as launched since 2024 or licensed since 2025, in our editor's o
 | [Trixino](https://ascotcardiologygroup.co.nz/nz/casino-reviews/trixino/) | 777% across six deposits, up to €7,777 in total, at 7x wagering | Licence: Not confirmed; NZD balance: Not confirmed; Withdrawal limit: Not published; Safety Index: No profile | 4.1/10 |
 | [Rivo](https://ascotcardiologygroup.co.nz/nz/casino-reviews/rivo/) | None on record | Licence: Anjouan; NZD balance: No; Withdrawal limit: €1,000 a day; Safety Index: 6.2 | 6.3/10 |
 | [Spino](https://ascotcardiologygroup.co.nz/nz/casino-reviews/spino/) | None on record | Licence: Anjouan; NZD balance: No; Withdrawal limit: Not published; Safety Index: 7.2 | 6.0/10 |
-| [Ivibet Casino](https://ascotcardiologygroup.co.nz/nz/casino-reviews/ivibet/) | None on record | Licence: Kahnawake; NZD balance: Yes; Withdrawal limit: €16,000 a week; Safety Index: 3.8 | 5.5/10 |
 
 **About this list.** Sites are shown in the order set by our editor, which is not the score order. The **Ledger score** comes from five published inputs and is the number to compare; [see every site sorted by score](https://ascotcardiologygroup.co.nz/nz/casino-reviews/#by-score). We do not link to any casino or carry sign-up offers. [How we score](https://ascotcardiologygroup.co.nz/nz/how-we-review/).*Casino Guru Safety Index, read 8 October 2026. Ledger score: our five-input score.
 
@@ -52,7 +51,6 @@ Brands reported as launched since 2024 or licensed since 2025, in our editor's o
 | [Trixino](https://ascotcardiologygroup.co.nz/nz/casino-reviews/trixino/) | Not confirmed | Not confirmed | Not confirmed | Not confirmed | No profile | **4.1** |
 | [Rivo](https://ascotcardiologygroup.co.nz/nz/casino-reviews/rivo/) | Anjouan | 2026 | Exceptiosoft Ltd | No | 6.2 | **6.3** |
 | [Spino](https://ascotcardiologygroup.co.nz/nz/casino-reviews/spino/) | Anjouan | 2025 | Not published | No | 7.2 | **6.0** |
-| [Ivibet Casino](https://ascotcardiologygroup.co.nz/nz/casino-reviews/ivibet/) | Kahnawake | Not confirmed | Not published | Yes | 3.8 | **5.5** |
 
 R18. Gambling can cause harm. Free, confidential help 24/7: Gambling Helpline [0800 654 655](tel:0800654655) or text 8006. [Tools and support](https://ascotcardiologygroup.co.nz/nz/responsible-gambling/). 
 
@@ -75,7 +73,6 @@ Anjouan licence numbers follow the pattern ALSI-YYYYMM…, so the number itself 
 |---|---|---|---|
 | [CrownSlots](https://ascotcardiologygroup.co.nz/nz/casino-reviews/crownslots/) | 2024 (reported) | Not confirmed | Curaçao (reported) |
 | [Fortune Play](https://ascotcardiologygroup.co.nz/nz/casino-reviews/fortune-play/) | 2024 (reported) | 2025 | Tobique + Anjouan |
-| [Ivibet Casino](https://ascotcardiologygroup.co.nz/nz/casino-reviews/ivibet/) | 2022 (reported) | Not confirmed | Kahnawake |
 | [Lucky Circus](https://ascotcardiologygroup.co.nz/nz/casino-reviews/lucky-circus/) | 2024 (reported) | 2025 | Anjouan + Tobique |
 | [Lucky Vibe](https://ascotcardiologygroup.co.nz/nz/casino-reviews/lucky-vibe/) | 2024 (reported) | 2025 | Tobique + Anjouan |
 | [Rivo](https://ascotcardiologygroup.co.nz/nz/casino-reviews/rivo/) | Not confirmed | 2026 | Anjouan |
@@ -152,7 +149,7 @@ On the DIA's guidance, no new online casino provider may enter the New Zealand m
 
 ### Best online casino sites NZ
 
-All 17 sites in one list, with licence, NZD banking and limits side by side.Read the guide ](https://ascotcardiologygroup.co.nz/nz/)[
+All 15 sites in one list, with licence, NZD banking and limits side by side.Read the guide ](https://ascotcardiologygroup.co.nz/nz/)[
 
 ### NZ online casino law
 

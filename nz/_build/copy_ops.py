@@ -199,20 +199,6 @@ COPY = {
         "Casino Guru counts 11 complaints against related sites"],
   verdict=("Bet&Play is a reasonable, well-documented sportsbook option within the Novatrix group, held back by its "
            "win cap and limits.")),
- "roby-casino": dict(
-  tagline="Large payment menu and NZD support, but no licence verified by Casino Guru.",
-  intro=("Roby Casino has casino and sportsbook products and accepts NZD, with 47 payment options listed by Casino Guru. "
-         "The concern is licensing: Casino Guru says it is not aware of any licence, although other review sites cite "
-         "Anjouan. Casino Guru also warns that players report withdrawal limits lower than those stated in the terms."),
-  pros=["NZD balance supported",
-        "The widest payment menu on our list (47 options)",
-        "Casino and sportsbook in one account"],
-  cons=["No licence verified by Casino Guru",
-        "Players report payouts limited below the stated limits",
-        "Owner not published",
-        "Two complaints logged with Casino Guru"],
-  verdict=("A long list of payment methods does not make up for a licence nobody can verify. We advise caution with "
-           "Roby Casino until that is cleared up.")),
  "spino": dict(
   tagline="Crypto-first casino and sportsbook with an Anjouan licence and a clean complaint record.",
   intro=("Spino is a crypto-first brand licensed in Anjouan (ALSI-202506006-FI1). Casino Guru gives it a Safety Index of "
@@ -226,17 +212,4 @@ COPY = {
         "No withdrawal limits published in the sources we checked"],
   verdict=("Spino is a reasonable choice only for someone already comfortable holding and moving crypto. For everyone "
            "else, the exchange step adds cost and risk.")),
- "ivibet": dict(
-  tagline="Kahnawake-licensed casino with NZD support, but a low independent safety rating.",
-  intro=("Ivibet Casino is licensed by the Kahnawake Gaming Commission (licence 01031), one of the longer-established "
-         "offshore regulators. Despite that, Casino Guru gives it a Safety Index of just 3.8, citing its terms and its "
-         "complaint history. NZD is supported, with limits of €4,000 a day."),
-  pros=["Kahnawake licence, verified by Casino Guru",
-        "NZD balance supported",
-        "Higher daily limits than most here (€4,000 a day, €16,000 a week)"],
-  cons=["Low Safety Index (3.8)",
-        "Owner not published by Casino Guru",
-        "Bonus terms flagged as unfair by Casino Guru"],
-  verdict=("A respected licence and decent limits are offset by a weak independent safety score. Read the bonus terms "
-           "closely, or skip the bonus altogether.")),
 }

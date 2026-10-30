@@ -1169,88 +1169,6 @@
   "tp_note": ""
  },
  {
-  "slug": "roby-casino",
-  "name": "Roby Casino",
-  "logo": "/logos/roby-casino.jpg",
-  "casino": true,
-  "sports": true,
-  "crypto": true,
-  "owner": "Not published",
-  "owner_note": "Casino Guru does not name an owner.",
-  "licences": [
-   [
-    "None verified by Casino Guru",
-    "other sites cite Anjouan or Curaçao"
-   ]
-  ],
-  "licence_short": "Not verified",
-  "licence_year": null,
-  "launched": "2024 (reported)",
-  "safety": 5.7,
-  "complaints": 2,
-  "nzd": true,
-  "limits": [
-   "NZ$1,000 a day",
-   "NZ$13,000 a month"
-  ],
-  "win_cap": null,
-  "payments": [
-   "Visa",
-   "Mastercard",
-   "Skrill",
-   "Neteller",
-   "Paysafecard",
-   "Neosurf",
-   "bank transfer",
-   "Bitcoin",
-   "Ethereum",
-   "XRP",
-   "Tron"
-  ],
-  "n_pay": 47,
-  "offer": null,
-  "offer_detail": null,
-  "wagering": null,
-  "sources": [
-   [
-    "Casino Guru Roby Casino review",
-    "https://casino.guru/roby-casino-review"
-   ]
-  ],
-  "flags": [
-   "No licence verified by Casino Guru",
-   "Players report payouts below the stated limits"
-  ],
-  "tagline": "Large payment menu and NZD support, but no licence verified by Casino Guru.",
-  "intro": "Roby Casino has casino and sportsbook products and accepts NZD, with 47 payment options listed by Casino Guru. The concern is licensing: Casino Guru says it is not aware of any licence, although other review sites cite Anjouan. Casino Guru also warns that players report withdrawal limits lower than those stated in the terms.",
-  "pros": [
-   "NZD balance supported",
-   "The widest payment menu on our list (47 options)",
-   "Casino and sportsbook in one account"
-  ],
-  "cons": [
-   "No licence verified by Casino Guru",
-   "Players report payouts limited below the stated limits",
-   "Owner not published",
-   "Two complaints logged with Casino Guru"
-  ],
-  "verdict": "A long list of payment methods does not make up for a licence nobody can verify. We advise caution with Roby Casino until that is cleared up.",
-  "order": 15,
-  "rating": 4.9,
-  "parts": {
-   "safety": 5.7,
-   "licence": 2.0,
-   "owner": 3.0,
-   "terms": 5.0,
-   "banking": 10.0
-  },
-  "logo_dark": false,
-  "checked": "8 October 2026",
-  "tp_score": 1.8,
-  "tp_reviews": 66,
-  "tp_note": ""
- },
- {
   "slug": "spino",
   "name": "Spino",
   "logo": "/logos/spino.jpg",
@@ -1309,7 +1227,7 @@
    "No withdrawal limits published in the sources we checked"
   ],
   "verdict": "Spino is a reasonable choice only for someone already comfortable holding and moving crypto. For everyone else, the exchange step adds cost and risk.",
-  "order": 16,
+  "order": 15,
   "rating": 6.0,
   "parts": {
    "safety": 7.2,
@@ -1323,86 +1241,5 @@
   "tp_score": null,
   "tp_reviews": null,
   "tp_note": "No profile found"
- },
- {
-  "slug": "ivibet",
-  "name": "Ivibet Casino",
-  "logo": "/logos/ivibet.png",
-  "casino": true,
-  "sports": false,
-  "crypto": true,
-  "owner": "Not published",
-  "owner_note": "Casino Guru does not name an owner; older reviews link the brand to TechOptions Group B.V.",
-  "licences": [
-   [
-    "Kahnawake Gaming Commission",
-    "01031"
-   ]
-  ],
-  "licence_short": "Kahnawake",
-  "licence_year": null,
-  "launched": "2022 (reported)",
-  "safety": 3.8,
-  "complaints": 1,
-  "nzd": true,
-  "limits": [
-   "€4,000 a day",
-   "€16,000 a week",
-   "€50,000 a month"
-  ],
-  "win_cap": null,
-  "payments": [
-   "Visa",
-   "Mastercard",
-   "Apple Pay",
-   "Skrill",
-   "Paysafecard",
-   "Jeton",
-   "Revolut",
-   "bank transfer",
-   "Bitcoin",
-   "Litecoin",
-   "XRP"
-  ],
-  "n_pay": 21,
-  "offer": null,
-  "offer_detail": null,
-  "wagering": null,
-  "sources": [
-   [
-    "Casino Guru IviBet review",
-    "https://casino.guru/ivibet-casino-review"
-   ]
-  ],
-  "flags": [
-   "Low Safety Index (3.8)"
-  ],
-  "tagline": "Kahnawake-licensed casino with NZD support, but a low independent safety rating.",
-  "intro": "Ivibet Casino is licensed by the Kahnawake Gaming Commission (licence 01031), one of the longer-established offshore regulators. Despite that, Casino Guru gives it a Safety Index of just 3.8, citing its terms and its complaint history. NZD is supported, with limits of €4,000 a day.",
-  "pros": [
-   "Kahnawake licence, verified by Casino Guru",
-   "NZD balance supported",
-   "Higher daily limits than most here (€4,000 a day, €16,000 a week)"
-  ],
-  "cons": [
-   "Low Safety Index (3.8)",
-   "Owner not published by Casino Guru",
-   "Bonus terms flagged as unfair by Casino Guru"
-  ],
-  "verdict": "A respected licence and decent limits are offset by a weak independent safety score. Read the bonus terms closely, or skip the bonus altogether.",
-  "order": 17,
-  "rating": 5.5,
-  "parts": {
-   "safety": 3.8,
-   "licence": 7.0,
-   "owner": 3.0,
-   "terms": 8.0,
-   "banking": 9.5
-  },
-  "logo_dark": false,
-  "checked": "8 October 2026",
-  "tp_score": 2.9,
-  "tp_reviews": 319,
-  "tp_note": ""
  }
 ]

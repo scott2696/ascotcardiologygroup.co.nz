@@ -51,8 +51,8 @@ def payments():
         ("poli", "POLi and Apple Pay", (
             "<p>POLi, the bank-to-bank payment service, closed in Australia in 2023 but still operates in New Zealand. It is rare "
             "at offshore casinos and does not appear in Casino Guru's payment lists for any brand here, though one 2026 review "
-            "reports it at Spinjo and Lucky Vibe. Apple Pay appears at a few brands on our list, including MadCasino, Smash, "
-            "Rivo and Ivibet, usually as a way of paying by card.</p>")),
+            "reports it at Spinjo and Lucky Vibe. Apple Pay appears at a few brands on our list, including MadCasino, Smash "
+            "and Rivo, usually as a way of paying by card.</p>")),
     ]
     content = (
         toc([(t_, i) for i, t_, _ in methods] + [("Currency conversion costs", "fx"), ("Bank gambling blocks", "blocks"),

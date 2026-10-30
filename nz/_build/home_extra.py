@@ -131,8 +131,8 @@ QUESTIONS = [
   "asking you to pay a 'tax' or 'release fee' before receiving a prize or withdrawal is trying to defraud you. See "
   '<a href="/gambling-winnings-tax-nz/">gambling winnings tax</a>.</p>'),
  ("Can I use PayPal, Apple Pay, a Prezzy card or POLi?", "payments",
-  "<p><b>PayPal</b>: none of the payment lists we checked for these 17 brands includes it. <b>Apple Pay</b>: listed at "
-  "MadCasino, Smash, Rivo and Ivibet. <b>Prezzy card</b>: a prepaid Visa, so it may work where Visa does, but it "
+  "<p><b>PayPal</b>: none of the payment lists we checked for these 15 brands includes it. <b>Apple Pay</b>: listed at "
+  "MadCasino, Smash and Rivo. <b>Prezzy card</b>: a prepaid Visa, so it may work where Visa does, but it "
   "cannot receive withdrawals. <b>POLi</b>: still running in New Zealand, but rare offshore; one 2026 review reports it at "
   "Spinjo and Lucky Vibe. Full details: <a href=\"/payment-methods/\">payment methods</a>.</p>"),
  ("Are NZ$1, NZ$5 and NZ$10 deposit casinos worth it?", "low-deposit",

@@ -24,7 +24,7 @@ def _picks():
         ("Casino and sport, NZD: Fortune Play", "Novatrix-run, verified licences, Safety Index 8.4, NZD limits of $7,500 a week.", review_url(s["fortune-play"])),
         ("Lowest wagering on record: Trixino", "7x on a 777% six-stage package, far below the 35x to 40x norm. Licence and owner not yet confirmed, so read the review first.", review_url(s["trixino"])),
         ("Crypto first: Spino", "Anjouan licence, Safety Index 7.2, no complaints logged. No NZD balance; only for people already comfortable with crypto.", review_url(s["spino"])),
-        ("Higher daily limits: Ivibet", "€4,000 a day under a Kahnawake licence, but a low independent safety rating (3.8).", "/fast-payout-casinos/"),
+        ("Highest NZD limits: Gunsbet", "NZ$3,000 a day and NZ$7,500 a week, the same as the Hollycorn and Novatrix casinos, with a Safety Index of 6.8.", "/fast-payout-casinos/"),
     ], 3)
 
 
@@ -73,12 +73,12 @@ def build():
          "and the DIA will then publish a register of licensed operators and their brands.</p>"),
         ("Which online casinos accept New Zealand dollars?",
          f"<p>{n_nzd} of the {len(CASINOS)} casinos we checked list NZD as a balance currency, including Spinjo, Lucky7even, Lucky "
-         "Vibe, Rooster Bet, Fortune Play, Lucky Circus, MadCasino, Roby Casino and Ivibet. Smash, Rivo and "
+         "Vibe, Rooster Bet, Fortune Play, Lucky Circus, and MadCasino. Smash, Rivo and "
          "Spino do not. For CrownSlots, Kingdom and Trixino we could not confirm it.</p>"),
         ("Which online casino pays out the most?",
          "<p>No casino 'pays out more' in the sense of better odds across the board; the return depends on the game and its RTP "
-         "setting. What differs is how much a casino lets you withdraw. Ivibet publishes €4,000 a day and "
-         "€16,000 a week; the NZD sites in the Hollycorn and Novatrix groups publish NZ$3,000 a day and NZ$7,500 a week. See "
+         "setting. What differs is how much a casino lets you withdraw. The NZD sites in the Hollycorn and Novatrix "
+         "groups publish the highest limits here: NZ$3,000 a day and NZ$7,500 a week. See "
          '<a href="/high-payout-casinos/">high payout casinos</a>.</p>'),
         ("Do I pay tax on online casino winnings in New Zealand?",
          "<p>Usually not. Inland Revenue does not treat casual gambling winnings as income. It can be different if gambling is "
@@ -190,7 +190,7 @@ def build():
 
             + '<h2 id="limits">Withdrawal limits compared</h2>'
             + "<p>The limit is the most underrated number in online gambling. A casino with a NZ$1,000 daily limit and a NZ$13,000 "
-              "monthly limit, like Roby Casino, would need months to pay a NZ$50,000 jackpot. Daily win caps are stricter "
+              "monthly limit would need months to pay a NZ$50,000 jackpot. Daily win caps are stricter "
               "still: at Lucky Circus and Bet&Play, net winnings above US$50,000 in a day are not paid at all.</p>"
             + _limits_table()
             + '<p>For the payout methods that move money fastest, see <a href="/fast-payout-casinos/">fast payout casinos</a>.</p>'

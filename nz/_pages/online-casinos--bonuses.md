@@ -4,7 +4,7 @@ title: "Best Casino Bonuses NZ [October 2026]: Welcome Offers"
 meta_description: "Casino welcome bonus NZ guide: wagering requirements worked through in NZD, max-bet rules, win caps, free spins, reloads and cashback, so you know the real cost first."
 h1: "Best Casino Bonuses NZ [October 2026]: Sign Up and Welcome Bonuses, With the Real Cost of Wagering"
 author: Hana McAllister
-words: 1940
+words: 1870
 ---
 
 Facts checked 8 October 2026
@@ -40,9 +40,7 @@ Offers are shown only where supplied or sourced. In our editor's order.
 | [Smash](https://ascotcardiologygroup.co.nz/nz/casino-reviews/smash/) | None on record | Licence: Anjouan; NZD balance: No; Withdrawal limit: €2,000 a week; Safety Index: 3.9 | 5.1/10 |
 | [Trixino](https://ascotcardiologygroup.co.nz/nz/casino-reviews/trixino/) | 777% across six deposits, up to €7,777 in total, at 7x wagering | Licence: Not confirmed; NZD balance: Not confirmed; Withdrawal limit: Not published; Safety Index: No profile | 4.1/10 |
 | [Rivo](https://ascotcardiologygroup.co.nz/nz/casino-reviews/rivo/) | None on record | Licence: Anjouan; NZD balance: No; Withdrawal limit: €1,000 a day; Safety Index: 6.2 | 6.3/10 |
-| [Roby Casino](https://ascotcardiologygroup.co.nz/nz/casino-reviews/roby-casino/) | None on record | Licence: Not verified; NZD balance: Yes; Withdrawal limit: NZ$1,000 a day; Safety Index: 5.7 | 4.9/10 |
 | [Spino](https://ascotcardiologygroup.co.nz/nz/casino-reviews/spino/) | None on record | Licence: Anjouan; NZD balance: No; Withdrawal limit: Not published; Safety Index: 7.2 | 6.0/10 |
-| [Ivibet Casino](https://ascotcardiologygroup.co.nz/nz/casino-reviews/ivibet/) | None on record | Licence: Kahnawake; NZD balance: Yes; Withdrawal limit: €16,000 a week; Safety Index: 3.8 | 5.5/10 |
 
 **About this list.** Sites are shown in the order set by our editor, which is not the score order. The **Ledger score** comes from five published inputs and is the number to compare; [see every site sorted by score](https://ascotcardiologygroup.co.nz/nz/casino-reviews/#by-score). We do not link to any casino or carry sign-up offers. [How we score](https://ascotcardiologygroup.co.nz/nz/how-we-review/).*Casino Guru Safety Index, read 8 October 2026. Ledger score: our five-input score.
 
@@ -60,9 +58,7 @@ Offers are shown only where supplied or sourced. In our editor's order.
 | [Smash](https://ascotcardiologygroup.co.nz/nz/casino-reviews/smash/) | None on record | Anjouan | No | 3.9 | **5.1** |
 | [Trixino](https://ascotcardiologygroup.co.nz/nz/casino-reviews/trixino/) | 777% across six deposits, up to €7,777 in total, at 7x wagering | Not confirmed | Not confirmed | No profile | **4.1** |
 | [Rivo](https://ascotcardiologygroup.co.nz/nz/casino-reviews/rivo/) | None on record | Anjouan | No | 6.2 | **6.3** |
-| [Roby Casino](https://ascotcardiologygroup.co.nz/nz/casino-reviews/roby-casino/) | None on record | Not verified | Yes | 5.7 | **4.9** |
 | [Spino](https://ascotcardiologygroup.co.nz/nz/casino-reviews/spino/) | None on record | Anjouan | No | 7.2 | **6.0** |
-| [Ivibet Casino](https://ascotcardiologygroup.co.nz/nz/casino-reviews/ivibet/) | None on record | Kahnawake | Yes | 3.8 | **5.5** |
 
 R18. Gambling can cause harm. Free, confidential help 24/7: Gambling Helpline [0800 654 655](tel:0800654655) or text 8006. [Tools and support](https://ascotcardiologygroup.co.nz/nz/responsible-gambling/). 
 
@@ -163,7 +159,7 @@ Only if the expected cost of the wagering is lower than the bonus and the terms 
 
 ### Best online casino sites NZ
 
-All 17 sites in one list, with licence, NZD banking and limits side by side.Read the guide ](https://ascotcardiologygroup.co.nz/nz/)[
+All 15 sites in one list, with licence, NZD banking and limits side by side.Read the guide ](https://ascotcardiologygroup.co.nz/nz/)[
 
 ### NZ online casino law
 

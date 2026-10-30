@@ -4,7 +4,7 @@ title: "Best Payout Casinos NZ [October 2026]: Best Paying Casinos"
 meta_description: "Best paying online casinos for NZ players: the highest RTP games, house edge on blackjack, roulette and baccarat, and which casinos' withdrawal limits can pay a big win."
 h1: "Best Payout Casinos NZ [October 2026]: Highest RTP and High Payout Casinos, With the House Edge by Game"
 author: Olivia Brandt
-words: 1820
+words: 1721
 ---
 
 Facts checked 8 October 2026
@@ -37,9 +37,7 @@ This page is the exception to our editor's order: here the casinos are sorted by
 | [MadCasino](https://ascotcardiologygroup.co.nz/nz/casino-reviews/madcasino/) | None on record | Licence: Curaçao (CGA); NZD balance: Yes; Withdrawal limit: NZ$4,500 a week; Safety Index: 6.7 | 6.5/10 |
 | [Rivo](https://ascotcardiologygroup.co.nz/nz/casino-reviews/rivo/) | None on record | Licence: Anjouan; NZD balance: No; Withdrawal limit: €1,000 a day; Safety Index: 6.2 | 6.3/10 |
 | [Spino](https://ascotcardiologygroup.co.nz/nz/casino-reviews/spino/) | None on record | Licence: Anjouan; NZD balance: No; Withdrawal limit: Not published; Safety Index: 7.2 | 6.0/10 |
-| [Ivibet Casino](https://ascotcardiologygroup.co.nz/nz/casino-reviews/ivibet/) | None on record | Licence: Kahnawake; NZD balance: Yes; Withdrawal limit: €16,000 a week; Safety Index: 3.8 | 5.5/10 |
 | [Smash](https://ascotcardiologygroup.co.nz/nz/casino-reviews/smash/) | None on record | Licence: Anjouan; NZD balance: No; Withdrawal limit: €2,000 a week; Safety Index: 3.9 | 5.1/10 |
-| [Roby Casino](https://ascotcardiologygroup.co.nz/nz/casino-reviews/roby-casino/) | None on record | Licence: Not verified; NZD balance: Yes; Withdrawal limit: NZ$1,000 a day; Safety Index: 5.7 | 4.9/10 |
 | [CrownSlots](https://ascotcardiologygroup.co.nz/nz/casino-reviews/crownslots/) | 390% up to €3,700 + 175 free spins across the first deposits | Licence: Curaçao (reported); NZD balance: Not confirmed; Withdrawal limit: Not published; Safety Index: No profile | 4.8/10 |
 | [Kingdom](https://ascotcardiologygroup.co.nz/nz/casino-reviews/kingdom/) | 600% up to €9,500 + 20% cashback (reported) | Licence: Not confirmed; NZD balance: Not confirmed; Withdrawal limit: Not published; Safety Index: No profile | 4.1/10 |
 | [Trixino](https://ascotcardiologygroup.co.nz/nz/casino-reviews/trixino/) | 777% across six deposits, up to €7,777 in total, at 7x wagering | Licence: Not confirmed; NZD balance: Not confirmed; Withdrawal limit: Not published; Safety Index: No profile | 4.1/10 |
@@ -57,9 +55,7 @@ This page is the exception to our editor's order: here the casinos are sorted by
 | [MadCasino](https://ascotcardiologygroup.co.nz/nz/casino-reviews/madcasino/) | NZ$4,500 a week | None published | Yes | 6.7 | **6.5** |
 | [Rivo](https://ascotcardiologygroup.co.nz/nz/casino-reviews/rivo/) | €1,000 a day | €100,000 a day | No | 6.2 | **6.3** |
 | [Spino](https://ascotcardiologygroup.co.nz/nz/casino-reviews/spino/) | Not published | None published | No | 7.2 | **6.0** |
-| [Ivibet Casino](https://ascotcardiologygroup.co.nz/nz/casino-reviews/ivibet/) | €16,000 a week | None published | Yes | 3.8 | **5.5** |
 | [Smash](https://ascotcardiologygroup.co.nz/nz/casino-reviews/smash/) | €2,000 a week | €100,000 a day | No | 3.9 | **5.1** |
-| [Roby Casino](https://ascotcardiologygroup.co.nz/nz/casino-reviews/roby-casino/) | NZ$1,000 a day | None published | Yes | 5.7 | **4.9** |
 | [CrownSlots](https://ascotcardiologygroup.co.nz/nz/casino-reviews/crownslots/) | Not published | None published | Not confirmed | No profile | **4.8** |
 | [Kingdom](https://ascotcardiologygroup.co.nz/nz/casino-reviews/kingdom/) | Not published | None published | Not confirmed | No profile | **4.1** |
 | [Trixino](https://ascotcardiologygroup.co.nz/nz/casino-reviews/trixino/) | Not published | None published | Not confirmed | No profile | **4.1** |
@@ -99,7 +95,7 @@ Studios commonly offer the same pokie at several RTP levels. The casino picks on
 
 ## Limits: the other half of paying out
 
-The highest published limits on our list belong to Ivibet at €4,000 a day and €16,000 a week, though it has a low independent safety rating. The NZD-balance sites in the Hollycorn and Novatrix groups publish NZ$3,000 a day, NZ$7,500 a week and NZ$30,000 a month. At the low end, Roby Casino publishes NZ$1,000 a day, Smash €2,000 a week and Lucky Circus €2,500 a week. Lucky Circus, Bet&Play, Rivo and Smash also have daily win caps.
+The highest published limits on our list belong to the NZD-balance sites in the Hollycorn and Novatrix groups: NZ$3,000 a day, NZ$7,500 a week and NZ$30,000 a month. At the low end, Smash and Rivo publish €1,000 a day, Smash €2,000 a week and Lucky Circus €2,500 a week. Lucky Circus, Bet&Play, Rivo and Smash also have daily win caps.
 
 ## How to get the best return
 
@@ -113,7 +109,7 @@ The highest published limits on our list belong to Ivibet at €4,000 a day and 
 
 ### Which online casino has the highest payout in NZ?
 
-No casino has a single payout rate. What you can compare is the RTP of the games and the withdrawal limits. Ivibet publishes the highest limits on our list, at €4,000 a day, but has a low safety rating; the best-documented NZD sites publish NZ$3,000 a day. 
+No casino has a single payout rate. What you can compare is the RTP of the games and the withdrawal limits. The best-documented NZD sites publish the highest limits on our list, at NZ$3,000 a day and NZ$7,500 a week. 
 
 ### What casino game has the best odds?
 
@@ -136,7 +132,7 @@ Yes. A big win is paid in instalments up to the limit, so a low weekly limit can
 
 ### Best online casino sites NZ
 
-All 17 sites in one list, with licence, NZD banking and limits side by side.Read the guide ](https://ascotcardiologygroup.co.nz/nz/)[
+All 15 sites in one list, with licence, NZD banking and limits side by side.Read the guide ](https://ascotcardiologygroup.co.nz/nz/)[
 
 ### NZ online casino law
 

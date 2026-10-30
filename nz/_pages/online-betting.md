@@ -4,7 +4,7 @@ title: "Online Betting NZ [October 2026]: Legal Betting Sites"
 meta_description: "Is online betting legal in NZ? TAB NZ and Betcha are the only legal betting sites. Rugby, racing and sports betting odds, margins, bet types and safer betting tools."
 h1: "Online Betting NZ [October 2026]: Racing and Sports Betting, TAB NZ and the Offshore Ban Explained"
 author: Jess Tuilagi
-words: 2570
+words: 2531
 ---
 
 Checked 8 October 2026
@@ -71,7 +71,6 @@ For information only. None of these sportsbooks is permitted to take bets from p
 | [Trixino](https://ascotcardiologygroup.co.nz/nz/casino-reviews/trixino/) | 777% across six deposits, up to €7,777 in total, at 7x wagering | Licence: Not confirmed; NZD balance: Not confirmed; Withdrawal limit: Not published; Safety Index: No profile | 4.1/10 |
 | [Rivo](https://ascotcardiologygroup.co.nz/nz/casino-reviews/rivo/) | None on record | Licence: Anjouan; NZD balance: No; Withdrawal limit: €1,000 a day; Safety Index: 6.2 | 6.3/10 |
 | [Bet&Play](https://ascotcardiologygroup.co.nz/nz/casino-reviews/betandplay/) | None on record | Licence: Anjouan + Tobique; NZD balance: Yes; Withdrawal limit: €5,000 a week; Safety Index: 6.8 | 7.1/10 |
-| [Roby Casino](https://ascotcardiologygroup.co.nz/nz/casino-reviews/roby-casino/) | None on record | Licence: Not verified; NZD balance: Yes; Withdrawal limit: NZ$1,000 a day; Safety Index: 5.7 | 4.9/10 |
 | [Spino](https://ascotcardiologygroup.co.nz/nz/casino-reviews/spino/) | None on record | Licence: Anjouan; NZD balance: No; Withdrawal limit: Not published; Safety Index: 7.2 | 6.0/10 |
 
 **About this list.** Sites are shown in the order set by our editor, which is not the score order. The **Ledger score** comes from five published inputs and is the number to compare; [see every site sorted by score](https://ascotcardiologygroup.co.nz/nz/casino-reviews/#by-score). We do not link to any casino or carry sign-up offers. [How we score](https://ascotcardiologygroup.co.nz/nz/how-we-review/).*Casino Guru Safety Index, read 8 October 2026. Ledger score: our five-input score.
@@ -88,7 +87,6 @@ For information only. None of these sportsbooks is permitted to take bets from p
 | [Trixino](https://ascotcardiologygroup.co.nz/nz/casino-reviews/trixino/) | Casino + Sport | Not confirmed | Not confirmed | Not published | No profile | **4.1** |
 | [Rivo](https://ascotcardiologygroup.co.nz/nz/casino-reviews/rivo/) | Casino + Sport | Anjouan | No | €1,000 a day | 6.2 | **6.3** |
 | [Bet&Play](https://ascotcardiologygroup.co.nz/nz/casino-reviews/betandplay/) | Sport | Anjouan + Tobique | Yes | €5,000 a week | 6.8 | **7.1** |
-| [Roby Casino](https://ascotcardiologygroup.co.nz/nz/casino-reviews/roby-casino/) | Casino + Sport | Not verified | Yes | NZ$1,000 a day | 5.7 | **4.9** |
 | [Spino](https://ascotcardiologygroup.co.nz/nz/casino-reviews/spino/) | Casino + Sport | Anjouan | No | Not published | 7.2 | **6.0** |
 
 R18. Gambling can cause harm. Free, confidential help 24/7: Gambling Helpline [0800 654 655](tel:0800654655) or text 8006. [Tools and support](https://ascotcardiologygroup.co.nz/nz/responsible-gambling/). 
@@ -251,7 +249,7 @@ Cards, e-wallets, bank transfer and crypto from New Zealand.Read the guide ](htt
 
 ### Casino reviews
 
-All 17 casino and betting sites, checked and scored.Read the guide ](https://ascotcardiologygroup.co.nz/nz/casino-reviews/) 
+All 15 casino and betting sites, checked and scored.Read the guide ](https://ascotcardiologygroup.co.nz/nz/casino-reviews/) 
 
 [Jess Tuilagi](https://ascotcardiologygroup.co.nz/nz/authors/#jess-tuilagi)
 

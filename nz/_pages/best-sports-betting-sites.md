@@ -4,7 +4,7 @@ title: "Best Sports Betting Sites NZ [October 2026]: Bookmakers"
 meta_description: "Best betting sites NZ punters search for: TAB NZ against offshore bookmakers on licence, NZD banking, limits and odds, and what the 2025 offshore betting ban changed."
 h1: "Best Sports Betting Sites NZ [October 2026]: Top Bookies Compared on Licence, Limits and the 2025 Law"
 author: Jess Tuilagi
-words: 1587
+words: 1548
 ---
 
 Facts checked 8 October 2026
@@ -14,7 +14,7 @@ Facts checked 8 October 2026
 How TAB NZ compares with the offshore sportsbooks New Zealanders still ask about, checked on licence, owner, NZD banking and limits. Since June 2025 only TAB NZ may lawfully take your bets.Written by [**Jess Tuilagi** ](https://ascotcardiologygroup.co.nz/nz/authors/#jess-tuilagi), Sport Writer Checked by [Wiremu Salter](https://ascotcardiologygroup.co.nz/nz/authors/#wiremu-salter) Updated 30 October 2026    
 
 - **1** lawful online bookmaker 
-- **12** offshore books checked 
+- **11** offshore books checked 
 - **4.7%** margin at 1.91/1.91 
 - **0** bookmaker links 
 
@@ -38,7 +38,6 @@ For information only; none may take bets from New Zealanders under the 2025 law.
 | [Trixino](https://ascotcardiologygroup.co.nz/nz/casino-reviews/trixino/) | 777% across six deposits, up to €7,777 in total, at 7x wagering | Licence: Not confirmed; NZD balance: Not confirmed; Withdrawal limit: Not published; Safety Index: No profile | 4.1/10 |
 | [Rivo](https://ascotcardiologygroup.co.nz/nz/casino-reviews/rivo/) | None on record | Licence: Anjouan; NZD balance: No; Withdrawal limit: €1,000 a day; Safety Index: 6.2 | 6.3/10 |
 | [Bet&Play](https://ascotcardiologygroup.co.nz/nz/casino-reviews/betandplay/) | None on record | Licence: Anjouan + Tobique; NZD balance: Yes; Withdrawal limit: €5,000 a week; Safety Index: 6.8 | 7.1/10 |
-| [Roby Casino](https://ascotcardiologygroup.co.nz/nz/casino-reviews/roby-casino/) | None on record | Licence: Not verified; NZD balance: Yes; Withdrawal limit: NZ$1,000 a day; Safety Index: 5.7 | 4.9/10 |
 | [Spino](https://ascotcardiologygroup.co.nz/nz/casino-reviews/spino/) | None on record | Licence: Anjouan; NZD balance: No; Withdrawal limit: Not published; Safety Index: 7.2 | 6.0/10 |
 
 **About this list.** Sites are shown in the order set by our editor, which is not the score order. The **Ledger score** comes from five published inputs and is the number to compare; [see every site sorted by score](https://ascotcardiologygroup.co.nz/nz/casino-reviews/#by-score). We do not link to any casino or carry sign-up offers. [How we score](https://ascotcardiologygroup.co.nz/nz/how-we-review/).*Casino Guru Safety Index, read 8 October 2026. Ledger score: our five-input score.
@@ -55,7 +54,6 @@ For information only; none may take bets from New Zealanders under the 2025 law.
 | [Trixino](https://ascotcardiologygroup.co.nz/nz/casino-reviews/trixino/) | Casino + Sport | Not confirmed | Not confirmed | Not published | No profile | **4.1** |
 | [Rivo](https://ascotcardiologygroup.co.nz/nz/casino-reviews/rivo/) | Casino + Sport | Anjouan | No | €1,000 a day | 6.2 | **6.3** |
 | [Bet&Play](https://ascotcardiologygroup.co.nz/nz/casino-reviews/betandplay/) | Sport | Anjouan + Tobique | Yes | €5,000 a week | 6.8 | **7.1** |
-| [Roby Casino](https://ascotcardiologygroup.co.nz/nz/casino-reviews/roby-casino/) | Casino + Sport | Not verified | Yes | NZ$1,000 a day | 5.7 | **4.9** |
 | [Spino](https://ascotcardiologygroup.co.nz/nz/casino-reviews/spino/) | Casino + Sport | Anjouan | No | Not published | 7.2 | **6.0** |
 
 R18. Gambling can cause harm. Free, confidential help 24/7: Gambling Helpline [0800 654 655](tel:0800654655) or text 8006. [Tools and support](https://ascotcardiologygroup.co.nz/nz/responsible-gambling/). 
@@ -131,7 +129,7 @@ The law, odds, margins, bet types and NZ markets.Read the guide ](https://ascotc
 
 ### Best online casino sites NZ
 
-All 17 sites in one list, with licence, NZD banking and limits side by side.Read the guide ](https://ascotcardiologygroup.co.nz/nz/)[
+All 15 sites in one list, with licence, NZD banking and limits side by side.Read the guide ](https://ascotcardiologygroup.co.nz/nz/)[
 
 ### NZ online casino law
 

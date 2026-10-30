@@ -1,23 +1,23 @@
 # Page index
 
-40 pages, 52,870 words.
+38 pages, 49,945 words.
 
 | Words | URL | File |
 |---:|---|---|
-| 6,554 | `/` | `_pages/home.md` |
-| 2,570 | `/online-betting/` | `_pages/online-betting.md` |
-| 2,137 | `/online-pokies/` | `_pages/online-pokies.md` |
-| 1,940 | `/online-casinos/bonuses/` | `_pages/online-casinos--bonuses.md` |
-| 1,820 | `/high-payout-casinos/` | `_pages/high-payout-casinos.md` |
-| 1,770 | `/new-online-casinos/` | `_pages/new-online-casinos.md` |
-| 1,755 | `/no-deposit-casinos/` | `_pages/no-deposit-casinos.md` |
-| 1,716 | `/best-crypto-casinos/` | `_pages/best-crypto-casinos.md` |
-| 1,696 | `/live-casinos/` | `_pages/live-casinos.md` |
+| 6,413 | `/` | `_pages/home.md` |
+| 2,531 | `/online-betting/` | `_pages/online-betting.md` |
+| 2,061 | `/online-pokies/` | `_pages/online-pokies.md` |
+| 1,870 | `/online-casinos/bonuses/` | `_pages/online-casinos--bonuses.md` |
+| 1,728 | `/new-online-casinos/` | `_pages/new-online-casinos.md` |
+| 1,721 | `/high-payout-casinos/` | `_pages/high-payout-casinos.md` |
+| 1,683 | `/no-deposit-casinos/` | `_pages/no-deposit-casinos.md` |
 | 1,648 | `/nz-online-casino-law/` | `_pages/nz-online-casino-law.md` |
-| 1,595 | `/fast-payout-casinos/` | `_pages/fast-payout-casinos.md` |
-| 1,587 | `/best-sports-betting-sites/` | `_pages/best-sports-betting-sites.md` |
-| 1,483 | `/casino-reviews/` | `_pages/casino-reviews.md` |
-| 1,356 | `/payment-methods/` | `_pages/payment-methods.md` |
+| 1,644 | `/best-crypto-casinos/` | `_pages/best-crypto-casinos.md` |
+| 1,620 | `/live-casinos/` | `_pages/live-casinos.md` |
+| 1,548 | `/best-sports-betting-sites/` | `_pages/best-sports-betting-sites.md` |
+| 1,524 | `/fast-payout-casinos/` | `_pages/fast-payout-casinos.md` |
+| 1,405 | `/casino-reviews/` | `_pages/casino-reviews.md` |
+| 1,331 | `/payment-methods/` | `_pages/payment-methods.md` |
 | 1,178 | `/casino-reviews/spinjo/` | `_pages/casino-reviews--spinjo.md` |
 | 1,172 | `/casino-reviews/crownslots/` | `_pages/casino-reviews--crownslots.md` |
 | 1,168 | `/casino-reviews/gunsbet/` | `_pages/casino-reviews--gunsbet.md` |
@@ -32,8 +32,6 @@
 | 1,086 | `/casino-reviews/lucky-vibe/` | `_pages/casino-reviews--lucky-vibe.md` |
 | 1,083 | `/casino-reviews/rivo/` | `_pages/casino-reviews--rivo.md` |
 | 1,066 | `/casino-reviews/smash/` | `_pages/casino-reviews--smash.md` |
-| 1,025 | `/casino-reviews/roby-casino/` | `_pages/casino-reviews--roby-casino.md` |
-| 1,000 | `/casino-reviews/ivibet/` | `_pages/casino-reviews--ivibet.md` |
 | 988 | `/responsible-gambling/` | `_pages/responsible-gambling.md` |
 | 971 | `/casino-reviews/spino/` | `_pages/casino-reviews--spino.md` |
 | 869 | `/how-we-review/` | `_pages/how-we-review.md` |
