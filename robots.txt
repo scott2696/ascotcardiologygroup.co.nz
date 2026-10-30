@@ -1,2 +1,29 @@
+# robots.txt for https://ascotcardiologygroup.co.nz
+
 User-agent: *
+Disallow: /
+Allow: /nz/
+Disallow: /nz/*?
+
+Sitemap: https://ascotcardiologygroup.co.nz/nz/sitemap.xml
+
+User-agent: AhrefsBot
+Disallow: /
+
+User-agent: SemrushBot
+Disallow: /
+
+User-agent: MJ12bot
+Disallow: /
+
+User-agent: DotBot
+Disallow: /
+
+User-agent: Rogerbot
+Disallow: /
+
+User-agent: serpstatbot
+Disallow: /
+
+User-agent: SistrixBot
 Disallow: /

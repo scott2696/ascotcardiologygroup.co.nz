@@ -1,0 +1,36 @@
+{
+ "name": "Kiwi Casino Ledger",
+ "short_name": "Casino Ledger",
+ "start_url": "/nz/",
+ "display": "standalone",
+ "background_color": "#F7F5EF",
+ "theme_color": "#0F3B30",
+ "lang": "en-NZ",
+ "icons": [
+  {
+   "src": "/nz/favicon-48x48.png",
+   "sizes": "48x48",
+   "type": "image/png"
+  },
+  {
+   "src": "/nz/favicon-96x96.png",
+   "sizes": "96x96",
+   "type": "image/png"
+  },
+  {
+   "src": "/nz/favicon-144x144.png",
+   "sizes": "144x144",
+   "type": "image/png"
+  },
+  {
+   "src": "/nz/favicon-192x192.png",
+   "sizes": "192x192",
+   "type": "image/png"
+  },
+  {
+   "src": "/nz/favicon-512x512.png",
+   "sizes": "512x512",
+   "type": "image/png"
+  }
+ ]
+}
