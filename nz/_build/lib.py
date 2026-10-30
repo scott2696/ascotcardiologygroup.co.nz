@@ -351,7 +351,7 @@ def byline(author, checker=None):
            f'<span>Written by <a href="/authors/#{author}"><b>{a["name"]}</b></a>, {a["role"]}</span>']
     if checker:
         c = AUTHORS[checker]
-        out.append(f'<span>Checked by <a href="/authors/#{checker}">{c["name"]}</a></span>')
+        out.append(f'<span class="by-chk">Checked by <a href="/authors/#{checker}">{c["name"]}</a></span>')
     out.append(f'<span>Updated <time datetime="{UPDATED}">{UPDATED_NZ}</time></span>')
     out.append("</div></div>")
     return "".join(out)
@@ -761,7 +761,7 @@ def page(path, body, schema=None):
 </head>
 <body>
 <a class="skip" href="#main">Skip to content</a>
-<div class="strip"><div class="wrap"><span><b>R18</b> &middot; Gambling can cause harm. Free help 24/7:
+<div class="strip"><div class="wrap"><span><b>R18</b> &middot; <span class="strip-m">Gambling can cause harm. </span>Free help 24/7:
 <a href="tel:0800654655">0800 654 655</a></span><span class="strip-r">Independent &middot; No casino links &middot;
 <a href="/about/#standards">Our standards</a></span></div></div>
 <header class="hdr"><div class="wrap hdr-in">

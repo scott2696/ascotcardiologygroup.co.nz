@@ -295,3 +295,25 @@ a.card:hover{border-color:var(--moss)}
 .how h3{margin-top:1.4em}
 .how .steps{margin-left:0;padding-left:0}
 .av--img{object-fit:cover;background:var(--line-2);border:2px solid var(--kowhai);padding:0}
+
+/* Mobile: keep the H1, byline, list heading and first card above the fold */
+@media(max-width:759px){
+  .strip{font-size:.72rem}.strip .wrap{padding-top:5px;padding-bottom:5px}.strip-m{display:none}
+  .hdr-in{min-height:54px}
+  .hero{padding:16px 0 14px}.hero .kicker,.hero .lead,.hero-facts{display:none}
+  .hero h1{font-size:clamp(1.3rem,5.6vw,1.6rem);line-height:1.2;margin-bottom:.35em}
+  .hero .byline{margin-top:8px;font-size:.8rem;gap:8px}.hero .byline .av{width:30px;height:30px;font-size:.72rem}
+  .hero .by-chk{display:none}
+  .crumbs{display:none}
+  #the-list{padding-top:16px}#the-list>.wrap>h2:first-child{font-size:1.25rem;margin-bottom:.3em}
+  #the-list>.wrap>h2:first-child+.intro{display:none}
+  #the-list .tl{margin-top:10px}
+}
+/* Mobile cards: score and Visit site sit under the logo, before the details */
+@media(max-width:759px){
+  .tl-rank{order:1}.tl-logo{order:2;width:132px;height:56px}.tl-side{order:3}.tl-main{order:4}
+  .tl-side{border-top:0;border-bottom:1px dashed var(--line);padding:0 0 12px;gap:8px 10px;flex-wrap:nowrap}
+  .tl-side .btn{flex:1;padding:10px 8px;font-size:.88rem;white-space:nowrap}
+  .tl-score{flex-direction:column;align-items:center;gap:0}.tl-score b{font-size:1.5rem}.tl-score span{font-size:.66rem}
+  .tl-tc{display:none}
+}
