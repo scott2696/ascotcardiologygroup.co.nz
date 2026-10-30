@@ -1,15 +1,15 @@
 ---
 url: https://ascotcardiologygroup.co.nz/nz/casino-reviews/madcasino/
-title: "MadCasino Review NZ [October 2026]: Is It Legit?"
+title: "MadCasino Review NZ [November 2026]: Is It Legit?"
 meta_description: "Is MadCasino safe for Kiwis? Our review checks its Curaçao (CGA) licence, NZD balance, payout limits and safety score, and what 1 December means for NZ."
-h1: "MadCasino Review NZ [October 2026]: Is It Legit? Licence, Owner, NZD Banking and Limits"
+h1: "MadCasino Review NZ [November 2026]: Is It Legit? Licence, Owner, NZD Banking and Limits"
 author: Hana McAllister
 words: 1228
 ---
 
 Facts checked 8 October 2026
 
-# MadCasino Review NZ [October 2026] : Is It Legit? Licence, Owner, NZD Banking and Limits
+# MadCasino Review NZ [November 2026] : Is It Legit? Licence, Owner, NZD Banking and Limits
 
 Casino and sportsbook on one account, under a verified Curaçao licence, but with low withdrawal limits.![Hana McAllister](/images/authors/hana-mcallister.jpg)Written by [**Hana McAllister** ](https://ascotcardiologygroup.co.nz/nz/authors/#hana-mcallister), Editor Checked by [Wiremu Salter](https://ascotcardiologygroup.co.nz/nz/authors/#wiremu-salter) Updated 30 October 2026     ![MadCasino logo](/logos/madcasino.png) 
 

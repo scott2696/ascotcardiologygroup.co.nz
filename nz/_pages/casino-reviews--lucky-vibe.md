@@ -1,15 +1,15 @@
 ---
 url: https://ascotcardiologygroup.co.nz/nz/casino-reviews/lucky-vibe/
-title: "Lucky Vibe Review NZ [October 2026]: Is It Legit?"
+title: "Lucky Vibe Review NZ [November 2026]: Is It Legit?"
 meta_description: "Is Lucky Vibe safe for Kiwis? Our review checks its Tobique + Anjouan licence, NZD balance, payout limits and safety score, and what 1 December means for NZ."
-h1: "Lucky Vibe Review NZ [October 2026]: Is It Legit? Licence, Owner, NZD Banking and Limits"
+h1: "Lucky Vibe Review NZ [November 2026]: Is It Legit? Licence, Owner, NZD Banking and Limits"
 author: Hana McAllister
 words: 1186
 ---
 
 Facts checked 8 October 2026
 
-# Lucky Vibe Review NZ [October 2026] : Is It Legit? Licence, Owner, NZD Banking and Limits
+# Lucky Vibe Review NZ [November 2026] : Is It Legit? Licence, Owner, NZD Banking and Limits
 
 Hollycorn-owned casino and sportsbook with an NZD balance and a strong independent rating.![Hana McAllister](/images/authors/hana-mcallister.jpg)Written by [**Hana McAllister** ](https://ascotcardiologygroup.co.nz/nz/authors/#hana-mcallister), Editor Checked by [Wiremu Salter](https://ascotcardiologygroup.co.nz/nz/authors/#wiremu-salter) Updated 30 October 2026     ![Lucky Vibe logo](/logos/lucky-vibe.jpg) 
 

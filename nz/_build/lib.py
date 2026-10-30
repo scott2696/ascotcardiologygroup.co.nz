@@ -28,7 +28,7 @@ EMAIL_EDITOR = f"editor@{DOMAIN}"
 EMAIL_COMPLAINTS = f"complaints@{DOMAIN}"
 PUBLISHED = "2026-10-08"
 
-MONTH, YEAR = "October", "2026"
+MONTH, YEAR = "November", "2026"
 MY = f"{MONTH} {YEAR}"
 CHECKED = "8 October 2026"
 NEXT_CHECK = "8 November 2026"

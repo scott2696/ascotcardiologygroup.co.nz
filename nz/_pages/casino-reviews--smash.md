@@ -1,15 +1,15 @@
 ---
 url: https://ascotcardiologygroup.co.nz/nz/casino-reviews/smash/
-title: "Smash Review NZ [October 2026]: Is It Legit?"
+title: "Smash Review NZ [November 2026]: Is It Legit?"
 meta_description: "Is Smash safe for Kiwis? Our review checks its Anjouan licence, currency, payout limits and safety score, and what 1 December means for NZ."
-h1: "Smash Review NZ [October 2026]: Is It Legit? Licence, Owner, NZD Banking and Limits"
+h1: "Smash Review NZ [November 2026]: Is It Legit? Licence, Owner, NZD Banking and Limits"
 author: Hana McAllister
 words: 1171
 ---
 
 Facts checked 8 October 2026
 
-# Smash Review NZ [October 2026] : Is It Legit? Licence, Owner, NZD Banking and Limits
+# Smash Review NZ [November 2026] : Is It Legit? Licence, Owner, NZD Banking and Limits
 
 Anjouan-licensed casino and sportsbook with a low safety rating and euro-only limits.![Hana McAllister](/images/authors/hana-mcallister.jpg)Written by [**Hana McAllister** ](https://ascotcardiologygroup.co.nz/nz/authors/#hana-mcallister), Editor Checked by [Wiremu Salter](https://ascotcardiologygroup.co.nz/nz/authors/#wiremu-salter) Updated 30 October 2026     ![Smash logo](/logos/smash.png) 
 

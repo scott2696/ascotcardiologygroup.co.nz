@@ -1,15 +1,15 @@
 ---
 url: https://ascotcardiologygroup.co.nz/nz/casino-reviews/gunsbet/
-title: "Gunsbet Review NZ [October 2026]: Is It Legit?"
+title: "Gunsbet Review NZ [November 2026]: Is It Legit?"
 meta_description: "Is Gunsbet safe for Kiwis? Our review checks its Anjouan + Tobique licence, NZD balance, payout limits and safety score, and what 1 December means for NZ."
-h1: "Gunsbet Review NZ [October 2026]: Is It Legit? Licence, Owner, NZD Banking and Limits"
+h1: "Gunsbet Review NZ [November 2026]: Is It Legit? Licence, Owner, NZD Banking and Limits"
 author: Hana McAllister
 words: 1209
 ---
 
 Facts checked 8 October 2026
 
-# Gunsbet Review NZ [October 2026] : Is It Legit? Licence, Owner, NZD Banking and Limits
+# Gunsbet Review NZ [November 2026] : Is It Legit? Licence, Owner, NZD Banking and Limits
 
 Sportsbook listing with a very large supplied welcome headline and a named owner.![Hana McAllister](/images/authors/hana-mcallister.jpg)Written by [**Hana McAllister** ](https://ascotcardiologygroup.co.nz/nz/authors/#hana-mcallister), Editor Checked by [Wiremu Salter](https://ascotcardiologygroup.co.nz/nz/authors/#wiremu-salter) Updated 30 October 2026     ![Gunsbet logo](/logos/gunsbet.png) 
 

@@ -1,15 +1,15 @@
 ---
 url: https://ascotcardiologygroup.co.nz/nz/online-casinos/bonuses/
-title: "Best Casino Bonuses NZ [October 2026]: Welcome Offers"
+title: "Best Casino Bonuses NZ [November 2026]: Welcome Offers"
 meta_description: "Casino welcome bonus NZ guide: wagering requirements worked through in NZD, max-bet rules, win caps, free spins, reloads and cashback, so you know the real cost first."
-h1: "Best Casino Bonuses NZ [October 2026]: Sign Up and Welcome Bonuses, With the Real Cost of Wagering"
+h1: "Best Casino Bonuses NZ [November 2026]: Sign Up and Welcome Bonuses, With the Real Cost of Wagering"
 author: Hana McAllister
 words: 3419
 ---
 
 Facts checked 8 October 2026
 
-# Best Casino Bonuses NZ [October 2026] : Sign Up and Welcome Bonuses, With the Real Cost of Wagering
+# Best Casino Bonuses NZ [November 2026] : Sign Up and Welcome Bonuses, With the Real Cost of Wagering
 
 A casino bonus is only as good as its wagering. Here is the maths in dollars, the offers on our records, the terms that decide whether a bonus is worth taking, and when to say no. Show more![Hana McAllister](/images/authors/hana-mcallister.jpg)Written by [**Hana McAllister** ](https://ascotcardiologygroup.co.nz/nz/authors/#hana-mcallister), Editor Checked by [Tama Rewiti](https://ascotcardiologygroup.co.nz/nz/authors/#tama-rewiti) Updated 30 October 2026    
 

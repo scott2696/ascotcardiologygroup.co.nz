@@ -1,13 +1,13 @@
 ---
 url: https://ascotcardiologygroup.co.nz/nz/about/
-title: "About Kiwi Casino Ledger [October 2026]: Who We Are"
+title: "About Kiwi Casino Ledger [November 2026]: Who We Are"
 meta_description: "About Kiwi Casino Ledger: who we are, why we publish no casino links or sign-up offers, how we choose what to cover and the editorial standards behind every page."
-h1: "About Kiwi Casino Ledger [October 2026]: Who We Are and Why There Are No Casino Links Here"
+h1: "About Kiwi Casino Ledger [November 2026]: Who We Are and Why There Are No Casino Links Here"
 author: Hana McAllister
 words: 394
 ---
 
-# About Kiwi Casino Ledger [October 2026] : Who We Are and Why There Are No Casino Links Here
+# About Kiwi Casino Ledger [November 2026] : Who We Are and Why There Are No Casino Links Here
 
 Who runs Kiwi Casino Ledger, why there are no casino links here, how the site is funded and the editorial standards behind every page. Show more 
 

@@ -479,3 +479,32 @@ h3,h4{font-weight:700}
 }
 @media(min-width:1240px){.tl-row{grid-template-columns:88px 250px minmax(0,1fr) 200px 240px}}
 .hero--rv .byline{justify-content:flex-start}
+
+/* Ranked row, refined: balanced columns, facts that never break mid-item,
+   offer clamped to two lines, score stacked under the dial on mid widths */
+.tl-row{min-height:184px}
+.tl-logo{min-height:136px;margin:22px 0}
+.tl-main{padding:22px 0;min-width:0}
+.tl-offer{display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.tl-facts{gap:6px 8px}
+.tl-facts li{white-space:nowrap;background:var(--soot);border:1px solid var(--line-2);padding:3px 9px}
+.tl-score{justify-content:center}
+.tl-score .tl-num{min-width:3.2ch}
+@media(min-width:1240px){
+  .tl-row{grid-template-columns:88px 230px minmax(0,1fr) 210px 230px;gap:0 26px;padding-right:26px}
+  .tl-dial{width:112px;height:86px}
+}
+@media(max-width:1239px) and (min-width:760px){
+  .tl-row{grid-template-columns:72px 200px minmax(0,1fr) 210px;grid-template-rows:1fr auto;gap:0 22px;padding-right:22px}
+  .tl-rank,.tl-logo,.tl-main{grid-row:1/3}
+  .tl-logo{align-self:center;margin:20px 0;min-height:120px}
+  .tl-score{grid-column:4;grid-row:1;align-self:end;padding:18px 0 6px}
+  .tl-side{grid-column:4;grid-row:2;flex-direction:column;align-items:stretch;padding:0 0 18px}
+  .tl-dial{width:92px;height:70px}.tl-score .tl-num{font-size:36px}
+  .btn--play{min-height:54px}
+}
+@media(max-width:759px){
+  .tl-facts{gap:5px}.tl-facts li{padding:2px 7px;font-size:12px}
+  .tl-score{justify-content:flex-start}
+}
+@media(max-width:759px){.tl-logo{min-height:72px;margin:10px 16px 0}.tl-main{padding:12px 16px 0}}

@@ -1,15 +1,15 @@
 ---
 url: https://ascotcardiologygroup.co.nz/nz/responsible-gambling/
-title: "Responsible Gambling NZ [October 2026]: Gambling Helpline"
+title: "Responsible Gambling NZ [November 2026]: Gambling Helpline"
 meta_description: "Problem gambling help in NZ: the Gambling Helpline on 0800 654 655 (free, 24/7), bank gambling blocks, deposit limits, self-exclusion and the warning signs to watch for."
-h1: "Responsible Gambling NZ [October 2026]: Free Help, Tools, Bank Blocks and Self-Exclusion"
+h1: "Responsible Gambling NZ [November 2026]: Free Help, Tools, Bank Blocks and Self-Exclusion"
 author: Wiremu Salter
 words: 1002
 ---
 
 Checked 8 October 2026
 
-# Responsible Gambling NZ [October 2026] : Free Help, Tools, Bank Blocks and Self-Exclusion
+# Responsible Gambling NZ [November 2026] : Free Help, Tools, Bank Blocks and Self-Exclusion
 
 Free, confidential help is available 24/7. Here are the warning signs, the tools that actually work, including bank gambling blocks and self-exclusion, and how to support someone in your whānau. Show more![Wiremu Salter](/images/authors/wiremu-salter.jpg)Written by [**Wiremu Salter** ](https://ascotcardiologygroup.co.nz/nz/authors/#wiremu-salter), Law and Safety Writer Checked by [Hana McAllister](https://ascotcardiologygroup.co.nz/nz/authors/#hana-mcallister) Updated 30 October 2026    
 

@@ -1,15 +1,15 @@
 ---
 url: https://ascotcardiologygroup.co.nz/nz/nz-online-casino-law/
-title: "Is Online Gambling Legal in NZ [October 2026]: Licences"
+title: "Is Online Gambling Legal in NZ [November 2026]: Licences"
 meta_description: "Online casino law NZ: the Online Casino Gambling Act 2026, who won the DIA licence auction, the NZ$5m advertising ban and what the 1 December 2026 cut-off means for you."
-h1: "Is Online Gambling Legal in NZ [October 2026]: The Online Casino Gambling Act 2026 in Plain English"
+h1: "Is Online Gambling Legal in NZ [November 2026]: The Online Casino Gambling Act 2026 in Plain English"
 author: Wiremu Salter
 words: 1662
 ---
 
 Checked 8 October 2026
 
-# Is Online Gambling Legal in NZ [October 2026] : The Online Casino Gambling Act 2026 in Plain English
+# Is Online Gambling Legal in NZ [November 2026] : The Online Casino Gambling Act 2026 in Plain English
 
 The Online Casino Gambling Act 2026 in plain English: what is legal now, the advertising ban and its NZ$5 million penalties, who won the DIA licence auction, the 1 December 2026 cut-off and what it means for your account. Show more![Wiremu Salter](/images/authors/wiremu-salter.jpg)Written by [**Wiremu Salter** ](https://ascotcardiologygroup.co.nz/nz/authors/#wiremu-salter), Law and Safety Writer Checked by [Hana McAllister](https://ascotcardiologygroup.co.nz/nz/authors/#hana-mcallister) Updated 30 October 2026    
 
