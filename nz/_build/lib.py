@@ -120,7 +120,9 @@ def limit_txt(op):
 
 
 # ---------------------------------------------------------------------------
-# Authors. PLACEHOLDER PROFILES (see README): replace with the real people who
+# Authors. Tama Rewiti and Olivia Brandt are confirmed by the publisher as the
+# real writers (photos supplied 30 October 2026). The others are still
+# PLACEHOLDER PROFILES (see README): replace with the real people who
 # write and check this site before it goes live. Bios state each person's job
 # on this site only. No degrees, employers or years of experience are claimed.
 # ---------------------------------------------------------------------------
@@ -134,7 +136,7 @@ AUTHORS = {
         "owns": ["Homepage", "Casino reviews", "How we review"],
     },
     "tama-rewiti": {
-        "name": "Tama Rewiti", "initials": "TR", "role": "Payments Writer",
+        "name": "Tama Rewiti", "initials": "TR", "role": "Payments Writer", "photo": "/images/authors/tama-rewiti.jpg",
         "focus": "NZD banking, withdrawal limits and crypto",
         "bio": ("Tama covers the money side: which casinos hold an NZD balance, what the published withdrawal limits are in "
                 "dollars, which deposit methods work from a New Zealand bank, and what currency conversion costs. Tama "
@@ -142,7 +144,7 @@ AUTHORS = {
         "owns": ["Payment methods", "Fast payout casinos", "Crypto casinos"],
     },
     "olivia-brandt": {
-        "name": "Olivia Brandt", "initials": "OB", "role": "Games Writer",
+        "name": "Olivia Brandt", "initials": "OB", "role": "Games Writer", "photo": "/images/authors/olivia-brandt.jpg",
         "focus": "Pokies, RTP, volatility and live dealer games",
         "bio": ("Olivia writes about the games themselves: how return to player works, why the same pokie can run at "
                 "different RTP settings, how volatility changes a session, and how live dealer tables differ from the "
@@ -333,9 +335,19 @@ def stamp(h1):
 # ---------------------------------------------------------------------------
 # Components
 # ---------------------------------------------------------------------------
+def avatar(a, large=False):
+    """The writer's photo where we have one, otherwise their initials."""
+    cls = "av av--lg" if large else "av"
+    if a.get("photo"):
+        px = 58 if large else 38
+        return (f'<img class="{cls} av--img" src="{a["photo"]}" alt="{attr(a["name"])}" width="{px}" height="{px}" '
+                f'loading="lazy">')
+    return f'<span class="{cls}" aria-hidden="true">{a["initials"]}</span>'
+
+
 def byline(author, checker=None):
     a = AUTHORS[author]
-    out = [f'<div class="byline"><span class="av" aria-hidden="true">{a["initials"]}</span><div>',
+    out = [f'<div class="byline">{avatar(a)}<div>',
            f'<span>Written by <a href="/authors/#{author}"><b>{a["name"]}</b></a>, {a["role"]}</span>']
     if checker:
         c = AUTHORS[checker]
@@ -434,7 +446,7 @@ def faq(items, heading="Frequently asked questions", ident="faq"):
 
 def authorbox(key):
     a = AUTHORS[key]
-    return (f'<aside class="abox"><span class="av av--lg" aria-hidden="true">{a["initials"]}</span><div>'
+    return (f'<aside class="abox">{avatar(a, True)}<div>'
             f'<p class="abox-n"><a href="/authors/#{key}">{a["name"]}</a></p>'
             f'<p class="abox-r">{a["role"]} &middot; {a["focus"]}</p><p>{a["bio"]}</p>'
             f'<p class="abox-m"><a href="/how-we-review/">How we review</a> &middot; <a href="/authors/">All authors</a></p></div></aside>')
@@ -585,7 +597,7 @@ def schema_person(key):
     return {"@type": "Person", "@id": f"{SITE}/authors/#{key}", "name": a["name"],
             "jobTitle": strip_tags(a["role"]), "description": strip_tags(a["bio"]),
             "knowsAbout": strip_tags(a["focus"]), "worksFor": {"@id": f"{SITE}/#org"},
-            "url": f"{SITE}/authors/#{key}"}
+            "url": f"{SITE}/authors/#{key}", **({"image": SITE + a["photo"]} if a.get("photo") else {})}
 
 
 def schema_crumbs(path, trail):

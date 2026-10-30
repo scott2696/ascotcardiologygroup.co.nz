@@ -4,14 +4,14 @@ title: "Best Crypto Casinos NZ [October 2026]: Bitcoin & USDT Sites"
 meta_description: "Bitcoin casino NZ guide: crypto casinos taking BTC, USDT and ETH, network fees, buying crypto on an NZ exchange, price risk and how IRD taxes crypto gains."
 h1: "Best Crypto Casinos NZ [October 2026]: Bitcoin, USDT and Ethereum Casinos, With Fees and Tax for Kiwis"
 author: Tama Rewiti
-words: 2292
+words: 2304
 ---
 
 Facts checked 8 October 2026
 
 # Best Crypto Casinos NZ [October 2026] : Bitcoin, USDT and Ethereum Casinos, With Fees and Tax for Kiwis
 
-How Bitcoin, USDT, Litecoin and Ethereum casinos work, what moving each coin costs, the route from NZ dollars to crypto and back, the risks, and how Inland Revenue treats crypto. Every casino here accepts crypto.Written by [**Tama Rewiti** ](https://ascotcardiologygroup.co.nz/nz/authors/#tama-rewiti), Payments Writer Checked by [Wiremu Salter](https://ascotcardiologygroup.co.nz/nz/authors/#wiremu-salter) Updated 30 October 2026    
+How Bitcoin, USDT, Litecoin and Ethereum casinos work, what moving each coin costs, the route from NZ dollars to crypto and back, the risks, and how Inland Revenue treats crypto. Every casino here accepts crypto.![Tama Rewiti](/images/authors/tama-rewiti.jpg)Written by [**Tama Rewiti** ](https://ascotcardiologygroup.co.nz/nz/authors/#tama-rewiti), Payments Writer Checked by [Wiremu Salter](https://ascotcardiologygroup.co.nz/nz/authors/#wiremu-salter) Updated 30 October 2026    
 
 - **13** casinos accepting crypto 
 - **Spino** crypto-first, no NZD 
@@ -237,7 +237,7 @@ How wagering really works, with worked examples in dollars.Read the guide ](http
 
 ### Payment methods
 
-Cards, e-wallets, bank transfer, vouchers and crypto from NZ.Read the guide ](https://ascotcardiologygroup.co.nz/nz/payment-methods/) 
+Cards, e-wallets, bank transfer, vouchers and crypto from NZ.Read the guide ](https://ascotcardiologygroup.co.nz/nz/payment-methods/) ![Tama Rewiti](/images/authors/tama-rewiti.jpg)
 
 [Tama Rewiti](https://ascotcardiologygroup.co.nz/nz/authors/#tama-rewiti)
 

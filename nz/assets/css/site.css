@@ -294,3 +294,4 @@ a.card:hover{border-color:var(--moss)}
 .how{margin-top:34px;max-width:none}
 .how h3{margin-top:1.4em}
 .how .steps{margin-left:0;padding-left:0}
+.av--img{object-fit:cover;background:var(--line-2);border:2px solid var(--kowhai);padding:0}

@@ -79,7 +79,7 @@ def authors():
     for k in AUTHOR_ORDER:
         a = AUTHORS[k]
         owns = "".join(f"<li>{x}</li>" for x in a["owns"])
-        blocks.append(f'<section class="abox" id="{k}"><span class="av av--lg" aria-hidden="true">{a["initials"]}</span><div>'
+        blocks.append(f'<section class="abox" id="{k}">{avatar(a, True)}<div>'
                       f'<h2 style="margin:0 0 .2em">{a["name"]}</h2><p class="abox-r">{a["role"]} &middot; {a["focus"]}</p>'
                       f'<p>{a["bio"]}</p><p><b>Responsible for:</b></p><ul>{owns}</ul></div></section>')
     content = ("<p>Every page names the person who wrote it and the person who checked it. Here is who does what.</p>"

@@ -4,14 +4,14 @@ title: "Live Casino NZ [October 2026]: Live Dealer Games"
 meta_description: "Live dealer casino NZ guide: live blackjack, live roulette, baccarat and game shows explained, with the house edge, table limits and the live casinos Kiwis ask about."
 h1: "Live Casino NZ [October 2026]: Best Live Dealer Casinos for Blackjack, Roulette, Baccarat and Game Shows"
 author: Olivia Brandt
-words: 2427
+words: 2439
 ---
 
 Facts checked 8 October 2026
 
 # Live Casino NZ [October 2026] : Best Live Dealer Casinos for Blackjack, Roulette, Baccarat and Game Shows
 
-How live dealer blackjack, roulette, baccarat and game shows work, the house edge on each bet, stake ranges and studio hours for New Zealand players. Plus the casinos New Zealanders ask about, checked.Written by [**Olivia Brandt** ](https://ascotcardiologygroup.co.nz/nz/authors/#olivia-brandt), Games Writer Checked by [Hana McAllister](https://ascotcardiologygroup.co.nz/nz/authors/#hana-mcallister) Updated 30 October 2026    
+How live dealer blackjack, roulette, baccarat and game shows work, the house edge on each bet, stake ranges and studio hours for New Zealand players. Plus the casinos New Zealanders ask about, checked.![Olivia Brandt](/images/authors/olivia-brandt.jpg)Written by [**Olivia Brandt** ](https://ascotcardiologygroup.co.nz/nz/authors/#olivia-brandt), Games Writer Checked by [Hana McAllister](https://ascotcardiologygroup.co.nz/nz/authors/#hana-mcallister) Updated 30 October 2026    
 
 - **0.5%** live blackjack edge 
 - **1.06%** baccarat banker 
@@ -245,7 +245,7 @@ How wagering really works, with worked examples in dollars.Read the guide ](http
 
 ### Payment methods
 
-Cards, e-wallets, bank transfer, vouchers and crypto from NZ.Read the guide ](https://ascotcardiologygroup.co.nz/nz/payment-methods/) 
+Cards, e-wallets, bank transfer, vouchers and crypto from NZ.Read the guide ](https://ascotcardiologygroup.co.nz/nz/payment-methods/) ![Olivia Brandt](/images/authors/olivia-brandt.jpg)
 
 [Olivia Brandt](https://ascotcardiologygroup.co.nz/nz/authors/#olivia-brandt)
 

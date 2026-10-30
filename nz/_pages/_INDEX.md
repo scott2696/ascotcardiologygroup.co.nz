@@ -1,23 +1,23 @@
 # Page index
 
-38 pages, 60,851 words.
+38 pages, 60,935 words.
 
 | Words | URL | File |
 |---:|---|---|
 | 7,233 | `/` | `_pages/home.md` |
 | 3,298 | `/online-betting/` | `_pages/online-betting.md` |
 | 2,971 | `/online-casinos/bonuses/` | `_pages/online-casinos--bonuses.md` |
-| 2,874 | `/online-pokies/` | `_pages/online-pokies.md` |
-| 2,532 | `/high-payout-casinos/` | `_pages/high-payout-casinos.md` |
+| 2,886 | `/online-pokies/` | `_pages/online-pokies.md` |
+| 2,544 | `/high-payout-casinos/` | `_pages/high-payout-casinos.md` |
 | 2,511 | `/new-online-casinos/` | `_pages/new-online-casinos.md` |
 | 2,494 | `/no-deposit-casinos/` | `_pages/no-deposit-casinos.md` |
-| 2,427 | `/live-casinos/` | `_pages/live-casinos.md` |
-| 2,328 | `/fast-payout-casinos/` | `_pages/fast-payout-casinos.md` |
+| 2,439 | `/live-casinos/` | `_pages/live-casinos.md` |
+| 2,340 | `/fast-payout-casinos/` | `_pages/fast-payout-casinos.md` |
 | 2,319 | `/best-sports-betting-sites/` | `_pages/best-sports-betting-sites.md` |
-| 2,292 | `/best-crypto-casinos/` | `_pages/best-crypto-casinos.md` |
+| 2,304 | `/best-crypto-casinos/` | `_pages/best-crypto-casinos.md` |
 | 2,218 | `/casino-reviews/` | `_pages/casino-reviews.md` |
 | 1,648 | `/nz-online-casino-law/` | `_pages/nz-online-casino-law.md` |
-| 1,331 | `/payment-methods/` | `_pages/payment-methods.md` |
+| 1,343 | `/payment-methods/` | `_pages/payment-methods.md` |
 | 1,286 | `/casino-reviews/spinjo/` | `_pages/casino-reviews--spinjo.md` |
 | 1,256 | `/casino-reviews/rooster-bet/` | `_pages/casino-reviews--rooster-bet.md` |
 | 1,216 | `/casino-reviews/madcasino/` | `_pages/casino-reviews--madcasino.md` |
@@ -36,7 +36,7 @@
 | 988 | `/responsible-gambling/` | `_pages/responsible-gambling.md` |
 | 869 | `/how-we-review/` | `_pages/how-we-review.md` |
 | 813 | `/gambling-winnings-tax-nz/` | `_pages/gambling-winnings-tax-nz.md` |
-| 408 | `/authors/` | `_pages/authors.md` |
+| 420 | `/authors/` | `_pages/authors.md` |
 | 392 | `/about/` | `_pages/about.md` |
 | 372 | `/terms/` | `_pages/terms.md` |
 | 294 | `/privacy/` | `_pages/privacy.md` |

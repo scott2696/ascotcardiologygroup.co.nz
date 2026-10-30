@@ -4,7 +4,7 @@ title: "Our Writers and Editors [October 2026]: Kiwi Casino Ledger"
 meta_description: "Meet the writers and editors behind Kiwi Casino Ledger: who covers casinos, payments, games, law and betting, and which pages each person is responsible for."
 h1: "Our Writers and Editors [October 2026]: Who Writes and Checks Every Page"
 author: Hana McAllister
-words: 408
+words: 420
 ---
 
 # Our Writers and Editors [October 2026] : Who Writes and Checks Every Page
@@ -24,6 +24,7 @@ Hana edits every ranking and review on Kiwi Casino Ledger. Hana checks that each
 - Homepage
 - Casino reviews
 - How we review
+![Tama Rewiti](/images/authors/tama-rewiti.jpg)
 
 ## Tama Rewiti
 
@@ -36,6 +37,7 @@ Tama covers the money side: which casinos hold an NZD balance, what the publishe
 - Payment methods
 - Fast payout casinos
 - Crypto casinos
+![Olivia Brandt](/images/authors/olivia-brandt.jpg)
 
 ## Olivia Brandt
 
