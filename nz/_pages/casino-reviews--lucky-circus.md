@@ -16,7 +16,7 @@ Novatrix casino with NZD support, but a low weekly limit and a daily win cap.Wri
 **6.8** out of 10  
 Ledger score * 
 
-Offer on record 100% up to NZ$10,000 + 450 free spins over four deposits (reported)Visit site[See the key facts](#facts)
+Offer on record 100% up to NZ$10,000 + 450 free spins over four deposits (reported)[Visit site](https://pokiesrealmoney.co.com/)[See the key facts](#facts)
 
 18+ only. Free help: [0800 654 655](tel:0800654655) 
 

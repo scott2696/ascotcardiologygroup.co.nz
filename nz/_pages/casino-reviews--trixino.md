@@ -4,7 +4,7 @@ title: "Trixino Review NZ [October 2026]: Is It Legit?"
 meta_description: "Is Trixino safe for Kiwis? Our review checks its not confirmed licence, currency, payout limits and safety score, and what 1 December means for NZ."
 h1: "Trixino Review NZ [October 2026]: Is It Legit? Licence, Owner, NZD Banking and Limits"
 author: Hana McAllister
-words: 1139
+words: 1140
 ---
 
 Facts checked 8 October 2026
@@ -16,7 +16,7 @@ Unusually low 7x wagering on a 777% six-stage package, but licence and owner unc
 **4.1** out of 10  
 Ledger score * 
 
-Offer on record 777% across six deposits, up to €7,777 in total, at 7x wageringVisit site[See the key facts](#facts)
+Offer on record 777% across six deposits, up to €7,777 in total, at 7x wagering[Visit site](https://pokiesrealmoney.co.com/)[See the key facts](#facts)
 
 18+ only. Free help: [0800 654 655](tel:0800654655) 
 

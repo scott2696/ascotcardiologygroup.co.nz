@@ -16,7 +16,7 @@ Casino and sportsbook on one account, under a verified Curaçao licence, but wit
 **6.5** out of 10  
 Ledger score * 
 
-Offer on record 777% up to €7,500 (sports: 250% up to €3,500)Visit site[See the key facts](#facts)
+Offer on record 777% up to €7,500 (sports: 250% up to €3,500)[Visit site](https://pokiesrealmoney.co.com/)[See the key facts](#facts)
 
 18+ only. Free help: [0800 654 655](tel:0800654655) 
 

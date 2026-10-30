@@ -16,7 +16,7 @@ Three licences and an owner named on its own website, with casino and sport in o
 **8.1** out of 10  
 Ledger score * 
 
-Offer on record up to $5,000 + 300 free spins over four deposits (reported)Visit site[See the key facts](#facts)
+Offer on record up to $5,000 + 300 free spins over four deposits (reported)[Visit site](https://pokiesrealmoney.co.com/)[See the key facts](#facts)
 
 18+ only. Free help: [0800 654 655](tel:0800654655) 
 

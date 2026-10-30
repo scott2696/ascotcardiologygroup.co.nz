@@ -16,7 +16,7 @@ Exceptiosoft-run casino and sportsbook with a 2026 Anjouan licence and euro-only
 **6.3** out of 10  
 Ledger score * 
 
-Offer on record 1000% up to €10,000 across eight deposits at 10x (sports: 100% up to €500)Visit site[See the key facts](#facts)
+Offer on record 1000% up to €10,000 across eight deposits at 10x (sports: 100% up to €500)[Visit site](https://pokiesrealmoney.co.com/)[See the key facts](#facts)
 
 18+ only. Free help: [0800 654 655](tel:0800654655) 
 

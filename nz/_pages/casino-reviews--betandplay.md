@@ -16,7 +16,7 @@ Novatrix sportsbook listing with verified licences, NZD support and a daily win 
 **7.1** out of 10  
 Ledger score * 
 
-Offer on record 100% up to NZ$500 sports bonus at 5x (reported)Visit site[See the key facts](#facts)
+Offer on record 100% up to NZ$500 sports bonus at 5x (reported)[Visit site](https://pokiesrealmoney.co.com/)[See the key facts](#facts)
 
 18+ only. Free help: [0800 654 655](tel:0800654655) 
 

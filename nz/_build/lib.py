@@ -499,13 +499,18 @@ def badge(op):
     return ""
 
 
+# Where Visit site goes while affiliate links are off: the publisher's own
+# site, which carries no affiliate links.
+VISIT_FALLBACK = "https://pokiesrealmoney.co.com/"
+
+
 def visit_btn(op, kind="casino", cls="btn"):
     """The Visit site button: the affiliate link when links are on for this
-    market, otherwise a placeholder with no destination."""
+    market, otherwise the publisher's own site."""
     u = aff_url(op, kind)
     if u:
         return f'<a class="{cls}" href="{attr(u)}" rel="sponsored nofollow noopener" target="_blank">Visit site</a>'
-    return f'<button type="button" class="{cls}">Visit site</button>'
+    return f'<a class="{cls}" href="{VISIT_FALLBACK}" rel="noopener" target="_blank">Visit site</a>'
 
 
 def toplist(ops, kind="casino", start=1, note_=True, eager=2):

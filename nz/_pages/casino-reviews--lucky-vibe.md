@@ -16,7 +16,7 @@ Hollycorn-owned casino and sportsbook with an NZD balance and a strong independe
 **8.1** out of 10  
 Ledger score * 
 
-Offer on record up to $5,000 + 300 free spins (reported)Visit site[See the key facts](#facts)
+Offer on record up to $5,000 + 300 free spins (reported)[Visit site](https://pokiesrealmoney.co.com/)[See the key facts](#facts)
 
 18+ only. Free help: [0800 654 655](tel:0800654655) 
 

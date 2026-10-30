@@ -12,7 +12,7 @@ err, warn = [], []
 BANNED = {"rooster.bet", "spinjo.com", "luckyvibe.com", "fortuneplay.com", "luckycircus.com", "lucky7even.com",
           "gunsbet.com", "betandplay.com", "robycasino.com", "hellspin.com", "slotsgem.com", "ivibet.com",
           "smash.casino", "trixino.com", "madcasino.com", "rivo.casino", "kingdom.casino"}
-ALLOWED = {lib.DOMAIN, "dia.govt.nz", "legislation.govt.nz", "ird.govt.nz", "gamblinghelpline.co.nz", "pgf.nz", "tab.co.nz",
+ALLOWED = {lib.DOMAIN, "pokiesrealmoney.co.com", "dia.govt.nz", "legislation.govt.nz", "ird.govt.nz", "gamblinghelpline.co.nz", "pgf.nz", "tab.co.nz",
            "privacy.org.nz", "casino.guru", "health.govt.nz", "asianfamilyservices.nz", "fonts.googleapis.com",
            "fonts.gstatic.com", "anjouangaming.com", "tobiquegaming.ca", "gamingcommission.ca", "gaming-curacao.com",
            "cga.cw", "emta.ee", "consumer.org.nz", "depression.org.nz", "1737.org.nz", "beehive.govt.nz",

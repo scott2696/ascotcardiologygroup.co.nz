@@ -4,7 +4,7 @@ title: "Gunsbet Review NZ [October 2026]: Is It Legit?"
 meta_description: "Is Gunsbet safe for Kiwis? Our review checks its Anjouan + Tobique licence, NZD balance, payout limits and safety score, and what 1 December means for NZ."
 h1: "Gunsbet Review NZ [October 2026]: Is It Legit? Licence, Owner, NZD Banking and Limits"
 author: Hana McAllister
-words: 1196
+words: 1197
 ---
 
 Facts checked 8 October 2026
@@ -16,7 +16,7 @@ Sportsbook listing with a very large supplied welcome headline and a named owner
 **7.3** out of 10  
 Ledger score * 
 
-Offer on record 285% up to €7,500 + 285 free spinsVisit site[See the key facts](#facts)
+Offer on record 285% up to €7,500 + 285 free spins[Visit site](https://pokiesrealmoney.co.com/)[See the key facts](#facts)
 
 18+ only. Free help: [0800 654 655](tel:0800654655) 
 

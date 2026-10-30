@@ -16,7 +16,7 @@ Large reported crypto package, but the licence, owner and even the brand's histo
 **4.1** out of 10  
 Ledger score * 
 
-Offer on record 600% up to €9,500 + 20% cashback (reported)Visit site[See the key facts](#facts)
+Offer on record 600% up to €9,500 + 20% cashback (reported)[Visit site](https://pokiesrealmoney.co.com/)[See the key facts](#facts)
 
 18+ only. Free help: [0800 654 655](tel:0800654655) 
 

@@ -16,7 +16,7 @@ Anjouan-licensed casino and sportsbook with a low safety rating and euro-only li
 **5.1** out of 10  
 Ledger score * 
 
-Offer on record 600% up to €10,000 at 10x (sports: 250% up to €5,000)Visit site[See the key facts](#facts)
+Offer on record 600% up to €10,000 at 10x (sports: 250% up to €5,000)[Visit site](https://pokiesrealmoney.co.com/)[See the key facts](#facts)
 
 18+ only. Free help: [0800 654 655](tel:0800654655) 
 

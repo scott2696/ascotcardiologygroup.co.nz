@@ -4,7 +4,7 @@ title: "CrownSlots Review NZ [October 2026]: Is It Legit?"
 meta_description: "Is CrownSlots safe for Kiwis? Our review checks its Curaçao (reported) licence, currency, payout limits and safety score, and what 1 December means for NZ."
 h1: "CrownSlots Review NZ [October 2026]: Is It Legit? Licence, Owner, NZD Banking and Limits"
 author: Hana McAllister
-words: 1204
+words: 1205
 ---
 
 Facts checked 8 October 2026
@@ -16,7 +16,7 @@ A large staged welcome package, but the operator and licence number are not clea
 **4.8** out of 10  
 Ledger score * 
 
-Offer on record 390% up to €3,700 + 175 free spins across the first depositsVisit site[See the key facts](#facts)
+Offer on record 390% up to €3,700 + 175 free spins across the first deposits[Visit site](https://pokiesrealmoney.co.com/)[See the key facts](#facts)
 
 18+ only. Free help: [0800 654 655](tel:0800654655) 
 

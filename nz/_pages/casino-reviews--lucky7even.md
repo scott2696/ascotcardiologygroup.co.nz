@@ -16,7 +16,7 @@ Joint-highest independent safety rating here, with NZD banking from the Hollycor
 **8.0** out of 10  
 Ledger score * 
 
-Offer on record 100% up to NZ$500 + 50 free spins on the first deposit (reported)Visit site[See the key facts](#facts)
+Offer on record 100% up to NZ$500 + 50 free spins on the first deposit (reported)[Visit site](https://pokiesrealmoney.co.com/)[See the key facts](#facts)
 
 18+ only. Free help: [0800 654 655](tel:0800654655) 
 

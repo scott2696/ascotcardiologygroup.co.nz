@@ -1,6 +1,6 @@
 # Page index
 
-38 pages, 52,333 words.
+38 pages, 52,336 words.
 
 | Words | URL | File |
 |---:|---|---|
@@ -23,14 +23,14 @@
 | 1,216 | `/casino-reviews/madcasino/` | `_pages/casino-reviews--madcasino.md` |
 | 1,210 | `/casino-reviews/lucky7even/` | `_pages/casino-reviews--lucky7even.md` |
 | 1,206 | `/casino-reviews/lucky-circus/` | `_pages/casino-reviews--lucky-circus.md` |
-| 1,204 | `/casino-reviews/crownslots/` | `_pages/casino-reviews--crownslots.md` |
-| 1,196 | `/casino-reviews/gunsbet/` | `_pages/casino-reviews--gunsbet.md` |
+| 1,205 | `/casino-reviews/crownslots/` | `_pages/casino-reviews--crownslots.md` |
+| 1,197 | `/casino-reviews/gunsbet/` | `_pages/casino-reviews--gunsbet.md` |
 | 1,193 | `/casino-reviews/betandplay/` | `_pages/casino-reviews--betandplay.md` |
 | 1,189 | `/casino-reviews/rivo/` | `_pages/casino-reviews--rivo.md` |
 | 1,179 | `/casino-reviews/fortune-play/` | `_pages/casino-reviews--fortune-play.md` |
 | 1,174 | `/casino-reviews/lucky-vibe/` | `_pages/casino-reviews--lucky-vibe.md` |
 | 1,159 | `/casino-reviews/smash/` | `_pages/casino-reviews--smash.md` |
-| 1,139 | `/casino-reviews/trixino/` | `_pages/casino-reviews--trixino.md` |
+| 1,140 | `/casino-reviews/trixino/` | `_pages/casino-reviews--trixino.md` |
 | 1,117 | `/casino-reviews/kingdom/` | `_pages/casino-reviews--kingdom.md` |
 | 1,054 | `/casino-reviews/spino/` | `_pages/casino-reviews--spino.md` |
 | 988 | `/responsible-gambling/` | `_pages/responsible-gambling.md` |
