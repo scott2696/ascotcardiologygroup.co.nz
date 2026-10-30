@@ -202,7 +202,7 @@ def build():
               "requirement, before any winnings become withdrawable. The headline percentage is far less important than that "
               "multiple. Two offers on our records show the difference:</p>"
             + table(["Offer on record", "Wagering", "Bonus of NZ$100 means betting", "At NZ$1 a spin"], [
-                ["CrownSlots: 390% up to €3,700 + 175 free spins", "40x (reported)", "NZ$4,000", "about 4,000 spins"],
+                ["CrownSlots: 390% up to €3,700 + 175 free spins", "40x", "NZ$4,000", "about 4,000 spins"],
                 ["Trixino: 777% up to €7,777 over six deposits", "7x", "NZ$700", "about 700 spins"],
             ], caption="Worked on a NZ$100 bonus for clarity. Pokies with a 96% RTP lose, on average, about 4% of every dollar wagered.")
             + "<p>On a 96% RTP pokie, wagering NZ$4,000 costs about NZ$160 on average; wagering NZ$700 costs about NZ$28. That is "

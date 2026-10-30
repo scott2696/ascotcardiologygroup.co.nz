@@ -4,7 +4,7 @@ title: "Best Online Casino Sites NZ [November 2026]: Top Rated"
 meta_description: "Top online casinos in New Zealand rated for Kiwis: licences, real money NZD banking, payout limits and safety scores, plus which casinos must leave NZ on 1 December."
 h1: "Best Online Casino Sites NZ [November 2026]: Real Money Casinos Checked on Licence, NZD Banking and Payout Limits"
 author: Hana McAllister
-words: 8072
+words: 8071
 ---
 
 Facts checked 8 October 2026
@@ -471,7 +471,7 @@ A welcome bonus is a loan of play money with a condition: you must bet a multipl
 
 | Offer on record | Wagering | Bonus of NZ$100 means betting | At NZ$1 a spin |
 |---|---|---|---|
-| CrownSlots: 390% up to €3,700 + 175 free spins | 40x (reported) | NZ$4,000 | about 4,000 spins |
+| CrownSlots: 390% up to €3,700 + 175 free spins | 40x | NZ$4,000 | about 4,000 spins |
 | Trixino: 777% up to €7,777 over six deposits | 7x | NZ$700 | about 700 spins |
 
 On a 96% RTP pokie, wagering NZ$4,000 costs about NZ$160 on average; wagering NZ$700 costs about NZ$28. That is why a lower multiple usually beats a bigger percentage. Also check the maximum bet allowed while a bonus is active, which games count towards wagering, and whether winnings from the bonus are capped. Full guide: [casino bonuses explained](https://ascotcardiologygroup.co.nz/nz/online-casinos/bonuses/).

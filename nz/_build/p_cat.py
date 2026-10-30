@@ -443,8 +443,8 @@ def bonuses():
         + table(["Brand", "Offer on record", "Wagering", "Status"], [
             [op_cell(o), esc(offer_txt(o)), esc(o["wagering"] or "Not confirmed"),
              "Reported, unconfirmed" if "reported" in o["offer"] else "Supplied"] for o in with_offer
-        ] + [[op_cell(BY["gunsbet"]), esc(BY["gunsbet"]["offer"]), "Not confirmed", "Supplied (betting listing)"],
-             [op_cell(BY["betandplay"]), esc(BY["betandplay"]["offer"]), esc(BY["betandplay"]["wagering"]), "Reported, unconfirmed (betting listing)"]])
+        ] + [[op_cell(BY["gunsbet"]), esc(offer_txt(BY["gunsbet"])), "Not confirmed", "Supplied (betting listing)"],
+             [op_cell(BY["betandplay"]), esc(offer_txt(BY["betandplay"])), esc(BY["betandplay"]["wagering"]), "Reported, unconfirmed (betting listing)"]])
         + '<h2 id="terms">The terms that matter more than the headline</h2>'
         + table(["Term", "What it means", "What good looks like"], [
             ["Wagering multiple", "How many times you must bet the bonus", "Under 30x, and on the bonus only"],
