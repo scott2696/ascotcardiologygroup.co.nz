@@ -12,12 +12,27 @@ MODULES = ["p_home", "p_cat", "p_betting", "p_guides", "p_reviews", "p_site"]
 BLOCKED = ["AhrefsBot", "SemrushBot", "MJ12bot", "DotBot", "Rogerbot", "serpstatbot", "SistrixBot"]
 
 
+def _images(path):
+    """Images worth listing for a page: the share card on the homepage, the
+    operator logo on its review, writer photos on the authors page."""
+    if path == "/":
+        return ["/images/og.png"]
+    if path == "/authors/":
+        return [a["photo"] for a in lib.AUTHORS.values() if a.get("photo")]
+    if path.startswith("/casino-reviews/") and path.count("/") == 3:
+        op = lib.BY.get(path.split("/")[2])
+        return [op["logo"]] if op else []
+    return []
+
+
 def sitemap():
     rows = []
     for path, date, pri, freq in sorted(PAGES, key=lambda p: (-p[2], p[0])):
+        imgs = "".join(f"\n    <image:image><image:loc>{SITE}{u}</image:loc></image:image>" for u in _images(path))
         rows.append(f"  <url>\n    <loc>{SITE}{path}</loc>\n    <lastmod>{date}</lastmod>\n"
-                    f"    <changefreq>{freq}</changefreq>\n    <priority>{pri:.1f}</priority>\n  </url>")
-    xml = ('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
+                    f"    <changefreq>{freq}</changefreq>\n    <priority>{pri:.1f}</priority>{imgs}\n  </url>")
+    xml = ('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" '
+           'xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">\n'
            + "\n".join(rows) + "\n</urlset>\n")
     open(os.path.join(ROOT, "sitemap.xml"), "w").write(xml)
     return len(rows)

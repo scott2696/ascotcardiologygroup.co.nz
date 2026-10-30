@@ -598,7 +598,8 @@ def compare(ops, cols=None, caption=None):
 # ---------------------------------------------------------------------------
 def schema_org():
     return {"@type": "Organization", "@id": f"{SITE}/#org", "name": NAME, "url": SITE + "/",
-            "logo": {"@type": "ImageObject", "url": f"{SITE}/favicon-192x192.png", "width": 192, "height": 192},
+            "logo": {"@type": "ImageObject", "url": f"{SITE}/favicon-512x512.png", "width": 512, "height": 512},
+            "image": f"{SITE}/images/og.png",
             "email": EMAIL, "areaServed": {"@type": "Country", "name": "New Zealand"},
             "publishingPrinciples": f"{SITE}/how-we-review/", "ethicsPolicy": f"{SITE}/about/#standards",
             "correctionsPolicy": f"{SITE}/contact/#corrections",
@@ -639,7 +640,7 @@ def schema_webpage(path, kind="WebPage"):
 
 
 def schema_article(path, headline, author, checker=None):
-    a = {"@type": "Article", "@id": f"{SITE}{path}#article", "headline": strip_tags(headline)[:110],
+    a = {"@type": "Article", "@id": f"{SITE}{path}#article", "headline": short_headline(headline),
          "inLanguage": "en-NZ", "mainEntityOfPage": {"@id": f"{SITE}{path}#webpage"},
          "datePublished": PUBLISHED, "dateModified": UPDATED,
          "author": {"@id": f"{SITE}/authors/#{author}"}, "publisher": {"@id": f"{SITE}/#org"},
@@ -649,9 +650,17 @@ def schema_article(path, headline, author, checker=None):
     return a
 
 
+def short_headline(h, limit=110):
+    """Article headline within Google's 110-character guidance, cut at a word."""
+    h = strip_tags(h)
+    if len(h) <= limit:
+        return h
+    return h[:limit].rsplit(" ", 1)[0].rstrip(",:;-")
+
+
 def schema_itemlist(path, ops, name):
     return {"@type": "ItemList", "@id": f"{SITE}{path}#list", "name": name,
-            "numberOfItems": len(ops), "itemListOrder": "https://schema.org/ItemListUnordered",
+            "numberOfItems": len(ops), "itemListOrder": "https://schema.org/ItemListOrderAscending",
             "itemListElement": [{"@type": "ListItem", "position": i, "name": o["name"],
                                  "url": f"{SITE}{review_url(o)}"} for i, o in enumerate(ops, 1)]}
 
@@ -752,6 +761,8 @@ def page(path, body, schema=None):
 <title>{tt}</title>
 <meta name="description" content="{dd}">
 <link rel="canonical" href="{canon}">
+<link rel="alternate" hreflang="en-nz" href="{canon}">
+<link rel="alternate" hreflang="x-default" href="{canon}">
 <meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1">
 <meta name="theme-color" content="#0F3B30">
 <meta property="og:type" content="website">

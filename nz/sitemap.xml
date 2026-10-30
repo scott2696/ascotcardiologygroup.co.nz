@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://ascotcardiologygroup.co.nz/nz/</loc>
     <lastmod>2026-11-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
+    <image:image><image:loc>https://ascotcardiologygroup.co.nz/nz/images/og.png</image:loc></image:image>
   </url>
   <url>
     <loc>https://ascotcardiologygroup.co.nz/nz/best-crypto-casinos/</loc>
@@ -95,90 +96,105 @@
     <lastmod>2026-11-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <image:image><image:loc>https://ascotcardiologygroup.co.nz/nz/logos/betandplay.png</image:loc></image:image>
   </url>
   <url>
     <loc>https://ascotcardiologygroup.co.nz/nz/casino-reviews/crownslots/</loc>
     <lastmod>2026-11-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <image:image><image:loc>https://ascotcardiologygroup.co.nz/nz/logos/crownslots.png</image:loc></image:image>
   </url>
   <url>
     <loc>https://ascotcardiologygroup.co.nz/nz/casino-reviews/fortune-play/</loc>
     <lastmod>2026-11-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <image:image><image:loc>https://ascotcardiologygroup.co.nz/nz/logos/fortune-play.png</image:loc></image:image>
   </url>
   <url>
     <loc>https://ascotcardiologygroup.co.nz/nz/casino-reviews/gunsbet/</loc>
     <lastmod>2026-11-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <image:image><image:loc>https://ascotcardiologygroup.co.nz/nz/logos/gunsbet.png</image:loc></image:image>
   </url>
   <url>
     <loc>https://ascotcardiologygroup.co.nz/nz/casino-reviews/kingdom/</loc>
     <lastmod>2026-11-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <image:image><image:loc>https://ascotcardiologygroup.co.nz/nz/logos/kingdom.png</image:loc></image:image>
   </url>
   <url>
     <loc>https://ascotcardiologygroup.co.nz/nz/casino-reviews/lucky-circus/</loc>
     <lastmod>2026-11-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <image:image><image:loc>https://ascotcardiologygroup.co.nz/nz/logos/lucky-circus.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://ascotcardiologygroup.co.nz/nz/casino-reviews/lucky-vibe/</loc>
     <lastmod>2026-11-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <image:image><image:loc>https://ascotcardiologygroup.co.nz/nz/logos/lucky-vibe.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://ascotcardiologygroup.co.nz/nz/casino-reviews/lucky7even/</loc>
     <lastmod>2026-11-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <image:image><image:loc>https://ascotcardiologygroup.co.nz/nz/logos/lucky7even.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://ascotcardiologygroup.co.nz/nz/casino-reviews/madcasino/</loc>
     <lastmod>2026-11-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <image:image><image:loc>https://ascotcardiologygroup.co.nz/nz/logos/madcasino.png</image:loc></image:image>
   </url>
   <url>
     <loc>https://ascotcardiologygroup.co.nz/nz/casino-reviews/rivo/</loc>
     <lastmod>2026-11-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <image:image><image:loc>https://ascotcardiologygroup.co.nz/nz/logos/rivo.png</image:loc></image:image>
   </url>
   <url>
     <loc>https://ascotcardiologygroup.co.nz/nz/casino-reviews/rooster-bet/</loc>
     <lastmod>2026-11-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <image:image><image:loc>https://ascotcardiologygroup.co.nz/nz/logos/rooster-bet.png</image:loc></image:image>
   </url>
   <url>
     <loc>https://ascotcardiologygroup.co.nz/nz/casino-reviews/smash/</loc>
     <lastmod>2026-11-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <image:image><image:loc>https://ascotcardiologygroup.co.nz/nz/logos/smash.png</image:loc></image:image>
   </url>
   <url>
     <loc>https://ascotcardiologygroup.co.nz/nz/casino-reviews/spinjo/</loc>
     <lastmod>2026-11-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <image:image><image:loc>https://ascotcardiologygroup.co.nz/nz/logos/spinjo.png</image:loc></image:image>
   </url>
   <url>
     <loc>https://ascotcardiologygroup.co.nz/nz/casino-reviews/spino/</loc>
     <lastmod>2026-11-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <image:image><image:loc>https://ascotcardiologygroup.co.nz/nz/logos/spino.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://ascotcardiologygroup.co.nz/nz/casino-reviews/trixino/</loc>
     <lastmod>2026-11-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <image:image><image:loc>https://ascotcardiologygroup.co.nz/nz/logos/trixino.png</image:loc></image:image>
   </url>
   <url>
     <loc>https://ascotcardiologygroup.co.nz/nz/how-we-review/</loc>
@@ -203,6 +219,11 @@
     <lastmod>2026-11-01</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.5</priority>
+    <image:image><image:loc>https://ascotcardiologygroup.co.nz/nz/images/authors/hana-mcallister.jpg</image:loc></image:image>
+    <image:image><image:loc>https://ascotcardiologygroup.co.nz/nz/images/authors/tama-rewiti.jpg</image:loc></image:image>
+    <image:image><image:loc>https://ascotcardiologygroup.co.nz/nz/images/authors/olivia-brandt.jpg</image:loc></image:image>
+    <image:image><image:loc>https://ascotcardiologygroup.co.nz/nz/images/authors/wiremu-salter.jpg</image:loc></image:image>
+    <image:image><image:loc>https://ascotcardiologygroup.co.nz/nz/images/authors/alex-mcdonald.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://ascotcardiologygroup.co.nz/nz/contact/</loc>
