@@ -118,13 +118,17 @@
    "USDT"
   ],
   "n_pay": 26,
-  "offer": null,
-  "offer_detail": null,
+  "offer": "up to NZ$5,000 + 300 free spins over four deposits (reported)",
+  "offer_detail": "Reported by Gambling.com NZ in 2026: a four-part welcome package worth up to NZ$5,000 and 300 free spins, starting with 100% up to NZ$1,000 plus 100 free spins on the first deposit. Wagering was not confirmed for New Zealand; a Canadian review reports 29x on the bonus. Check the cashier terms before depositing.",
   "wagering": null,
   "sources": [
    [
     "Casino Guru Spinjo review",
     "https://casino.guru/spinjo-casino-review"
+   ],
+   [
+    "Gambling.com NZ Spinjo review",
+    "https://www.gambling.com/nz/online-casinos/reviews/spinjo"
    ]
   ],
   "flags": [],
@@ -471,13 +475,17 @@
    "USDT"
   ],
   "n_pay": 22,
-  "offer": null,
-  "offer_detail": null,
+  "offer": "up to $5,000 + 300 free spins (reported)",
+  "offer_detail": "Reported by several 2026 casino listings: up to $5,000 plus 300 free spins, with 100% up to $1,000 plus 100 free spins on the first deposit. We could not find the operator's own terms or a confirmed wagering requirement, so treat the figure as unconfirmed.",
   "wagering": null,
   "sources": [
    [
     "Casino Guru LuckyVibe review",
     "https://casino.guru/luckyvibe-casino-review"
+   ],
+   [
+    "Muddy River News 2026 casino listing",
+    "https://muddyrivernews.com/tag/lucky-vibe/"
    ]
   ],
   "flags": [],
@@ -557,9 +565,9 @@
    "USDT"
   ],
   "n_pay": null,
-  "offer": null,
-  "offer_detail": null,
-  "wagering": null,
+  "offer": "up to $5,000 + 300 free spins over four deposits (reported)",
+  "offer_detail": "Reported by Casinos.com NZ and Casino.org in 2026: a package across the first four deposits, each with its own match and free spins, totalling up to $5,000 and 300 free spins. One listing reports 40x wagering and a $30 minimum deposit; we could not confirm these.",
+  "wagering": "40x (reported)",
   "sources": [
    [
     "Rooster.bet About us",
@@ -568,6 +576,10 @@
    [
     "Casino Guru Rooster Bet review",
     "https://casino.guru/rooster-bet-casino-review"
+   ],
+   [
+    "Casinos.com NZ Rooster Bet review",
+    "https://www.casinos.com/nz/rooster-bet-casino"
    ]
   ],
   "flags": [],
@@ -646,13 +658,17 @@
    "USDT"
   ],
   "n_pay": 25,
-  "offer": null,
-  "offer_detail": null,
+  "offer": "up to $5,000 + 300 free spins over four deposits (reported)",
+  "offer_detail": "Reported by Casino.org and other 2026 reviews: up to $5,000 plus 300 free spins spread across the first four deposits, followed by weekly reloads. Wagering was not confirmed.",
   "wagering": null,
   "sources": [
    [
     "Casino Guru Fortune Play review",
     "https://casino.guru/fortune-play-casino-review"
+   ],
+   [
+    "Gamerules FortunePlay review",
+    "https://gamerules.com/online-casinos/fortuneplay-casino/"
    ]
   ],
   "flags": [],
@@ -729,13 +745,17 @@
    "USDT"
   ],
   "n_pay": 21,
-  "offer": null,
-  "offer_detail": null,
-  "wagering": null,
+  "offer": "100% up to NZ$10,000 + 450 free spins over four deposits (reported)",
+  "offer_detail": "Reported by Casino.org NZ and Gambling.com NZ in 2026: up to NZ$10,000 plus 450 free spins across the first four deposits, with 40x wagering and a NZ$30 minimum deposit.",
+  "wagering": "40x (reported)",
   "sources": [
    [
     "Casino Guru Lucky Circus review",
     "https://casino.guru/lucky-circus-casino-review"
+   ],
+   [
+    "Casino.org NZ LuckyCircus review",
+    "https://www.casino.org/new-zealand/reviews/luckycircus/"
    ]
   ],
   "flags": [

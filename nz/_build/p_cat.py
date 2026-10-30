@@ -437,10 +437,11 @@ def bonuses():
         + "<p>Read the last column carefully. At 40x on deposit plus bonus, a NZ$100 bonus has an average cost of NZ$320 to "
           "clear. That does not mean you will lose it, but on average the bonus costs more than it gives.</p>"
         + '<h2 id="offers">Offers on our records</h2>'
-        + "<p>We only quote offers supplied to us or reported by a source we can name. Each is in euros as published; the "
-          "amount you receive depends on your currency.</p>"
+        + "<p>We only quote offers supplied to us or reported by a source we can name, in the currency that source used "
+          "(NZ$, $ or €). Reported offers come from 2026 reviews, not the casino's own terms, so check the cashier before "
+          "depositing. The amount you receive depends on your currency.</p>"
         + table(["Brand", "Offer on record", "Wagering", "Status"], [
-            [op_cell(o), esc(o["offer"]), esc(o["wagering"] or "Not supplied"),
+            [op_cell(o), esc(o["offer"]), esc(o["wagering"] or "Not confirmed"),
              "Reported, unconfirmed" if "reported" in o["offer"] else "Supplied"] for o in with_offer
         ] + [[op_cell(BY["gunsbet"]), esc(BY["gunsbet"]["offer"]), "Not supplied", "Supplied (betting listing)"]])
         + '<h2 id="terms">The terms that matter more than the headline</h2>'

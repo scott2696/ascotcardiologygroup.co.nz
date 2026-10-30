@@ -4,7 +4,7 @@ title: "Spinjo Review NZ [October 2026]: Is It Legit?"
 meta_description: "Is Spinjo safe for Kiwis? Our review checks its Anjouan + Tobique licence, NZD balance, payout limits and safety score, and what 1 December means for NZ."
 h1: "Spinjo Review NZ [October 2026]: Is It Legit? Licence, Owner, NZD Banking and Limits"
 author: Hana McAllister
-words: 1196
+words: 1286
 ---
 
 Facts checked 8 October 2026
@@ -14,7 +14,9 @@ Facts checked 8 October 2026
 The strongest public record on our list: named owner, two verified licences and an NZD balance.Written by [**Hana McAllister** ](https://ascotcardiologygroup.co.nz/nz/authors/#hana-mcallister), Editor Checked by [Wiremu Salter](https://ascotcardiologygroup.co.nz/nz/authors/#wiremu-salter) Updated 30 October 2026     ![Spinjo logo](/logos/spinjo.png) 
 
 **8.3** out of 10  
-Ledger score * Visit site[See the key facts](#facts)
+Ledger score * 
+
+Offer on record up to NZ$5,000 + 300 free spins over four deposits (reported)Visit site[See the key facts](#facts)
 
 18+ only. Free help: [0800 654 655](tel:0800654655) 
 
@@ -37,7 +39,7 @@ Casino Guru lists Hollycorn N.V. as the owner, the same group behind Lucky Vibe 
 
 - Anjouan Gaming (Comoros): **ALSI-202509073-FI2** 
 - Tobique Gaming Commission (New Brunswick): **0000064** 
-Launched2024 (reported) NZD balanceYes Withdrawal limitsNZ$3,000 a day, NZ$7,500 a week, NZ$30,000 a month Daily win capNone recorded Payment options26 listed, including Visa, Mastercard, Skrill, Neteller, Paysafecard, Neosurf, MiFinity, Revolut Casino Guru Safety Index**8.9** / 10 TrustpilotRating unavailable: Trustpilot says the company breached its guidelines Complaints (Casino Guru)No figure published Offer on recordNone confirmed Facts checked8 October 2026 
+Launched2024 (reported) NZD balanceYes Withdrawal limitsNZ$3,000 a day, NZ$7,500 a week, NZ$30,000 a month Daily win capNone recorded Payment options26 listed, including Visa, Mastercard, Skrill, Neteller, Paysafecard, Neosurf, MiFinity, Revolut Casino Guru Safety Index**8.9** / 10 TrustpilotRating unavailable: Trustpilot says the company breached its guidelines Complaints (Casino Guru)No figure published Offer on recordup to NZ$5,000 + 300 free spins over four deposits (reported) Facts checked8 October 2026 
 
 ## Overview
 
@@ -75,9 +77,13 @@ Published withdrawal limits: **NZ$3,000 a day, NZ$7,500 a week, NZ$30,000 a mont
 
 Payment options listed for this brand include Visa, Mastercard, Skrill, Neteller, Paysafecard, Neosurf, MiFinity, Revolut, bank transfer, Bitcoin, Ethereum, USDT. Availability varies by country, so check the cashier after sign-up. Our [payment methods guide](https://ascotcardiologygroup.co.nz/nz/payment-methods/) explains fees and speeds for each method from New Zealand.
 
-## Offers
+## Offer on record
 
-We have no confirmed welcome offer on record for this brand. Offshore offers change often and differ by country, and we only quote offers we have been supplied or can source. Our [bonus guide](https://ascotcardiologygroup.co.nz/nz/online-casinos/bonuses/) shows how to read any offer you find.
+**up to NZ$5,000 + 300 free spins over four deposits (reported)** 
+
+Reported by Gambling.com NZ in 2026: a four-part welcome package worth up to NZ$5,000 and 300 free spins, starting with 100% up to NZ$1,000 plus 100 free spins on the first deposit. Wagering was not confirmed for New Zealand; a Canadian review reports 29x on the bonus. Check the cashier terms before depositing.
+
+We do not publish sign-up links or bonus codes. To understand what any welcome offer really costs, see [casino bonuses explained](https://ascotcardiologygroup.co.nz/nz/online-casinos/bonuses/), which turns wagering into dollars.
 
 ## Ledger score: 8.3 out of 10
 
@@ -106,6 +112,7 @@ NZ$3,000 a day, NZ$7,500 a week, NZ$30,000 a month.
 New Zealand law targets operators and advertisers, not players, and playing at an offshore site is not an offence for the individual. But the site is not licensed in New Zealand, it cannot lawfully advertise to you, and from 1 December 2026 unlicensed casinos without a pending application must stop serving New Zealand players. Its operator is not among the 11 companies that won the right to apply in the DIA's October 2026 auction, so expect it to close New Zealand accounts. You also have no New Zealand regulator to complain to.  **Sources** (read 8 October 2026)
 
 - Casino Guru Spinjo review: https://casino.guru/spinjo-casino-review
+- Gambling.com NZ Spinjo review: https://www.gambling.com/nz/online-casinos/reviews/spinjo
 
 Something out of date? [Send a correction](https://ascotcardiologygroup.co.nz/nz/contact/#corrections). 
 

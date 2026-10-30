@@ -4,7 +4,7 @@ title: "Fortune Play Review NZ [October 2026]: Is It Legit?"
 meta_description: "Is Fortune Play safe for Kiwis? Our review checks its Tobique + Anjouan licence, NZD balance, payout limits and safety score, and what 1 December means for NZ."
 h1: "Fortune Play Review NZ [October 2026]: Is It Legit? Licence, Owner, NZD Banking and Limits"
 author: Hana McAllister
-words: 1120
+words: 1179
 ---
 
 Facts checked 8 October 2026
@@ -14,7 +14,9 @@ Facts checked 8 October 2026
 Novatrix-run casino and sportsbook with an 8.4 independent rating and NZD banking.Written by [**Hana McAllister** ](https://ascotcardiologygroup.co.nz/nz/authors/#hana-mcallister), Editor Checked by [Wiremu Salter](https://ascotcardiologygroup.co.nz/nz/authors/#wiremu-salter) Updated 30 October 2026     ![Fortune Play logo](/logos/fortune-play.png) 
 
 **8.1** out of 10  
-Ledger score * Visit site[See the key facts](#facts)
+Ledger score * 
+
+Offer on record up to $5,000 + 300 free spins over four deposits (reported)Visit site[See the key facts](#facts)
 
 18+ only. Free help: [0800 654 655](tel:0800654655) 
 
@@ -37,7 +39,7 @@ Casino Guru lists Novatrix S.R.L.; earlier reviews name Dama N.V., the previous 
 
 - Tobique Gaming Commission (New Brunswick): **0000002** 
 - Anjouan Gaming (Comoros): **ALSI-202508056-FI2** 
-Launched2024 (reported) NZD balanceYes Withdrawal limitsNZ$3,000 a day, NZ$7,500 a week, NZ$30,000 a month Daily win capNone recorded Payment options25 listed, including Visa, Mastercard, Skrill, Neteller, Paysafecard, Neosurf, MiFinity, Revolut Casino Guru Safety Index**8.4** / 10 Trustpilot3.4 (161 reviews) Complaints (Casino Guru)No figure published Offer on recordNone confirmed Facts checked8 October 2026 
+Launched2024 (reported) NZD balanceYes Withdrawal limitsNZ$3,000 a day, NZ$7,500 a week, NZ$30,000 a month Daily win capNone recorded Payment options25 listed, including Visa, Mastercard, Skrill, Neteller, Paysafecard, Neosurf, MiFinity, Revolut Casino Guru Safety Index**8.4** / 10 Trustpilot3.4 (161 reviews) Complaints (Casino Guru)No figure published Offer on recordup to $5,000 + 300 free spins over four deposits (reported) Facts checked8 October 2026 
 
 ## Overview
 
@@ -73,9 +75,13 @@ Published withdrawal limits: **NZ$3,000 a day, NZ$7,500 a week, NZ$30,000 a mont
 
 Payment options listed for this brand include Visa, Mastercard, Skrill, Neteller, Paysafecard, Neosurf, MiFinity, Revolut, MuchBetter, bank transfer, Bitcoin, Ethereum, USDT. Availability varies by country, so check the cashier after sign-up. Our [payment methods guide](https://ascotcardiologygroup.co.nz/nz/payment-methods/) explains fees and speeds for each method from New Zealand.
 
-## Offers
+## Offer on record
 
-We have no confirmed welcome offer on record for this brand. Offshore offers change often and differ by country, and we only quote offers we have been supplied or can source. Our [bonus guide](https://ascotcardiologygroup.co.nz/nz/online-casinos/bonuses/) shows how to read any offer you find.
+**up to $5,000 + 300 free spins over four deposits (reported)** 
+
+Reported by Casino.org and other 2026 reviews: up to $5,000 plus 300 free spins spread across the first four deposits, followed by weekly reloads. Wagering was not confirmed.
+
+We do not publish sign-up links or bonus codes. To understand what any welcome offer really costs, see [casino bonuses explained](https://ascotcardiologygroup.co.nz/nz/online-casinos/bonuses/), which turns wagering into dollars.
 
 ## Ledger score: 8.1 out of 10
 
@@ -104,6 +110,7 @@ NZ$3,000 a day, NZ$7,500 a week, NZ$30,000 a month.
 New Zealand law targets operators and advertisers, not players, and playing at an offshore site is not an offence for the individual. But the site is not licensed in New Zealand, it cannot lawfully advertise to you, and from 1 December 2026 unlicensed casinos without a pending application must stop serving New Zealand players. Its operator is not among the 11 companies that won the right to apply in the DIA's October 2026 auction, so expect it to close New Zealand accounts. You also have no New Zealand regulator to complain to.  **Sources** (read 8 October 2026)
 
 - Casino Guru Fortune Play review: https://casino.guru/fortune-play-casino-review
+- Gamerules FortunePlay review: https://gamerules.com/online-casinos/fortuneplay-casino/
 
 Something out of date? [Send a correction](https://ascotcardiologygroup.co.nz/nz/contact/#corrections). 
 

@@ -4,7 +4,7 @@ title: "Online Betting NZ [October 2026]: Legal Betting Sites"
 meta_description: "Is online betting legal in NZ? TAB NZ and Betcha are the only legal betting sites. Rugby, racing and sports betting odds, margins, bet types and safer betting tools."
 h1: "Online Betting NZ [October 2026]: Racing and Sports Betting, TAB NZ and the Offshore Ban Explained"
 author: Jess Tuilagi
-words: 2531
+words: 2552
 ---
 
 Checked 8 October 2026
@@ -26,9 +26,9 @@ For information only. None of these sportsbooks is permitted to take bets from p
 |---|---|---|---|
 | [MadCasino](https://ascotcardiologygroup.co.nz/nz/casino-reviews/madcasino/) | None on record | Licence: Curaçao (CGA); NZD balance: Yes; Withdrawal limit: NZ$4,500 a week; Safety Index: 6.7 | 6.5/10 |
 | [Gunsbet](https://ascotcardiologygroup.co.nz/nz/casino-reviews/gunsbet/) | 285% up to €7,500 + 285 free spins | Licence: Anjouan + Tobique; NZD balance: Yes; Withdrawal limit: NZ$7,500 a week; Safety Index: 6.8 | 7.3/10 |
-| [Lucky Vibe](https://ascotcardiologygroup.co.nz/nz/casino-reviews/lucky-vibe/) | None on record | Licence: Tobique + Anjouan; NZD balance: Yes; Withdrawal limit: NZ$7,500 a week; Safety Index: 8.5 | 8.1/10 |
-| [Rooster Bet](https://ascotcardiologygroup.co.nz/nz/casino-reviews/rooster-bet/) | None on record | Licence: Tobique + Anjouan + Estonia; NZD balance: Yes; Withdrawal limit: NZ$7,500 a week; Safety Index: 8.5 | 8.1/10 |
-| [Fortune Play](https://ascotcardiologygroup.co.nz/nz/casino-reviews/fortune-play/) | None on record | Licence: Tobique + Anjouan; NZD balance: Yes; Withdrawal limit: NZ$7,500 a week; Safety Index: 8.4 | 8.1/10 |
+| [Lucky Vibe](https://ascotcardiologygroup.co.nz/nz/casino-reviews/lucky-vibe/) | up to $5,000 + 300 free spins (reported) | Licence: Tobique + Anjouan; NZD balance: Yes; Withdrawal limit: NZ$7,500 a week; Safety Index: 8.5 | 8.1/10 |
+| [Rooster Bet](https://ascotcardiologygroup.co.nz/nz/casino-reviews/rooster-bet/) | up to $5,000 + 300 free spins over four deposits (reported) | Licence: Tobique + Anjouan + Estonia; NZD balance: Yes; Withdrawal limit: NZ$7,500 a week; Safety Index: 8.5 | 8.1/10 |
+| [Fortune Play](https://ascotcardiologygroup.co.nz/nz/casino-reviews/fortune-play/) | up to $5,000 + 300 free spins over four deposits (reported) | Licence: Tobique + Anjouan; NZD balance: Yes; Withdrawal limit: NZ$7,500 a week; Safety Index: 8.4 | 8.1/10 |
 | [Kingdom](https://ascotcardiologygroup.co.nz/nz/casino-reviews/kingdom/) | 600% up to €9,500 + 20% cashback (reported) | Licence: Not confirmed; NZD balance: Not confirmed; Withdrawal limit: Not published; Safety Index: No profile | 4.1/10 |
 | [Smash](https://ascotcardiologygroup.co.nz/nz/casino-reviews/smash/) | None on record | Licence: Anjouan; NZD balance: No; Withdrawal limit: €2,000 a week; Safety Index: 3.9 | 5.1/10 |
 | [Trixino](https://ascotcardiologygroup.co.nz/nz/casino-reviews/trixino/) | 777% across six deposits, up to €7,777 in total, at 7x wagering | Licence: Not confirmed; NZD balance: Not confirmed; Withdrawal limit: Not published; Safety Index: No profile | 4.1/10 |

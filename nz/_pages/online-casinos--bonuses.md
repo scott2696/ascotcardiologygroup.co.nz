@@ -4,7 +4,7 @@ title: "Best Casino Bonuses NZ [October 2026]: Welcome Offers"
 meta_description: "Casino welcome bonus NZ guide: wagering requirements worked through in NZD, max-bet rules, win caps, free spins, reloads and cashback, so you know the real cost first."
 h1: "Best Casino Bonuses NZ [October 2026]: Sign Up and Welcome Bonuses, With the Real Cost of Wagering"
 author: Hana McAllister
-words: 1870
+words: 2049
 ---
 
 Facts checked 8 October 2026
@@ -25,13 +25,13 @@ Offers are shown only where supplied or sourced. In our editor's order.
 | Site | Offer on record | Key facts | Ledger score |
 |---|---|---|---|
 | [CrownSlots](https://ascotcardiologygroup.co.nz/nz/casino-reviews/crownslots/) | 390% up to €3,700 + 175 free spins across the first deposits | Licence: Curaçao (reported); NZD balance: Not confirmed; Withdrawal limit: Not published; Safety Index: No profile | 4.8/10 |
-| [Spinjo](https://ascotcardiologygroup.co.nz/nz/casino-reviews/spinjo/) | None on record | Licence: Anjouan + Tobique; NZD balance: Yes; Withdrawal limit: NZ$7,500 a week; Safety Index: 8.9 | 8.3/10 |
+| [Spinjo](https://ascotcardiologygroup.co.nz/nz/casino-reviews/spinjo/) | up to NZ$5,000 + 300 free spins over four deposits (reported) | Licence: Anjouan + Tobique; NZD balance: Yes; Withdrawal limit: NZ$7,500 a week; Safety Index: 8.9 | 8.3/10 |
 | [MadCasino](https://ascotcardiologygroup.co.nz/nz/casino-reviews/madcasino/) | None on record | Licence: Curaçao (CGA); NZD balance: Yes; Withdrawal limit: NZ$4,500 a week; Safety Index: 6.7 | 6.5/10 |
 | [Lucky7even](https://ascotcardiologygroup.co.nz/nz/casino-reviews/lucky7even/) | None on record | Licence: Tobique + Anjouan; NZD balance: Yes; Withdrawal limit: NZ$7,500 a week; Safety Index: 8.9 | 8.0/10 |
-| [Lucky Vibe](https://ascotcardiologygroup.co.nz/nz/casino-reviews/lucky-vibe/) | None on record | Licence: Tobique + Anjouan; NZD balance: Yes; Withdrawal limit: NZ$7,500 a week; Safety Index: 8.5 | 8.1/10 |
-| [Rooster Bet](https://ascotcardiologygroup.co.nz/nz/casino-reviews/rooster-bet/) | None on record | Licence: Tobique + Anjouan + Estonia; NZD balance: Yes; Withdrawal limit: NZ$7,500 a week; Safety Index: 8.5 | 8.1/10 |
-| [Fortune Play](https://ascotcardiologygroup.co.nz/nz/casino-reviews/fortune-play/) | None on record | Licence: Tobique + Anjouan; NZD balance: Yes; Withdrawal limit: NZ$7,500 a week; Safety Index: 8.4 | 8.1/10 |
-| [Lucky Circus](https://ascotcardiologygroup.co.nz/nz/casino-reviews/lucky-circus/) | None on record | Licence: Anjouan + Tobique; NZD balance: Yes; Withdrawal limit: €2,500 a week; Safety Index: 6.8 | 6.8/10 |
+| [Lucky Vibe](https://ascotcardiologygroup.co.nz/nz/casino-reviews/lucky-vibe/) | up to $5,000 + 300 free spins (reported) | Licence: Tobique + Anjouan; NZD balance: Yes; Withdrawal limit: NZ$7,500 a week; Safety Index: 8.5 | 8.1/10 |
+| [Rooster Bet](https://ascotcardiologygroup.co.nz/nz/casino-reviews/rooster-bet/) | up to $5,000 + 300 free spins over four deposits (reported) | Licence: Tobique + Anjouan + Estonia; NZD balance: Yes; Withdrawal limit: NZ$7,500 a week; Safety Index: 8.5 | 8.1/10 |
+| [Fortune Play](https://ascotcardiologygroup.co.nz/nz/casino-reviews/fortune-play/) | up to $5,000 + 300 free spins over four deposits (reported) | Licence: Tobique + Anjouan; NZD balance: Yes; Withdrawal limit: NZ$7,500 a week; Safety Index: 8.4 | 8.1/10 |
+| [Lucky Circus](https://ascotcardiologygroup.co.nz/nz/casino-reviews/lucky-circus/) | 100% up to NZ$10,000 + 450 free spins over four deposits (reported) | Licence: Anjouan + Tobique; NZD balance: Yes; Withdrawal limit: €2,500 a week; Safety Index: 6.8 | 6.8/10 |
 | [Kingdom](https://ascotcardiologygroup.co.nz/nz/casino-reviews/kingdom/) | 600% up to €9,500 + 20% cashback (reported) | Licence: Not confirmed; NZD balance: Not confirmed; Withdrawal limit: Not published; Safety Index: No profile | 4.1/10 |
 | [Smash](https://ascotcardiologygroup.co.nz/nz/casino-reviews/smash/) | None on record | Licence: Anjouan; NZD balance: No; Withdrawal limit: €2,000 a week; Safety Index: 3.9 | 5.1/10 |
 | [Trixino](https://ascotcardiologygroup.co.nz/nz/casino-reviews/trixino/) | 777% across six deposits, up to €7,777 in total, at 7x wagering | Licence: Not confirmed; NZD balance: Not confirmed; Withdrawal limit: Not published; Safety Index: No profile | 4.1/10 |
@@ -43,13 +43,13 @@ Offers are shown only where supplied or sourced. In our editor's order.
 | Site | Offer on record | Licence | NZD balance | Safety Index* | Ledger score |
 |---|---|---|---|---|---|
 | [CrownSlots](https://ascotcardiologygroup.co.nz/nz/casino-reviews/crownslots/) | 390% up to €3,700 + 175 free spins across the first deposits | Curaçao (reported) | Not confirmed | No profile | **4.8** |
-| [Spinjo](https://ascotcardiologygroup.co.nz/nz/casino-reviews/spinjo/) | None on record | Anjouan + Tobique | Yes | 8.9 | **8.3** |
+| [Spinjo](https://ascotcardiologygroup.co.nz/nz/casino-reviews/spinjo/) | up to NZ$5,000 + 300 free spins over four deposits (reported) | Anjouan + Tobique | Yes | 8.9 | **8.3** |
 | [MadCasino](https://ascotcardiologygroup.co.nz/nz/casino-reviews/madcasino/) | None on record | Curaçao (CGA) | Yes | 6.7 | **6.5** |
 | [Lucky7even](https://ascotcardiologygroup.co.nz/nz/casino-reviews/lucky7even/) | None on record | Tobique + Anjouan | Yes | 8.9 | **8.0** |
-| [Lucky Vibe](https://ascotcardiologygroup.co.nz/nz/casino-reviews/lucky-vibe/) | None on record | Tobique + Anjouan | Yes | 8.5 | **8.1** |
-| [Rooster Bet](https://ascotcardiologygroup.co.nz/nz/casino-reviews/rooster-bet/) | None on record | Tobique + Anjouan + Estonia | Yes | 8.5 | **8.1** |
-| [Fortune Play](https://ascotcardiologygroup.co.nz/nz/casino-reviews/fortune-play/) | None on record | Tobique + Anjouan | Yes | 8.4 | **8.1** |
-| [Lucky Circus](https://ascotcardiologygroup.co.nz/nz/casino-reviews/lucky-circus/) | None on record | Anjouan + Tobique | Yes | 6.8 | **6.8** |
+| [Lucky Vibe](https://ascotcardiologygroup.co.nz/nz/casino-reviews/lucky-vibe/) | up to $5,000 + 300 free spins (reported) | Tobique + Anjouan | Yes | 8.5 | **8.1** |
+| [Rooster Bet](https://ascotcardiologygroup.co.nz/nz/casino-reviews/rooster-bet/) | up to $5,000 + 300 free spins over four deposits (reported) | Tobique + Anjouan + Estonia | Yes | 8.5 | **8.1** |
+| [Fortune Play](https://ascotcardiologygroup.co.nz/nz/casino-reviews/fortune-play/) | up to $5,000 + 300 free spins over four deposits (reported) | Tobique + Anjouan | Yes | 8.4 | **8.1** |
+| [Lucky Circus](https://ascotcardiologygroup.co.nz/nz/casino-reviews/lucky-circus/) | 100% up to NZ$10,000 + 450 free spins over four deposits (reported) | Anjouan + Tobique | Yes | 6.8 | **6.8** |
 | [Kingdom](https://ascotcardiologygroup.co.nz/nz/casino-reviews/kingdom/) | 600% up to €9,500 + 20% cashback (reported) | Not confirmed | Not confirmed | No profile | **4.1** |
 | [Smash](https://ascotcardiologygroup.co.nz/nz/casino-reviews/smash/) | None on record | Anjouan | No | 3.9 | **5.1** |
 | [Trixino](https://ascotcardiologygroup.co.nz/nz/casino-reviews/trixino/) | 777% across six deposits, up to €7,777 in total, at 7x wagering | Not confirmed | Not confirmed | No profile | **4.1** |
@@ -90,12 +90,17 @@ Read the last column carefully. At 40x on deposit plus bonus, a NZ$100 bonus has
 
 ## Offers on our records
 
-We only quote offers supplied to us or reported by a source we can name. Each is in euros as published; the amount you receive depends on your currency.
+We only quote offers supplied to us or reported by a source we can name, in the currency that source used (NZ$, $ or €). Reported offers come from 2026 reviews, not the casino's own terms, so check the cashier before depositing. The amount you receive depends on your currency.
 
 | Brand | Offer on record | Wagering | Status |
 |---|---|---|---|
 | [CrownSlots](https://ascotcardiologygroup.co.nz/nz/casino-reviews/crownslots/) | 390% up to €3,700 + 175 free spins across the first deposits | 40x (reported) | Supplied |
-| [Kingdom](https://ascotcardiologygroup.co.nz/nz/casino-reviews/kingdom/) | 600% up to €9,500 + 20% cashback (reported) | Not supplied | Reported, unconfirmed |
+| [Spinjo](https://ascotcardiologygroup.co.nz/nz/casino-reviews/spinjo/) | up to NZ$5,000 + 300 free spins over four deposits (reported) | Not confirmed | Reported, unconfirmed |
+| [Lucky Vibe](https://ascotcardiologygroup.co.nz/nz/casino-reviews/lucky-vibe/) | up to $5,000 + 300 free spins (reported) | Not confirmed | Reported, unconfirmed |
+| [Rooster Bet](https://ascotcardiologygroup.co.nz/nz/casino-reviews/rooster-bet/) | up to $5,000 + 300 free spins over four deposits (reported) | 40x (reported) | Reported, unconfirmed |
+| [Fortune Play](https://ascotcardiologygroup.co.nz/nz/casino-reviews/fortune-play/) | up to $5,000 + 300 free spins over four deposits (reported) | Not confirmed | Reported, unconfirmed |
+| [Lucky Circus](https://ascotcardiologygroup.co.nz/nz/casino-reviews/lucky-circus/) | 100% up to NZ$10,000 + 450 free spins over four deposits (reported) | 40x (reported) | Reported, unconfirmed |
+| [Kingdom](https://ascotcardiologygroup.co.nz/nz/casino-reviews/kingdom/) | 600% up to €9,500 + 20% cashback (reported) | Not confirmed | Reported, unconfirmed |
 | [Trixino](https://ascotcardiologygroup.co.nz/nz/casino-reviews/trixino/) | 777% across six deposits, up to €7,777 in total, at 7x wagering | 7x | Supplied |
 | [Gunsbet](https://ascotcardiologygroup.co.nz/nz/casino-reviews/gunsbet/) | 285% up to €7,500 + 285 free spins | Not supplied | Supplied (betting listing) |
 

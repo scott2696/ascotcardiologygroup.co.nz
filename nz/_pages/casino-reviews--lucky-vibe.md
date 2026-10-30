@@ -4,7 +4,7 @@ title: "Lucky Vibe Review NZ [October 2026]: Is It Legit?"
 meta_description: "Is Lucky Vibe safe for Kiwis? Our review checks its Tobique + Anjouan licence, NZD balance, payout limits and safety score, and what 1 December means for NZ."
 h1: "Lucky Vibe Review NZ [October 2026]: Is It Legit? Licence, Owner, NZD Banking and Limits"
 author: Hana McAllister
-words: 1104
+words: 1174
 ---
 
 Facts checked 8 October 2026
@@ -14,7 +14,9 @@ Facts checked 8 October 2026
 Hollycorn-owned casino and sportsbook with an NZD balance and a strong independent rating.Written by [**Hana McAllister** ](https://ascotcardiologygroup.co.nz/nz/authors/#hana-mcallister), Editor Checked by [Wiremu Salter](https://ascotcardiologygroup.co.nz/nz/authors/#wiremu-salter) Updated 30 October 2026     ![Lucky Vibe logo](/logos/lucky-vibe.jpg) 
 
 **8.1** out of 10  
-Ledger score * Visit site[See the key facts](#facts)
+Ledger score * 
+
+Offer on record up to $5,000 + 300 free spins (reported)Visit site[See the key facts](#facts)
 
 18+ only. Free help: [0800 654 655](tel:0800654655) 
 
@@ -37,7 +39,7 @@ Casino Guru lists Hollycorn N.V. as the owner. Licences
 
 - Tobique Gaming Commission (New Brunswick): **0000064** 
 - Anjouan Gaming (Comoros): **ALSI-202509073-FI2** 
-Launched2024 (reported) NZD balanceYes Withdrawal limitsNZ$3,000 a day, NZ$7,500 a week, NZ$30,000 a month Daily win capNone recorded Payment options22 listed, including Visa, Mastercard, Skrill, Neteller, Paysafecard, Neosurf, MiFinity, Jeton Casino Guru Safety Index**8.5** / 10 Trustpilot1.8 (49 reviews) Complaints (Casino Guru)No figure published Offer on recordNone confirmed Facts checked8 October 2026 
+Launched2024 (reported) NZD balanceYes Withdrawal limitsNZ$3,000 a day, NZ$7,500 a week, NZ$30,000 a month Daily win capNone recorded Payment options22 listed, including Visa, Mastercard, Skrill, Neteller, Paysafecard, Neosurf, MiFinity, Jeton Casino Guru Safety Index**8.5** / 10 Trustpilot1.8 (49 reviews) Complaints (Casino Guru)No figure published Offer on recordup to $5,000 + 300 free spins (reported) Facts checked8 October 2026 
 
 ## Overview
 
@@ -73,9 +75,13 @@ Published withdrawal limits: **NZ$3,000 a day, NZ$7,500 a week, NZ$30,000 a mont
 
 Payment options listed for this brand include Visa, Mastercard, Skrill, Neteller, Paysafecard, Neosurf, MiFinity, Jeton, Revolut, bank transfer, Bitcoin, Ethereum, USDT. Availability varies by country, so check the cashier after sign-up. Our [payment methods guide](https://ascotcardiologygroup.co.nz/nz/payment-methods/) explains fees and speeds for each method from New Zealand.
 
-## Offers
+## Offer on record
 
-We have no confirmed welcome offer on record for this brand. Offshore offers change often and differ by country, and we only quote offers we have been supplied or can source. Our [bonus guide](https://ascotcardiologygroup.co.nz/nz/online-casinos/bonuses/) shows how to read any offer you find.
+**up to $5,000 + 300 free spins (reported)** 
+
+Reported by several 2026 casino listings: up to $5,000 plus 300 free spins, with 100% up to $1,000 plus 100 free spins on the first deposit. We could not find the operator's own terms or a confirmed wagering requirement, so treat the figure as unconfirmed.
+
+We do not publish sign-up links or bonus codes. To understand what any welcome offer really costs, see [casino bonuses explained](https://ascotcardiologygroup.co.nz/nz/online-casinos/bonuses/), which turns wagering into dollars.
 
 ## Ledger score: 8.1 out of 10
 
@@ -104,6 +110,7 @@ NZ$3,000 a day, NZ$7,500 a week, NZ$30,000 a month.
 New Zealand law targets operators and advertisers, not players, and playing at an offshore site is not an offence for the individual. But the site is not licensed in New Zealand, it cannot lawfully advertise to you, and from 1 December 2026 unlicensed casinos without a pending application must stop serving New Zealand players. Its operator is not among the 11 companies that won the right to apply in the DIA's October 2026 auction, so expect it to close New Zealand accounts. You also have no New Zealand regulator to complain to.  **Sources** (read 8 October 2026)
 
 - Casino Guru LuckyVibe review: https://casino.guru/luckyvibe-casino-review
+- Muddy River News 2026 casino listing: https://muddyrivernews.com/tag/lucky-vibe/
 
 Something out of date? [Send a correction](https://ascotcardiologygroup.co.nz/nz/contact/#corrections). 
 

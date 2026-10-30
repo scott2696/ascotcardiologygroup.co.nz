@@ -4,7 +4,7 @@ title: "Rooster Bet Review NZ [October 2026]: Is It Legit?"
 meta_description: "Is Rooster Bet safe for Kiwis? Our review checks its Tobique + Anjouan + Estonia licence, NZD balance, payout limits and safety score, and what 1 December means for NZ."
 h1: "Rooster Bet Review NZ [October 2026]: Is It Legit? Licence, Owner, NZD Banking and Limits"
 author: Hana McAllister
-words: 1174
+words: 1256
 ---
 
 Facts checked 8 October 2026
@@ -14,7 +14,9 @@ Facts checked 8 October 2026
 Three licences and an owner named on its own website, with casino and sport in one place.Written by [**Hana McAllister** ](https://ascotcardiologygroup.co.nz/nz/authors/#hana-mcallister), Editor Checked by [Wiremu Salter](https://ascotcardiologygroup.co.nz/nz/authors/#wiremu-salter) Updated 30 October 2026     ![Rooster Bet logo](/logos/rooster-bet.png) 
 
 **8.1** out of 10  
-Ledger score * Visit site[See the key facts](#facts)
+Ledger score * 
+
+Offer on record up to $5,000 + 300 free spins over four deposits (reported)Visit site[See the key facts](#facts)
 
 18+ only. Free help: [0800 654 655](tel:0800654655) 
 
@@ -38,7 +40,7 @@ Rooster.bet's own About page names Novatrix SRL, a Costa Rica company (registrat
 - Tobique Gaming Commission (New Brunswick): **0000002** 
 - Anjouan Gaming (Comoros): **ALSI-202508056-FI2** 
 - Estonian Tax and Customs Board: **HKT000017** 
-Launched2023 (reported) NZD balanceYes Withdrawal limitsNZ$3,000 a day, NZ$7,500 a week, NZ$30,000 a month Daily win capNone recorded Payment optionsIncluding Visa, Mastercard, Skrill, Neteller, Neosurf, MiFinity, bank transfer, Bitcoin Casino Guru Safety Index**8.5** / 10 Trustpilot2.0 (205 reviews) Complaints (Casino Guru)No figure published Offer on recordNone confirmed Facts checked8 October 2026 
+Launched2023 (reported) NZD balanceYes Withdrawal limitsNZ$3,000 a day, NZ$7,500 a week, NZ$30,000 a month Daily win capNone recorded Payment optionsIncluding Visa, Mastercard, Skrill, Neteller, Neosurf, MiFinity, bank transfer, Bitcoin Casino Guru Safety Index**8.5** / 10 Trustpilot2.0 (205 reviews) Complaints (Casino Guru)No figure published Offer on recordup to $5,000 + 300 free spins over four deposits (reported) Facts checked8 October 2026 
 
 ## Overview
 
@@ -76,9 +78,13 @@ Published withdrawal limits: **NZ$3,000 a day, NZ$7,500 a week, NZ$30,000 a mont
 
 Payment options listed for this brand include Visa, Mastercard, Skrill, Neteller, Neosurf, MiFinity, bank transfer, Bitcoin, Ethereum, USDT. Availability varies by country, so check the cashier after sign-up. Our [payment methods guide](https://ascotcardiologygroup.co.nz/nz/payment-methods/) explains fees and speeds for each method from New Zealand.
 
-## Offers
+## Offer on record
 
-We have no confirmed welcome offer on record for this brand. Offshore offers change often and differ by country, and we only quote offers we have been supplied or can source. Our [bonus guide](https://ascotcardiologygroup.co.nz/nz/online-casinos/bonuses/) shows how to read any offer you find.
+**up to $5,000 + 300 free spins over four deposits (reported)** 
+
+Reported by Casinos.com NZ and Casino.org in 2026: a package across the first four deposits, each with its own match and free spins, totalling up to $5,000 and 300 free spins. One listing reports 40x wagering and a $30 minimum deposit; we could not confirm these.
+
+We do not publish sign-up links or bonus codes. To understand what any welcome offer really costs, see [casino bonuses explained](https://ascotcardiologygroup.co.nz/nz/online-casinos/bonuses/), which turns wagering into dollars.
 
 ## Ledger score: 8.1 out of 10
 
@@ -108,6 +114,7 @@ New Zealand law targets operators and advertisers, not players, and playing at a
 
 - Rooster.bet About us: https://www.rooster.bet/about-us
 - Casino Guru Rooster Bet review: https://casino.guru/rooster-bet-casino-review
+- Casinos.com NZ Rooster Bet review: https://www.casinos.com/nz/rooster-bet-casino
 
 Something out of date? [Send a correction](https://ascotcardiologygroup.co.nz/nz/contact/#corrections). 
 
