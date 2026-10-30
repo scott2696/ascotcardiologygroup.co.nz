@@ -200,9 +200,9 @@ def build_hub():
                  "every page.", AUTH, CHECK,
                  [(str(len(OPS)), "sites reviewed"), (str(sum(1 for o in OPS if o["nzd"])), "with an NZD balance"), ("8.9", "highest Safety Index"), ("0", "casino links")])
             + crumbs(trail)
-            + f'<section class="sec"><div class="wrap">{law_note()}<h2>All 15 reviews</h2>'
+            + f'<section class="sec"><div class="wrap"><h2>All 15 reviews</h2>'
               '<p class="intro">Listed in our editor\'s order. Each row links to the full review.</p>'
-            + toplist(OPS) + rg_line() + "</div></section>"
+            + toplist(OPS) + law_note() + rg_line() + "</div></section>"
             + '<section class="sec sec--alt"><div class="wrap">'
             + '<h2 id="by-score">Every site sorted by Ledger score</h2><p class="intro">Highest first. The score weights '
               'independent safety (40%), licence (20%), ownership (15%), terms and limits (15%) and banking for Kiwis (10%).</p>'

@@ -833,10 +833,10 @@ def landing(P, crumb, author, checker, lead, facts, ops, list_h2, list_intro, co
     rel = related or [r for r in RELATED if r[2] != P][:6]
     body = (hero(h1, lead, author, checker, facts, kicker or f"Facts checked {CHECKED}")
             + crumbs(trail)
-            + f'<section class="sec" id="the-list"><div class="wrap">{law_note()}<h2>{list_h2}</h2><p class="intro">{list_intro}</p>'
+            + f'<section class="sec" id="the-list"><div class="wrap"><h2>{list_h2}</h2><p class="intro">{list_intro}</p>'
             + toplist(ops, kind)
             + compare(ops, cols)
-            + rg_line() + "</div></section>"
+            + law_note() + rg_line() + "</div></section>"
             + '<section class="sec sec--alt"><div class="wrap prose">'
             + content + faq_html
             + "<h2>Related guides</h2>" + cards(rel, 3)

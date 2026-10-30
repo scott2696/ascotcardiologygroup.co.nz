@@ -125,7 +125,7 @@ def build():
     ]
 
     body = (hero(h1, lead, AUTH, CHECK, facts, kicker=f"Facts checked {CHECKED}")
-            + f'<section class="sec" id="the-list"><div class="wrap">{law_note()}'
+            + f'<section class="sec" id="the-list"><div class="wrap">'
             + f'<h2>The {len(CASINOS)} online casino sites New Zealanders ask about most</h2>'
             + '<p class="intro">Each row shows the four facts that matter most for a New Zealand player: the licence, whether '
               'there is an NZD balance, the published withdrawal limit and the independent Casino Guru Safety Index. The '
@@ -133,7 +133,7 @@ def build():
             + toplist(CASINOS)
             + f'<h2 id="compare">Side-by-side comparison</h2>'
             + compare(CASINOS, ["licence", "nzd", "limit", "safety", "tp", "score"])
-            + rg_line() + "</div></section>"
+            + law_note() + rg_line() + "</div></section>"
 
             + '<section class="sec sec--alt"><div class="wrap"><h2 id="picks">Quick picks by what you need</h2>'
               '<p class="intro">Shortcuts based on the public record. Every pick links to the full review with sources.</p>'

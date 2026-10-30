@@ -87,7 +87,12 @@ def online_betting():
                  A, C, [("28 Jun 2025", "offshore bookmaker ban in force"), ("1", "lawful online bookmaker: TAB NZ"),
                         ("1 Aug 2026", "greyhound racing ended"), ("0", "bookmaker links")], kicker=f"Checked {CHECKED}")
             + crumbs([("Online betting NZ", P)])
-            + '<section class="sec"><div class="wrap prose">' + bet_law_note() + toc(sections)
+            + f'<section class="sec" id="the-list"><div class="wrap"><h2>Offshore sportsbooks New Zealanders ask about</h2>'
+              '<p class="intro">For information only. None of these sportsbooks is permitted to take bets from people in New '
+              'Zealand under the 2025 law. Each row links to our review, with licence, owner and limits sourced.</p>'
+            + toplist(SPORTS, "sports") + compare(SPORTS, ["products", "licence", "nzd", "limit", "safety", "score"])
+            + rg_line() + "</div></section>"
+            + '<section class="sec sec--alt"><div class="wrap prose">' + bet_law_note() + toc(sections)
             + '<h2 id="law">Online betting law in New Zealand since June 2025</h2>'
             + "<p>The Racing Industry Amendment Act 2025 passed on 27 June 2025 and took effect the next day. It extended TAB NZ's "
               "long-standing exclusive right to offer racing and sports betting so that it clearly covers online betting, and "
@@ -113,11 +118,6 @@ def online_betting():
               "be. Either way, it is the legal position.</p>"
             + "</div></section>"
 
-            + f'<section class="sec sec--alt" id="the-list"><div class="wrap"><h2>Offshore sportsbooks New Zealanders ask about</h2>'
-              '<p class="intro">For information only. None of these sportsbooks is permitted to take bets from people in New '
-              'Zealand under the 2025 law. Each row links to our review, with licence, owner and limits sourced.</p>'
-            + toplist(SPORTS, "sports") + compare(SPORTS, ["products", "licence", "nzd", "limit", "safety", "score"])
-            + rg_line() + "</div></section>"
 
             + '<section class="sec"><div class="wrap prose">'
             + '<h2 id="odds">How betting odds work</h2>'

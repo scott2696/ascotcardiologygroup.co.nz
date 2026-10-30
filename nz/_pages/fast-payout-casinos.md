@@ -18,10 +18,6 @@ Fast payouts come down to three things: the casino's processing, verification an
 - **€4,000** highest daily limit here 
 - **0** casino links 
 
-The legal position, in short
-
-The casinos and bookmakers on this site are licensed overseas, not by New Zealand's Department of Internal Affairs. Under the [Online Casino Gambling Act 2026](https://ascotcardiologygroup.co.nz/nz/nz-online-casino-law/) it is unlawful to advertise unlicensed online casino gambling to people in New Zealand, so we publish no links to these sites and no sign-up offers on their behalf. From 1 December 2026, casinos that have not applied for a New Zealand licence must stop serving New Zealand players, and none of the companies behind these casinos won a place in the DIA's October 2026 licence auction. This page is information, not a recommendation to gamble. 
-
 ## Casinos with published withdrawal limits
 
 Only casinos whose limits we could source are listed, in our editor's order.
@@ -51,6 +47,10 @@ Only casinos whose limits we could source are listed, in our editor's order.
 | [Lucky Circus](https://ascotcardiologygroup.co.nz/nz/casino-reviews/lucky-circus/) | €2,500 a week | US$50,000 a day (net win) | Yes | 21 | **6.8** |
 | [Smash](https://ascotcardiologygroup.co.nz/nz/casino-reviews/smash/) | €2,000 a week | €100,000 a day | No | 21 | **5.1** |
 | [Rivo](https://ascotcardiologygroup.co.nz/nz/casino-reviews/rivo/) | €1,000 a day | €100,000 a day | No | 34 | **6.3** |
+
+The legal position, in short
+
+The casinos and bookmakers on this site are licensed overseas, not by New Zealand's Department of Internal Affairs. Under the [Online Casino Gambling Act 2026](https://ascotcardiologygroup.co.nz/nz/nz-online-casino-law/) it is unlawful to advertise unlicensed online casino gambling to people in New Zealand, so we publish no links to these sites and no sign-up offers on their behalf. From 1 December 2026, casinos that have not applied for a New Zealand licence must stop serving New Zealand players, and none of the companies behind these casinos won a place in the DIA's October 2026 licence auction. This page is information, not a recommendation to gamble. 
 
 R18. Gambling can cause harm. Free, confidential help 24/7: Gambling Helpline [0800 654 655](tel:0800654655) or text 8006. [Tools and support](https://ascotcardiologygroup.co.nz/nz/responsible-gambling/). 
 

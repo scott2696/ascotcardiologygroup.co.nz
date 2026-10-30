@@ -18,10 +18,6 @@ How online pokies really pay: return to player, the variable RTP settings casino
 - **13** casinos checked 
 - **0** casino links 
 
-The legal position, in short
-
-The casinos and bookmakers on this site are licensed overseas, not by New Zealand's Department of Internal Affairs. Under the [Online Casino Gambling Act 2026](https://ascotcardiologygroup.co.nz/nz/nz-online-casino-law/) it is unlawful to advertise unlicensed online casino gambling to people in New Zealand, so we publish no links to these sites and no sign-up offers on their behalf. From 1 December 2026, casinos that have not applied for a New Zealand licence must stop serving New Zealand players, and none of the companies behind these casinos won a place in the DIA's October 2026 licence auction. This page is information, not a recommendation to gamble. 
-
 ## Casinos for online pokies, checked for New Zealand players
 
 The pokies come from the same studios almost everywhere. What differs is the casino: its licence, its currency and how much it lets you withdraw.
@@ -59,6 +55,10 @@ The pokies come from the same studios almost everywhere. What differs is the cas
 | [Trixino](https://ascotcardiologygroup.co.nz/nz/casino-reviews/trixino/) | Not confirmed | Not confirmed | Not confirmed | Not published | No profile | **4.1** |
 | [Rivo](https://ascotcardiologygroup.co.nz/nz/casino-reviews/rivo/) | Anjouan | Exceptiosoft Ltd | No | €1,000 a day | 6.2 | **6.3** |
 | [Spino](https://ascotcardiologygroup.co.nz/nz/casino-reviews/spino/) | Anjouan | Not published | No | Not published | 7.2 | **6.0** |
+
+The legal position, in short
+
+The casinos and bookmakers on this site are licensed overseas, not by New Zealand's Department of Internal Affairs. Under the [Online Casino Gambling Act 2026](https://ascotcardiologygroup.co.nz/nz/nz-online-casino-law/) it is unlawful to advertise unlicensed online casino gambling to people in New Zealand, so we publish no links to these sites and no sign-up offers on their behalf. From 1 December 2026, casinos that have not applied for a New Zealand licence must stop serving New Zealand players, and none of the companies behind these casinos won a place in the DIA's October 2026 licence auction. This page is information, not a recommendation to gamble. 
 
 R18. Gambling can cause harm. Free, confidential help 24/7: Gambling Helpline [0800 654 655](tel:0800654655) or text 8006. [Tools and support](https://ascotcardiologygroup.co.nz/nz/responsible-gambling/). 
 
