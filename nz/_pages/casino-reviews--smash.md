@@ -4,7 +4,7 @@ title: "Smash Review NZ [October 2026]: Is It Legit?"
 meta_description: "Is Smash safe for Kiwis? Our review checks its Anjouan licence, currency, payout limits and safety score, and what 1 December means for NZ."
 h1: "Smash Review NZ [October 2026]: Is It Legit? Licence, Owner, NZD Banking and Limits"
 author: Hana McAllister
-words: 1084
+words: 1159
 ---
 
 Facts checked 8 October 2026
@@ -14,7 +14,9 @@ Facts checked 8 October 2026
 Anjouan-licensed casino and sportsbook with a low safety rating and euro-only limits.Written by [**Hana McAllister** ](https://ascotcardiologygroup.co.nz/nz/authors/#hana-mcallister), Editor Checked by [Wiremu Salter](https://ascotcardiologygroup.co.nz/nz/authors/#wiremu-salter) Updated 30 October 2026     ![Smash logo](/logos/smash.png) 
 
 **5.1** out of 10  
-Ledger score * Visit site[See the key facts](#facts)
+Ledger score * 
+
+Offer on record 600% up to €10,000 at 10x (sports: 250% up to €5,000)Visit site[See the key facts](#facts)
 
 18+ only. Free help: [0800 654 655](tel:0800654655) 
 
@@ -36,7 +38,7 @@ ProductsOnline casino and sportsbook (crypto accepted) OwnerSofton Ltd
 Casino Guru lists Softon Ltd as the owner. Licences
 
 - Anjouan Gaming (Comoros): **ALSI-202409012-FI1** 
-Launched2024 (reported) NZD balanceNo Withdrawal limits€1,000 a day, €2,000 a week Daily win cap€100,000 a day Payment options21 listed, including Visa, Mastercard, American Express, Apple Pay, Bitcoin, Ethereum, Litecoin, USDT Casino Guru Safety Index**3.9** / 10 Trustpilot3.3 (242 reviews) Complaints (Casino Guru)No figure published Offer on recordNone confirmed Facts checked8 October 2026 
+Launched2024 (reported) NZD balanceNo Withdrawal limits€1,000 a day, €2,000 a week Daily win cap€100,000 a day Payment options21 listed, including Visa, Mastercard, American Express, Apple Pay, Bitcoin, Ethereum, Litecoin, USDT Casino Guru Safety Index**3.9** / 10 Trustpilot3.3 (242 reviews) Complaints (Casino Guru)No figure published Offer on record600% up to €10,000 at 10x (sports: 250% up to €5,000) Facts checked8 October 2026 
 
 ## Overview
 
@@ -72,9 +74,13 @@ Published withdrawal limits: **€1,000 a day, €2,000 a week** . Limits decide
 
 Payment options listed for this brand include Visa, Mastercard, American Express, Apple Pay, Bitcoin, Ethereum, Litecoin, USDT, USDC, Solana. Availability varies by country, so check the cashier after sign-up. Our [payment methods guide](https://ascotcardiologygroup.co.nz/nz/payment-methods/) explains fees and speeds for each method from New Zealand.
 
-## Offers
+## Offer on record
 
-We have no confirmed welcome offer on record for this brand. Offshore offers change often and differ by country, and we only quote offers we have been supplied or can source. Our [bonus guide](https://ascotcardiologygroup.co.nz/nz/online-casinos/bonuses/) shows how to read any offer you find.
+**600% up to €10,000 at 10x (sports: 250% up to €5,000)** 
+
+Supplied by the publisher on 1 September 2026, in euros: a casino package of 600% up to €10,000 at 10x wagering on deposit plus bonus, or 250% up to €5,000 for sport at 15x on odds of 1.80 or more.
+
+We do not publish sign-up links or bonus codes. To understand what any welcome offer really costs, see [casino bonuses explained](https://ascotcardiologygroup.co.nz/nz/online-casinos/bonuses/), which turns wagering into dollars.
 
 ## Ledger score: 5.1 out of 10
 
@@ -103,6 +109,7 @@ No. NZD is not listed as a balance currency, so deposits are converted.
 New Zealand law targets operators and advertisers, not players, and playing at an offshore site is not an offence for the individual. But the site is not licensed in New Zealand, it cannot lawfully advertise to you, and from 1 December 2026 unlicensed casinos without a pending application must stop serving New Zealand players. Its operator is not among the 11 companies that won the right to apply in the DIA's October 2026 auction, so expect it to close New Zealand accounts. You also have no New Zealand regulator to complain to.  **Sources** (read 8 October 2026)
 
 - Casino Guru Smash review: https://casino.guru/smash-casino-review
+- Publisher-supplied offer, 1 September 2026
 
 Something out of date? [Send a correction](https://ascotcardiologygroup.co.nz/nz/contact/#corrections). 
 

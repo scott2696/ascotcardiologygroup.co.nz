@@ -4,7 +4,7 @@ title: "No Deposit Bonus NZ [October 2026]: No Deposit Free Spins"
 meta_description: "No deposit free spins and bonus cash for NZ players: how no deposit offers work, typical NZ$50 to NZ$100 max cashouts, wagering, and how to spot a fake bonus code."
 h1: "No Deposit Bonus NZ [October 2026]: Free Spins and No Deposit Offers, and the Win Caps Behind Them"
 author: Hana McAllister
-words: 1721
+words: 1767
 ---
 
 Facts checked 8 October 2026
@@ -26,17 +26,17 @@ We have no confirmed no deposit offers on record at present. In our editor's ord
 |---|---|---|---|
 | [CrownSlots](https://ascotcardiologygroup.co.nz/nz/casino-reviews/crownslots/) | 390% up to €3,700 + 175 free spins across the first deposits | Licence: Curaçao (reported); NZD balance: Not confirmed; Withdrawal limit: Not published; Safety Index: No profile | 4.8/10 |
 | [Spinjo](https://ascotcardiologygroup.co.nz/nz/casino-reviews/spinjo/) | up to NZ$5,000 + 300 free spins over four deposits (reported) | Licence: Anjouan + Tobique; NZD balance: Yes; Withdrawal limit: NZ$7,500 a week; Safety Index: 8.9 | 8.3/10 |
-| [MadCasino](https://ascotcardiologygroup.co.nz/nz/casino-reviews/madcasino/) | None on record | Licence: Curaçao (CGA); NZD balance: Yes; Withdrawal limit: NZ$4,500 a week; Safety Index: 6.7 | 6.5/10 |
-| [Lucky7even](https://ascotcardiologygroup.co.nz/nz/casino-reviews/lucky7even/) | None on record | Licence: Tobique + Anjouan; NZD balance: Yes; Withdrawal limit: NZ$7,500 a week; Safety Index: 8.9 | 8.0/10 |
+| [MadCasino](https://ascotcardiologygroup.co.nz/nz/casino-reviews/madcasino/) | 777% up to €7,500 (sports: 250% up to €3,500) | Licence: Curaçao (CGA); NZD balance: Yes; Withdrawal limit: NZ$4,500 a week; Safety Index: 6.7 | 6.5/10 |
+| [Lucky7even](https://ascotcardiologygroup.co.nz/nz/casino-reviews/lucky7even/) | 100% up to NZ$500 + 50 free spins on the first deposit (reported) | Licence: Tobique + Anjouan; NZD balance: Yes; Withdrawal limit: NZ$7,500 a week; Safety Index: 8.9 | 8.0/10 |
 | [Lucky Vibe](https://ascotcardiologygroup.co.nz/nz/casino-reviews/lucky-vibe/) | up to $5,000 + 300 free spins (reported) | Licence: Tobique + Anjouan; NZD balance: Yes; Withdrawal limit: NZ$7,500 a week; Safety Index: 8.5 | 8.1/10 |
 | [Rooster Bet](https://ascotcardiologygroup.co.nz/nz/casino-reviews/rooster-bet/) | up to $5,000 + 300 free spins over four deposits (reported) | Licence: Tobique + Anjouan + Estonia; NZD balance: Yes; Withdrawal limit: NZ$7,500 a week; Safety Index: 8.5 | 8.1/10 |
 | [Fortune Play](https://ascotcardiologygroup.co.nz/nz/casino-reviews/fortune-play/) | up to $5,000 + 300 free spins over four deposits (reported) | Licence: Tobique + Anjouan; NZD balance: Yes; Withdrawal limit: NZ$7,500 a week; Safety Index: 8.4 | 8.1/10 |
 | [Lucky Circus](https://ascotcardiologygroup.co.nz/nz/casino-reviews/lucky-circus/) | 100% up to NZ$10,000 + 450 free spins over four deposits (reported) | Licence: Anjouan + Tobique; NZD balance: Yes; Withdrawal limit: €2,500 a week; Safety Index: 6.8 | 6.8/10 |
 | [Kingdom](https://ascotcardiologygroup.co.nz/nz/casino-reviews/kingdom/) | 600% up to €9,500 + 20% cashback (reported) | Licence: Not confirmed; NZD balance: Not confirmed; Withdrawal limit: Not published; Safety Index: No profile | 4.1/10 |
-| [Smash](https://ascotcardiologygroup.co.nz/nz/casino-reviews/smash/) | None on record | Licence: Anjouan; NZD balance: No; Withdrawal limit: €2,000 a week; Safety Index: 3.9 | 5.1/10 |
+| [Smash](https://ascotcardiologygroup.co.nz/nz/casino-reviews/smash/) | 600% up to €10,000 at 10x (sports: 250% up to €5,000) | Licence: Anjouan; NZD balance: No; Withdrawal limit: €2,000 a week; Safety Index: 3.9 | 5.1/10 |
 | [Trixino](https://ascotcardiologygroup.co.nz/nz/casino-reviews/trixino/) | 777% across six deposits, up to €7,777 in total, at 7x wagering | Licence: Not confirmed; NZD balance: Not confirmed; Withdrawal limit: Not published; Safety Index: No profile | 4.1/10 |
-| [Rivo](https://ascotcardiologygroup.co.nz/nz/casino-reviews/rivo/) | None on record | Licence: Anjouan; NZD balance: No; Withdrawal limit: €1,000 a day; Safety Index: 6.2 | 6.3/10 |
-| [Spino](https://ascotcardiologygroup.co.nz/nz/casino-reviews/spino/) | None on record | Licence: Anjouan; NZD balance: No; Withdrawal limit: Not published; Safety Index: 7.2 | 6.0/10 |
+| [Rivo](https://ascotcardiologygroup.co.nz/nz/casino-reviews/rivo/) | 1000% up to €10,000 across eight deposits at 10x (sports: 100% up to €500) | Licence: Anjouan; NZD balance: No; Withdrawal limit: €1,000 a day; Safety Index: 6.2 | 6.3/10 |
+| [Spino](https://ascotcardiologygroup.co.nz/nz/casino-reviews/spino/) | 20% cashback up to 2,000 USDT, no wagering (reported) | Licence: Anjouan; NZD balance: No; Withdrawal limit: Not published; Safety Index: 7.2 | 6.0/10 |
 
 **About this list.** Sites are shown in the order set by our editor, which is not the score order. The **Ledger score** comes from five published inputs and is the number to compare; [see every site sorted by score](https://ascotcardiologygroup.co.nz/nz/casino-reviews/#by-score). We do not link to any casino or carry sign-up offers. [How we score](https://ascotcardiologygroup.co.nz/nz/how-we-review/).*Casino Guru Safety Index, read 8 October 2026. Ledger score: our five-input score.
 

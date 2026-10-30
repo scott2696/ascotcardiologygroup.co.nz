@@ -4,7 +4,7 @@ title: "Rivo Review NZ [October 2026]: Is It Legit?"
 meta_description: "Is Rivo safe for Kiwis? Our review checks its Anjouan licence, currency, payout limits and safety score, and what 1 December means for NZ."
 h1: "Rivo Review NZ [October 2026]: Is It Legit? Licence, Owner, NZD Banking and Limits"
 author: Hana McAllister
-words: 1101
+words: 1189
 ---
 
 Facts checked 8 October 2026
@@ -14,7 +14,9 @@ Facts checked 8 October 2026
 Exceptiosoft-run casino and sportsbook with a 2026 Anjouan licence and euro-only limits.Written by [**Hana McAllister** ](https://ascotcardiologygroup.co.nz/nz/authors/#hana-mcallister), Editor Checked by [Wiremu Salter](https://ascotcardiologygroup.co.nz/nz/authors/#wiremu-salter) Updated 30 October 2026     ![Rivo logo](/logos/rivo.png) 
 
 **6.3** out of 10  
-Ledger score * Visit site[See the key facts](#facts)
+Ledger score * 
+
+Offer on record 1000% up to €10,000 across eight deposits at 10x (sports: 100% up to €500)Visit site[See the key facts](#facts)
 
 18+ only. Free help: [0800 654 655](tel:0800654655) 
 
@@ -36,7 +38,7 @@ ProductsOnline casino and sportsbook (crypto accepted) OwnerExceptiosoft Ltd
 Casino Guru lists Exceptiosoft Ltd as the owner. Licences
 
 - Anjouan Gaming (Comoros): **ALSI-202606020-FI1** 
-LaunchedNot confirmed NZD balanceNo Withdrawal limits€1,000 a day, €10,000 a month Daily win cap€100,000 a day Payment options34 listed, including Visa, Mastercard, American Express, Apple Pay, Skrill, Neteller, bank transfer, Bitcoin Casino Guru Safety Index**6.2** / 10 TrustpilotProfile removed by Trustpilot Complaints (Casino Guru)No figure published Offer on recordNone confirmed Facts checked8 October 2026 
+LaunchedNot confirmed NZD balanceNo Withdrawal limits€1,000 a day, €10,000 a month Daily win cap€100,000 a day Payment options34 listed, including Visa, Mastercard, American Express, Apple Pay, Skrill, Neteller, bank transfer, Bitcoin Casino Guru Safety Index**6.2** / 10 TrustpilotProfile removed by Trustpilot Complaints (Casino Guru)No figure published Offer on record1000% up to €10,000 across eight deposits at 10x (sports: 100% up to €500) Facts checked8 October 2026 
 
 ## Overview
 
@@ -74,9 +76,13 @@ Published withdrawal limits: **€1,000 a day, €10,000 a month** . Limits deci
 
 Payment options listed for this brand include Visa, Mastercard, American Express, Apple Pay, Skrill, Neteller, bank transfer, Bitcoin, Litecoin, USDT, USDC. Availability varies by country, so check the cashier after sign-up. Our [payment methods guide](https://ascotcardiologygroup.co.nz/nz/payment-methods/) explains fees and speeds for each method from New Zealand.
 
-## Offers
+## Offer on record
 
-We have no confirmed welcome offer on record for this brand. Offshore offers change often and differ by country, and we only quote offers we have been supplied or can source. Our [bonus guide](https://ascotcardiologygroup.co.nz/nz/online-casinos/bonuses/) shows how to read any offer you find.
+**1000% up to €10,000 across eight deposits at 10x (sports: 100% up to €500)** 
+
+Supplied by the publisher on 1 September 2026, in euros: a slots package described as 1000% up to €10,000, spread over eight deposits with a 10x rollover; the sports alternative is 100% up to €500. Regional reviews list smaller single-deposit offers, so check which version the cashier shows you.
+
+We do not publish sign-up links or bonus codes. To understand what any welcome offer really costs, see [casino bonuses explained](https://ascotcardiologygroup.co.nz/nz/online-casinos/bonuses/), which turns wagering into dollars.
 
 ## Ledger score: 6.3 out of 10
 
@@ -105,6 +111,7 @@ No. NZD is not listed as a balance currency, so deposits are converted.
 New Zealand law targets operators and advertisers, not players, and playing at an offshore site is not an offence for the individual. But the site is not licensed in New Zealand, it cannot lawfully advertise to you, and from 1 December 2026 unlicensed casinos without a pending application must stop serving New Zealand players. Its operator is not among the 11 companies that won the right to apply in the DIA's October 2026 auction, so expect it to close New Zealand accounts. You also have no New Zealand regulator to complain to.  **Sources** (read 8 October 2026)
 
 - Casino Guru Rivo review: https://casino.guru/rivo-casino-review
+- Publisher-supplied offer, 1 September 2026
 
 Something out of date? [Send a correction](https://ascotcardiologygroup.co.nz/nz/contact/#corrections). 
 

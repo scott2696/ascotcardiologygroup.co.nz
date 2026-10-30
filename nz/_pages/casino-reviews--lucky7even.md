@@ -4,7 +4,7 @@ title: "Lucky7even Review NZ [October 2026]: Is It Legit?"
 meta_description: "Is Lucky7even safe for Kiwis? Our review checks its Tobique + Anjouan licence, NZD balance, payout limits and safety score, and what 1 December means for NZ."
 h1: "Lucky7even Review NZ [October 2026]: Is It Legit? Licence, Owner, NZD Banking and Limits"
 author: Hana McAllister
-words: 1136
+words: 1210
 ---
 
 Facts checked 8 October 2026
@@ -14,7 +14,9 @@ Facts checked 8 October 2026
 Joint-highest independent safety rating here, with NZD banking from the Hollycorn group.Written by [**Hana McAllister** ](https://ascotcardiologygroup.co.nz/nz/authors/#hana-mcallister), Editor Checked by [Wiremu Salter](https://ascotcardiologygroup.co.nz/nz/authors/#wiremu-salter) Updated 30 October 2026     ![Lucky7even logo](/logos/lucky7even.jpg) 
 
 **8.0** out of 10  
-Ledger score * Visit site[See the key facts](#facts)
+Ledger score * 
+
+Offer on record 100% up to NZ$500 + 50 free spins on the first deposit (reported)Visit site[See the key facts](#facts)
 
 18+ only. Free help: [0800 654 655](tel:0800654655) 
 
@@ -37,7 +39,7 @@ Legit.casino and CasinoBee name Hollycorn N.V.; the licence numbers match Spinjo
 
 - Tobique Gaming Commission (New Brunswick): **0000064** 
 - Anjouan Gaming (Comoros): **ALSI-202509073-FI2** 
-Launched2022 (reported) NZD balanceYes Withdrawal limitsNZ$3,000 a day, NZ$7,500 a week, NZ$30,000 a month Daily win capNone recorded Payment options29 listed, including Visa, Mastercard, Skrill, Neteller, Paysafecard, Neosurf, AstroPay, Flexepin Casino Guru Safety Index**8.9** / 10 Trustpilot2.4 (137 reviews) Complaints (Casino Guru)No figure published Offer on recordNone confirmed Facts checked8 October 2026 
+Launched2022 (reported) NZD balanceYes Withdrawal limitsNZ$3,000 a day, NZ$7,500 a week, NZ$30,000 a month Daily win capNone recorded Payment options29 listed, including Visa, Mastercard, Skrill, Neteller, Paysafecard, Neosurf, AstroPay, Flexepin Casino Guru Safety Index**8.9** / 10 Trustpilot2.4 (137 reviews) Complaints (Casino Guru)No figure published Offer on record100% up to NZ$500 + 50 free spins on the first deposit (reported) Facts checked8 October 2026 
 
 ## Overview
 
@@ -74,9 +76,13 @@ Published withdrawal limits: **NZ$3,000 a day, NZ$7,500 a week, NZ$30,000 a mont
 
 Payment options listed for this brand include Visa, Mastercard, Skrill, Neteller, Paysafecard, Neosurf, AstroPay, Flexepin, Jeton, bank transfer, Bitcoin, Ethereum, USDT. Availability varies by country, so check the cashier after sign-up. Our [payment methods guide](https://ascotcardiologygroup.co.nz/nz/payment-methods/) explains fees and speeds for each method from New Zealand.
 
-## Offers
+## Offer on record
 
-We have no confirmed welcome offer on record for this brand. Offshore offers change often and differ by country, and we only quote offers we have been supplied or can source. Our [bonus guide](https://ascotcardiologygroup.co.nz/nz/online-casinos/bonuses/) shows how to read any offer you find.
+**100% up to NZ$500 + 50 free spins on the first deposit (reported)** 
+
+From the publisher's earlier New Zealand research, matched by a June 2026 Canadian review: 100% up to NZ$500 plus 50 free spins on the first deposit, part of a four-deposit package, at 40x wagering. Other listings quote different totals, so treat this as unconfirmed.
+
+We do not publish sign-up links or bonus codes. To understand what any welcome offer really costs, see [casino bonuses explained](https://ascotcardiologygroup.co.nz/nz/online-casinos/bonuses/), which turns wagering into dollars.
 
 ## Ledger score: 8.0 out of 10
 
@@ -106,6 +112,7 @@ New Zealand law targets operators and advertisers, not players, and playing at a
 
 - Casino Guru Lucky7even review: https://casino.guru/lucky7even-casino-review
 - Legit.casino Lucky7even review: https://legit.casino/reviews/lucky7even-casino/
+- Publisher's earlier NZ research, September 2026
 
 Something out of date? [Send a correction](https://ascotcardiologygroup.co.nz/nz/contact/#corrections). 
 

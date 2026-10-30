@@ -4,7 +4,7 @@ title: "Bet&Play Review NZ [October 2026]: Is It Legit?"
 meta_description: "Is Bet&Play safe for Kiwis? Our review checks its Anjouan + Tobique licence, NZD balance, payout limits and safety score, and what 1 December means for NZ."
 h1: "Bet&Play Review NZ [October 2026]: Is It Legit? Licence, Owner, NZD Banking and Limits"
 author: Hana McAllister
-words: 1130
+words: 1193
 ---
 
 Facts checked 8 October 2026
@@ -14,7 +14,9 @@ Facts checked 8 October 2026
 Novatrix sportsbook listing with verified licences, NZD support and a daily win cap.Written by [**Hana McAllister** ](https://ascotcardiologygroup.co.nz/nz/authors/#hana-mcallister), Editor Checked by [Wiremu Salter](https://ascotcardiologygroup.co.nz/nz/authors/#wiremu-salter) Updated 30 October 2026     ![Bet&Play logo](/logos/betandplay.png) 
 
 **7.1** out of 10  
-Ledger score * Visit site[See the key facts](#facts)
+Ledger score * 
+
+Offer on record 100% up to NZ$500 sports bonus at 5x (reported)Visit site[See the key facts](#facts)
 
 18+ only. Free help: [0800 654 655](tel:0800654655) 
 
@@ -37,7 +39,7 @@ Casino Guru lists Novatrix S.R.L. Licences
 
 - Anjouan Gaming (Comoros): **ALSI-202508056-FI2** 
 - Tobique Gaming Commission (New Brunswick): **0000002** 
-Launched2022 (reported) NZD balanceYes Withdrawal limits€5,000 a week, €20,000 a month Daily win capUS$50,000 a day (net win) Payment options19 listed, including Visa, Mastercard, Skrill, Neteller, Paysafecard, MiFinity, MuchBetter, Revolut Casino Guru Safety Index**6.8** / 10 Trustpilot1.9 (112 reviews) Complaints (Casino Guru)0 logged directly Offer on recordNone confirmed Facts checked8 October 2026 
+Launched2022 (reported) NZD balanceYes Withdrawal limits€5,000 a week, €20,000 a month Daily win capUS$50,000 a day (net win) Payment options19 listed, including Visa, Mastercard, Skrill, Neteller, Paysafecard, MiFinity, MuchBetter, Revolut Casino Guru Safety Index**6.8** / 10 Trustpilot1.9 (112 reviews) Complaints (Casino Guru)0 logged directly Offer on record100% up to NZ$500 sports bonus at 5x (reported) Facts checked8 October 2026 
 
 ## Overview
 
@@ -76,9 +78,13 @@ Published withdrawal limits: **€5,000 a week, €20,000 a month** . Limits dec
 
 Payment options listed for this brand include Visa, Mastercard, Skrill, Neteller, Paysafecard, MiFinity, MuchBetter, Revolut, bank transfer, Bitcoin, Ethereum, USDT. Availability varies by country, so check the cashier after sign-up. Our [payment methods guide](https://ascotcardiologygroup.co.nz/nz/payment-methods/) explains fees and speeds for each method from New Zealand.
 
-## Offers
+## Offer on record
 
-We have no confirmed welcome offer on record for this brand. Offshore offers change often and differ by country, and we only quote offers we have been supplied or can source. Our [bonus guide](https://ascotcardiologygroup.co.nz/nz/online-casinos/bonuses/) shows how to read any offer you find.
+**100% up to NZ$500 sports bonus at 5x (reported)** 
+
+From the publisher's earlier New Zealand research: a sports welcome bonus of 100% up to NZ$500 with a 5x rollover at minimum odds of 1.80. Another of the publisher's records shows 50% up to NZ$300, so treat the figure as unconfirmed.
+
+We do not publish sign-up links or bonus codes. To understand what any welcome offer really costs, see [casino bonuses explained](https://ascotcardiologygroup.co.nz/nz/online-casinos/bonuses/), which turns wagering into dollars.
 
 ## Ledger score: 7.1 out of 10
 
@@ -107,6 +113,7 @@ Yes. NZD is listed as a balance currency.
 New Zealand law targets operators and advertisers, not players, and playing at an offshore site is not an offence for the individual. But the site is not licensed in New Zealand, it cannot lawfully advertise to you, and from 1 December 2026 unlicensed casinos without a pending application must stop serving New Zealand players. Its operator is not among the 11 companies that won the right to apply in the DIA's October 2026 auction, so expect it to close New Zealand accounts. You also have no New Zealand regulator to complain to.  **Sources** (read 8 October 2026)
 
 - Casino Guru Bet&Play review: https://casino.guru/betandplay-casino-review
+- Publisher's earlier NZ research, September 2026
 
 Something out of date? [Send a correction](https://ascotcardiologygroup.co.nz/nz/contact/#corrections). 
 

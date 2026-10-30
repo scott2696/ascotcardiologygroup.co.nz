@@ -4,7 +4,7 @@ title: "MadCasino Review NZ [October 2026]: Is It Legit?"
 meta_description: "Is MadCasino safe for Kiwis? Our review checks its Curaçao (CGA) licence, NZD balance, payout limits and safety score, and what 1 December means for NZ."
 h1: "MadCasino Review NZ [October 2026]: Is It Legit? Licence, Owner, NZD Banking and Limits"
 author: Hana McAllister
-words: 1116
+words: 1216
 ---
 
 Facts checked 8 October 2026
@@ -14,7 +14,9 @@ Facts checked 8 October 2026
 Casino and sportsbook on one account, under a verified Curaçao licence, but with low withdrawal limits.Written by [**Hana McAllister** ](https://ascotcardiologygroup.co.nz/nz/authors/#hana-mcallister), Editor Checked by [Wiremu Salter](https://ascotcardiologygroup.co.nz/nz/authors/#wiremu-salter) Updated 30 October 2026     ![MadCasino logo](/logos/madcasino.png) 
 
 **6.5** out of 10  
-Ledger score * Visit site[See the key facts](#facts)
+Ledger score * 
+
+Offer on record 777% up to €7,500 (sports: 250% up to €3,500)Visit site[See the key facts](#facts)
 
 18+ only. Free help: [0800 654 655](tel:0800654655) 
 
@@ -36,7 +38,7 @@ ProductsOnline casino and sportsbook (crypto accepted) OwnerNot published
 Casino Guru does not name an owner. CasinoCanada attributes the brand to Softon Ltd, the company Casino Guru lists behind Smash; we could not confirm the link. Licences
 
 - Curaçao Gaming Authority: **OGL/2024/129/0131** 
-LaunchedNot confirmed NZD balanceYes Withdrawal limitsNZ$1,400 a day, NZ$4,500 a week, NZ$18,000 a month Daily win capNone recorded Payment options38 listed, including Visa, Mastercard, Apple Pay, Google Pay, Skrill, Neteller, Paysafecard, Jeton Casino Guru Safety Index**6.7** / 10 TrustpilotNo profile found Complaints (Casino Guru)0 logged directly Offer on recordNone confirmed Facts checked8 October 2026 
+LaunchedNot confirmed NZD balanceYes Withdrawal limitsNZ$1,400 a day, NZ$4,500 a week, NZ$18,000 a month Daily win capNone recorded Payment options38 listed, including Visa, Mastercard, Apple Pay, Google Pay, Skrill, Neteller, Paysafecard, Jeton Casino Guru Safety Index**6.7** / 10 TrustpilotNo profile found Complaints (Casino Guru)0 logged directly Offer on record777% up to €7,500 (sports: 250% up to €3,500) Facts checked8 October 2026 
 
 ## Overview
 
@@ -71,9 +73,13 @@ Published withdrawal limits: **NZ$1,400 a day, NZ$4,500 a week, NZ$18,000 a mont
 
 Payment options listed for this brand include Visa, Mastercard, Apple Pay, Google Pay, Skrill, Neteller, Paysafecard, Jeton, MiFinity, Revolut, bank transfer, Bitcoin, Ethereum, USDT, Solana. Availability varies by country, so check the cashier after sign-up. Our [payment methods guide](https://ascotcardiologygroup.co.nz/nz/payment-methods/) explains fees and speeds for each method from New Zealand.
 
-## Offers
+## Offer on record
 
-We have no confirmed welcome offer on record for this brand. Offshore offers change often and differ by country, and we only quote offers we have been supplied or can source. Our [bonus guide](https://ascotcardiologygroup.co.nz/nz/online-casinos/bonuses/) shows how to read any offer you find.
+**777% up to €7,500 (sports: 250% up to €3,500)** 
+
+Supplied by the publisher on 1 September 2026, in euros: a casino welcome package of 777% up to €7,500, or a sports welcome bonus of 250% up to €3,500. A Canadian review tested in October 2026 reports 30x wagering on the bonus, a maximum bet of about €2 and a 10x cap on bonus winnings. Check the cashier terms before depositing.
+
+We do not publish sign-up links or bonus codes. To understand what any welcome offer really costs, see [casino bonuses explained](https://ascotcardiologygroup.co.nz/nz/online-casinos/bonuses/), which turns wagering into dollars.
 
 ## Ledger score: 6.5 out of 10
 
@@ -103,6 +109,8 @@ New Zealand law targets operators and advertisers, not players, and playing at a
 
 - Casino Guru MadCasino review: https://casino.guru/madcasino-review
 - CasinoCanada MadCasino review: https://casinocanada.com/casinos/madcasino/
+- Publisher-supplied offer, 1 September 2026
+- Toffeeweb MadCasino bonus guide: https://www.toffeeweb.com/ca/madcasino-bonus/
 
 Something out of date? [Send a correction](https://ascotcardiologygroup.co.nz/nz/contact/#corrections). 
 

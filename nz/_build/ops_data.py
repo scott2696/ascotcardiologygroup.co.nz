@@ -68,8 +68,8 @@ OPS = [
       safety=6.7, complaints=0, nzd=True,
       limits=["NZ$1,400 a day", "NZ$4,500 a week", "NZ$18,000 a month"], win_cap=None,
       payments=["Visa", "Mastercard", "Apple Pay", "Google Pay", "Skrill", "Neteller", "Paysafecard", "Jeton", "MiFinity", "Revolut", "bank transfer", "Bitcoin", "Ethereum", "USDT", "Solana"],
-      n_pay=38, offer=None, offer_detail=None, wagering=None,
-      sources=[("Casino Guru MadCasino review", CG + "madcasino-review"), ("CasinoCanada MadCasino review", "https://casinocanada.com/casinos/madcasino/")],
+      n_pay=38, offer='777% up to €7,500 (sports: 250% up to €3,500)', offer_detail='Supplied by the publisher on 1 September 2026, in euros: a casino welcome package of 777% up to €7,500, or a sports welcome bonus of 250% up to €3,500. A Canadian review tested in October 2026 reports 30x wagering on the bonus, a maximum bet of about €2 and a 10x cap on bonus winnings. Check the cashier terms before depositing.', wagering='30x bonus (reported)',
+      sources=[("Casino Guru MadCasino review", CG + "madcasino-review"), ("CasinoCanada MadCasino review", "https://casinocanada.com/casinos/madcasino/"), ('Publisher-supplied offer, 1 September 2026', ''), ('Toffeeweb MadCasino bonus guide', 'https://www.toffeeweb.com/ca/madcasino-bonus/')],
       flags=["Owner not published", "Lower withdrawal limits than most"]),
 
  dict(slug="gunsbet", name="Gunsbet", logo="/logos/gunsbet.png", logo_dark=True,
@@ -96,8 +96,8 @@ OPS = [
       safety=8.9, complaints=None, nzd=True,
       limits=["NZ$3,000 a day", "NZ$7,500 a week", "NZ$30,000 a month"], win_cap=None,
       payments=["Visa", "Mastercard", "Skrill", "Neteller", "Paysafecard", "Neosurf", "AstroPay", "Flexepin", "Jeton", "bank transfer", "Bitcoin", "Ethereum", "USDT"],
-      n_pay=29, offer=None, offer_detail=None, wagering=None,
-      sources=[("Casino Guru Lucky7even review", CG + "lucky7even-casino-review"), ("Legit.casino Lucky7even review", "https://legit.casino/reviews/lucky7even-casino/")],
+      n_pay=29, offer='100% up to NZ$500 + 50 free spins on the first deposit (reported)', offer_detail="From the publisher's earlier New Zealand research, matched by a June 2026 Canadian review: 100% up to NZ$500 plus 50 free spins on the first deposit, part of a four-deposit package, at 40x wagering. Other listings quote different totals, so treat this as unconfirmed.", wagering='40x (reported)',
+      sources=[("Casino Guru Lucky7even review", CG + "lucky7even-casino-review"), ("Legit.casino Lucky7even review", "https://legit.casino/reviews/lucky7even-casino/"), ("Publisher's earlier NZ research, September 2026", '')],
       flags=[]),
 
  dict(slug="lucky-vibe", name="Lucky Vibe", logo="/logos/lucky-vibe.jpg",
@@ -170,8 +170,8 @@ OPS = [
       safety=3.9, complaints=None, nzd=False,
       limits=["€1,000 a day", "€2,000 a week"], win_cap="€100,000 a day",
       payments=["Visa", "Mastercard", "American Express", "Apple Pay", "Bitcoin", "Ethereum", "Litecoin", "USDT", "USDC", "Solana"],
-      n_pay=21, offer=None, offer_detail=None, wagering=None,
-      sources=[("Casino Guru Smash review", CG + "smash-casino-review")],
+      n_pay=21, offer='600% up to €10,000 at 10x (sports: 250% up to €5,000)', offer_detail='Supplied by the publisher on 1 September 2026, in euros: a casino package of 600% up to €10,000 at 10x wagering on deposit plus bonus, or 250% up to €5,000 for sport at 15x on odds of 1.80 or more.', wagering='10x deposit + bonus',
+      sources=[("Casino Guru Smash review", CG + "smash-casino-review"), ('Publisher-supplied offer, 1 September 2026', '')],
       flags=["Low Safety Index (3.9)", "No NZD balance", "€2,000 weekly withdrawal limit"]),
 
  dict(slug="trixino", name="Trixino", logo="/logos/trixino.png",
@@ -198,8 +198,8 @@ OPS = [
       safety=6.2, complaints=None, nzd=False,
       limits=["€1,000 a day", "€10,000 a month"], win_cap="€100,000 a day",
       payments=["Visa", "Mastercard", "American Express", "Apple Pay", "Skrill", "Neteller", "bank transfer", "Bitcoin", "Litecoin", "USDT", "USDC"],
-      n_pay=34, offer=None, offer_detail=None, wagering=None,
-      sources=[("Casino Guru Rivo review", CG + "rivo-casino-review")],
+      n_pay=34, offer='1000% up to €10,000 across eight deposits at 10x (sports: 100% up to €500)', offer_detail='Supplied by the publisher on 1 September 2026, in euros: a slots package described as 1000% up to €10,000, spread over eight deposits with a 10x rollover; the sports alternative is 100% up to €500. Regional reviews list smaller single-deposit offers, so check which version the cashier shows you.', wagering='10x',
+      sources=[("Casino Guru Rivo review", CG + "rivo-casino-review"), ('Publisher-supplied offer, 1 September 2026', '')],
       flags=["No NZD balance", "Daily win cap"]),
 
  dict(slug="betandplay", name="Bet&Play", logo="/logos/betandplay.png",
@@ -210,8 +210,8 @@ OPS = [
       safety=6.8, complaints=0, nzd=True,
       limits=["€5,000 a week", "€20,000 a month"], win_cap="US$50,000 a day (net win)",
       payments=["Visa", "Mastercard", "Skrill", "Neteller", "Paysafecard", "MiFinity", "MuchBetter", "Revolut", "bank transfer", "Bitcoin", "Ethereum", "USDT"],
-      n_pay=19, offer=None, offer_detail=None, wagering=None,
-      sources=[("Casino Guru Bet&Play review", CG + "betandplay-casino-review")],
+      n_pay=19, offer='100% up to NZ$500 sports bonus at 5x (reported)', offer_detail="From the publisher's earlier New Zealand research: a sports welcome bonus of 100% up to NZ$500 with a 5x rollover at minimum odds of 1.80. Another of the publisher's records shows 50% up to NZ$300, so treat the figure as unconfirmed.", wagering='5x at odds 1.80+ (reported)',
+      sources=[("Casino Guru Bet&Play review", CG + "betandplay-casino-review"), ("Publisher's earlier NZ research, September 2026", '')],
       flags=["Daily win cap"]),
 
 
@@ -223,8 +223,8 @@ OPS = [
       safety=7.2, complaints=0, nzd=False,
       limits=[], win_cap=None,
       payments=["Bitcoin", "Ethereum", "Litecoin", "USDT", "Solana", "Dogecoin", "XRP"],
-      n_pay=None, offer=None, offer_detail=None, wagering=None,
-      sources=[("Casino Guru Casino Spino review", CG + "casino-spino-review")],
+      n_pay=None, offer='20% cashback up to 2,000 USDT, no wagering (reported)', offer_detail="From the publisher's earlier research, matched by LCB's August 2026 review: 20% cashback, up to 2,000 USDT, credited after the welcome week, with no wagering on the cashback. Spino is crypto-first; the only fiat option is USD.", wagering='None (reported)',
+      sources=[("Casino Guru Casino Spino review", CG + "casino-spino-review"), ('LCB Spino Casino review', 'https://lcb.org/casinos/spino-casino')],
       flags=["Crypto-first cashier", "Owner not published"]),
 
 
