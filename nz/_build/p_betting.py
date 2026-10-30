@@ -1,5 +1,6 @@
 """Online betting NZ (the money page from the second brief) and sports betting sites."""
 from lib import *
+from guide_howto import account_guide
 
 
 def bet_law_note():
@@ -91,7 +92,7 @@ def online_betting():
               '<p class="intro">For information only. None of these sportsbooks is permitted to take bets from people in New '
               'Zealand under the 2025 law. Each row links to our review, with licence, owner and limits sourced.</p>'
             + toplist(SPORTS, "sports") + compare(SPORTS, ["products", "licence", "nzd", "limit", "safety", "score"])
-            + rg_line() + "</div></section>"
+            + account_guide(P) + rg_line() + "</div></section>"
             + '<section class="sec sec--alt"><div class="wrap prose">' + bet_law_note() + toc(sections)
             + '<h2 id="law">Online betting law in New Zealand since June 2025</h2>'
             + "<p>The Racing Industry Amendment Act 2025 passed on 27 June 2025 and took effect the next day. It extended TAB NZ's "

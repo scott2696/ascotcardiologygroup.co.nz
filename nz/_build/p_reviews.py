@@ -1,5 +1,6 @@
 """The reviews hub and one review per operator."""
 from lib import *
+from guide_howto import account_guide
 
 AUTH, CHECK = "hana-mcallister", "wiremu-salter"
 
@@ -202,7 +203,7 @@ def build_hub():
             + crumbs(trail)
             + f'<section class="sec"><div class="wrap"><h2>All 15 reviews</h2>'
               '<p class="intro">Listed in our editor\'s order. Each row links to the full review.</p>'
-            + toplist(OPS) + law_note() + rg_line() + "</div></section>"
+            + toplist(OPS) + account_guide("/casino-reviews/") + law_note() + rg_line() + "</div></section>"
             + '<section class="sec sec--alt"><div class="wrap">'
             + '<h2 id="by-score">Every site sorted by Ledger score</h2><p class="intro">Highest first. The score weights '
               'independent safety (40%), licence (20%), ownership (15%), terms and limits (15%) and banking for Kiwis (10%).</p>'

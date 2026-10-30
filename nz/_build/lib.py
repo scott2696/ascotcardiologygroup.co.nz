@@ -415,8 +415,8 @@ def cards(items, cols=3):
     return "".join(out)
 
 
-def steps(items):
-    li = "".join(f"<li><h3>{t}</h3><p>{b}</p></li>" for t, b in items)
+def steps(items, h="h3"):
+    li = "".join(f"<li><{h}>{t}</{h}><p>{b}</p></li>" for t, b in items)
     return f'<ol class="steps">{li}</ol>'
 
 
@@ -839,6 +839,7 @@ def landing(P, crumb, author, checker, lead, facts, ops, list_h2, list_intro, co
             + f'<section class="sec" id="the-list"><div class="wrap"><h2>{list_h2}</h2><p class="intro">{list_intro}</p>'
             + toplist(ops, kind)
             + compare(ops, cols)
+            + __import__("guide_howto").account_guide(P)
             + law_note() + rg_line() + "</div></section>"
             + '<section class="sec sec--alt"><div class="wrap prose">'
             + content + faq_html

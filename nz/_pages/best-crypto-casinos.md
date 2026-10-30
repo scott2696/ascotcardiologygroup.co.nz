@@ -4,7 +4,7 @@ title: "Best Crypto Casinos NZ [October 2026]: Bitcoin & USDT Sites"
 meta_description: "Bitcoin casino NZ guide: crypto casinos taking BTC, USDT and ETH, network fees, buying crypto on an NZ exchange, price risk and how IRD taxes crypto gains."
 h1: "Best Crypto Casinos NZ [October 2026]: Bitcoin, USDT and Ethereum Casinos, With Fees and Tax for Kiwis"
 author: Tama Rewiti
-words: 1728
+words: 2292
 ---
 
 Facts checked 8 October 2026
@@ -55,6 +55,93 @@ All accept crypto deposits according to their payment lists. In our editor's ord
 | [Trixino](https://ascotcardiologygroup.co.nz/nz/casino-reviews/trixino/) | Not confirmed | Not confirmed | Not published | No profile | **4.1** |
 | [Rivo](https://ascotcardiologygroup.co.nz/nz/casino-reviews/rivo/) | Anjouan | No | €1,000 a day | 6.2 | **6.3** |
 | [Spino](https://ascotcardiologygroup.co.nz/nz/casino-reviews/spino/) | Anjouan | No | Not published | 7.2 | **6.0** |
+
+## How to open an account and deposit or withdraw with crypto
+
+Crypto is fast, but mistakes with addresses and networks cannot be reversed. Follow these steps in order.
+
+### Step 1: open your account
+
+1. 
+
+#### Check the site before you sign up
+
+Find the licence number in the site's footer and look it up on the regulator's public register, then read our review for the owner, limits and complaint record. If the footer has no licence number, stop there.
+2. 
+
+#### Register with your real details
+
+Use your legal name, date of birth, home address and an email you check, exactly as they appear on your ID. You must be 18 or over. Wrong or made-up details are the most common reason a withdrawal is refused later.
+3. 
+
+#### Choose your currency carefully
+
+If NZD is offered, pick it at sign-up. Most sites will not let you change the account currency afterwards, and a non-NZD account means your bank converts every deposit and withdrawal.
+4. 
+
+#### Set your limits first
+
+Before you deposit, open the account or responsible gambling settings and set a deposit limit, a loss limit and a session reminder. Lowering a limit takes effect straight away; raising one usually has a cooling-off delay.
+5. 
+
+#### Verify your identity straight away
+
+Upload photo ID (passport or driver licence) and proof of address dated in the last three months, such as a bank statement or power bill. Doing it now means your first withdrawal is not held up waiting for checks.
+
+### Step 2: make a deposit
+
+1. 
+
+#### Buy crypto on a New Zealand exchange
+
+Use an exchange registered on New Zealand's Financial Service Providers Register, verify your account and buy with NZD by bank transfer. USDT avoids price swings; Litecoin and Tron-network USDT keep network fees low.
+2. 
+
+#### Copy the casino's deposit address and network
+
+In the cashier, choose the coin and the network (for example USDT on TRC-20). Copy the address exactly. Sending on the wrong network usually loses the money for good.
+3. 
+
+#### Send a small test amount first
+
+Send a few dollars' worth and wait for it to arrive before sending the rest. Check the casino's minimum, as amounts below it may not be credited.
+4. 
+
+#### Wait for confirmations
+
+The deposit shows once the network confirms it: minutes for most coins, longer for Bitcoin when the network is busy.
+5. 
+
+#### Record the price and the transaction hash
+
+Note the NZD value on the day and the transaction hash. Inland Revenue can tax gains on crypto you hold, so you need these records whether or not you win.
+
+### Step 3: make a withdrawal
+
+1. 
+
+#### Clear or cancel any bonus first
+
+An active bonus usually has to be wagered or forfeited before crypto can be withdrawn.
+2. 
+
+#### Paste your own wallet address and pick the same network
+
+Use a wallet or exchange address in your name. Double-check the network matches; a mismatch can lose the funds.
+3. 
+
+#### Wait for approval and confirmations
+
+Crypto withdrawals are often approved within hours, then arrive once the network confirms them.
+4. 
+
+#### Convert to NZD and withdraw to your bank
+
+Sell on your New Zealand exchange and withdraw to your bank account. Keep the records for Inland Revenue.
+
+Withdraw before 1 December
+
+The offshore sites on this page are expected to stop serving New Zealand from 1 December 2026. If you hold a balance at one, complete verification and withdraw it now.  
 
 The legal position, in short
 

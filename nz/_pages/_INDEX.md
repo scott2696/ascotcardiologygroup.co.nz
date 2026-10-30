@@ -1,22 +1,22 @@
 # Page index
 
-38 pages, 52,336 words.
+38 pages, 60,851 words.
 
 | Words | URL | File |
 |---:|---|---|
-| 6,497 | `/` | `_pages/home.md` |
-| 2,595 | `/online-betting/` | `_pages/online-betting.md` |
-| 2,246 | `/online-casinos/bonuses/` | `_pages/online-casinos--bonuses.md` |
-| 2,145 | `/online-pokies/` | `_pages/online-pokies.md` |
-| 1,805 | `/high-payout-casinos/` | `_pages/high-payout-casinos.md` |
-| 1,787 | `/new-online-casinos/` | `_pages/new-online-casinos.md` |
-| 1,767 | `/no-deposit-casinos/` | `_pages/no-deposit-casinos.md` |
-| 1,728 | `/best-crypto-casinos/` | `_pages/best-crypto-casinos.md` |
-| 1,704 | `/live-casinos/` | `_pages/live-casinos.md` |
+| 7,233 | `/` | `_pages/home.md` |
+| 3,298 | `/online-betting/` | `_pages/online-betting.md` |
+| 2,971 | `/online-casinos/bonuses/` | `_pages/online-casinos--bonuses.md` |
+| 2,874 | `/online-pokies/` | `_pages/online-pokies.md` |
+| 2,532 | `/high-payout-casinos/` | `_pages/high-payout-casinos.md` |
+| 2,511 | `/new-online-casinos/` | `_pages/new-online-casinos.md` |
+| 2,494 | `/no-deposit-casinos/` | `_pages/no-deposit-casinos.md` |
+| 2,427 | `/live-casinos/` | `_pages/live-casinos.md` |
+| 2,328 | `/fast-payout-casinos/` | `_pages/fast-payout-casinos.md` |
+| 2,319 | `/best-sports-betting-sites/` | `_pages/best-sports-betting-sites.md` |
+| 2,292 | `/best-crypto-casinos/` | `_pages/best-crypto-casinos.md` |
+| 2,218 | `/casino-reviews/` | `_pages/casino-reviews.md` |
 | 1,648 | `/nz-online-casino-law/` | `_pages/nz-online-casino-law.md` |
-| 1,612 | `/best-sports-betting-sites/` | `_pages/best-sports-betting-sites.md` |
-| 1,601 | `/fast-payout-casinos/` | `_pages/fast-payout-casinos.md` |
-| 1,495 | `/casino-reviews/` | `_pages/casino-reviews.md` |
 | 1,331 | `/payment-methods/` | `_pages/payment-methods.md` |
 | 1,286 | `/casino-reviews/spinjo/` | `_pages/casino-reviews--spinjo.md` |
 | 1,256 | `/casino-reviews/rooster-bet/` | `_pages/casino-reviews--rooster-bet.md` |

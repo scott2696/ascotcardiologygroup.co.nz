@@ -1,5 +1,6 @@
 """Homepage: best online casino sites NZ."""
 from lib import *
+from guide_howto import account_guide
 from home_extra import numbers, complaints, trending, questions
 
 P = "/"
@@ -133,7 +134,7 @@ def build():
             + toplist(CASINOS)
             + f'<h2 id="compare">Side-by-side comparison</h2>'
             + compare(CASINOS, ["licence", "nzd", "limit", "safety", "tp", "score"])
-            + law_note() + rg_line() + "</div></section>"
+            + account_guide("/") + law_note() + rg_line() + "</div></section>"
 
             + '<section class="sec sec--alt"><div class="wrap"><h2 id="picks">Quick picks by what you need</h2>'
               '<p class="intro">Shortcuts based on the public record. Every pick links to the full review with sources.</p>'
