@@ -4,12 +4,12 @@ title: "Online Casino Reviews NZ [October 2026]: Trusted or Not?"
 meta_description: "Honest NZ casino reviews: 15 online casinos and betting sites checked on licence, owner, NZD banking, withdrawal limits and safety, and whether each can be trusted."
 h1: "Online Casino Reviews NZ [October 2026]: 15 Casinos and Betting Sites Rated on Licence, Owner and Limits"
 author: Hana McAllister
-words: 2927
+words: 2939
 ---
 
 # Online Casino Reviews NZ [October 2026] : 15 Casinos and Betting Sites Rated on Licence, Owner and Limits
 
-Fifteen casino and betting sites that New Zealanders ask about, each checked against public licence records, the operator's own terms and independent safety data. No links, no sign-up offers, sources on every page.Written by [**Hana McAllister** ](https://ascotcardiologygroup.co.nz/nz/authors/#hana-mcallister), Editor Checked by [Wiremu Salter](https://ascotcardiologygroup.co.nz/nz/authors/#wiremu-salter) Updated 30 October 2026    
+Fifteen casino and betting sites that New Zealanders ask about, each checked against public licence records, the operator's own terms and independent safety data. No links, no sign-up offers, sources on every page.![Hana McAllister](/images/authors/hana-mcallister.jpg)Written by [**Hana McAllister** ](https://ascotcardiologygroup.co.nz/nz/authors/#hana-mcallister), Editor Checked by [Wiremu Salter](https://ascotcardiologygroup.co.nz/nz/authors/#wiremu-salter) Updated 30 October 2026    
 
 - **15** sites reviewed 
 - **9** with an NZD balance 
@@ -350,7 +350,7 @@ Look for sources and dates on every fact, a published scoring method and negativ
 
 ### Why do some reviews score a casino highly while yours does not?
 
-Many rankings weight bonus size heavily. Ours weights independent safety, licence and ownership, which is why unconfirmed brands score low here.  
+Many rankings weight bonus size heavily. Ours weights independent safety, licence and ownership, which is why unconfirmed brands score low here.  ![Hana McAllister](/images/authors/hana-mcallister.jpg)
 
 [Hana McAllister](https://ascotcardiologygroup.co.nz/nz/authors/#hana-mcallister)
 

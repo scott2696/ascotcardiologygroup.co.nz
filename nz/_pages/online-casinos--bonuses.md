@@ -4,14 +4,14 @@ title: "Best Casino Bonuses NZ [October 2026]: Welcome Offers"
 meta_description: "Casino welcome bonus NZ guide: wagering requirements worked through in NZD, max-bet rules, win caps, free spins, reloads and cashback, so you know the real cost first."
 h1: "Best Casino Bonuses NZ [October 2026]: Sign Up and Welcome Bonuses, With the Real Cost of Wagering"
 author: Hana McAllister
-words: 3617
+words: 3629
 ---
 
 Facts checked 8 October 2026
 
 # Best Casino Bonuses NZ [October 2026] : Sign Up and Welcome Bonuses, With the Real Cost of Wagering
 
-A casino bonus is only as good as its wagering. Here is the maths in dollars, the offers on our records, the terms that decide whether a bonus is worth taking, and when to say no.Written by [**Hana McAllister** ](https://ascotcardiologygroup.co.nz/nz/authors/#hana-mcallister), Editor Checked by [Tama Rewiti](https://ascotcardiologygroup.co.nz/nz/authors/#tama-rewiti) Updated 30 October 2026    
+A casino bonus is only as good as its wagering. Here is the maths in dollars, the offers on our records, the terms that decide whether a bonus is worth taking, and when to say no.![Hana McAllister](/images/authors/hana-mcallister.jpg)Written by [**Hana McAllister** ](https://ascotcardiologygroup.co.nz/nz/authors/#hana-mcallister), Editor Checked by [Tama Rewiti](https://ascotcardiologygroup.co.nz/nz/authors/#tama-rewiti) Updated 30 October 2026    
 
 - **7x** lowest wagering on record 
 - **40x** typical offshore wagering 
@@ -376,7 +376,7 @@ Cards, e-wallets, bank transfer, vouchers and crypto from NZ.Read the guide ](ht
 
 ### High payout casinos
 
-The house edge on every main game, and what 'best paying' means.Read the guide ](https://ascotcardiologygroup.co.nz/nz/high-payout-casinos/) 
+The house edge on every main game, and what 'best paying' means.Read the guide ](https://ascotcardiologygroup.co.nz/nz/high-payout-casinos/) ![Hana McAllister](/images/authors/hana-mcallister.jpg)
 
 [Hana McAllister](https://ascotcardiologygroup.co.nz/nz/authors/#hana-mcallister)
 

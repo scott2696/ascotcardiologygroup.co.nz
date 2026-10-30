@@ -3,15 +3,15 @@ url: https://ascotcardiologygroup.co.nz/nz/online-betting/
 title: "Online Betting NZ [October 2026]: Legal Betting Sites"
 meta_description: "Is online betting legal in NZ? TAB NZ and Betcha are the only legal betting sites. Rugby, racing and sports betting odds, margins, bet types and safer betting tools."
 h1: "Online Betting NZ [October 2026]: Racing and Sports Betting, TAB NZ and the Offshore Ban Explained"
-author: Jess Tuilagi
-words: 3709
+author: Alex McDonald
+words: 3721
 ---
 
 Checked 8 October 2026
 
 # Online Betting NZ [October 2026] : Racing and Sports Betting, TAB NZ and the Offshore Ban Explained
 
-Online betting in New Zealand changed in June 2025, when TAB NZ became the only lawful online bookmaker. This guide explains the law, how odds and bookmaker margins work, every main bet type, the rugby, league, netball, cricket and racing markets Kiwis bet on, and how to bet within your limits.Written by [**Jess Tuilagi** ](https://ascotcardiologygroup.co.nz/nz/authors/#jess-tuilagi), Sport Writer Checked by [Wiremu Salter](https://ascotcardiologygroup.co.nz/nz/authors/#wiremu-salter) Updated 30 October 2026    
+Online betting in New Zealand changed in June 2025, when TAB NZ became the only lawful online bookmaker. This guide explains the law, how odds and bookmaker margins work, every main bet type, the rugby, league, netball, cricket and racing markets Kiwis bet on, and how to bet within your limits.![Alex McDonald](/images/authors/alex-mcdonald.jpg)Written by [**Alex McDonald** ](https://ascotcardiologygroup.co.nz/nz/authors/#alex-mcdonald), Sport Writer Checked by [Wiremu Salter](https://ascotcardiologygroup.co.nz/nz/authors/#wiremu-salter) Updated 30 October 2026    
 
 - **28 Jun 2025** offshore bookmaker ban in force 
 - **1** lawful online bookmaker: TAB NZ 
@@ -424,12 +424,12 @@ Cards, e-wallets, bank transfer and crypto from New Zealand.Read the guide ](htt
 
 ### Casino reviews
 
-All 15 casino and betting sites, checked and scored.Read the guide ](https://ascotcardiologygroup.co.nz/nz/casino-reviews/) 
+All 15 casino and betting sites, checked and scored.Read the guide ](https://ascotcardiologygroup.co.nz/nz/casino-reviews/) ![Alex McDonald](/images/authors/alex-mcdonald.jpg)
 
-[Jess Tuilagi](https://ascotcardiologygroup.co.nz/nz/authors/#jess-tuilagi)
+[Alex McDonald](https://ascotcardiologygroup.co.nz/nz/authors/#alex-mcdonald)
 
 Sport Writer · Sports betting markets, odds and TAB NZ
 
-Jess covers sports betting: how odds and bookmaker margins work, which markets matter for rugby, league, netball and cricket, and what the 2025 law change that gave TAB NZ the only legal online sports book means for New Zealand punters.
+Alex covers sports betting: how odds and bookmaker margins work, which markets matter for rugby, league, netball and cricket, and what the 2025 law change that gave TAB NZ the only legal online sports book means for New Zealand punters.
 
 [How we review](https://ascotcardiologygroup.co.nz/nz/how-we-review/) · [All authors](https://ascotcardiologygroup.co.nz/nz/authors/)

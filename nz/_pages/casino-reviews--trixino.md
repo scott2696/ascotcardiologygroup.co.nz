@@ -4,14 +4,14 @@ title: "Trixino Review NZ [October 2026]: Is It Legit?"
 meta_description: "Is Trixino safe for Kiwis? Our review checks its not confirmed licence, currency, payout limits and safety score, and what 1 December means for NZ."
 h1: "Trixino Review NZ [October 2026]: Is It Legit? Licence, Owner, NZD Banking and Limits"
 author: Hana McAllister
-words: 1140
+words: 1152
 ---
 
 Facts checked 8 October 2026
 
 # Trixino Review NZ [October 2026] : Is It Legit? Licence, Owner, NZD Banking and Limits
 
-Unusually low 7x wagering on a 777% six-stage package, but licence and owner unconfirmed.Written by [**Hana McAllister** ](https://ascotcardiologygroup.co.nz/nz/authors/#hana-mcallister), Editor Checked by [Wiremu Salter](https://ascotcardiologygroup.co.nz/nz/authors/#wiremu-salter) Updated 30 October 2026     ![Trixino logo](/logos/trixino.png) 
+Unusually low 7x wagering on a 777% six-stage package, but licence and owner unconfirmed.![Hana McAllister](/images/authors/hana-mcallister.jpg)Written by [**Hana McAllister** ](https://ascotcardiologygroup.co.nz/nz/authors/#hana-mcallister), Editor Checked by [Wiremu Salter](https://ascotcardiologygroup.co.nz/nz/authors/#wiremu-salter) Updated 30 October 2026     ![Trixino logo](/logos/trixino.png) 
 
 **4.1** out of 10  
 Ledger score * 
@@ -112,7 +112,7 @@ New Zealand law targets operators and advertisers, not players, and playing at a
 
 Something out of date? [Send a correction](https://ascotcardiologygroup.co.nz/nz/contact/#corrections). 
 
-R18. Gambling can cause harm. Free, confidential help 24/7: Gambling Helpline [0800 654 655](tel:0800654655) or text 8006. [Tools and support](https://ascotcardiologygroup.co.nz/nz/responsible-gambling/).
+R18. Gambling can cause harm. Free, confidential help 24/7: Gambling Helpline [0800 654 655](tel:0800654655) or text 8006. [Tools and support](https://ascotcardiologygroup.co.nz/nz/responsible-gambling/).![Hana McAllister](/images/authors/hana-mcallister.jpg)
 
 [Hana McAllister](https://ascotcardiologygroup.co.nz/nz/authors/#hana-mcallister)
 

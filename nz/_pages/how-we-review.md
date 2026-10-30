@@ -4,14 +4,14 @@ title: "How We Rate Online Casinos [October 2026]: Ledger Score"
 meta_description: "How we rate online casinos in NZ: the five weighted inputs in the Ledger score (safety, licence, owner, terms, banking), our public sources and how often we recheck."
 h1: "How We Rate Online Casinos [October 2026]: Our Review Method, the Ledger Score and Our Sources"
 author: Hana McAllister
-words: 869
+words: 881
 ---
 
 Checked 8 October 2026
 
 # How We Rate Online Casinos [October 2026] : Our Review Method, the Ledger Score and Our Sources
 
-Every number on this site can be traced back to a public source. Here is exactly how the Ledger score is calculated, the sources we use, how often we recheck, and the rules we never break.Written by [**Hana McAllister** ](https://ascotcardiologygroup.co.nz/nz/authors/#hana-mcallister), Editor Checked by [Wiremu Salter](https://ascotcardiologygroup.co.nz/nz/authors/#wiremu-salter) Updated 30 October 2026    
+Every number on this site can be traced back to a public source. Here is exactly how the Ledger score is calculated, the sources we use, how often we recheck, and the rules we never break.![Hana McAllister](/images/authors/hana-mcallister.jpg)Written by [**Hana McAllister** ](https://ascotcardiologygroup.co.nz/nz/authors/#hana-mcallister), Editor Checked by [Wiremu Salter](https://ascotcardiologygroup.co.nz/nz/authors/#wiremu-salter) Updated 30 October 2026    
 
 - **5** weighted inputs 
 - **40%** independent safety 
@@ -121,7 +121,7 @@ How wagering really works, with worked examples in dollars.Read the guide ](http
 
 ### Payment methods
 
-Cards, e-wallets, bank transfer, vouchers and crypto from NZ.Read the guide ](https://ascotcardiologygroup.co.nz/nz/payment-methods/) 
+Cards, e-wallets, bank transfer, vouchers and crypto from NZ.Read the guide ](https://ascotcardiologygroup.co.nz/nz/payment-methods/) ![Hana McAllister](/images/authors/hana-mcallister.jpg)
 
 [Hana McAllister](https://ascotcardiologygroup.co.nz/nz/authors/#hana-mcallister)
 

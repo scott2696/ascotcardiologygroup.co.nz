@@ -4,14 +4,14 @@ title: "Is Online Gambling Legal in NZ [October 2026]: Licences"
 meta_description: "Online casino law NZ: the Online Casino Gambling Act 2026, who won the DIA licence auction, the NZ$5m advertising ban and what the 1 December 2026 cut-off means for you."
 h1: "Is Online Gambling Legal in NZ [October 2026]: The Online Casino Gambling Act 2026 in Plain English"
 author: Wiremu Salter
-words: 1648
+words: 1660
 ---
 
 Checked 8 October 2026
 
 # Is Online Gambling Legal in NZ [October 2026] : The Online Casino Gambling Act 2026 in Plain English
 
-The Online Casino Gambling Act 2026 in plain English: what is legal now, the advertising ban and its NZ$5 million penalties, who won the DIA licence auction, the 1 December 2026 cut-off and what it means for your account.Written by [**Wiremu Salter** ](https://ascotcardiologygroup.co.nz/nz/authors/#wiremu-salter), Law and Safety Writer Checked by [Hana McAllister](https://ascotcardiologygroup.co.nz/nz/authors/#hana-mcallister) Updated 30 October 2026    
+The Online Casino Gambling Act 2026 in plain English: what is legal now, the advertising ban and its NZ$5 million penalties, who won the DIA licence auction, the 1 December 2026 cut-off and what it means for your account.![Wiremu Salter](/images/authors/wiremu-salter.jpg)Written by [**Wiremu Salter** ](https://ascotcardiologygroup.co.nz/nz/authors/#wiremu-salter), Law and Safety Writer Checked by [Hana McAllister](https://ascotcardiologygroup.co.nz/nz/authors/#hana-mcallister) Updated 30 October 2026    
 
 - **1 May 2026** Act in force 
 - **15** maximum licences 
@@ -185,7 +185,7 @@ Cards, e-wallets, bank transfer, vouchers and crypto from NZ.Read the guide ](ht
 
 ### High payout casinos
 
-The house edge on every main game, and what 'best paying' means.Read the guide ](https://ascotcardiologygroup.co.nz/nz/high-payout-casinos/) 
+The house edge on every main game, and what 'best paying' means.Read the guide ](https://ascotcardiologygroup.co.nz/nz/high-payout-casinos/) ![Wiremu Salter](/images/authors/wiremu-salter.jpg)
 
 [Wiremu Salter](https://ascotcardiologygroup.co.nz/nz/authors/#wiremu-salter)
 

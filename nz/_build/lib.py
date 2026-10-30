@@ -120,15 +120,15 @@ def limit_txt(op):
 
 
 # ---------------------------------------------------------------------------
-# Authors. Tama Rewiti and Olivia Brandt are confirmed by the publisher as the
-# real writers (photos supplied 30 October 2026). The others are still
-# PLACEHOLDER PROFILES (see README): replace with the real people who
+# Authors. All five are confirmed by the publisher as the real writers, with
+# photos supplied 30 October 2026 (Alex McDonald replaced Jess Tuilagi).
+# Keep bios to each person's job on this site; replace anyone who leaves with the real people who
 # write and check this site before it goes live. Bios state each person's job
 # on this site only. No degrees, employers or years of experience are claimed.
 # ---------------------------------------------------------------------------
 AUTHORS = {
     "hana-mcallister": {
-        "name": "Hana McAllister", "initials": "HM", "role": "Editor",
+        "name": "Hana McAllister", "initials": "HM", "role": "Editor", "photo": "/images/authors/hana-mcallister.jpg",
         "focus": "Rankings, scoring and editorial standards",
         "bio": ("Hana edits every ranking and review on Kiwi Casino Ledger. Hana checks that each score can be traced back "
                 "to the public sources listed under it, that offers are quoted exactly as supplied or reported, and that "
@@ -152,17 +152,17 @@ AUTHORS = {
         "owns": ["Online pokies", "High payout casinos", "Live casinos"],
     },
     "wiremu-salter": {
-        "name": "Wiremu Salter", "initials": "WS", "role": "Law and Safety Writer",
+        "name": "Wiremu Salter", "initials": "WS", "role": "Law and Safety Writer", "photo": "/images/authors/wiremu-salter.jpg",
         "focus": "NZ gambling law, DIA licensing, harm reduction",
         "bio": ("Wiremu writes the legal, tax and responsible gambling pages from primary sources: the Online Casino "
                 "Gambling Act 2026, the Racing Industry Amendment Act 2025, the Gambling Act 2003, Inland Revenue guidance "
                 "and the Department of Internal Affairs' published material. Wiremu also checks every legal claim on the site."),
         "owns": ["NZ online casino law", "Gambling winnings tax", "Responsible gambling"],
     },
-    "jess-tuilagi": {
-        "name": "Jess Tuilagi", "initials": "JT", "role": "Sport Writer",
+    "alex-mcdonald": {
+        "name": "Alex McDonald", "initials": "AM", "role": "Sport Writer", "photo": "/images/authors/alex-mcdonald.jpg",
         "focus": "Sports betting markets, odds and TAB NZ",
-        "bio": ("Jess covers sports betting: how odds and bookmaker margins work, which markets matter for rugby, league, "
+        "bio": ("Alex covers sports betting: how odds and bookmaker margins work, which markets matter for rugby, league, "
                 "netball and cricket, and what the 2025 law change that gave TAB NZ the only legal online sports book "
                 "means for New Zealand punters."),
         "owns": ["Online betting NZ", "Best sports betting sites"],
@@ -514,18 +514,21 @@ def badge(op):
 # Where Visit site goes while affiliate links are off: the publisher's own
 # site, which carries no affiliate links.
 VISIT_FALLBACK = "https://pokiesrealmoney.co.com/"
+VISIT_SPORTS = "https://pokiesrealmoney.co.com/betting/"
+VISIT_BY_PAGE = {"/best-crypto-casinos/": "https://pokiesrealmoney.co.com/crypto/"}
 
 
-def visit_btn(op, kind="casino", cls="btn"):
+def visit_btn(op, kind="casino", cls="btn", fallback=None):
     """The Visit site button: the affiliate link when links are on for this
     market, otherwise the publisher's own site."""
     u = aff_url(op, kind)
     if u:
         return f'<a class="{cls}" href="{attr(u)}" rel="sponsored nofollow noopener" target="_blank">Visit site</a>'
-    return f'<a class="{cls}" href="{VISIT_FALLBACK}" rel="noopener" target="_blank">Visit site</a>'
+    href = fallback or (VISIT_SPORTS if kind == "sports" else VISIT_FALLBACK)
+    return f'<a class="{cls}" href="{href}" rel="noopener" target="_blank">Visit site</a>'
 
 
-def toplist(ops, kind="casino", start=1, note_=True, eager=2):
+def toplist(ops, kind="casino", start=1, note_=True, eager=2, visit=None):
     """The ranked list. Every row is a set of checkable facts and a link to our
     own review. There is no outbound link."""
     out = [f'<ol class="tl" start="{start}">']
@@ -549,7 +552,7 @@ def toplist(ops, kind="casino", start=1, note_=True, eager=2):
             f'<p class="tl-why">{op["tagline"]}</p>{offer}'
             f'<ul class="tl-facts">{fl}</ul><div class="tl-chips">{"".join(chips)}</div></div>'
             f'<div class="tl-side"><p class="tl-score"><b>{op["rating"]:.1f}</b><span>Ledger score</span></p>'
-            + visit_btn(op, kind) + f'<a class="btn btn--ghost" href="{review_url(op)}">Read the review</a>'
+            + visit_btn(op, kind, fallback=visit) + f'<a class="btn btn--ghost" href="{review_url(op)}">Read the review</a>'
             + f'<p class="tl-tc">Facts checked {CHECKED}</p></div></li>')
     out.append("</ol>")
     if note_:
@@ -850,7 +853,7 @@ def landing(P, crumb, author, checker, lead, facts, ops, list_h2, list_intro, co
     body = (hero(h1, lead, author, checker, facts, kicker or f"Facts checked {CHECKED}")
             + crumbs(trail)
             + f'<section class="sec" id="the-list"><div class="wrap"><h2>{list_h2}</h2><p class="intro">{list_intro}</p>'
-            + toplist(ops, kind)
+            + toplist(ops, kind, visit=VISIT_BY_PAGE.get(P))
             + compare(ops, cols)
             + __import__("guide_howto").account_guide(P)
             + law_note() + rg_line() + "</div></section>"

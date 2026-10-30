@@ -4,14 +4,14 @@ title: "Our Writers and Editors [October 2026]: Kiwi Casino Ledger"
 meta_description: "Meet the writers and editors behind Kiwi Casino Ledger: who covers casinos, payments, games, law and betting, and which pages each person is responsible for."
 h1: "Our Writers and Editors [October 2026]: Who Writes and Checks Every Page"
 author: Hana McAllister
-words: 420
+words: 438
 ---
 
 # Our Writers and Editors [October 2026] : Who Writes and Checks Every Page
 
 The writers and editors behind every page, what each of them covers, and how pages are checked. 
 
-Every page names the person who wrote it and the person who checked it. Here is who does what.
+Every page names the person who wrote it and the person who checked it. Here is who does what.![Hana McAllister](/images/authors/hana-mcallister.jpg)
 
 ## Hana McAllister
 
@@ -50,6 +50,7 @@ Olivia writes about the games themselves: how return to player works, why the sa
 - Online pokies
 - High payout casinos
 - Live casinos
+![Wiremu Salter](/images/authors/wiremu-salter.jpg)
 
 ## Wiremu Salter
 
@@ -62,12 +63,13 @@ Wiremu writes the legal, tax and responsible gambling pages from primary sources
 - NZ online casino law
 - Gambling winnings tax
 - Responsible gambling
+![Alex McDonald](/images/authors/alex-mcdonald.jpg)
 
-## Jess Tuilagi
+## Alex McDonald
 
 Sport Writer · Sports betting markets, odds and TAB NZ
 
-Jess covers sports betting: how odds and bookmaker margins work, which markets matter for rugby, league, netball and cricket, and what the 2025 law change that gave TAB NZ the only legal online sports book means for New Zealand punters.
+Alex covers sports betting: how odds and bookmaker margins work, which markets matter for rugby, league, netball and cricket, and what the 2025 law change that gave TAB NZ the only legal online sports book means for New Zealand punters.
 
 **Responsible for:** 
 

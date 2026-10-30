@@ -4,14 +4,14 @@ title: "No Deposit Bonus NZ [October 2026]: No Deposit Free Spins"
 meta_description: "No deposit free spins and bonus cash for NZ players: how no deposit offers work, typical NZ$50 to NZ$100 max cashouts, wagering, and how to spot a fake bonus code."
 h1: "No Deposit Bonus NZ [October 2026]: Free Spins and No Deposit Offers, and the Win Caps Behind Them"
 author: Hana McAllister
-words: 3003
+words: 3015
 ---
 
 Facts checked 8 October 2026
 
 # No Deposit Bonus NZ [October 2026] : Free Spins and No Deposit Offers, and the Win Caps Behind Them
 
-No deposit bonuses are free to claim and designed so few players cash out. Here is how free spins and bonus cash really work, the maths of a typical offer, and how to tell a real offer from bait.Written by [**Hana McAllister** ](https://ascotcardiologygroup.co.nz/nz/authors/#hana-mcallister), Editor Checked by [Tama Rewiti](https://ascotcardiologygroup.co.nz/nz/authors/#tama-rewiti) Updated 30 October 2026    
+No deposit bonuses are free to claim and designed so few players cash out. Here is how free spins and bonus cash really work, the maths of a typical offer, and how to tell a real offer from bait.![Hana McAllister](/images/authors/hana-mcallister.jpg)Written by [**Hana McAllister** ](https://ascotcardiologygroup.co.nz/nz/authors/#hana-mcallister), Editor Checked by [Tama Rewiti](https://ascotcardiologygroup.co.nz/nz/authors/#tama-rewiti) Updated 30 October 2026    
 
 - **NZ$50–100** typical max cashout 
 - **40x+** typical wagering 
@@ -364,7 +364,7 @@ How wagering really works, with worked examples in dollars.Read the guide ](http
 
 ### Payment methods
 
-Cards, e-wallets, bank transfer, vouchers and crypto from NZ.Read the guide ](https://ascotcardiologygroup.co.nz/nz/payment-methods/) 
+Cards, e-wallets, bank transfer, vouchers and crypto from NZ.Read the guide ](https://ascotcardiologygroup.co.nz/nz/payment-methods/) ![Hana McAllister](/images/authors/hana-mcallister.jpg)
 
 [Hana McAllister](https://ascotcardiologygroup.co.nz/nz/authors/#hana-mcallister)
 

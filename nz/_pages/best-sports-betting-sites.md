@@ -3,15 +3,15 @@ url: https://ascotcardiologygroup.co.nz/nz/best-sports-betting-sites/
 title: "Best Sports Betting Sites NZ [October 2026]: Bookmakers"
 meta_description: "Best betting sites NZ punters search for: TAB NZ against offshore bookmakers on licence, NZD banking, limits and odds, and what the 2025 offshore betting ban changed."
 h1: "Best Sports Betting Sites NZ [October 2026]: Top Bookies Compared on Licence, Limits and the 2025 Law"
-author: Jess Tuilagi
-words: 2904
+author: Alex McDonald
+words: 2916
 ---
 
 Facts checked 8 October 2026
 
 # Best Sports Betting Sites NZ [October 2026] : Top Bookies Compared on Licence, Limits and the 2025 Law
 
-How TAB NZ compares with the offshore sportsbooks New Zealanders still ask about, checked on licence, owner, NZD banking and limits. Since June 2025 only TAB NZ may lawfully take your bets.Written by [**Jess Tuilagi** ](https://ascotcardiologygroup.co.nz/nz/authors/#jess-tuilagi), Sport Writer Checked by [Wiremu Salter](https://ascotcardiologygroup.co.nz/nz/authors/#wiremu-salter) Updated 30 October 2026    
+How TAB NZ compares with the offshore sportsbooks New Zealanders still ask about, checked on licence, owner, NZD banking and limits. Since June 2025 only TAB NZ may lawfully take your bets.![Alex McDonald](/images/authors/alex-mcdonald.jpg)Written by [**Alex McDonald** ](https://ascotcardiologygroup.co.nz/nz/authors/#alex-mcdonald), Sport Writer Checked by [Wiremu Salter](https://ascotcardiologygroup.co.nz/nz/authors/#wiremu-salter) Updated 30 October 2026    
 
 - **1** lawful online bookmaker 
 - **11** offshore books checked 
@@ -331,12 +331,12 @@ Published withdrawal limits in NZD and why cashouts stall.Read the guide ](https
 
 ### Casino bonuses explained
 
-How wagering really works, with worked examples in dollars.Read the guide ](https://ascotcardiologygroup.co.nz/nz/online-casinos/bonuses/) 
+How wagering really works, with worked examples in dollars.Read the guide ](https://ascotcardiologygroup.co.nz/nz/online-casinos/bonuses/) ![Alex McDonald](/images/authors/alex-mcdonald.jpg)
 
-[Jess Tuilagi](https://ascotcardiologygroup.co.nz/nz/authors/#jess-tuilagi)
+[Alex McDonald](https://ascotcardiologygroup.co.nz/nz/authors/#alex-mcdonald)
 
 Sport Writer · Sports betting markets, odds and TAB NZ
 
-Jess covers sports betting: how odds and bookmaker margins work, which markets matter for rugby, league, netball and cricket, and what the 2025 law change that gave TAB NZ the only legal online sports book means for New Zealand punters.
+Alex covers sports betting: how odds and bookmaker margins work, which markets matter for rugby, league, netball and cricket, and what the 2025 law change that gave TAB NZ the only legal online sports book means for New Zealand punters.
 
 [How we review](https://ascotcardiologygroup.co.nz/nz/how-we-review/) · [All authors](https://ascotcardiologygroup.co.nz/nz/authors/)

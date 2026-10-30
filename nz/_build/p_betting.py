@@ -21,7 +21,7 @@ def _odds_table():
 def online_betting():
     P = "/online-betting/"
     t, d, h1 = META[P]
-    A, C = "jess-tuilagi", "wiremu-salter"
+    A, C = "alex-mcdonald", "wiremu-salter"
     sections = [("The law since June 2025", "law"), ("TAB NZ and Betcha", "tab"), ("Offshore sportsbooks we cover", "the-list"),
                 ("How betting odds work", "odds"), ("Bookmaker margins", "margin"), ("Bet types explained", "types"),
                 ("New Zealand sport and racing markets", "markets"), ("Live betting and cash-out", "live"),
@@ -229,7 +229,7 @@ def sports_sites():
          "<p>TAB NZ is regulated in New Zealand. Offshore sportsbooks are only as safe as their overseas licence and their own "
          "record, which is what our reviews check.</p>"),
     ]
-    landing(P, "Sports betting sites", "jess-tuilagi", "wiremu-salter",
+    landing(P, "Sports betting sites", "alex-mcdonald", "wiremu-salter",
             "How TAB NZ compares with the offshore sportsbooks New Zealanders still ask about, checked on licence, owner, NZD "
             "banking and limits. Since June 2025 only TAB NZ may lawfully take your bets.",
             [("1", "lawful online bookmaker"), (str(len(SPORTS)), "offshore books checked"), ("4.7%", "margin at 1.91/1.91"), ("0", "bookmaker links")],

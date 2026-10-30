@@ -4,14 +4,14 @@ title: "New Online Casinos NZ [October 2026]: Newest Casino Sites"
 meta_description: "Newest online casino sites in NZ for 2026, dated by licence rather than launch hype, why no new casino may enter NZ under the 2026 Act, and what the DIA auction means."
 h1: "New Online Casinos NZ [October 2026]: Best New Casino Sites, Dated by Licence and Checked Before You Join"
 author: Hana McAllister
-words: 3160
+words: 3172
 ---
 
 Facts checked 8 October 2026
 
 # New Online Casinos NZ [October 2026] : Best New Casino Sites, Dated by Licence and Checked Before You Join
 
-Ten newer casino brands that New Zealanders ask about, dated by their licence numbers rather than marketing claims. Plus the six checks for any new casino and why the 2026 Act stopped new brands entering New Zealand.Written by [**Hana McAllister** ](https://ascotcardiologygroup.co.nz/nz/authors/#hana-mcallister), Editor Checked by [Wiremu Salter](https://ascotcardiologygroup.co.nz/nz/authors/#wiremu-salter) Updated 30 October 2026    
+Ten newer casino brands that New Zealanders ask about, dated by their licence numbers rather than marketing claims. Plus the six checks for any new casino and why the 2026 Act stopped new brands entering New Zealand.![Hana McAllister](/images/authors/hana-mcallister.jpg)Written by [**Hana McAllister** ](https://ascotcardiologygroup.co.nz/nz/authors/#hana-mcallister), Editor Checked by [Wiremu Salter](https://ascotcardiologygroup.co.nz/nz/authors/#wiremu-salter) Updated 30 October 2026    
 
 - **9** newer brands checked 
 - **June 2026** newest licence on our list 
@@ -345,7 +345,7 @@ How wagering really works, with worked examples in dollars.Read the guide ](http
 
 ### Payment methods
 
-Cards, e-wallets, bank transfer, vouchers and crypto from NZ.Read the guide ](https://ascotcardiologygroup.co.nz/nz/payment-methods/) 
+Cards, e-wallets, bank transfer, vouchers and crypto from NZ.Read the guide ](https://ascotcardiologygroup.co.nz/nz/payment-methods/) ![Hana McAllister](/images/authors/hana-mcallister.jpg)
 
 [Hana McAllister](https://ascotcardiologygroup.co.nz/nz/authors/#hana-mcallister)
 
