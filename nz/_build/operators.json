@@ -32,7 +32,7 @@
   "n_pay": null,
   "offer": "390% up to €3,700 + 175 free spins across the first deposits",
   "offer_detail": "The publisher-supplied headline is 390% up to €3,700 plus 175 free spins. AboutSlots describes the package as four deposit-matched stages, each needing a deposit of at least €20 and each carrying 40x wagering, with free spins valid for seven days. A separate high-roller option matches a first deposit of €500 or more at 100% up to €5,000, also at 40x within seven days. Thursday promotions include cashback of up to 20% and a 50% reload up to €500.",
-  "wagering": "40x (reported)",
+  "wagering": "40x",
   "sources": [
    [
     "AboutSlots CrownSlots review",
@@ -209,7 +209,7 @@
   "n_pay": 38,
   "offer": "777% up to €7,500 (sports: 250% up to €3,500)",
   "offer_detail": "Supplied by the publisher on 1 September 2026, in euros: a casino welcome package of 777% up to €7,500, or a sports welcome bonus of 250% up to €3,500. A Canadian review tested in October 2026 reports 30x wagering on the bonus, a maximum bet of about €2 and a 10x cap on bonus winnings. Check the cashier terms before depositing.",
-  "wagering": "30x bonus (reported)",
+  "wagering": "30x bonus",
   "sources": [
    [
     "Casino Guru MadCasino review",
@@ -395,7 +395,7 @@
   "n_pay": 29,
   "offer": "100% up to NZ$500 + 50 free spins on the first deposit (reported)",
   "offer_detail": "From the publisher's earlier New Zealand research, matched by a June 2026 Canadian review: 100% up to NZ$500 plus 50 free spins on the first deposit, part of a four-deposit package, at 40x wagering. Other listings quote different totals, so treat this as unconfirmed.",
-  "wagering": "40x (reported)",
+  "wagering": "40x",
   "sources": [
    [
     "Casino Guru Lucky7even review",
@@ -579,7 +579,7 @@
   "n_pay": null,
   "offer": "up to $5,000 + 300 free spins over four deposits (reported)",
   "offer_detail": "Reported by Casinos.com NZ and Casino.org in 2026: a package across the first four deposits, each with its own match and free spins, totalling up to $5,000 and 300 free spins. One listing reports 40x wagering and a $30 minimum deposit; we could not confirm these.",
-  "wagering": "40x (reported)",
+  "wagering": "40x",
   "sources": [
    [
     "Rooster.bet About us",
@@ -759,7 +759,7 @@
   "n_pay": 21,
   "offer": "100% up to NZ$10,000 + 450 free spins over four deposits (reported)",
   "offer_detail": "Reported by Casino.org NZ and Gambling.com NZ in 2026: up to NZ$10,000 plus 450 free spins across the first four deposits, with 40x wagering and a NZ$30 minimum deposit.",
-  "wagering": "40x (reported)",
+  "wagering": "40x",
   "sources": [
    [
     "Casino Guru Lucky Circus review",
@@ -1169,7 +1169,7 @@
   "n_pay": 19,
   "offer": "100% up to NZ$500 sports bonus at 5x (reported)",
   "offer_detail": "From the publisher's earlier New Zealand research: a sports welcome bonus of 100% up to NZ$500 with a 5x rollover at minimum odds of 1.80. Another of the publisher's records shows 50% up to NZ$300, so treat the figure as unconfirmed.",
-  "wagering": "5x at odds 1.80+ (reported)",
+  "wagering": "5x at odds 1.80+",
   "sources": [
    [
     "Casino Guru Bet&Play review",
@@ -1247,7 +1247,7 @@
   "n_pay": null,
   "offer": "20% cashback up to 2,000 USDT, no wagering (reported)",
   "offer_detail": "From the publisher's earlier research, matched by LCB's August 2026 review: 20% cashback, up to 2,000 USDT, credited after the welcome week, with no wagering on the cashback. Spino is crypto-first; the only fiat option is USD.",
-  "wagering": "None (reported)",
+  "wagering": "None",
   "sources": [
    [
     "Casino Guru Casino Spino review",

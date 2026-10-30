@@ -42,7 +42,7 @@ OPS = [
                     "wagering, with free spins valid for seven days. A separate high-roller option matches a first deposit "
                     "of €500 or more at 100% up to €5,000, also at 40x within seven days. Thursday promotions include "
                     "cashback of up to 20% and a 50% reload up to €500."),
-      wagering="40x (reported)",
+      wagering="40x",
       sources=[("AboutSlots CrownSlots review", "https://www.aboutslots.com/reviews/crownslots-casino")],
       flags=["Owner not confirmed", "Licence number not published"],
       ),
@@ -68,7 +68,7 @@ OPS = [
       safety=6.7, complaints=0, nzd=True,
       limits=["NZ$1,400 a day", "NZ$4,500 a week", "NZ$18,000 a month"], win_cap=None,
       payments=["Visa", "Mastercard", "Apple Pay", "Google Pay", "Skrill", "Neteller", "Paysafecard", "Jeton", "MiFinity", "Revolut", "bank transfer", "Bitcoin", "Ethereum", "USDT", "Solana"],
-      n_pay=38, offer='777% up to €7,500 (sports: 250% up to €3,500)', offer_detail='Supplied by the publisher on 1 September 2026, in euros: a casino welcome package of 777% up to €7,500, or a sports welcome bonus of 250% up to €3,500. A Canadian review tested in October 2026 reports 30x wagering on the bonus, a maximum bet of about €2 and a 10x cap on bonus winnings. Check the cashier terms before depositing.', wagering='30x bonus (reported)',
+      n_pay=38, offer='777% up to €7,500 (sports: 250% up to €3,500)', offer_detail='Supplied by the publisher on 1 September 2026, in euros: a casino welcome package of 777% up to €7,500, or a sports welcome bonus of 250% up to €3,500. A Canadian review tested in October 2026 reports 30x wagering on the bonus, a maximum bet of about €2 and a 10x cap on bonus winnings. Check the cashier terms before depositing.', wagering='30x bonus',
       sources=[("Casino Guru MadCasino review", CG + "madcasino-review"), ("CasinoCanada MadCasino review", "https://casinocanada.com/casinos/madcasino/"), ('Publisher-supplied offer, 1 September 2026', ''), ('Toffeeweb MadCasino bonus guide', 'https://www.toffeeweb.com/ca/madcasino-bonus/')],
       flags=["Owner not published", "Lower withdrawal limits than most"]),
 
@@ -96,7 +96,7 @@ OPS = [
       safety=8.9, complaints=None, nzd=True,
       limits=["NZ$3,000 a day", "NZ$7,500 a week", "NZ$30,000 a month"], win_cap=None,
       payments=["Visa", "Mastercard", "Skrill", "Neteller", "Paysafecard", "Neosurf", "AstroPay", "Flexepin", "Jeton", "bank transfer", "Bitcoin", "Ethereum", "USDT"],
-      n_pay=29, offer='100% up to NZ$500 + 50 free spins on the first deposit (reported)', offer_detail="From the publisher's earlier New Zealand research, matched by a June 2026 Canadian review: 100% up to NZ$500 plus 50 free spins on the first deposit, part of a four-deposit package, at 40x wagering. Other listings quote different totals, so treat this as unconfirmed.", wagering='40x (reported)',
+      n_pay=29, offer='100% up to NZ$500 + 50 free spins on the first deposit (reported)', offer_detail="From the publisher's earlier New Zealand research, matched by a June 2026 Canadian review: 100% up to NZ$500 plus 50 free spins on the first deposit, part of a four-deposit package, at 40x wagering. Other listings quote different totals, so treat this as unconfirmed.", wagering='40x',
       sources=[("Casino Guru Lucky7even review", CG + "lucky7even-casino-review"), ("Legit.casino Lucky7even review", "https://legit.casino/reviews/lucky7even-casino/"), ("Publisher's earlier NZ research, September 2026", '')],
       flags=[]),
 
@@ -119,7 +119,7 @@ OPS = [
       safety=8.5, complaints=None, nzd=True,
       limits=["NZ$3,000 a day", "NZ$7,500 a week", "NZ$30,000 a month"], win_cap=None,
       payments=["Visa", "Mastercard", "Skrill", "Neteller", "Neosurf", "MiFinity", "bank transfer", "Bitcoin", "Ethereum", "USDT"],
-      n_pay=None, offer='up to $5,000 + 300 free spins over four deposits (reported)', offer_detail='Reported by Casinos.com NZ and Casino.org in 2026: a package across the first four deposits, each with its own match and free spins, totalling up to $5,000 and 300 free spins. One listing reports 40x wagering and a $30 minimum deposit; we could not confirm these.', wagering='40x (reported)',
+      n_pay=None, offer='up to $5,000 + 300 free spins over four deposits (reported)', offer_detail='Reported by Casinos.com NZ and Casino.org in 2026: a package across the first four deposits, each with its own match and free spins, totalling up to $5,000 and 300 free spins. One listing reports 40x wagering and a $30 minimum deposit; we could not confirm these.', wagering='40x',
       sources=[("Rooster.bet About us", "https://www.rooster.bet/about-us"), ("Casino Guru Rooster Bet review", CG + "rooster-bet-casino-review"), ('Casinos.com NZ Rooster Bet review', 'https://www.casinos.com/nz/rooster-bet-casino')],
       flags=[]),
 
@@ -142,7 +142,7 @@ OPS = [
       safety=6.8, complaints=1, nzd=True,
       limits=["€2,500 a week", "€10,000 a month"], win_cap="US$50,000 a day (net win)",
       payments=["Visa", "Mastercard", "Skrill", "Neteller", "Neosurf", "MiFinity", "MuchBetter", "CashtoCode", "bank transfer", "Bitcoin", "Ethereum", "USDT"],
-      n_pay=21, offer='100% up to NZ$10,000 + 450 free spins over four deposits (reported)', offer_detail='Reported by Casino.org NZ and Gambling.com NZ in 2026: up to NZ$10,000 plus 450 free spins across the first four deposits, with 40x wagering and a NZ$30 minimum deposit.', wagering='40x (reported)',
+      n_pay=21, offer='100% up to NZ$10,000 + 450 free spins over four deposits (reported)', offer_detail='Reported by Casino.org NZ and Gambling.com NZ in 2026: up to NZ$10,000 plus 450 free spins across the first four deposits, with 40x wagering and a NZ$30 minimum deposit.', wagering='40x',
       sources=[("Casino Guru Lucky Circus review", CG + "lucky-circus-casino-review"), ('Casino.org NZ LuckyCircus review', 'https://www.casino.org/new-zealand/reviews/luckycircus/')],
       flags=["Daily win cap", "Low weekly withdrawal limit"]),
 
@@ -210,7 +210,7 @@ OPS = [
       safety=6.8, complaints=0, nzd=True,
       limits=["€5,000 a week", "€20,000 a month"], win_cap="US$50,000 a day (net win)",
       payments=["Visa", "Mastercard", "Skrill", "Neteller", "Paysafecard", "MiFinity", "MuchBetter", "Revolut", "bank transfer", "Bitcoin", "Ethereum", "USDT"],
-      n_pay=19, offer='100% up to NZ$500 sports bonus at 5x (reported)', offer_detail="From the publisher's earlier New Zealand research: a sports welcome bonus of 100% up to NZ$500 with a 5x rollover at minimum odds of 1.80. Another of the publisher's records shows 50% up to NZ$300, so treat the figure as unconfirmed.", wagering='5x at odds 1.80+ (reported)',
+      n_pay=19, offer='100% up to NZ$500 sports bonus at 5x (reported)', offer_detail="From the publisher's earlier New Zealand research: a sports welcome bonus of 100% up to NZ$500 with a 5x rollover at minimum odds of 1.80. Another of the publisher's records shows 50% up to NZ$300, so treat the figure as unconfirmed.", wagering='5x at odds 1.80+',
       sources=[("Casino Guru Bet&Play review", CG + "betandplay-casino-review"), ("Publisher's earlier NZ research, September 2026", '')],
       flags=["Daily win cap"]),
 
@@ -223,7 +223,7 @@ OPS = [
       safety=7.2, complaints=0, nzd=False,
       limits=[], win_cap=None,
       payments=["Bitcoin", "Ethereum", "Litecoin", "USDT", "Solana", "Dogecoin", "XRP"],
-      n_pay=None, offer='20% cashback up to 2,000 USDT, no wagering (reported)', offer_detail="From the publisher's earlier research, matched by LCB's August 2026 review: 20% cashback, up to 2,000 USDT, credited after the welcome week, with no wagering on the cashback. Spino is crypto-first; the only fiat option is USD.", wagering='None (reported)',
+      n_pay=None, offer='20% cashback up to 2,000 USDT, no wagering (reported)', offer_detail="From the publisher's earlier research, matched by LCB's August 2026 review: 20% cashback, up to 2,000 USDT, credited after the welcome week, with no wagering on the cashback. Spino is crypto-first; the only fiat option is USD.", wagering='None',
       sources=[("Casino Guru Casino Spino review", CG + "casino-spino-review"), ('LCB Spino Casino review', 'https://lcb.org/casinos/spino-casino')],
       flags=["Crypto-first cashier", "Owner not published"]),
 

@@ -1,13 +1,13 @@
 # Page index
 
-38 pages, 66,788 words.
+38 pages, 66,781 words.
 
 | Words | URL | File |
 |---:|---|---|
 | 8,072 | `/` | `_pages/home.md` |
 | 3,551 | `/online-betting/` | `_pages/online-betting.md` |
 | 3,529 | `/online-pokies/` | `_pages/online-pokies.md` |
-| 3,401 | `/online-casinos/bonuses/` | `_pages/online-casinos--bonuses.md` |
+| 3,394 | `/online-casinos/bonuses/` | `_pages/online-casinos--bonuses.md` |
 | 3,019 | `/new-online-casinos/` | `_pages/new-online-casinos.md` |
 | 2,980 | `/high-payout-casinos/` | `_pages/high-payout-casinos.md` |
 | 2,863 | `/fast-payout-casinos/` | `_pages/fast-payout-casinos.md` |

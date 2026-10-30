@@ -4,7 +4,7 @@ title: "Best Casino Bonuses NZ [November 2026]: Welcome Offers"
 meta_description: "Casino welcome bonus NZ guide: wagering requirements worked through in NZD, max-bet rules, win caps, free spins, reloads and cashback, so you know the real cost first."
 h1: "Best Casino Bonuses NZ [November 2026]: Sign Up and Welcome Bonuses, With the Real Cost of Wagering"
 author: Hana McAllister
-words: 3401
+words: 3394
 ---
 
 Facts checked 8 October 2026
@@ -191,21 +191,21 @@ We only quote offers supplied to us or reported by a source we can name, in the 
 
 | Brand | Offer on record | Wagering | Status |
 |---|---|---|---|
-| [CrownSlots](https://ascotcardiologygroup.co.nz/nz/casino-reviews/crownslots/) | 390% up to €3,700 + 175 free spins across the first deposits | 40x (reported) | Supplied |
+| [CrownSlots](https://ascotcardiologygroup.co.nz/nz/casino-reviews/crownslots/) | 390% up to €3,700 + 175 free spins across the first deposits | 40x | Supplied |
 | [Spinjo](https://ascotcardiologygroup.co.nz/nz/casino-reviews/spinjo/) | up to NZ$5,000 + 300 free spins over four deposits | Not confirmed | Reported, unconfirmed |
-| [MadCasino](https://ascotcardiologygroup.co.nz/nz/casino-reviews/madcasino/) | 777% up to €7,500 (sports: 250% up to €3,500) | 30x bonus (reported) | Supplied |
-| [Lucky7even](https://ascotcardiologygroup.co.nz/nz/casino-reviews/lucky7even/) | 100% up to NZ$500 + 50 free spins on the first deposit | 40x (reported) | Reported, unconfirmed |
+| [MadCasino](https://ascotcardiologygroup.co.nz/nz/casino-reviews/madcasino/) | 777% up to €7,500 (sports: 250% up to €3,500) | 30x bonus | Supplied |
+| [Lucky7even](https://ascotcardiologygroup.co.nz/nz/casino-reviews/lucky7even/) | 100% up to NZ$500 + 50 free spins on the first deposit | 40x | Reported, unconfirmed |
 | [Lucky Vibe](https://ascotcardiologygroup.co.nz/nz/casino-reviews/lucky-vibe/) | up to $5,000 + 300 free spins | Not confirmed | Reported, unconfirmed |
-| [Rooster Bet](https://ascotcardiologygroup.co.nz/nz/casino-reviews/rooster-bet/) | up to $5,000 + 300 free spins over four deposits | 40x (reported) | Reported, unconfirmed |
+| [Rooster Bet](https://ascotcardiologygroup.co.nz/nz/casino-reviews/rooster-bet/) | up to $5,000 + 300 free spins over four deposits | 40x | Reported, unconfirmed |
 | [Fortune Play](https://ascotcardiologygroup.co.nz/nz/casino-reviews/fortune-play/) | up to $5,000 + 300 free spins over four deposits | Not confirmed | Reported, unconfirmed |
-| [Lucky Circus](https://ascotcardiologygroup.co.nz/nz/casino-reviews/lucky-circus/) | 100% up to NZ$10,000 + 450 free spins over four deposits | 40x (reported) | Reported, unconfirmed |
+| [Lucky Circus](https://ascotcardiologygroup.co.nz/nz/casino-reviews/lucky-circus/) | 100% up to NZ$10,000 + 450 free spins over four deposits | 40x | Reported, unconfirmed |
 | [Kingdom](https://ascotcardiologygroup.co.nz/nz/casino-reviews/kingdom/) | 600% up to €9,500 + 20% cashback | Not confirmed | Reported, unconfirmed |
 | [Smash](https://ascotcardiologygroup.co.nz/nz/casino-reviews/smash/) | 600% up to €10,000 at 10x (sports: 250% up to €5,000) | 10x deposit + bonus | Supplied |
 | [Trixino](https://ascotcardiologygroup.co.nz/nz/casino-reviews/trixino/) | 777% across six deposits, up to €7,777 in total, at 7x wagering | 7x | Supplied |
 | [Rivo](https://ascotcardiologygroup.co.nz/nz/casino-reviews/rivo/) | 1000% up to €10,000 across eight deposits at 10x (sports: 100% up to €500) | 10x | Supplied |
-| [Spino](https://ascotcardiologygroup.co.nz/nz/casino-reviews/spino/) | 20% cashback up to 2,000 USDT, no wagering | None (reported) | Reported, unconfirmed |
+| [Spino](https://ascotcardiologygroup.co.nz/nz/casino-reviews/spino/) | 20% cashback up to 2,000 USDT, no wagering | None | Reported, unconfirmed |
 | [Gunsbet](https://ascotcardiologygroup.co.nz/nz/casino-reviews/gunsbet/) | 285% up to €7,500 + 285 free spins | Not confirmed | Supplied (betting listing) |
-| [Bet&Play](https://ascotcardiologygroup.co.nz/nz/casino-reviews/betandplay/) | 100% up to NZ$500 sports bonus at 5x (reported) | 5x at odds 1.80+ (reported) | Reported, unconfirmed (betting listing) |
+| [Bet&Play](https://ascotcardiologygroup.co.nz/nz/casino-reviews/betandplay/) | 100% up to NZ$500 sports bonus at 5x (reported) | 5x at odds 1.80+ | Reported, unconfirmed (betting listing) |
 
 ## The terms that matter more than the headline
 
