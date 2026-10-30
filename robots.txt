@@ -1,9 +1,9 @@
 # robots.txt for https://ascotcardiologygroup.co.nz
 
 User-agent: *
-Disallow: /
 Allow: /nz/
 Disallow: /nz/*?
+Disallow: /
 
 Sitemap: https://ascotcardiologygroup.co.nz/nz/sitemap.xml
 

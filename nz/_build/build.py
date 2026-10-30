@@ -26,8 +26,8 @@ def sitemap():
 def robots():
     # The domain-wide robots.txt. The group games at the root stay out of search
     # (they are noindex too); only the NZ guide under BASE is crawlable.
-    out = [f"# robots.txt for https://{lib.DOMAIN}", "", "User-agent: *", "Disallow: /", f"Allow: {lib.BASE}/",
-           f"Disallow: {lib.BASE}/*?", "", f"Sitemap: {SITE}/sitemap.xml", ""]
+    out = [f"# robots.txt for https://{lib.DOMAIN}", "", "User-agent: *", f"Allow: {lib.BASE}/", f"Disallow: {lib.BASE}/*?",
+           "Disallow: /", "", f"Sitemap: {SITE}/sitemap.xml", ""]
     for ua in BLOCKED:
         out += [f"User-agent: {ua}", "Disallow: /", ""]
     open(os.path.join(lib.DOMAIN_ROOT, "robots.txt"), "w").write("\n".join(out))
