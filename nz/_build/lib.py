@@ -527,7 +527,10 @@ def toplist(ops, kind="casino", start=1, note_=True, eager=2):
             f'<div class="tl-side"><p class="tl-score"><b>{op["rating"]:.1f}</b><span>Ledger score</span></p>'
             + (f'<a class="btn" href="{attr(aff_url(op, kind))}" rel="sponsored nofollow noopener" target="_blank">Visit site</a>'
                f'<a class="btn btn--ghost" href="{review_url(op)}">Read the review</a>' if aff_url(op, kind) else
-               f'<a class="btn" href="{review_url(op)}">Read the review</a>')
+               # Placeholder until affiliate links are switched on: the publisher
+               # wants the button in place; it has no destination.
+               f'<button type="button" class="btn">Visit site</button>'
+               f'<a class="btn btn--ghost" href="{review_url(op)}">Read the review</a>')
             + f'<p class="tl-tc">Facts checked {CHECKED}</p></div></li>')
     out.append("</ol>")
     if note_:
