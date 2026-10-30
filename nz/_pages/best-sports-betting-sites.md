@@ -4,7 +4,7 @@ title: "Best Sports Betting Sites NZ [October 2026]: Bookmakers"
 meta_description: "Best betting sites NZ punters search for: TAB NZ against offshore bookmakers on licence, NZD banking, limits and odds, and what the 2025 offshore betting ban changed."
 h1: "Best Sports Betting Sites NZ [October 2026]: Top Bookies Compared on Licence, Limits and the 2025 Law"
 author: Jess Tuilagi
-words: 2319
+words: 2904
 ---
 
 Facts checked 8 October 2026
@@ -195,6 +195,87 @@ Several offshore books here cap what you can win or withdraw: Bet&Play has a dai
 - Sign-up bets with rollover on odds of 1.80 or more, which forces many more bets.
 - No licence number, or an owner that is not named.
 
+## How we review betting sites, step by step
+
+1. 
+
+### Legal status and licence
+
+Is the operator allowed to take bets from New Zealanders? Since 2025, only TAB NZ and Betcha are.
+2. 
+
+### Markets and coverage
+
+Rugby, league, cricket, netball, football and racing depth.
+3. 
+
+### Odds and margin
+
+We calculate the bookmaker margin on main markets.
+4. 
+
+### Apps and platform
+
+Speed, bet slip, cash-out and streaming.
+5. 
+
+### Payments and payouts
+
+NZD support, withdrawal limits and win caps.
+6. 
+
+### Safety tools
+
+Deposit limits, time-outs and self-exclusion.
+7. 
+
+### Support
+
+Response times and complaint routes.
+8. 
+
+### Ongoing checks
+
+We recheck licences and limits monthly.
+
+## Betting sites that accept New Zealand dollars
+
+| Sportsbook | NZD balance | Withdrawal limits | Daily win cap |
+|---|---|---|---|
+| [MadCasino](https://ascotcardiologygroup.co.nz/nz/casino-reviews/madcasino/) | Yes | NZ$1,400 a day, NZ$4,500 a week, NZ$18,000 a month | None published |
+| [Gunsbet](https://ascotcardiologygroup.co.nz/nz/casino-reviews/gunsbet/) | Yes | NZ$3,000 a day, NZ$7,500 a week, NZ$30,000 a month | None published |
+| [Lucky Vibe](https://ascotcardiologygroup.co.nz/nz/casino-reviews/lucky-vibe/) | Yes | NZ$3,000 a day, NZ$7,500 a week, NZ$30,000 a month | None published |
+| [Rooster Bet](https://ascotcardiologygroup.co.nz/nz/casino-reviews/rooster-bet/) | Yes | NZ$3,000 a day, NZ$7,500 a week, NZ$30,000 a month | None published |
+| [Fortune Play](https://ascotcardiologygroup.co.nz/nz/casino-reviews/fortune-play/) | Yes | NZ$3,000 a day, NZ$7,500 a week, NZ$30,000 a month | None published |
+| [Kingdom](https://ascotcardiologygroup.co.nz/nz/casino-reviews/kingdom/) | Not confirmed | Not published | None published |
+| [Smash](https://ascotcardiologygroup.co.nz/nz/casino-reviews/smash/) | No | €1,000 a day, €2,000 a week | €100,000 a day |
+| [Trixino](https://ascotcardiologygroup.co.nz/nz/casino-reviews/trixino/) | Not confirmed | Not published | None published |
+| [Rivo](https://ascotcardiologygroup.co.nz/nz/casino-reviews/rivo/) | No | €1,000 a day, €10,000 a month | €100,000 a day |
+| [Bet&Play](https://ascotcardiologygroup.co.nz/nz/casino-reviews/betandplay/) | Yes | €5,000 a week, €20,000 a month | US$50,000 a day (net win) |
+| [Spino](https://ascotcardiologygroup.co.nz/nz/casino-reviews/spino/) | No | Not published | None published |
+
+## Sports welcome bonuses compared
+
+| Sportsbook | Sports offer on record | Rollover |
+|---|---|---|
+| [MadCasino](https://ascotcardiologygroup.co.nz/nz/casino-reviews/madcasino/) | 250% up to €3,500 (supplied) | Not confirmed |
+| [Smash](https://ascotcardiologygroup.co.nz/nz/casino-reviews/smash/) | 250% up to €5,000 (supplied) | 15x at odds of 1.80+ |
+| [Rivo](https://ascotcardiologygroup.co.nz/nz/casino-reviews/rivo/) | 100% up to €500 (supplied) | Not confirmed |
+| [Bet&Play](https://ascotcardiologygroup.co.nz/nz/casino-reviews/betandplay/) | 100% up to NZ$500 (reported) | 5x at odds of 1.80+ |
+| [Gunsbet](https://ascotcardiologygroup.co.nz/nz/casino-reviews/gunsbet/) | 285% up to €7,500 + 285 free spins (supplied, same headline as casino) | Not confirmed |
+
+## Depositing and withdrawing at betting sites
+
+The same rules as casinos apply: verify early, withdraw by the method you deposited with, and settle open bets first. Win caps matter more for punters, because one big multi can exceed them: [Bet&Play](https://ascotcardiologygroup.co.nz/nz/casino-reviews/betandplay/) caps net daily winnings at US$50,000.
+
+## Why punters compared offshore sites with TAB NZ
+
+Before 2025, offshore books advertised bigger bonuses, more markets and sharper prices on some sports. Since 28 June 2025 they may not take bets from New Zealanders, so those comparisons no longer lead anywhere lawful. TAB NZ and Betcha are the options; compare their prices with the margin method on our [online betting guide](https://ascotcardiologygroup.co.nz/nz/online-betting/).
+
+## Best betting sites for rugby, football and cricket
+
+For New Zealand punters the lawful answer for all three is TAB NZ or Betcha. TAB NZ has the deepest racing and domestic rugby coverage; Betcha runs on the same licence with a newer app. For international football, both offer markets on the Premier League, A-League (including Wellington Phoenix) and Champions League.
+
 ## Frequently asked questions
 
 ### What is the best sports betting site in NZ?
@@ -215,7 +296,15 @@ It depends on the market and changes constantly. Compare margins: total the impl
 
 ### Are betting sites safe?
 
-TAB NZ is regulated in New Zealand. Offshore sportsbooks are only as safe as their overseas licence and their own record, which is what our reviews check.  
+TAB NZ is regulated in New Zealand. Offshore sportsbooks are only as safe as their overseas licence and their own record, which is what our reviews check. 
+
+### Is Betcha better than TAB?
+
+They run on the same licence. Betcha is a newer online brand with a different app; TAB NZ has the deepest racing coverage. Compare prices on the events you bet on. 
+
+### Can I get in trouble for using an overseas betting site?
+
+The 2025 law targets the bookmakers and anyone promoting them, not individual punters, but offshore books may not take your bets and you have no New Zealand complaint route.  
 
 ## Related guides
 [

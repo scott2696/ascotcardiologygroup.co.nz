@@ -1,21 +1,21 @@
 # Page index
 
-38 pages, 60,935 words.
+38 pages, 68,832 words.
 
 | Words | URL | File |
 |---:|---|---|
-| 7,233 | `/` | `_pages/home.md` |
-| 3,298 | `/online-betting/` | `_pages/online-betting.md` |
-| 2,971 | `/online-casinos/bonuses/` | `_pages/online-casinos--bonuses.md` |
-| 2,886 | `/online-pokies/` | `_pages/online-pokies.md` |
-| 2,544 | `/high-payout-casinos/` | `_pages/high-payout-casinos.md` |
-| 2,511 | `/new-online-casinos/` | `_pages/new-online-casinos.md` |
-| 2,494 | `/no-deposit-casinos/` | `_pages/no-deposit-casinos.md` |
-| 2,439 | `/live-casinos/` | `_pages/live-casinos.md` |
-| 2,340 | `/fast-payout-casinos/` | `_pages/fast-payout-casinos.md` |
-| 2,319 | `/best-sports-betting-sites/` | `_pages/best-sports-betting-sites.md` |
-| 2,304 | `/best-crypto-casinos/` | `_pages/best-crypto-casinos.md` |
-| 2,218 | `/casino-reviews/` | `_pages/casino-reviews.md` |
+| 8,272 | `/` | `_pages/home.md` |
+| 3,739 | `/online-pokies/` | `_pages/online-pokies.md` |
+| 3,709 | `/online-betting/` | `_pages/online-betting.md` |
+| 3,617 | `/online-casinos/bonuses/` | `_pages/online-casinos--bonuses.md` |
+| 3,190 | `/high-payout-casinos/` | `_pages/high-payout-casinos.md` |
+| 3,160 | `/new-online-casinos/` | `_pages/new-online-casinos.md` |
+| 3,010 | `/fast-payout-casinos/` | `_pages/fast-payout-casinos.md` |
+| 3,003 | `/no-deposit-casinos/` | `_pages/no-deposit-casinos.md` |
+| 2,979 | `/live-casinos/` | `_pages/live-casinos.md` |
+| 2,944 | `/best-crypto-casinos/` | `_pages/best-crypto-casinos.md` |
+| 2,927 | `/casino-reviews/` | `_pages/casino-reviews.md` |
+| 2,904 | `/best-sports-betting-sites/` | `_pages/best-sports-betting-sites.md` |
 | 1,648 | `/nz-online-casino-law/` | `_pages/nz-online-casino-law.md` |
 | 1,343 | `/payment-methods/` | `_pages/payment-methods.md` |
 | 1,286 | `/casino-reviews/spinjo/` | `_pages/casino-reviews--spinjo.md` |

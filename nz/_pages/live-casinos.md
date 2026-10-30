@@ -4,7 +4,7 @@ title: "Live Casino NZ [October 2026]: Live Dealer Games"
 meta_description: "Live dealer casino NZ guide: live blackjack, live roulette, baccarat and game shows explained, with the house edge, table limits and the live casinos Kiwis ask about."
 h1: "Live Casino NZ [October 2026]: Best Live Dealer Casinos for Blackjack, Roulette, Baccarat and Game Shows"
 author: Olivia Brandt
-words: 2439
+words: 2979
 ---
 
 Facts checked 8 October 2026
@@ -198,6 +198,77 @@ Because most studios are in Europe, the busiest tables are often New Zealand ear
 - Chat is moderated; dealers will not respond to abuse.
 - Take screenshots of any disputed result and note the round ID shown on screen.
 
+## How to play live dealer casino games, step by step
+
+1. 
+
+### Open the live lobby
+
+Filter by game and by minimum bet; tables show the stake range before you join.
+2. 
+
+### Pick a table within your budget
+
+A NZ$5 minimum blackjack table needs a bigger bankroll than NZ$0.20 roulette.
+3. 
+
+### Place your chips in the betting window
+
+A timer shows how long is left. Late bets are not accepted.
+4. 
+
+### Watch the round and the result
+
+The dealer deals or spins in real time; results are read by cameras and sensors.
+5. 
+
+### Collect, then decide
+
+Winnings are credited automatically. Use the history panel to track your session.
+
+## Live poker and live craps
+
+Live casino poker, such as Casino Hold'em and Three Card Poker, is played against the dealer, not other players, with house edges of about 2% to 3.5% on the main bet. Live craps follows standard rules; the pass line edge is 1.41% and odds bets carry none.
+
+## Low stakes vs high stakes live casino games
+Typical ranges at Evolution and Pragmatic Play Live lobbies; each casino sets its own.
+
+| Game | Typical minimum | Typical maximum |
+|---|---|---|
+| Live roulette | NZ$0.20 to NZ$1 | NZ$5,000+ |
+| Live blackjack | NZ$1 to NZ$5 | NZ$5,000+ (VIP tables more) |
+| Live baccarat | NZ$1 | NZ$10,000+ |
+| Game shows | NZ$0.10 | NZ$1,000 to NZ$5,000 |
+
+## Live casino software providers
+
+Evolution runs most live lobbies worldwide, including Lightning Roulette and Crazy Time. Pragmatic Play Live, Playtech Live and Ezugi are the main alternatives. A lobby with several providers gives more table limits and more tables open at New Zealand hours.
+
+## Live dealer games vs regular online table games
+
+|  | Live dealer | RNG (computer) version |
+|---|---|---|
+| Speed | About 50 to 60 hands or spins an hour | Several hundred an hour |
+| Minimum bet | Higher | Often NZ$0.10 |
+| House edge | Same rules, same edge | Same rules, same edge |
+| Bonus wagering | Often 0% to 10% | Often 10% to 20% |
+
+## Live casino bonuses: do they work on live games?
+
+Mostly not. Welcome bonuses usually weight live games at 0% to 10% towards wagering, so a 40x bonus would take ten times longer to clear. Look for live cashback instead, or play live games with your own money and leave bonuses for pokies.
+
+## How much do you need for a live session?
+
+A simple rule from blackjack players: bring 20 to 40 times the table minimum. At a NZ$5 table that is NZ$100 to NZ$200. At 60 hands an hour and a 0.5% edge with basic strategy, the average cost is about NZ$1.50 an hour at NZ$5 a hand; the swings are far larger than that average.
+
+## Pros and cons of live casinos
+
+| Pros | Cons |
+|---|---|
+| Real cards and wheels, visible on camera | Higher minimum bets |
+| Chat with dealers | Slower, so less play per dollar of bonus |
+| Same low edges as land-based tables | Needs a stable connection |
+
 ## Frequently asked questions
 
 ### Is live casino better than online casino games?
@@ -218,7 +289,15 @@ Yes. Every casino here streams live tables in a mobile browser. Use Wi-Fi for a 
 
 ### What are the minimum bets at live casinos?
 
-Usually NZ$1 to NZ$5 on mainstream tables, set per table. VIP and high-limit tables start much higher.  
+Usually NZ$1 to NZ$5 on mainstream tables, set per table. VIP and high-limit tables start much higher. 
+
+### Are live casino dealers real?
+
+Yes. They work in studios run by providers such as Evolution and are filmed in real time. 
+
+### Are live dealer games available 24/7 in NZ?
+
+Most popular games run around the clock, but the number of open tables is lower in European night hours, which fall in the New Zealand afternoon.  
 
 ## Related guides
 [

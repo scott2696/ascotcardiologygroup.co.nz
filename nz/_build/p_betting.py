@@ -81,7 +81,8 @@ def online_betting():
          "<p>Set deposit limits in your betting account, use your bank's gambling block, and call the Gambling Helpline on "
          '<a href="tel:0800654655">0800 654 655</a> if betting is causing harm.</p>'),
     ]
-    faq_html, ents = faq(faqs)
+    import comp_extras
+    faq_html, ents = faq(faqs + comp_extras.extra_faqs(P))
     body = (hero(h1, "Online betting in New Zealand changed in June 2025, when TAB NZ became the only lawful online "
                  "bookmaker. This guide explains the law, how odds and bookmaker margins work, every main bet type, the "
                  "rugby, league, netball, cricket and racing markets Kiwis bet on, and how to bet within your limits.",
@@ -159,7 +160,7 @@ def online_betting():
               "<li>Never chase losses with bigger bets or extra multis.</li>"
               "<li>Avoid betting on teams you support when emotions run high.</li>"
               '<li>Free, confidential help is available 24/7 from the Gambling Helpline on <a href="tel:0800654655">0800 654 655</a>.</li></ul>'
-            + faq_html
+            + comp_extras.extra(P) + faq_html
             + "<h2>Related guides</h2>" + cards([("Sports betting sites compared", "TAB NZ and the offshore sportsbooks New Zealanders ask about, side by side.", "/best-sports-betting-sites/"),
                                                   ("NZ online casino law", "The 2026 Act, the advertising ban and the 1 December cut-off.", "/nz-online-casino-law/"),
                                                   ("Gambling winnings tax", "When betting and casino wins are taxable in New Zealand.", "/gambling-winnings-tax-nz/"),

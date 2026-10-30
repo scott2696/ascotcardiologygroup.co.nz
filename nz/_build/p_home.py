@@ -103,7 +103,8 @@ def build():
          "banks also let you block gambling transactions on your card. See our "
          '<a href="/responsible-gambling/">responsible gambling page</a>.</p>'),
     ]
-    faq_html, ents = faq(faqs)
+    import comp_extras
+    faq_html, ents = faq(faqs + comp_extras.extra_faqs("/"))
 
     law_rows = [
         ["27 June 2025", "Racing Industry Amendment Act passes, making TAB NZ the only lawful online sports and racing bookmaker"],
@@ -253,7 +254,7 @@ def build():
             ])
             + '<p>More tools, including bank gambling blocks and self-exclusion: <a href="/responsible-gambling/">responsible gambling</a>.</p>'
 
-            + faq_html
+            + comp_extras.extra("/") + faq_html
             + "<h2>More guides</h2>" + cards([r for r in RELATED if r[2] != "/"][:6], 3)
             + authorbox(AUTH)
             + "</div></section>")

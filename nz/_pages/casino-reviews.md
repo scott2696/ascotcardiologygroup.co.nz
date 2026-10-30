@@ -4,7 +4,7 @@ title: "Online Casino Reviews NZ [October 2026]: Trusted or Not?"
 meta_description: "Honest NZ casino reviews: 15 online casinos and betting sites checked on licence, owner, NZD banking, withdrawal limits and safety, and whether each can be trusted."
 h1: "Online Casino Reviews NZ [October 2026]: 15 Casinos and Betting Sites Rated on Licence, Owner and Limits"
 author: Hana McAllister
-words: 2218
+words: 2927
 ---
 
 # Online Casino Reviews NZ [October 2026] : 15 Casinos and Betting Sites Rated on Licence, Owner and Limits
@@ -194,6 +194,138 @@ Withdrawal limits and win caps decide whether you can actually receive a big win
 
 None of these sites is licensed in New Zealand. Our law guide explains what that means for you.
 
+## How we review a casino, step by step
+
+1. 
+
+### Confirm the licence
+
+We look the number up on the regulator's register, not the casino's footer.
+2. 
+
+### Identify the owner
+
+A named company, cross-checked against independent databases.
+3. 
+
+### Read the full terms
+
+Withdrawal limits, win caps, bonus rules and account closure terms.
+4. 
+
+### Check banking for Kiwis
+
+NZD balance, number of payment methods and crypto.
+5. 
+
+### Record independent safety data
+
+Casino Guru's Safety Index and complaint count.
+6. 
+
+### Read player reviews
+
+Trustpilot scores and the pattern of complaints, not single stories.
+7. 
+
+### Score and date it
+
+Five weighted inputs, published with the date we checked.
+8. 
+
+### Recheck monthly
+
+Licences and owners change; so do our scores.
+
+## Types of casino we review
+
+| Type | Examples on our list |
+|---|---|
+| Casino only | [CrownSlots](https://ascotcardiologygroup.co.nz/nz/casino-reviews/crownslots/), [Spinjo](https://ascotcardiologygroup.co.nz/nz/casino-reviews/spinjo/), [Lucky7even](https://ascotcardiologygroup.co.nz/nz/casino-reviews/lucky7even/), [Lucky Circus](https://ascotcardiologygroup.co.nz/nz/casino-reviews/lucky-circus/) |
+| Casino and sportsbook | [MadCasino](https://ascotcardiologygroup.co.nz/nz/casino-reviews/madcasino/), [Lucky Vibe](https://ascotcardiologygroup.co.nz/nz/casino-reviews/lucky-vibe/), [Rooster Bet](https://ascotcardiologygroup.co.nz/nz/casino-reviews/rooster-bet/), [Fortune Play](https://ascotcardiologygroup.co.nz/nz/casino-reviews/fortune-play/), [Kingdom](https://ascotcardiologygroup.co.nz/nz/casino-reviews/kingdom/), [Smash](https://ascotcardiologygroup.co.nz/nz/casino-reviews/smash/), [Trixino](https://ascotcardiologygroup.co.nz/nz/casino-reviews/trixino/), [Rivo](https://ascotcardiologygroup.co.nz/nz/casino-reviews/rivo/) |
+| Sportsbook listings | [Gunsbet](https://ascotcardiologygroup.co.nz/nz/casino-reviews/gunsbet/), [Bet&Play](https://ascotcardiologygroup.co.nz/nz/casino-reviews/betandplay/) |
+| Crypto first | [Spino](https://ascotcardiologygroup.co.nz/nz/casino-reviews/spino/) |
+
+## Do your own research in five steps
+
+1. 
+
+### Find the licence number
+
+In the footer of the casino site.
+2. 
+
+### Look it up on the register
+
+Anjouan, Tobique, Curaçao and Estonia all publish online registers.
+3. 
+
+### Check the owner and sister sites
+
+A group with a clean record is a lower risk than an anonymous brand.
+4. 
+
+### Read recent complaints
+
+Look for patterns: withdrawals refused, accounts closed after wins.
+5. 
+
+### Test with a small withdrawal
+
+Before you deposit more.
+
+## Red-flag terms in casino T&Cs
+
+- **Discretionary account closure** with 'confiscation of winnings'.
+- **Withdrawal limits** that are low or missing.
+- **Daily win caps** , such as US$50,000 net at [Lucky Circus](https://ascotcardiologygroup.co.nz/nz/casino-reviews/lucky-circus/) and [Bet&Play](https://ascotcardiologygroup.co.nz/nz/casino-reviews/betandplay/).
+- **'Irregular play'** clauses without a definition.
+- **Dormant account fees** that eat inactive balances.
+
+## Sister sites: who owns which casino
+
+No other review hub maps ownership like this. A dispute with one brand often involves the same team as its sisters:From the owner field in each review. Groups change; check the footer of the site you use.
+
+| Group | Casinos on our list | What it means for you |
+|---|---|---|
+| Hollycorn N.V. | [Spinjo](https://ascotcardiologygroup.co.nz/nz/casino-reviews/spinjo/), [Lucky7even](https://ascotcardiologygroup.co.nz/nz/casino-reviews/lucky7even/), [Lucky Vibe](https://ascotcardiologygroup.co.nz/nz/casino-reviews/lucky-vibe/) | Same limits (NZ$3,000 a day, NZ$7,500 a week), similar cashier and support. A welcome bonus at one may rule out another. |
+| Novatrix S.R.L. | [Gunsbet](https://ascotcardiologygroup.co.nz/nz/casino-reviews/gunsbet/), [Rooster Bet](https://ascotcardiologygroup.co.nz/nz/casino-reviews/rooster-bet/), [Fortune Play](https://ascotcardiologygroup.co.nz/nz/casino-reviews/fortune-play/), [Lucky Circus](https://ascotcardiologygroup.co.nz/nz/casino-reviews/lucky-circus/), [Bet&Play](https://ascotcardiologygroup.co.nz/nz/casino-reviews/betandplay/) | Shared payments team and terms. A dispute or account closure at one brand can follow you to its sisters. |
+| Softon Ltd | [Smash](https://ascotcardiologygroup.co.nz/nz/casino-reviews/smash/) | Euro-only limits of €1,000 a day and a €100,000 daily win cap. |
+| Exceptiosoft Ltd | [Rivo](https://ascotcardiologygroup.co.nz/nz/casino-reviews/rivo/) | Euro-only limits, 2026 Anjouan licence. |
+| Owner not confirmed | [CrownSlots](https://ascotcardiologygroup.co.nz/nz/casino-reviews/crownslots/), [Kingdom](https://ascotcardiologygroup.co.nz/nz/casino-reviews/kingdom/), [Trixino](https://ascotcardiologygroup.co.nz/nz/casino-reviews/trixino/), [MadCasino](https://ascotcardiologygroup.co.nz/nz/casino-reviews/madcasino/), [Spino](https://ascotcardiologygroup.co.nz/nz/casino-reviews/spino/) | No confirmed company to hold to account. Read the licence section of each review first. |
+
+## How to make a complaint, step by step
+
+1. 
+
+### Put it in writing
+
+Use live chat or email and ask for a ticket or reference number. Screenshot your balance, bet history and every reply.
+2. 
+
+### Follow the casino's own complaints process
+
+Most terms give a set number of days for a reply. Note the deadline and escalate to a manager or the complaints address if it passes.
+3. 
+
+### Go to the regulator named on the licence
+
+Anjouan, Tobique and Curaçao each publish a complaints route. Quote the licence number from the casino's footer.
+4. 
+
+### Use an independent mediator
+
+Casino Guru's complaint resolution centre and similar services handle disputes for free. They cannot force payment, but many cases settle.
+5. 
+
+### Know where the road ends
+
+No New Zealand body can order an offshore casino to pay. That is the main reason to keep balances small and withdraw often.
+
+## Casinos to approach with caution
+
+[Kingdom](https://ascotcardiologygroup.co.nz/nz/casino-reviews/kingdom/), [Trixino](https://ascotcardiologygroup.co.nz/nz/casino-reviews/trixino/) and [CrownSlots](https://ascotcardiologygroup.co.nz/nz/casino-reviews/crownslots/) score below 5 mainly because we could not confirm a licence or an owner. That does not prove they are unsafe; it means there is nobody we can confirm you could hold to account.
+
 ## Frequently asked questions
 
 ### How are these reviews different from other casino review sites?
@@ -210,7 +342,15 @@ These reviews are built from public records: licence registers, the operators' o
 
 ### How often are reviews updated?
 
-Every fact is rechecked at least monthly. The current check was on 8 October 2026; the next is due by 8 November 2026. If you see something out of date, tell us through the contact page.  
+Every fact is rechecked at least monthly. The current check was on 8 October 2026; the next is due by 8 November 2026. If you see something out of date, tell us through the contact page. 
+
+### How do I know if a casino review is honest?
+
+Look for sources and dates on every fact, a published scoring method and negative findings as well as positive ones. 
+
+### Why do some reviews score a casino highly while yours does not?
+
+Many rankings weight bonus size heavily. Ours weights independent safety, licence and ownership, which is why unconfirmed brands score low here.  
 
 [Hana McAllister](https://ascotcardiologygroup.co.nz/nz/authors/#hana-mcallister)
 

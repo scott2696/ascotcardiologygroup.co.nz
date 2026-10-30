@@ -843,7 +843,8 @@ RELATED = [
 def landing(P, crumb, author, checker, lead, facts, ops, list_h2, list_intro, content, faqs,
             kind="casino", cols=None, extra_schema=None, kicker=None, trail=None, priority=0.9, related=None):
     t, d, h1 = META[P]
-    faq_html, ents = faq(faqs)
+    import comp_extras
+    faq_html, ents = faq(faqs + comp_extras.extra_faqs(P))
     trail = trail or [(crumb, P)]
     rel = related or [r for r in RELATED if r[2] != P][:6]
     body = (hero(h1, lead, author, checker, facts, kicker or f"Facts checked {CHECKED}")
@@ -854,7 +855,7 @@ def landing(P, crumb, author, checker, lead, facts, ops, list_h2, list_intro, co
             + __import__("guide_howto").account_guide(P)
             + law_note() + rg_line() + "</div></section>"
             + '<section class="sec sec--alt"><div class="wrap prose">'
-            + content + faq_html
+            + content + comp_extras.extra(P) + faq_html
             + "<h2>Related guides</h2>" + cards(rel, 3)
             + authorbox(author)
             + "</div></section>")

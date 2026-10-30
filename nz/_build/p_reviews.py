@@ -194,7 +194,8 @@ def build_hub():
          f"<p>Every fact is rechecked at least monthly. The current check was on {CHECKED}; the next is due by {NEXT_CHECK}. "
          "If you see something out of date, tell us through the contact page.</p>"),
     ]
-    faq_html, ents = faq(faqs)
+    import comp_extras
+    faq_html, ents = faq(faqs + comp_extras.extra_faqs("/casino-reviews/"))
     rows_score = compare(BY_SCORE, ["products", "licence", "nzd", "limit", "safety", "score"])
     body = (hero(h1, "Fifteen casino and betting sites that New Zealanders ask about, each checked against public licence "
                  "records, the operator's own terms and independent safety data. No links, no sign-up offers, sources on "
@@ -223,7 +224,7 @@ def build_hub():
                      ("Check the licence yourself", "Copy the licence number into the regulator's public register. If the casino's footer shows a different number from ours, trust the register."),
                      ("Look at the limits, not the bonus", "Withdrawal limits and win caps decide whether you can actually receive a big win. They matter more than the size of a welcome offer."),
                      ("Read the legal note", "None of these sites is licensed in New Zealand. Our law guide explains what that means for you.")])
-            + faq_html + authorbox(AUTH) + "</div></div></section>")
+            + comp_extras.extra("/casino-reviews/") + faq_html + authorbox(AUTH) + "</div></div></section>")
     schema = [schema_webpage(P, "CollectionPage"), schema_crumbs(P, trail), schema_itemlist(P, OPS, "Casino reviews"),
               schema_faq(P, ents), schema_person(AUTH), schema_person(CHECK)]
     write(P, body, schema, priority=0.8, freq="weekly", author=AUTH)

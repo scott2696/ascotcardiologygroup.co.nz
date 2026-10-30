@@ -4,7 +4,7 @@ title: "Online Betting NZ [October 2026]: Legal Betting Sites"
 meta_description: "Is online betting legal in NZ? TAB NZ and Betcha are the only legal betting sites. Rugby, racing and sports betting odds, margins, bet types and safer betting tools."
 h1: "Online Betting NZ [October 2026]: Racing and Sports Betting, TAB NZ and the Offshore Ban Explained"
 author: Jess Tuilagi
-words: 3298
+words: 3709
 ---
 
 Checked 8 October 2026
@@ -283,6 +283,76 @@ Inland Revenue generally does not tax casual gambling winnings, including bettin
 - Avoid betting on teams you support when emotions run high.
 - Free, confidential help is available 24/7 from the Gambling Helpline on [0800 654 655](tel:0800654655).
 
+## Why live bets are delayed and markets suspend
+
+In-play bets carry a delay of a few seconds so the bookmaker can check that the price has not moved. Markets suspend whenever something significant may happen, such as a try, a wicket or a penalty. If your bet is rejected, the price changed during the delay.
+
+## Football betting markets explained
+
+| Market | What you are betting on |
+|---|---|
+| Match result (1X2) | Home win, draw or away win |
+| Both teams to score (BTTS) | Each side scores at least once |
+| Over/under goals | Total goals above or below a line, such as 2.5 |
+| Asian handicap | A head start that removes the draw, with half or quarter lines |
+| Bet builder | Several outcomes in one match combined into one bet |
+| Futures | Long-term results such as a league winner |
+
+## Rugby, league and cricket in-play
+
+Rugby markets move most after tries and cards; line (handicap) betting is the main market. In league, momentum swings after sin-bins. In cricket, prices move ball by ball, so in-play delays are longest and suspensions most frequent.
+
+## Betting apps in New Zealand
+
+TAB NZ's app covers sport and streams New Zealand racing; Betcha runs its own app under the same framework. Offshore apps are not authorised to take bets from New Zealanders since 28 June 2025.
+
+## How we review a betting site, step by step
+
+1. 
+
+### Legal status and licence
+
+Is the operator allowed to take bets from New Zealanders? Since 2025, only TAB NZ and Betcha are.
+2. 
+
+### Markets and coverage
+
+Rugby, league, cricket, netball, football and racing depth.
+3. 
+
+### Odds and margin
+
+We calculate the bookmaker margin on main markets.
+4. 
+
+### Apps and platform
+
+Speed, bet slip, cash-out and streaming.
+5. 
+
+### Payments and payouts
+
+NZD support, withdrawal limits and win caps.
+6. 
+
+### Safety tools
+
+Deposit limits, time-outs and self-exclusion.
+7. 
+
+### Support
+
+Response times and complaint routes.
+8. 
+
+### Ongoing checks
+
+We recheck licences and limits monthly.
+
+## Win caps on combined casino and sports accounts
+
+No ranking page mentions this, but it decides what a big multi actually pays: [Bet&Play](https://ascotcardiologygroup.co.nz/nz/casino-reviews/betandplay/) does not pay net daily winnings above US$50,000, and [Smash](https://ascotcardiologygroup.co.nz/nz/casino-reviews/smash/) and [Rivo](https://ascotcardiologygroup.co.nz/nz/casino-reviews/rivo/) cap daily wins at €100,000.
+
 ## Frequently asked questions
 
 ### Is online betting legal in New Zealand?
@@ -319,7 +389,15 @@ Commercial greyhound racing in New Zealand ended on 1 August 2026 under the Raci
 
 ### How can I limit my betting?
 
-Set deposit limits in your betting account, use your bank's gambling block, and call the Gambling Helpline on [0800 654 655](tel:0800654655) if betting is causing harm.  
+Set deposit limits in your betting account, use your bank's gambling block, and call the Gambling Helpline on [0800 654 655](tel:0800654655) if betting is causing harm. 
+
+### Why are live bets delayed?
+
+A delay of a few seconds lets the bookmaker confirm the price has not changed. If it has, the bet is rejected or re-priced. 
+
+### Is cash out guaranteed on live bets?
+
+No. Cash out can be suspended at any time, especially during key moments of a match.  
 
 ## Related guides
 [
