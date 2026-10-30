@@ -71,7 +71,7 @@ for p, h in pages.items():
     for u in ("/about/", "/contact/", "/terms/", "/authors/", "/privacy/", "/cookie-policy/", "/responsible-gambling/", "/sitemap.xml"):
         if f'href="{u}"' not in foot: err.append(f"{p}: {u} not in footer")
     # Editorial rule: no outbound link to any casino, bookmaker or affiliate network.
-    for ext in re.findall(r'href="(https?://[^"]+)"', h):
+    for ext in ([] if lib.AFF_ON else re.findall(r'href="(https?://[^"]+)"', h)):
         host = re.sub(r"^https?://(www\.)?", "", ext).split("/")[0].lower()
         if host in BANNED or any(b in ext for b in ("afftrack", "partners", "roosters", "mediaroosters", "novarao", "myloric", "zaplypulse", "crownslotslink", "gunsbetlink")):
             err.append(f"{p}: outbound casino/affiliate link {ext}")

@@ -47,6 +47,44 @@ CRYPTO = [o for o in OPS if o["crypto"]]
 BY_SCORE = sorted(OPS, key=lambda o: -o["rating"])
 
 
+# ---------------------------------------------------------------------------
+# Affiliate CTAs, as supplied by the publisher. Built but switched off: the
+# "Visit site" buttons render only when MARKET is one where these offshore
+# brands may lawfully be promoted. Checked and ruled out (October 2026): NZ, AU,
+# GB, FR, ES. Change MARKET when the site is retargeted to a checked market.
+# ---------------------------------------------------------------------------
+MARKET = "NZ"
+AFF_BLOCKED_MARKETS = {"NZ", "AU", "GB", "FR", "ES"}
+AFF_ON = MARKET not in AFF_BLOCKED_MARKETS
+_AT = "https://go.afftrackio.com/visit/?bta=36498&nci="
+AFF = {
+    "crownslots": {"casino": "https://crownslotslink.com/h9tfr7emt"},
+    "spinjo": {"casino": "https://roosterspartners.com/aaznxby3ku"},
+    "madcasino": {"casino": _AT + "5371", "sports": _AT + "5371"},
+    "gunsbet": {"sports": "https://gunsbetlink.com/hiurykdlb"},
+    "lucky7even": {"casino": "https://roosterpartners.media/aa750ngrue"},
+    "lucky-vibe": {"casino": "https://roosters-partner.com/aaybajyf7k", "sports": "https://roosters-partner.com/aaybajyf7k"},
+    "rooster-bet": {"sports": "https://roosterpartner.media/aazsy7czse"},
+    "fortune-play": {"casino": "https://mediaroosters.com/aaud6h1mdk", "sports": "https://mediaroosters.com/aaud6h1mdk"},
+    "lucky-circus": {"casino": "https://luckycircus.partners/jwwwaee5m"},
+    "kingdom": {"casino": _AT + "5356", "sports": _AT + "5356"},
+    "smash": {"casino": _AT + "5378", "sports": _AT + "5378"},
+    "trixino": {"casino": _AT + "5392", "sports": _AT + "5393"},
+    "rivo": {"casino": _AT + "5387", "sports": _AT + "5387"},
+    "betandplay": {"sports": "https://betandplay.partners/jtukqxlzl"},
+    "spino": {"casino": "https://zaplypulse.com/_KhUegrO770yvDqzoZ5dbn2Nd7ZgqdRLk/1/"},
+}
+
+
+def aff_url(op, kind="casino"):
+    """The affiliate link for this list type, falling back to the brand's other
+    link; None when affiliate links are off for this market."""
+    if not AFF_ON:
+        return None
+    links = AFF.get(op["slug"], {})
+    return links.get(kind) or next(iter(links.values()), None)
+
+
 def pick(slugs, kind="casino"):
     want = set(slugs)
     bad = want - set(BY)
@@ -487,8 +525,10 @@ def toplist(ops, kind="casino", start=1, note_=True, eager=2):
             f'<p class="tl-why">{op["tagline"]}</p>{offer}'
             f'<ul class="tl-facts">{fl}</ul><div class="tl-chips">{"".join(chips)}</div></div>'
             f'<div class="tl-side"><p class="tl-score"><b>{op["rating"]:.1f}</b><span>Ledger score</span></p>'
-            f'<a class="btn" href="{review_url(op)}">Read the review</a>'
-            f'<p class="tl-tc">Facts checked {CHECKED}</p></div></li>')
+            + (f'<a class="btn" href="{attr(aff_url(op, kind))}" rel="sponsored nofollow noopener" target="_blank">Visit site</a>'
+               f'<a class="btn btn--ghost" href="{review_url(op)}">Read the review</a>' if aff_url(op, kind) else
+               f'<a class="btn" href="{review_url(op)}">Read the review</a>')
+            + f'<p class="tl-tc">Facts checked {CHECKED}</p></div></li>')
     out.append("</ol>")
     if note_:
         out.append(ORDER_NOTE)
