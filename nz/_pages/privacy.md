@@ -1,17 +1,17 @@
 ---
 url: https://ascotcardiologygroup.co.nz/nz/privacy/
 title: "Privacy Policy [November 2026]: NZ Privacy Act 2020"
-meta_description: "How Kiwi Casino Ledger collects, uses, stores and protects personal information under the New Zealand Privacy Act 2020, and how to access or correct what we hold."
+meta_description: "How Kiwi Stakes collects, uses, stores and protects personal information under the New Zealand Privacy Act 2020, and how to access or correct what we hold."
 h1: "Privacy Policy [November 2026]: How We Handle Personal Information"
 author: Hana McAllister
-words: 296
+words: 295
 ---
 
 # Privacy Policy [November 2026] : How We Handle Personal Information
 
 What personal information we collect, why, how we protect it, and how to access or correct it under the Privacy Act 2020. Show more 
 
-This policy explains how Kiwi Casino Ledger handles personal information under the New Zealand **Privacy Act 2020** and its Information Privacy Principles.
+This policy explains how Kiwi Stakes handles personal information under the New Zealand **Privacy Act 2020** and its Information Privacy Principles.
 
 ## What we collect
 

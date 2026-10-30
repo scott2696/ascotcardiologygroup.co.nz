@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Kiwi Casino Ledger: shared identity, components, schema and page shell.
+"""Kiwi Stakes: shared identity, components, schema and page shell.
 
 Standard library only (Pillow for title pixel widths). Every page module builds
 a body string and hands it to write(), which emits <slug>/index.html so every
@@ -21,8 +21,8 @@ DOMAIN = "ascotcardiologygroup.co.nz"
 # The guide lives in a sub-folder; the domain homepage is the group games hub.
 BASE = "/nz"
 SITE = f"https://{DOMAIN}{BASE}"
-NAME = "Kiwi Casino Ledger"
-SHORT = "Casino Ledger"
+NAME = "Kiwi Stakes"
+SHORT = "Kiwi Stakes"
 EMAIL = f"hello@{DOMAIN}"
 EMAIL_EDITOR = f"editor@{DOMAIN}"
 EMAIL_COMPLAINTS = f"complaints@{DOMAIN}"
@@ -140,7 +140,7 @@ AUTHORS = {
     "hana-mcallister": {
         "name": "Hana McAllister", "initials": "HM", "role": "Editor", "photo": "/images/authors/hana-mcallister.jpg",
         "focus": "Rankings, scoring and editorial standards",
-        "bio": ("Hana edits every ranking and review on Kiwi Casino Ledger. Hana checks that each score can be traced back "
+        "bio": ("Hana edits every ranking and review on Kiwi Stakes. Hana checks that each score can be traced back "
                 "to the public sources listed under it, that offers are quoted exactly as supplied or reported, and that "
                 "every page says plainly what New Zealand law currently allows."),
         "owns": ["Homepage", "Casino reviews", "How we review"],
@@ -289,18 +289,18 @@ PAGE_META = {
    "How we rate online casinos in NZ: the five weighted inputs in the Ledger score (safety, licence, owner, terms, banking), our public sources and how often we recheck."),
  "/responsible-gambling/": ("Responsible Gambling NZ", "Gambling Helpline", "Free Help, Tools, Bank Blocks and Self-Exclusion",
    "Problem gambling help in NZ: the Gambling Helpline on 0800 654 655 (free, 24/7), bank gambling blocks, deposit limits, self-exclusion and the warning signs to watch for."),
- "/about/": ("About Kiwi Casino Ledger", "Who We Are", "Who We Are and Why There Are No Casino Links Here",
-   "About Kiwi Casino Ledger: who we are, why we publish no casino links or sign-up offers, how we choose what to cover and the editorial standards behind every page."),
- "/contact/": ("Contact Kiwi Casino Ledger", "Get in Touch", "Corrections, Complaints and Questions",
-   "Contact Kiwi Casino Ledger for corrections, questions about a casino we cover, privacy requests or media enquiries. We aim to reply within two working days."),
- "/authors/": ("Our Writers and Editors", "Kiwi Casino Ledger", "Who Writes and Checks Every Page",
-   "Meet the writers and editors behind Kiwi Casino Ledger: who covers casinos, payments, games, law and betting, and which pages each person is responsible for."),
- "/terms/": ("Terms and Conditions", "Kiwi Casino Ledger", "The Rules for Using This Site",
-   "The terms and conditions for using Kiwi Casino Ledger: who the site is for, accuracy of information, no casino links, liability, copyright and the law that applies."),
+ "/about/": ("About Kiwi Stakes", "Who We Are", "Who We Are and Why There Are No Casino Links Here",
+   "About Kiwi Stakes: who we are, why we publish no casino links or sign-up offers, how we choose what to cover and the editorial standards behind every page."),
+ "/contact/": ("Contact Kiwi Stakes", "Get in Touch", "Corrections, Complaints and Questions",
+   "Contact Kiwi Stakes for corrections, questions about a casino we cover, privacy requests or media enquiries. We aim to reply within two working days."),
+ "/authors/": ("Our Writers and Editors", "Kiwi Stakes", "Who Writes and Checks Every Page",
+   "Meet the writers and editors behind Kiwi Stakes: who covers casinos, payments, games, law and betting, and which pages each person is responsible for."),
+ "/terms/": ("Terms and Conditions", "Kiwi Stakes", "The Rules for Using This Site",
+   "The terms and conditions for using Kiwi Stakes: who the site is for, accuracy of information, no casino links, liability, copyright and the law that applies."),
  "/privacy/": ("Privacy Policy", "NZ Privacy Act 2020", "How We Handle Personal Information",
-   "How Kiwi Casino Ledger collects, uses, stores and protects personal information under the New Zealand Privacy Act 2020, and how to access or correct what we hold."),
- "/cookie-policy/": ("Cookie Policy", "Kiwi Casino Ledger", "The Cookies We Use and How to Control Them",
-   "Which cookies Kiwi Casino Ledger sets, why there are no affiliate or advertising cookies here, and how to block or delete cookies in every major browser."),
+   "How Kiwi Stakes collects, uses, stores and protects personal information under the New Zealand Privacy Act 2020, and how to access or correct what we hold."),
+ "/cookie-policy/": ("Cookie Policy", "Kiwi Stakes", "The Cookies We Use and How to Control Them",
+   "Which cookies Kiwi Stakes sets, why there are no affiliate or advertising cookies here, and how to block or delete cookies in every major browser."),
 }
 
 DATE = f"[{MY}]"
@@ -678,13 +678,14 @@ def schema_howto(path, name, items):
 # ---------------------------------------------------------------------------
 # Shell
 # ---------------------------------------------------------------------------
-BRAND_MARK = ('<svg class="mark" viewBox="0 0 48 48" width="36" height="36" aria-hidden="true">'
-              '<rect x="1" y="1" width="46" height="46" rx="11" fill="#0F3B30"/>'
-              '<rect x="11" y="12" width="26" height="4" rx="2" fill="#F2C14E"/>'
-              '<rect x="11" y="22" width="18" height="4" rx="2" fill="#F2C14E" opacity=".75"/>'
-              '<rect x="11" y="32" width="11" height="4" rx="2" fill="#F2C14E" opacity=".5"/>'
-              '<path d="M27 33.5l4 4 7.5-9" fill="none" stroke="#7FD6B5" stroke-width="3.4" '
-              'stroke-linecap="round" stroke-linejoin="round"/></svg>')
+BRAND_MARK = ('<svg class="mark" viewBox="0 0 48 48" width="40" height="40" aria-hidden="true">'
+              # A red casino chip with a kiwi at its centre
+              '<circle cx="24" cy="24" r="23" fill="#C43823"/>'
+              '<g fill="#F3EDDD"><rect x="21.5" y="1.2" width="5" height="6.5" rx="1" transform="rotate(0 24 24)"/><rect x="21.5" y="1.2" width="5" height="6.5" rx="1" transform="rotate(45 24 24)"/><rect x="21.5" y="1.2" width="5" height="6.5" rx="1" transform="rotate(90 24 24)"/><rect x="21.5" y="1.2" width="5" height="6.5" rx="1" transform="rotate(135 24 24)"/><rect x="21.5" y="1.2" width="5" height="6.5" rx="1" transform="rotate(180 24 24)"/><rect x="21.5" y="1.2" width="5" height="6.5" rx="1" transform="rotate(225 24 24)"/><rect x="21.5" y="1.2" width="5" height="6.5" rx="1" transform="rotate(270 24 24)"/><rect x="21.5" y="1.2" width="5" height="6.5" rx="1" transform="rotate(315 24 24)"/></g>'
+              '<circle cx="24" cy="24" r="15.5" fill="#201B12" stroke="#F3EDDD" stroke-width="1.4" stroke-dasharray="2.4 2"/>'
+              '<g fill="#F3EDDD"><ellipse cx="26.5" cy="25.6" rx="7.2" ry="5.6"/><circle cx="20" cy="22" r="3"/></g>'
+              '<circle cx="20.7" cy="21.3" r=".65" fill="#201B12"/>'
+              '<path d="M17.6 23.4Q14 26.6 11.8 31M25 30.6v4.2M28.6 30.6v4.2M23.6 34.8h2.6M27.2 34.8h2.6" fill="none" stroke="#F3EDDD" stroke-width="1.4" stroke-linecap="round"/></svg>')
 
 
 def _nav(path):
@@ -715,7 +716,7 @@ def _footer():
                    for t, links in FOOTER)
     return f"""<footer class="foot"><div class="wrap">
 <div class="foot-top">
-<div class="fabout"><a class="brand brand--foot" href="/">{BRAND_MARK}<span>Kiwi Casino <em>Ledger</em></span></a>
+<div class="fabout"><a class="brand brand--foot" href="/">{BRAND_MARK}<span>Kiwi <em>Stakes</em></span></a>
 <p>An independent record of the online casino and betting sites New Zealanders ask about. Every fact is sourced and
 dated. We publish no casino links, carry no sign-up offers and say plainly what the law allows.</p>
 <p class="fbadges"><span>R18</span><span>No casino links</span><span>Sources on every review</span></p></div>
@@ -781,7 +782,7 @@ def page(path, body, schema=None):
 <a href="tel:0800654655">0800 654 655</a></span><span class="strip-r">Independent &middot; No casino links &middot;
 <a href="/about/#standards">Our standards</a></span></div></div>
 <header class="hdr"><div class="wrap hdr-in">
-<a class="brand" href="/" aria-label="{NAME} home">{BRAND_MARK}<span>Kiwi Casino <em>Ledger</em></span></a>
+<a class="brand" href="/" aria-label="{NAME} home">{BRAND_MARK}<span>Kiwi <em>Stakes</em></span></a>
 <nav class="nav" aria-label="Main"><ul>{_nav(path)}</ul></nav>
 {_mobile()}
 </div></header>

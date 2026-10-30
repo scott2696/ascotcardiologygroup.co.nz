@@ -516,3 +516,7 @@ h3,h4{font-weight:700}
 .tl-bonus-k{display:block;font-family:var(--sans);font-weight:700;font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:var(--flare);margin-bottom:4px}
 .rv-offer{border-left:5px solid var(--flash);font-family:var(--serif);font-weight:800;font-size:1rem}
 @media(max-width:759px){.tl-offer.tl-bonus{font-size:17px;padding:10px 12px 10px 14px}}
+/* Kiwi Stakes wordmark */
+.brand{font-size:1.4rem;gap:12px;letter-spacing:.03em}
+.brand .mark{width:46px;height:46px}
+@media(max-width:759px){.brand{font-size:1.12rem;gap:9px}.brand .mark{width:36px;height:36px}}

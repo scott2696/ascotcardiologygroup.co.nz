@@ -4,7 +4,7 @@ title: "Best Online Casino Sites NZ [November 2026]: Top Rated"
 meta_description: "Top online casinos in New Zealand rated for Kiwis: licences, real money NZD banking, payout limits and safety scores, plus which casinos must leave NZ on 1 December."
 h1: "Best Online Casino Sites NZ [November 2026]: Real Money Casinos Checked on Licence, NZD Banking and Payout Limits"
 author: Hana McAllister
-words: 8071
+words: 8070
 ---
 
 Facts checked 8 October 2026
@@ -718,6 +718,6 @@ The house edge on every main game, and what 'best paying' means.Read the guide ]
 
 Editor · Rankings, scoring and editorial standards
 
-Hana edits every ranking and review on Kiwi Casino Ledger. Hana checks that each score can be traced back to the public sources listed under it, that offers are quoted exactly as supplied or reported, and that every page says plainly what New Zealand law currently allows.
+Hana edits every ranking and review on Kiwi Stakes. Hana checks that each score can be traced back to the public sources listed under it, that offers are quoted exactly as supplied or reported, and that every page says plainly what New Zealand law currently allows.
 
 [How we review](https://ascotcardiologygroup.co.nz/nz/how-we-review/) · [All authors](https://ascotcardiologygroup.co.nz/nz/authors/)

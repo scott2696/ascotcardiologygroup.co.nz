@@ -4,7 +4,7 @@ title: "How We Rate Online Casinos [November 2026]: Ledger Score"
 meta_description: "How we rate online casinos in NZ: the five weighted inputs in the Ledger score (safety, licence, owner, terms, banking), our public sources and how often we recheck."
 h1: "How We Rate Online Casinos [November 2026]: Our Review Method, the Ledger Score and Our Sources"
 author: Hana McAllister
-words: 883
+words: 882
 ---
 
 Checked 8 October 2026
@@ -127,6 +127,6 @@ Cards, e-wallets, bank transfer, vouchers and crypto from NZ.Read the guide ](ht
 
 Editor · Rankings, scoring and editorial standards
 
-Hana edits every ranking and review on Kiwi Casino Ledger. Hana checks that each score can be traced back to the public sources listed under it, that offers are quoted exactly as supplied or reported, and that every page says plainly what New Zealand law currently allows.
+Hana edits every ranking and review on Kiwi Stakes. Hana checks that each score can be traced back to the public sources listed under it, that offers are quoted exactly as supplied or reported, and that every page says plainly what New Zealand law currently allows.
 
 [How we review](https://ascotcardiologygroup.co.nz/nz/how-we-review/) · [All authors](https://ascotcardiologygroup.co.nz/nz/authors/)

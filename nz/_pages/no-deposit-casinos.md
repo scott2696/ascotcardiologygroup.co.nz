@@ -4,7 +4,7 @@ title: "No Deposit Bonus NZ [November 2026]: No Deposit Free Spins"
 meta_description: "No deposit free spins and bonus cash for NZ players: how no deposit offers work, typical NZ$50 to NZ$100 max cashouts, wagering, and how to spot a fake bonus code."
 h1: "No Deposit Bonus NZ [November 2026]: Free Spins and No Deposit Offers, and the Win Caps Behind Them"
 author: Hana McAllister
-words: 2804
+words: 2803
 ---
 
 Facts checked 8 October 2026
@@ -370,6 +370,6 @@ Cards, e-wallets, bank transfer, vouchers and crypto from NZ.Read the guide ](ht
 
 Editor · Rankings, scoring and editorial standards
 
-Hana edits every ranking and review on Kiwi Casino Ledger. Hana checks that each score can be traced back to the public sources listed under it, that offers are quoted exactly as supplied or reported, and that every page says plainly what New Zealand law currently allows.
+Hana edits every ranking and review on Kiwi Stakes. Hana checks that each score can be traced back to the public sources listed under it, that offers are quoted exactly as supplied or reported, and that every page says plainly what New Zealand law currently allows.
 
 [How we review](https://ascotcardiologygroup.co.nz/nz/how-we-review/) · [All authors](https://ascotcardiologygroup.co.nz/nz/authors/)

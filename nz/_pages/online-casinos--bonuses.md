@@ -4,7 +4,7 @@ title: "Best Casino Bonuses NZ [November 2026]: Welcome Offers"
 meta_description: "Casino welcome bonus NZ guide: wagering requirements worked through in NZD, max-bet rules, win caps, free spins, reloads and cashback, so you know the real cost first."
 h1: "Best Casino Bonuses NZ [November 2026]: Sign Up and Welcome Bonuses, With the Real Cost of Wagering"
 author: Hana McAllister
-words: 3393
+words: 3392
 ---
 
 Facts checked 8 October 2026
@@ -382,6 +382,6 @@ The house edge on every main game, and what 'best paying' means.Read the guide ]
 
 Editor · Rankings, scoring and editorial standards
 
-Hana edits every ranking and review on Kiwi Casino Ledger. Hana checks that each score can be traced back to the public sources listed under it, that offers are quoted exactly as supplied or reported, and that every page says plainly what New Zealand law currently allows.
+Hana edits every ranking and review on Kiwi Stakes. Hana checks that each score can be traced back to the public sources listed under it, that offers are quoted exactly as supplied or reported, and that every page says plainly what New Zealand law currently allows.
 
 [How we review](https://ascotcardiologygroup.co.nz/nz/how-we-review/) · [All authors](https://ascotcardiologygroup.co.nz/nz/authors/)

@@ -4,7 +4,7 @@ title: "Is Online Gambling Legal in NZ [November 2026]: Licences"
 meta_description: "Online casino law NZ: the Online Casino Gambling Act 2026, who won the DIA licence auction, the NZ$5m advertising ban and what the 1 December 2026 cut-off means for you."
 h1: "Is Online Gambling Legal in NZ [November 2026]: The Online Casino Gambling Act 2026 in Plain English"
 author: Wiremu Salter
-words: 1662
+words: 1661
 ---
 
 Checked 8 October 2026
@@ -52,7 +52,7 @@ The Online Casino Gambling Act 2026 received royal assent and came into force on
 
 Advertising online casino gambling to people in New Zealand has been prohibited for years, but the 2026 Act gave the DIA new enforcement powers from 1 May 2026: takedown notices and pecuniary penalties of up to **NZ$5 million** for unlawful advertising. According to the DIA, these can be issued to anyone who publishes an unlawful advertisement or arranges to publish one on behalf of an online casino provider, which includes influencers, content creators and affiliate sites.
 
-After licensing, licensed operators will be allowed to advertise with restrictions. Cabinet's initial regulatory decisions, released in late 2025, include prohibiting affiliate marketing and paid endorsements. This is why Kiwi Casino Ledger carries no links to casinos and no sign-up offers.
+After licensing, licensed operators will be allowed to advertise with restrictions. Cabinet's initial regulatory decisions, released in late 2025, include prohibiting affiliate marketing and paid endorsements. This is why Kiwi Stakes carries no links to casinos and no sign-up offers.
 
 Reporting advertising
 

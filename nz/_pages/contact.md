@@ -1,13 +1,13 @@
 ---
 url: https://ascotcardiologygroup.co.nz/nz/contact/
-title: "Contact Kiwi Casino Ledger [November 2026]: Get in Touch"
-meta_description: "Contact Kiwi Casino Ledger for corrections, questions about a casino we cover, privacy requests or media enquiries. We aim to reply within two working days."
-h1: "Contact Kiwi Casino Ledger [November 2026]: Corrections, Complaints and Questions"
+title: "Contact Kiwi Stakes [November 2026]: Get in Touch"
+meta_description: "Contact Kiwi Stakes for corrections, questions about a casino we cover, privacy requests or media enquiries. We aim to reply within two working days."
+h1: "Contact Kiwi Stakes [November 2026]: Corrections, Complaints and Questions"
 author: Hana McAllister
-words: 262
+words: 261
 ---
 
-# Contact Kiwi Casino Ledger [November 2026] : Corrections, Complaints and Questions
+# Contact Kiwi Stakes [November 2026] : Corrections, Complaints and Questions
 
 Corrections, questions about a casino we cover, complaints and privacy requests. We aim to reply within two working days. Show more 
 

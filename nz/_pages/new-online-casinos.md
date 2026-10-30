@@ -4,7 +4,7 @@ title: "New Online Casinos NZ [November 2026]: Newest Casino Sites"
 meta_description: "Newest online casino sites in NZ for 2026, dated by licence rather than launch hype, why no new casino may enter NZ under the 2026 Act, and what the DIA auction means."
 h1: "New Online Casinos NZ [November 2026]: Best New Casino Sites, Dated by Licence and Checked Before You Join"
 author: Hana McAllister
-words: 3019
+words: 3018
 ---
 
 Facts checked 8 October 2026
@@ -351,6 +351,6 @@ Cards, e-wallets, bank transfer, vouchers and crypto from NZ.Read the guide ](ht
 
 Editor · Rankings, scoring and editorial standards
 
-Hana edits every ranking and review on Kiwi Casino Ledger. Hana checks that each score can be traced back to the public sources listed under it, that offers are quoted exactly as supplied or reported, and that every page says plainly what New Zealand law currently allows.
+Hana edits every ranking and review on Kiwi Stakes. Hana checks that each score can be traced back to the public sources listed under it, that offers are quoted exactly as supplied or reported, and that every page says plainly what New Zealand law currently allows.
 
 [How we review](https://ascotcardiologygroup.co.nz/nz/how-we-review/) · [All authors](https://ascotcardiologygroup.co.nz/nz/authors/)

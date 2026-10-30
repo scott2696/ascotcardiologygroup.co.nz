@@ -4,7 +4,7 @@ title: "Online Casino Reviews NZ [November 2026]: Trusted or Not?"
 meta_description: "Honest NZ casino reviews: 15 online casinos and betting sites checked on licence, owner, NZD banking, withdrawal limits and safety, and whether each can be trusted."
 h1: "Online Casino Reviews NZ [November 2026]: 15 Casinos and Betting Sites Rated on Licence, Owner and Limits"
 author: Hana McAllister
-words: 2702
+words: 2701
 ---
 
 # Online Casino Reviews NZ [November 2026] : 15 Casinos and Betting Sites Rated on Licence, Owner and Limits
@@ -356,6 +356,6 @@ Many rankings weight bonus size heavily. Ours weights independent safety, licenc
 
 Editor · Rankings, scoring and editorial standards
 
-Hana edits every ranking and review on Kiwi Casino Ledger. Hana checks that each score can be traced back to the public sources listed under it, that offers are quoted exactly as supplied or reported, and that every page says plainly what New Zealand law currently allows.
+Hana edits every ranking and review on Kiwi Stakes. Hana checks that each score can be traced back to the public sources listed under it, that offers are quoted exactly as supplied or reported, and that every page says plainly what New Zealand law currently allows.
 
 [How we review](https://ascotcardiologygroup.co.nz/nz/how-we-review/) · [All authors](https://ascotcardiologygroup.co.nz/nz/authors/)

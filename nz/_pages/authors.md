@@ -1,10 +1,10 @@
 ---
 url: https://ascotcardiologygroup.co.nz/nz/authors/
-title: "Our Writers and Editors [November 2026]: Kiwi Casino Ledger"
-meta_description: "Meet the writers and editors behind Kiwi Casino Ledger: who covers casinos, payments, games, law and betting, and which pages each person is responsible for."
+title: "Our Writers and Editors [November 2026]: Kiwi Stakes"
+meta_description: "Meet the writers and editors behind Kiwi Stakes: who covers casinos, payments, games, law and betting, and which pages each person is responsible for."
 h1: "Our Writers and Editors [November 2026]: Who Writes and Checks Every Page"
 author: Hana McAllister
-words: 440
+words: 439
 ---
 
 # Our Writers and Editors [November 2026] : Who Writes and Checks Every Page
@@ -17,7 +17,7 @@ Every page names the person who wrote it and the person who checked it. Here is 
 
 Editor · Rankings, scoring and editorial standards
 
-Hana edits every ranking and review on Kiwi Casino Ledger. Hana checks that each score can be traced back to the public sources listed under it, that offers are quoted exactly as supplied or reported, and that every page says plainly what New Zealand law currently allows.
+Hana edits every ranking and review on Kiwi Stakes. Hana checks that each score can be traced back to the public sources listed under it, that offers are quoted exactly as supplied or reported, and that every page says plainly what New Zealand law currently allows.
 
 **Responsible for:** 
 

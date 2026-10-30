@@ -1,17 +1,17 @@
 ---
 url: https://ascotcardiologygroup.co.nz/nz/terms/
-title: "Terms and Conditions [November 2026]: Kiwi Casino Ledger"
-meta_description: "The terms and conditions for using Kiwi Casino Ledger: who the site is for, accuracy of information, no casino links, liability, copyright and the law that applies."
+title: "Terms and Conditions [November 2026]: Kiwi Stakes"
+meta_description: "The terms and conditions for using Kiwi Stakes: who the site is for, accuracy of information, no casino links, liability, copyright and the law that applies."
 h1: "Terms and Conditions [November 2026]: The Rules for Using This Site"
 author: Hana McAllister
-words: 374
+words: 371
 ---
 
 # Terms and Conditions [November 2026] : The Rules for Using This Site
 
-The rules for using Kiwi Casino Ledger: who it is for, accuracy, our no-links policy, liability, copyright and the law that applies. Show more 
+The rules for using Kiwi Stakes: who it is for, accuracy, our no-links policy, liability, copyright and the law that applies. Show more 
 
-These terms apply to your use of Kiwi Casino Ledger at https://ascotcardiologygroup.co.nz/nz. By using the site you agree to them.
+These terms apply to your use of Kiwi Stakes at https://ascotcardiologygroup.co.nz/nz. By using the site you agree to them.
 
 ## 1. Who the site is for
 
@@ -35,7 +35,7 @@ To the extent permitted by law, we are not liable for any loss arising from your
 
 ## 6. Copyright
 
-The text, data and design of this site are owned by Kiwi Casino Ledger. You may quote short extracts with a link to the source page. Operator names and logos belong to their owners and are used to identify the brands reviewed.
+The text, data and design of this site are owned by Kiwi Stakes. You may quote short extracts with a link to the source page. Operator names and logos belong to their owners and are used to identify the brands reviewed.
 
 ## 7. Privacy and cookies
 

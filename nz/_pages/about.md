@@ -1,19 +1,19 @@
 ---
 url: https://ascotcardiologygroup.co.nz/nz/about/
-title: "About Kiwi Casino Ledger [November 2026]: Who We Are"
-meta_description: "About Kiwi Casino Ledger: who we are, why we publish no casino links or sign-up offers, how we choose what to cover and the editorial standards behind every page."
-h1: "About Kiwi Casino Ledger [November 2026]: Who We Are and Why There Are No Casino Links Here"
+title: "About Kiwi Stakes [November 2026]: Who We Are"
+meta_description: "About Kiwi Stakes: who we are, why we publish no casino links or sign-up offers, how we choose what to cover and the editorial standards behind every page."
+h1: "About Kiwi Stakes [November 2026]: Who We Are and Why There Are No Casino Links Here"
 author: Hana McAllister
-words: 394
+words: 390
 ---
 
-# About Kiwi Casino Ledger [November 2026] : Who We Are and Why There Are No Casino Links Here
+# About Kiwi Stakes [November 2026] : Who We Are and Why There Are No Casino Links Here
 
-Who runs Kiwi Casino Ledger, why there are no casino links here, how the site is funded and the editorial standards behind every page. Show more 
+Who runs Kiwi Stakes, why there are no casino links here, how the site is funded and the editorial standards behind every page. Show more 
 
 ## Who we are
 
-Kiwi Casino Ledger is an independent New Zealand guide to the online casino and betting sites that New Zealanders ask about. We started it because most casino 'review' sites are advertising in disguise: they rank casinos by what they pay the publisher, print payout times nobody measured, and say little about New Zealand law. We wanted a record that a reader could check line by line.
+Kiwi Stakes is an independent New Zealand guide to the online casino and betting sites that New Zealanders ask about. We started it because most casino 'review' sites are advertising in disguise: they rank casinos by what they pay the publisher, print payout times nobody measured, and say little about New Zealand law. We wanted a record that a reader could check line by line.
 
 ## What makes us different
 
@@ -43,7 +43,7 @@ Every relevant page explains the 2026 Act, the advertising ban and the 1 Decembe
 
 ## How the site is funded
 
-Kiwi Casino Ledger is funded by its publisher. Because the site contains no links to casinos or bookmakers, we earn no referral commission when anyone opens an account. The order of operator lists is an editorial choice and is not a ranking; our assessment is the Ledger score.
+Kiwi Stakes is funded by its publisher. Because the site contains no links to casinos or bookmakers, we earn no referral commission when anyone opens an account. The order of operator lists is an editorial choice and is not a ranking; our assessment is the Ledger score.
 
 ## The team
 

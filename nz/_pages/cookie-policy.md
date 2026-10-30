@@ -1,19 +1,19 @@
 ---
 url: https://ascotcardiologygroup.co.nz/nz/cookie-policy/
-title: "Cookie Policy [November 2026]: Kiwi Casino Ledger"
-meta_description: "Which cookies Kiwi Casino Ledger sets, why there are no affiliate or advertising cookies here, and how to block or delete cookies in every major browser."
+title: "Cookie Policy [November 2026]: Kiwi Stakes"
+meta_description: "Which cookies Kiwi Stakes sets, why there are no affiliate or advertising cookies here, and how to block or delete cookies in every major browser."
 h1: "Cookie Policy [November 2026]: The Cookies We Use and How to Control Them"
 author: Hana McAllister
-words: 200
+words: 198
 ---
 
 # Cookie Policy [November 2026] : The Cookies We Use and How to Control Them
 
-Kiwi Casino Ledger sets no cookies. Here is why there are no affiliate or tracking cookies, what third parties receive, and how to control cookies in your browser. Show more 
+Kiwi Stakes sets no cookies. Here is why there are no affiliate or tracking cookies, what third parties receive, and how to control cookies in your browser. Show more 
 
 ## The short version
 
-Kiwi Casino Ledger does not set any cookies. There are no analytics, advertising, affiliate or tracking cookies on this site.
+Kiwi Stakes does not set any cookies. There are no analytics, advertising, affiliate or tracking cookies on this site.
 
 ## Why there are no affiliate cookies
 

@@ -4,7 +4,7 @@ title: "Rooster Bet Review NZ [November 2026]: Is It Legit?"
 meta_description: "Is Rooster Bet safe for Kiwis? Our review checks its Tobique + Anjouan + Estonia licence, NZD balance, payout limits and safety score, and what 1 December means for NZ."
 h1: "Rooster Bet Review NZ [November 2026]: Is It Legit? Licence, Owner, NZD Banking and Limits"
 author: Hana McAllister
-words: 1265
+words: 1264
 ---
 
 Facts checked 8 October 2026
@@ -124,6 +124,6 @@ R18. Gambling can cause harm. Free, confidential help 24/7: Gambling Helpline [0
 
 Editor · Rankings, scoring and editorial standards
 
-Hana edits every ranking and review on Kiwi Casino Ledger. Hana checks that each score can be traced back to the public sources listed under it, that offers are quoted exactly as supplied or reported, and that every page says plainly what New Zealand law currently allows.
+Hana edits every ranking and review on Kiwi Stakes. Hana checks that each score can be traced back to the public sources listed under it, that offers are quoted exactly as supplied or reported, and that every page says plainly what New Zealand law currently allows.
 
 [How we review](https://ascotcardiologygroup.co.nz/nz/how-we-review/) · [All authors](https://ascotcardiologygroup.co.nz/nz/authors/)
