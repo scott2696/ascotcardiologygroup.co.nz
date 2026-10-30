@@ -523,14 +523,12 @@ def toplist(ops, kind="casino", start=1, note_=True, eager=2):
             chips.append('<span class="chip">Sportsbook</span>')
         if op["crypto"]:
             chips.append('<span class="chip">Crypto</span>')
-        for fl_ in op["flags"][:2]:
-            chips.append(f'<span class="chip chip--warn">{esc(fl_)}</span>')
         offer = (f'<p class="tl-offer"><span>Offer on record:</span> {esc(op["offer"])}</p>' if op.get("offer") else "")
         out.append(
             f'<li class="tl-row">'
             f'<div class="tl-rank" aria-hidden="true">{i}</div>'
             f'<div class="tl-logo{" logo--dark" if op.get("logo_dark") else ""}">{logo_img(op, eager=(i - start) < eager)}</div>'
-            f'<div class="tl-main"><div class="tl-head"><h3 class="tl-name"><a href="{review_url(op)}">{esc(op["name"])}</a></h3>{badge(op)}</div>'
+            f'<div class="tl-main"><div class="tl-head"><h3 class="tl-name"><a href="{review_url(op)}">{esc(op["name"])}</a></h3></div>'
             f'<p class="tl-why">{op["tagline"]}</p>{offer}'
             f'<ul class="tl-facts">{fl}</ul><div class="tl-chips">{"".join(chips)}</div></div>'
             f'<div class="tl-side"><p class="tl-score"><b>{op["rating"]:.1f}</b><span>Ledger score</span></p>'
