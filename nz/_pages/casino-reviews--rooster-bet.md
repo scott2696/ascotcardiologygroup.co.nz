@@ -4,7 +4,7 @@ title: "Rooster Bet Review NZ [November 2026]: Is It Legit?"
 meta_description: "Is Rooster Bet safe for Kiwis? Our review checks its Tobique + Anjouan + Estonia licence, NZD balance, payout limits and safety score, and what 1 December means for NZ."
 h1: "Rooster Bet Review NZ [November 2026]: Is It Legit? Licence, Owner, NZD Banking and Limits"
 author: Hana McAllister
-words: 1268
+words: 1265
 ---
 
 Facts checked 8 October 2026
@@ -16,7 +16,7 @@ Three licences and an owner named on its own website, with casino and sport in o
 **8.1** out of 10  
 Ledger score * 
 
-Offer on record up to $5,000 + 300 free spins over four deposits (reported)[Visit site](https://pokiesrealmoney.co.com/)[See the key facts](#facts)
+Offer on record up to $5,000 + 300 free spins over four deposits[Visit site](https://pokiesrealmoney.co.com/)[See the key facts](#facts)
 
 18+ only. Free help: [0800 654 655](tel:0800654655) 
 
@@ -40,7 +40,7 @@ Rooster.bet's own About page names Novatrix SRL, a Costa Rica company (registrat
 - Tobique Gaming Commission (New Brunswick): **0000002** 
 - Anjouan Gaming (Comoros): **ALSI-202508056-FI2** 
 - Estonian Tax and Customs Board: **HKT000017** 
-Launched2023 (reported) NZD balanceYes Withdrawal limitsNZ$3,000 a day, NZ$7,500 a week, NZ$30,000 a month Daily win capNone recorded Payment optionsIncluding Visa, Mastercard, Skrill, Neteller, Neosurf, MiFinity, bank transfer, Bitcoin Casino Guru Safety Index**8.5** / 10 Trustpilot2.0 (205 reviews) Complaints (Casino Guru)No figure published Offer on recordup to $5,000 + 300 free spins over four deposits (reported) Facts checked8 October 2026 
+Launched2023 (reported) NZD balanceYes Withdrawal limitsNZ$3,000 a day, NZ$7,500 a week, NZ$30,000 a month Daily win capNone recorded Payment optionsIncluding Visa, Mastercard, Skrill, Neteller, Neosurf, MiFinity, bank transfer, Bitcoin Casino Guru Safety Index**8.5** / 10 Trustpilot2.0 (205 reviews) Complaints (Casino Guru)No figure published Offer on recordup to $5,000 + 300 free spins over four deposits Facts checked8 October 2026 
 
 ## Overview
 
@@ -80,7 +80,7 @@ Payment options listed for this brand include Visa, Mastercard, Skrill, Neteller
 
 ## Offer on record
 
-**up to $5,000 + 300 free spins over four deposits (reported)** 
+**up to $5,000 + 300 free spins over four deposits** 
 
 Reported by Casinos.com NZ and Casino.org in 2026: a package across the first four deposits, each with its own match and free spins, totalling up to $5,000 and 300 free spins. One listing reports 40x wagering and a $30 minimum deposit; we could not confirm these.
 

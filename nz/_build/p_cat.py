@@ -441,7 +441,7 @@ def bonuses():
           "(NZ$, $ or €). Reported offers come from 2026 reviews, not the casino's own terms, so check the cashier before "
           "depositing. The amount you receive depends on your currency.</p>"
         + table(["Brand", "Offer on record", "Wagering", "Status"], [
-            [op_cell(o), esc(o["offer"]), esc(o["wagering"] or "Not confirmed"),
+            [op_cell(o), esc(offer_txt(o)), esc(o["wagering"] or "Not confirmed"),
              "Reported, unconfirmed" if "reported" in o["offer"] else "Supplied"] for o in with_offer
         ] + [[op_cell(BY["gunsbet"]), esc(BY["gunsbet"]["offer"]), "Not confirmed", "Supplied (betting listing)"],
              [op_cell(BY["betandplay"]), esc(BY["betandplay"]["offer"]), esc(BY["betandplay"]["wagering"]), "Reported, unconfirmed (betting listing)"]])

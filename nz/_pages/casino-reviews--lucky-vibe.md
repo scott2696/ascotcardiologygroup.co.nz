@@ -4,7 +4,7 @@ title: "Lucky Vibe Review NZ [November 2026]: Is It Legit?"
 meta_description: "Is Lucky Vibe safe for Kiwis? Our review checks its Tobique + Anjouan licence, NZD balance, payout limits and safety score, and what 1 December means for NZ."
 h1: "Lucky Vibe Review NZ [November 2026]: Is It Legit? Licence, Owner, NZD Banking and Limits"
 author: Hana McAllister
-words: 1186
+words: 1183
 ---
 
 Facts checked 8 October 2026
@@ -16,7 +16,7 @@ Hollycorn-owned casino and sportsbook with an NZD balance and a strong independe
 **8.1** out of 10  
 Ledger score * 
 
-Offer on record up to $5,000 + 300 free spins (reported)[Visit site](https://pokiesrealmoney.co.com/)[See the key facts](#facts)
+Offer on record up to $5,000 + 300 free spins[Visit site](https://pokiesrealmoney.co.com/)[See the key facts](#facts)
 
 18+ only. Free help: [0800 654 655](tel:0800654655) 
 
@@ -39,7 +39,7 @@ Casino Guru lists Hollycorn N.V. as the owner. Licences
 
 - Tobique Gaming Commission (New Brunswick): **0000064** 
 - Anjouan Gaming (Comoros): **ALSI-202509073-FI2** 
-Launched2024 (reported) NZD balanceYes Withdrawal limitsNZ$3,000 a day, NZ$7,500 a week, NZ$30,000 a month Daily win capNone recorded Payment options22 listed, including Visa, Mastercard, Skrill, Neteller, Paysafecard, Neosurf, MiFinity, Jeton Casino Guru Safety Index**8.5** / 10 Trustpilot1.8 (49 reviews) Complaints (Casino Guru)No figure published Offer on recordup to $5,000 + 300 free spins (reported) Facts checked8 October 2026 
+Launched2024 (reported) NZD balanceYes Withdrawal limitsNZ$3,000 a day, NZ$7,500 a week, NZ$30,000 a month Daily win capNone recorded Payment options22 listed, including Visa, Mastercard, Skrill, Neteller, Paysafecard, Neosurf, MiFinity, Jeton Casino Guru Safety Index**8.5** / 10 Trustpilot1.8 (49 reviews) Complaints (Casino Guru)No figure published Offer on recordup to $5,000 + 300 free spins Facts checked8 October 2026 
 
 ## Overview
 
@@ -77,7 +77,7 @@ Payment options listed for this brand include Visa, Mastercard, Skrill, Neteller
 
 ## Offer on record
 
-**up to $5,000 + 300 free spins (reported)** 
+**up to $5,000 + 300 free spins** 
 
 Reported by several 2026 casino listings: up to $5,000 plus 300 free spins, with 100% up to $1,000 plus 100 free spins on the first deposit. We could not find the operator's own terms or a confirmed wagering requirement, so treat the figure as unconfirmed.
 

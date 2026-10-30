@@ -4,7 +4,7 @@ title: "Lucky7even Review NZ [November 2026]: Is It Legit?"
 meta_description: "Is Lucky7even safe for Kiwis? Our review checks its Tobique + Anjouan licence, NZD balance, payout limits and safety score, and what 1 December means for NZ."
 h1: "Lucky7even Review NZ [November 2026]: Is It Legit? Licence, Owner, NZD Banking and Limits"
 author: Hana McAllister
-words: 1222
+words: 1219
 ---
 
 Facts checked 8 October 2026
@@ -16,7 +16,7 @@ Joint-highest independent safety rating here, with NZD banking from the Hollycor
 **8.0** out of 10  
 Ledger score * 
 
-Offer on record 100% up to NZ$500 + 50 free spins on the first deposit (reported)[Visit site](https://pokiesrealmoney.co.com/)[See the key facts](#facts)
+Offer on record 100% up to NZ$500 + 50 free spins on the first deposit[Visit site](https://pokiesrealmoney.co.com/)[See the key facts](#facts)
 
 18+ only. Free help: [0800 654 655](tel:0800654655) 
 
@@ -39,7 +39,7 @@ Legit.casino and CasinoBee name Hollycorn N.V.; the licence numbers match Spinjo
 
 - Tobique Gaming Commission (New Brunswick): **0000064** 
 - Anjouan Gaming (Comoros): **ALSI-202509073-FI2** 
-Launched2022 (reported) NZD balanceYes Withdrawal limitsNZ$3,000 a day, NZ$7,500 a week, NZ$30,000 a month Daily win capNone recorded Payment options29 listed, including Visa, Mastercard, Skrill, Neteller, Paysafecard, Neosurf, AstroPay, Flexepin Casino Guru Safety Index**8.9** / 10 Trustpilot2.4 (137 reviews) Complaints (Casino Guru)No figure published Offer on record100% up to NZ$500 + 50 free spins on the first deposit (reported) Facts checked8 October 2026 
+Launched2022 (reported) NZD balanceYes Withdrawal limitsNZ$3,000 a day, NZ$7,500 a week, NZ$30,000 a month Daily win capNone recorded Payment options29 listed, including Visa, Mastercard, Skrill, Neteller, Paysafecard, Neosurf, AstroPay, Flexepin Casino Guru Safety Index**8.9** / 10 Trustpilot2.4 (137 reviews) Complaints (Casino Guru)No figure published Offer on record100% up to NZ$500 + 50 free spins on the first deposit Facts checked8 October 2026 
 
 ## Overview
 
@@ -78,7 +78,7 @@ Payment options listed for this brand include Visa, Mastercard, Skrill, Neteller
 
 ## Offer on record
 
-**100% up to NZ$500 + 50 free spins on the first deposit (reported)** 
+**100% up to NZ$500 + 50 free spins on the first deposit** 
 
 From the publisher's earlier New Zealand research, matched by a June 2026 Canadian review: 100% up to NZ$500 plus 50 free spins on the first deposit, part of a four-deposit package, at 40x wagering. Other listings quote different totals, so treat this as unconfirmed.
 

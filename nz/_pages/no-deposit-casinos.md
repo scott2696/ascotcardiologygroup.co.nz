@@ -4,7 +4,7 @@ title: "No Deposit Bonus NZ [November 2026]: No Deposit Free Spins"
 meta_description: "No deposit free spins and bonus cash for NZ players: how no deposit offers work, typical NZ$50 to NZ$100 max cashouts, wagering, and how to spot a fake bonus code."
 h1: "No Deposit Bonus NZ [November 2026]: Free Spins and No Deposit Offers, and the Win Caps Behind Them"
 author: Hana McAllister
-words: 2805
+words: 2804
 ---
 
 Facts checked 8 October 2026
@@ -283,7 +283,7 @@ And expect to make a small deposit first at many casinos, to confirm a payment m
 | Free spins | A set number of spins on one pokie | Fixed stake, wagering on winnings |
 | Bonus credit | A small cash balance | Game restrictions, max bet |
 | No wagering spins | Winnings paid as cash | Usually very few spins |
-| Cashback for existing players | A share of losses back | [Spino](https://ascotcardiologygroup.co.nz/nz/casino-reviews/spino/): 20% up to 2,000 USDT, no wagering (reported) |
+| Cashback for existing players | A share of losses back | [Spino](https://ascotcardiologygroup.co.nz/nz/casino-reviews/spino/): 20% up to 2,000 USDT, no wagering |
 
 ## Best games to use a no deposit bonus on
 

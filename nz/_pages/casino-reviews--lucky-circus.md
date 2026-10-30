@@ -4,7 +4,7 @@ title: "Lucky Circus Review NZ [November 2026]: Is It Legit?"
 meta_description: "Is Lucky Circus safe for Kiwis? Our review checks its Anjouan + Tobique licence, NZD balance, payout limits and safety score, and what 1 December means for NZ."
 h1: "Lucky Circus Review NZ [November 2026]: Is It Legit? Licence, Owner, NZD Banking and Limits"
 author: Hana McAllister
-words: 1218
+words: 1215
 ---
 
 Facts checked 8 October 2026
@@ -16,7 +16,7 @@ Novatrix casino with NZD support, but a low weekly limit and a daily win cap.![H
 **6.8** out of 10  
 Ledger score * 
 
-Offer on record 100% up to NZ$10,000 + 450 free spins over four deposits (reported)[Visit site](https://pokiesrealmoney.co.com/)[See the key facts](#facts)
+Offer on record 100% up to NZ$10,000 + 450 free spins over four deposits[Visit site](https://pokiesrealmoney.co.com/)[See the key facts](#facts)
 
 18+ only. Free help: [0800 654 655](tel:0800654655) 
 
@@ -39,7 +39,7 @@ Casino Guru lists Novatrix S.R.L. Licences
 
 - Anjouan Gaming (Comoros): **ALSI-202508056-FI2** 
 - Tobique Gaming Commission (New Brunswick): **0000002** 
-Launched2024 (reported) NZD balanceYes Withdrawal limits€2,500 a week, €10,000 a month Daily win capUS$50,000 a day (net win) Payment options21 listed, including Visa, Mastercard, Skrill, Neteller, Neosurf, MiFinity, MuchBetter, CashtoCode Casino Guru Safety Index**6.8** / 10 Trustpilot2.4 (38 reviews) Complaints (Casino Guru)1 logged directly Offer on record100% up to NZ$10,000 + 450 free spins over four deposits (reported) Facts checked8 October 2026 
+Launched2024 (reported) NZD balanceYes Withdrawal limits€2,500 a week, €10,000 a month Daily win capUS$50,000 a day (net win) Payment options21 listed, including Visa, Mastercard, Skrill, Neteller, Neosurf, MiFinity, MuchBetter, CashtoCode Casino Guru Safety Index**6.8** / 10 Trustpilot2.4 (38 reviews) Complaints (Casino Guru)1 logged directly Offer on record100% up to NZ$10,000 + 450 free spins over four deposits Facts checked8 October 2026 
 
 ## Overview
 
@@ -79,7 +79,7 @@ Payment options listed for this brand include Visa, Mastercard, Skrill, Neteller
 
 ## Offer on record
 
-**100% up to NZ$10,000 + 450 free spins over four deposits (reported)** 
+**100% up to NZ$10,000 + 450 free spins over four deposits** 
 
 Reported by Casino.org NZ and Gambling.com NZ in 2026: up to NZ$10,000 plus 450 free spins across the first four deposits, with 40x wagering and a NZ$30 minimum deposit.
 

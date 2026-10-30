@@ -4,7 +4,7 @@ title: "New Online Casinos NZ [November 2026]: Newest Casino Sites"
 meta_description: "Newest online casino sites in NZ for 2026, dated by licence rather than launch hype, why no new casino may enter NZ under the 2026 Act, and what the DIA auction means."
 h1: "New Online Casinos NZ [November 2026]: Best New Casino Sites, Dated by Licence and Checked Before You Join"
 author: Hana McAllister
-words: 3024
+words: 3019
 ---
 
 Facts checked 8 October 2026
@@ -223,12 +223,12 @@ New brands compete on bonus size. Trixino's six-stage 777% package at 7x wagerin
 
 | Casino | Licence | Launched | What to check |
 |---|---|---|---|
-| [Trixino](https://ascotcardiologygroup.co.nz/nz/casino-reviews/trixino/) | Not confirmed | 2026 (reported) | No independent profile yet; licence and owner unconfirmed |
+| [Trixino](https://ascotcardiologygroup.co.nz/nz/casino-reviews/trixino/) | Not confirmed | 2026 | No independent profile yet; licence and owner unconfirmed |
 | [Rivo](https://ascotcardiologygroup.co.nz/nz/casino-reviews/rivo/) | Anjouan, 2026 | Not published | Euro-only limits of €1,000 a day |
-| [Spino](https://ascotcardiologygroup.co.nz/nz/casino-reviews/spino/) | Anjouan, 2025 | 2025 (reported) | Crypto only; no NZD |
-| [Smash](https://ascotcardiologygroup.co.nz/nz/casino-reviews/smash/) | Anjouan, 2024 | 2024 (reported) | Safety Index 3.9; €2,000 weekly limit |
-| [CrownSlots](https://ascotcardiologygroup.co.nz/nz/casino-reviews/crownslots/) | Curaçao (reported) | 2024 (reported) | Owner and licence number not published |
-| [Gunsbet](https://ascotcardiologygroup.co.nz/nz/casino-reviews/gunsbet/) | Anjouan + Tobique, 2025 | 2016 (reported) | An older brand on new licences: not new, just relicensed |
+| [Spino](https://ascotcardiologygroup.co.nz/nz/casino-reviews/spino/) | Anjouan, 2025 | 2025 | Crypto only; no NZD |
+| [Smash](https://ascotcardiologygroup.co.nz/nz/casino-reviews/smash/) | Anjouan, 2024 | 2024 | Safety Index 3.9; €2,000 weekly limit |
+| [CrownSlots](https://ascotcardiologygroup.co.nz/nz/casino-reviews/crownslots/) | Curaçao (reported) | 2024 | Owner and licence number not published |
+| [Gunsbet](https://ascotcardiologygroup.co.nz/nz/casino-reviews/gunsbet/) | Anjouan + Tobique, 2025 | 2016 | An older brand on new licences: not new, just relicensed |
 
 ## Are brand new online casinos better than established ones?
 

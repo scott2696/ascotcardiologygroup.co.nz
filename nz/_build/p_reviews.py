@@ -31,7 +31,7 @@ def _facts(op):
         ("Casino Guru Safety Index", (f'<b>{op["safety"]:.1f}</b> / 10' if op["safety"] is not None else "No independent profile found")),
         ("Trustpilot", esc(tp_txt(op, True))),
         ("Complaints (Casino Guru)", str(op["complaints"]) + " logged directly" if op["complaints"] is not None else "No figure published"),
-        ("Offer on record", esc(op["offer"] or "None confirmed")),
+        ("Offer on record", esc(offer_txt(op, "None confirmed"))),
         ("Facts checked", CHECKED),
     ]
     return '<dl class="facts">' + "".join(f"<div><dt>{k}</dt><dd>{v}</dd></div>" for k, v in rows) + "</dl>"
@@ -100,7 +100,7 @@ def _banking(op):
 
 def _offer(op):
     if op.get("offer"):
-        return (f'<h2 id="offer">Offer on record</h2><p><b>{esc(op["offer"])}</b></p><p>{esc(op["offer_detail"])}</p>'
+        return (f'<h2 id="offer">Offer on record</h2><p><b>{esc(offer_txt(op))}</b></p><p>{esc(op["offer_detail"])}</p>'
                 '<p>We do not publish sign-up links or bonus codes. To understand what any welcome offer really costs, see '
                 '<a href="/online-casinos/bonuses/">casino bonuses explained</a>, which turns wagering into dollars.</p>')
     return ('<h2 id="offer">Offers</h2><p>We have no confirmed welcome offer on record for this brand. Offshore offers change '
@@ -135,7 +135,7 @@ def build_review(op):
     t, d, h1 = _meta(op)
     PAGE_EXTRA[P] = (t, d, h1)
     trail = [("Casino reviews", "/casino-reviews/"), (op["name"], P)]
-    offer = f'<p class="rv-offer"><span>Offer on record</span>{esc(op["offer"])}</p>' if op.get("offer") else ""
+    offer = f'<p class="rv-offer"><span>Offer on record</span>{esc(offer_txt(op))}</p>' if op.get("offer") else ""
     head = (f'<header class="hero hero--rv"><div class="wrap rv-grid">'
             f'<div class="rv-copy"><p class="kicker">Facts checked {CHECKED}</p><h1>{stamp(h1)}</h1>'
             f'<p class="lead">{op["tagline"]}</p>{byline(AUTH, CHECK)}</div>'

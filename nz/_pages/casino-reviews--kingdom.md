@@ -4,7 +4,7 @@ title: "Kingdom Review NZ [November 2026]: Is It Legit?"
 meta_description: "Is Kingdom safe for Kiwis? Our review checks its not confirmed licence, currency, payout limits and safety score, and what 1 December means for NZ."
 h1: "Kingdom Review NZ [November 2026]: Is It Legit? Licence, Owner, NZD Banking and Limits"
 author: Hana McAllister
-words: 1129
+words: 1126
 ---
 
 Facts checked 8 October 2026
@@ -16,7 +16,7 @@ Large reported crypto package, but the licence, owner and even the brand's histo
 **4.1** out of 10  
 Ledger score * 
 
-Offer on record 600% up to €9,500 + 20% cashback (reported)[Visit site](https://pokiesrealmoney.co.com/)[See the key facts](#facts)
+Offer on record 600% up to €9,500 + 20% cashback[Visit site](https://pokiesrealmoney.co.com/)[See the key facts](#facts)
 
 18+ only. Free help: [0800 654 655](tel:0800654655) 
 
@@ -38,7 +38,7 @@ ProductsOnline casino and sportsbook (crypto accepted) OwnerNot confirmed
 Casino Guru lists a Dama N.V. brand called Kingdom Casino as closed. 2026 reviews describe an active Kingdom Casino with a crypto-first cashier, which appears to be a separate brand. We could not confirm which company runs it. Licences
 
 - Not confirmed: **check the site footer before depositing** 
-LaunchedNot confirmed NZD balanceNot confirmed Withdrawal limitsNot published in the sources we checked Daily win capNone recorded Payment optionsIncluding Visa, Mastercard, Bitcoin, other crypto Casino Guru Safety IndexNo independent profile found TrustpilotNo profile found Complaints (Casino Guru)No figure published Offer on record600% up to €9,500 + 20% cashback (reported) Facts checked8 October 2026 
+LaunchedNot confirmed NZD balanceNot confirmed Withdrawal limitsNot published in the sources we checked Daily win capNone recorded Payment optionsIncluding Visa, Mastercard, Bitcoin, other crypto Casino Guru Safety IndexNo independent profile found TrustpilotNo profile found Complaints (Casino Guru)No figure published Offer on record600% up to €9,500 + 20% cashback Facts checked8 October 2026 
 
 ## Overview
 
@@ -73,7 +73,7 @@ Payment options listed for this brand include Visa, Mastercard, Bitcoin, other c
 
 ## Offer on record
 
-**600% up to €9,500 + 20% cashback (reported)** 
+**600% up to €9,500 + 20% cashback** 
 
 We did not receive a confirmed offer for Kingdom. Several 2026 listings report a welcome package of 600% up to €9,500 with 20% cashback. Treat this as unconfirmed until you see it on the site itself.
 

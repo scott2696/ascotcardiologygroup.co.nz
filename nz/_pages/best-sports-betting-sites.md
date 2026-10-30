@@ -4,7 +4,7 @@ title: "Best Sports Betting Sites NZ [November 2026]: Bookmakers"
 meta_description: "Best betting sites NZ punters search for: TAB NZ against offshore bookmakers on licence, NZD banking, limits and odds, and what the 2025 offshore betting ban changed."
 h1: "Best Sports Betting Sites NZ [November 2026]: Top Bookies Compared on Licence, Limits and the 2025 Law"
 author: Alex McDonald
-words: 2746
+words: 2745
 ---
 
 Facts checked 8 October 2026
@@ -261,7 +261,7 @@ We recheck licences and limits monthly.
 | [MadCasino](https://ascotcardiologygroup.co.nz/nz/casino-reviews/madcasino/) | 250% up to €3,500 (supplied) | Not confirmed |
 | [Smash](https://ascotcardiologygroup.co.nz/nz/casino-reviews/smash/) | 250% up to €5,000 (supplied) | 15x at odds of 1.80+ |
 | [Rivo](https://ascotcardiologygroup.co.nz/nz/casino-reviews/rivo/) | 100% up to €500 (supplied) | Not confirmed |
-| [Bet&Play](https://ascotcardiologygroup.co.nz/nz/casino-reviews/betandplay/) | 100% up to NZ$500 (reported) | 5x at odds of 1.80+ |
+| [Bet&Play](https://ascotcardiologygroup.co.nz/nz/casino-reviews/betandplay/) | 100% up to NZ$500 | 5x at odds of 1.80+ |
 | [Gunsbet](https://ascotcardiologygroup.co.nz/nz/casino-reviews/gunsbet/) | 285% up to €7,500 + 285 free spins (supplied, same headline as casino) | Not confirmed |
 
 ## Depositing and withdrawing at betting sites

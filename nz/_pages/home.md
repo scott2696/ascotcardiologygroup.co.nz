@@ -4,7 +4,7 @@ title: "Best Online Casino Sites NZ [November 2026]: Top Rated"
 meta_description: "Top online casinos in New Zealand rated for Kiwis: licences, real money NZD banking, payout limits and safety scores, plus which casinos must leave NZ on 1 December."
 h1: "Best Online Casino Sites NZ [November 2026]: Real Money Casinos Checked on Licence, NZD Banking and Payout Limits"
 author: Hana McAllister
-words: 8074
+words: 8072
 ---
 
 Facts checked 8 October 2026
@@ -556,10 +556,10 @@ Worked from each casino's published limits as recorded in our reviews. Euro conv
 
 | Bonus | How it works | Example on our list |
 |---|---|---|
-| Welcome package | Matches your first few deposits, often with free spins | [Spinjo](https://ascotcardiologygroup.co.nz/nz/casino-reviews/spinjo/): up to NZ$5,000 + 300 free spins over four deposits (reported) |
+| Welcome package | Matches your first few deposits, often with free spins | [Spinjo](https://ascotcardiologygroup.co.nz/nz/casino-reviews/spinjo/): up to NZ$5,000 + 300 free spins over four deposits |
 | Low-wager bonus | Smaller multiple, so more of it can be withdrawn | [Smash](https://ascotcardiologygroup.co.nz/nz/casino-reviews/smash/): 600% up to €10,000 at 10x deposit + bonus |
 | Multi-stage package | Different match on each deposit | [Trixino](https://ascotcardiologygroup.co.nz/nz/casino-reviews/trixino/): 777% over six deposits at 7x (supplied) |
-| Cashback | A share of losses returned, sometimes with no wagering | [Spino](https://ascotcardiologygroup.co.nz/nz/casino-reviews/spino/): 20% cashback up to 2,000 USDT (reported) |
+| Cashback | A share of losses returned, sometimes with no wagering | [Spino](https://ascotcardiologygroup.co.nz/nz/casino-reviews/spino/): 20% cashback up to 2,000 USDT |
 | Sports welcome | Bonus for the sportsbook instead of the casino | [MadCasino](https://ascotcardiologygroup.co.nz/nz/casino-reviews/madcasino/): 250% up to €3,500 (supplied) |
 
 ## Loyalty and VIP programmes

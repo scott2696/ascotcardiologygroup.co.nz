@@ -4,7 +4,7 @@ title: "Fortune Play Review NZ [November 2026]: Is It Legit?"
 meta_description: "Is Fortune Play safe for Kiwis? Our review checks its Tobique + Anjouan licence, NZD balance, payout limits and safety score, and what 1 December means for NZ."
 h1: "Fortune Play Review NZ [November 2026]: Is It Legit? Licence, Owner, NZD Banking and Limits"
 author: Hana McAllister
-words: 1191
+words: 1188
 ---
 
 Facts checked 8 October 2026
@@ -16,7 +16,7 @@ Novatrix-run casino and sportsbook with an 8.4 independent rating and NZD bankin
 **8.1** out of 10  
 Ledger score * 
 
-Offer on record up to $5,000 + 300 free spins over four deposits (reported)[Visit site](https://pokiesrealmoney.co.com/)[See the key facts](#facts)
+Offer on record up to $5,000 + 300 free spins over four deposits[Visit site](https://pokiesrealmoney.co.com/)[See the key facts](#facts)
 
 18+ only. Free help: [0800 654 655](tel:0800654655) 
 
@@ -39,7 +39,7 @@ Casino Guru lists Novatrix S.R.L.; earlier reviews name Dama N.V., the previous 
 
 - Tobique Gaming Commission (New Brunswick): **0000002** 
 - Anjouan Gaming (Comoros): **ALSI-202508056-FI2** 
-Launched2024 (reported) NZD balanceYes Withdrawal limitsNZ$3,000 a day, NZ$7,500 a week, NZ$30,000 a month Daily win capNone recorded Payment options25 listed, including Visa, Mastercard, Skrill, Neteller, Paysafecard, Neosurf, MiFinity, Revolut Casino Guru Safety Index**8.4** / 10 Trustpilot3.4 (161 reviews) Complaints (Casino Guru)No figure published Offer on recordup to $5,000 + 300 free spins over four deposits (reported) Facts checked8 October 2026 
+Launched2024 (reported) NZD balanceYes Withdrawal limitsNZ$3,000 a day, NZ$7,500 a week, NZ$30,000 a month Daily win capNone recorded Payment options25 listed, including Visa, Mastercard, Skrill, Neteller, Paysafecard, Neosurf, MiFinity, Revolut Casino Guru Safety Index**8.4** / 10 Trustpilot3.4 (161 reviews) Complaints (Casino Guru)No figure published Offer on recordup to $5,000 + 300 free spins over four deposits Facts checked8 October 2026 
 
 ## Overview
 
@@ -77,7 +77,7 @@ Payment options listed for this brand include Visa, Mastercard, Skrill, Neteller
 
 ## Offer on record
 
-**up to $5,000 + 300 free spins over four deposits (reported)** 
+**up to $5,000 + 300 free spins over four deposits** 
 
 Reported by Casino.org and other 2026 reviews: up to $5,000 plus 300 free spins spread across the first four deposits, followed by weekly reloads. Wagering was not confirmed.
 

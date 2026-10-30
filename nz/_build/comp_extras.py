@@ -81,10 +81,10 @@ def home():
         + '<h3 id="big-win">What a big win looks like at each casino</h3>' + _win_schedule(50000)
         + '<h2 id="bonus-types">Online casino bonus types explained</h2>'
         + table(["Bonus", "How it works", "Example on our list"], [
-            ["Welcome package", "Matches your first few deposits, often with free spins", f'{link("spinjo")}: up to NZ$5,000 + 300 free spins over four deposits (reported)'],
+            ["Welcome package", "Matches your first few deposits, often with free spins", f'{link("spinjo")}: up to NZ$5,000 + 300 free spins over four deposits'],
             ["Low-wager bonus", "Smaller multiple, so more of it can be withdrawn", f'{link("smash")}: 600% up to €10,000 at 10x deposit + bonus'],
             ["Multi-stage package", "Different match on each deposit", f'{link("trixino")}: 777% over six deposits at 7x (supplied)'],
-            ["Cashback", "A share of losses returned, sometimes with no wagering", f'{link("spino")}: 20% cashback up to 2,000 USDT (reported)'],
+            ["Cashback", "A share of losses returned, sometimes with no wagering", f'{link("spino")}: 20% cashback up to 2,000 USDT'],
             ["Sports welcome", "Bonus for the sportsbook instead of the casino", f'{link("madcasino")}: 250% up to €3,500 (supplied)'],
         ])
         + '<h2 id="vip">Loyalty and VIP programmes</h2>'
@@ -180,12 +180,12 @@ def new():
     return (
         '<h2 id="newest">Newest brands on our list, by licence date</h2>'
         + table(["Casino", "Licence", "Launched", "What to check"], [
-            [link("trixino"), "Not confirmed", "2026 (reported)", "No independent profile yet; licence and owner unconfirmed"],
+            [link("trixino"), "Not confirmed", "2026", "No independent profile yet; licence and owner unconfirmed"],
             [link("rivo"), "Anjouan, 2026", "Not published", "Euro-only limits of €1,000 a day"],
-            [link("spino"), "Anjouan, 2025", "2025 (reported)", "Crypto only; no NZD"],
-            [link("smash"), "Anjouan, 2024", "2024 (reported)", "Safety Index 3.9; €2,000 weekly limit"],
-            [link("crownslots"), "Curaçao (reported)", "2024 (reported)", "Owner and licence number not published"],
-            [link("gunsbet"), "Anjouan + Tobique, 2025", "2016 (reported)", "An older brand on new licences: not new, just relicensed"],
+            [link("spino"), "Anjouan, 2025", "2025", "Crypto only; no NZD"],
+            [link("smash"), "Anjouan, 2024", "2024", "Safety Index 3.9; €2,000 weekly limit"],
+            [link("crownslots"), "Curaçao (reported)", "2024", "Owner and licence number not published"],
+            [link("gunsbet"), "Anjouan + Tobique, 2025", "2016", "An older brand on new licences: not new, just relicensed"],
         ])
         + '<h2 id="new-vs-established">Are brand new online casinos better than established ones?</h2>'
         + table(["New casinos", "Established casinos"], [
@@ -402,8 +402,8 @@ def bonuses():
         + table(["Wagering", "Example on our list", "Bet needed on a NZ$100 bonus", "Average cost at 96% RTP"], [
             ["7x bonus", f'{link("trixino")} (supplied)', "NZ$700", "NZ$28"],
             ["10x deposit + bonus", f'{link("smash")}', "NZ$2,000 (on NZ$100 + NZ$100)", "NZ$80"],
-            ["30x bonus", f'{link("madcasino")} (reported)', "NZ$3,000", "NZ$120"],
-            ["40x bonus", f'{link("lucky-circus")}, {link("rooster-bet")} (reported)', "NZ$4,000", "NZ$160"],
+            ["30x bonus", f'{link("madcasino")}', "NZ$3,000", "NZ$120"],
+            ["40x bonus", f'{link("lucky-circus")}, {link("rooster-bet")}', "NZ$4,000", "NZ$160"],
         ], caption="Average cost = amount wagered × 4%. If the average cost is more than the bonus, the bonus is worth less than nothing on average.")
         + '<h2 id="codes">What are casino bonus codes?</h2>'
         "<p>A code tells the cashier which offer to apply. Some casinos need a code for every stage of a welcome package; others apply the first stage automatically. A code found on a third-party site is no guarantee the offer exists: if the cashier rejects it, the published terms on the casino's own site are what count.</p>"
@@ -449,7 +449,7 @@ def no_deposit():
             ["Free spins", "A set number of spins on one pokie", "Fixed stake, wagering on winnings"],
             ["Bonus credit", "A small cash balance", "Game restrictions, max bet"],
             ["No wagering spins", "Winnings paid as cash", "Usually very few spins"],
-            ["Cashback for existing players", "A share of losses back", f'{link("spino")}: 20% up to 2,000 USDT, no wagering (reported)'],
+            ["Cashback for existing players", "A share of losses back", f'{link("spino")}: 20% up to 2,000 USDT, no wagering'],
         ])
         + '<h2 id="best-games">Best games to use a no deposit bonus on</h2>'
         "<p>You rarely get to choose: free spins are tied to one pokie. For bonus credit, low-volatility pokies such as Starburst or Blood Suckers stretch a small balance through wagering further than high-volatility games.</p>"
@@ -516,7 +516,7 @@ def sports_sites():
             [link("madcasino"), "250% up to €3,500 (supplied)", "Not confirmed"],
             [link("smash"), "250% up to €5,000 (supplied)", "15x at odds of 1.80+"],
             [link("rivo"), "100% up to €500 (supplied)", "Not confirmed"],
-            [link("betandplay"), "100% up to NZ$500 (reported)", "5x at odds of 1.80+"],
+            [link("betandplay"), "100% up to NZ$500", "5x at odds of 1.80+"],
             [link("gunsbet"), "285% up to €7,500 + 285 free spins (supplied, same headline as casino)", "Not confirmed"],
         ])
         + '<h2 id="bet-payments">Depositing and withdrawing at betting sites</h2>'

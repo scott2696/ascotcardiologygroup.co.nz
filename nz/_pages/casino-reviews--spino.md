@@ -4,7 +4,7 @@ title: "Spino Review NZ [November 2026]: Is It Legit?"
 meta_description: "Is Spino safe for Kiwis? Our review checks its Anjouan licence, currency, payout limits and safety score, and what 1 December means for NZ."
 h1: "Spino Review NZ [November 2026]: Is It Legit? Licence, Owner, NZD Banking and Limits"
 author: Hana McAllister
-words: 1066
+words: 1063
 ---
 
 Facts checked 8 October 2026
@@ -16,7 +16,7 @@ Crypto-first casino and sportsbook with an Anjouan licence and a clean complaint
 **6.0** out of 10  
 Ledger score * 
 
-Offer on record 20% cashback up to 2,000 USDT, no wagering (reported)[Visit site](https://pokiesrealmoney.co.com/)[See the key facts](#facts)
+Offer on record 20% cashback up to 2,000 USDT, no wagering[Visit site](https://pokiesrealmoney.co.com/)[See the key facts](#facts)
 
 18+ only. Free help: [0800 654 655](tel:0800654655) 
 
@@ -38,7 +38,7 @@ ProductsOnline casino and sportsbook (crypto accepted) OwnerNot published
 Casino Guru does not name an owner. Licences
 
 - Anjouan Gaming (Comoros): **ALSI-202506006-FI1** 
-Launched2025 (reported) NZD balanceNo Withdrawal limitsNot published in the sources we checked Daily win capNone recorded Payment optionsIncluding Bitcoin, Ethereum, Litecoin, USDT, Solana, Dogecoin, XRP Casino Guru Safety Index**7.2** / 10 TrustpilotNo profile found Complaints (Casino Guru)0 logged directly Offer on record20% cashback up to 2,000 USDT, no wagering (reported) Facts checked8 October 2026 
+Launched2025 (reported) NZD balanceNo Withdrawal limitsNot published in the sources we checked Daily win capNone recorded Payment optionsIncluding Bitcoin, Ethereum, Litecoin, USDT, Solana, Dogecoin, XRP Casino Guru Safety Index**7.2** / 10 TrustpilotNo profile found Complaints (Casino Guru)0 logged directly Offer on record20% cashback up to 2,000 USDT, no wagering Facts checked8 October 2026 
 
 ## Overview
 
@@ -74,7 +74,7 @@ Payment options listed for this brand include Bitcoin, Ethereum, Litecoin, USDT,
 
 ## Offer on record
 
-**20% cashback up to 2,000 USDT, no wagering (reported)** 
+**20% cashback up to 2,000 USDT, no wagering** 
 
 From the publisher's earlier research, matched by LCB's August 2026 review: 20% cashback, up to 2,000 USDT, credited after the welcome week, with no wagering on the cashback. Spino is crypto-first; the only fiat option is USD.
 

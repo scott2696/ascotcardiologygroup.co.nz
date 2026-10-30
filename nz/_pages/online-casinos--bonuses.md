@@ -4,7 +4,7 @@ title: "Best Casino Bonuses NZ [November 2026]: Welcome Offers"
 meta_description: "Casino welcome bonus NZ guide: wagering requirements worked through in NZD, max-bet rules, win caps, free spins, reloads and cashback, so you know the real cost first."
 h1: "Best Casino Bonuses NZ [November 2026]: Sign Up and Welcome Bonuses, With the Real Cost of Wagering"
 author: Hana McAllister
-words: 3419
+words: 3401
 ---
 
 Facts checked 8 October 2026
@@ -43,18 +43,18 @@ Offers are shown only where supplied or sourced. In our editor's order.
 | Site | Offer on record | Licence | NZD balance | Safety Index* | Ledger score |
 |---|---|---|---|---|---|
 | [CrownSlots](https://ascotcardiologygroup.co.nz/nz/casino-reviews/crownslots/) | 390% up to €3,700 + 175 free spins across the first deposits | Curaçao (reported) | Not confirmed | No profile | **4.8** |
-| [Spinjo](https://ascotcardiologygroup.co.nz/nz/casino-reviews/spinjo/) | up to NZ$5,000 + 300 free spins over four deposits (reported) | Anjouan + Tobique | Yes | 8.9 | **8.3** |
+| [Spinjo](https://ascotcardiologygroup.co.nz/nz/casino-reviews/spinjo/) | up to NZ$5,000 + 300 free spins over four deposits | Anjouan + Tobique | Yes | 8.9 | **8.3** |
 | [MadCasino](https://ascotcardiologygroup.co.nz/nz/casino-reviews/madcasino/) | 777% up to €7,500 (sports: 250% up to €3,500) | Curaçao (CGA) | Yes | 6.7 | **6.5** |
-| [Lucky7even](https://ascotcardiologygroup.co.nz/nz/casino-reviews/lucky7even/) | 100% up to NZ$500 + 50 free spins on the first deposit (reported) | Tobique + Anjouan | Yes | 8.9 | **8.0** |
-| [Lucky Vibe](https://ascotcardiologygroup.co.nz/nz/casino-reviews/lucky-vibe/) | up to $5,000 + 300 free spins (reported) | Tobique + Anjouan | Yes | 8.5 | **8.1** |
-| [Rooster Bet](https://ascotcardiologygroup.co.nz/nz/casino-reviews/rooster-bet/) | up to $5,000 + 300 free spins over four deposits (reported) | Tobique + Anjouan + Estonia | Yes | 8.5 | **8.1** |
-| [Fortune Play](https://ascotcardiologygroup.co.nz/nz/casino-reviews/fortune-play/) | up to $5,000 + 300 free spins over four deposits (reported) | Tobique + Anjouan | Yes | 8.4 | **8.1** |
-| [Lucky Circus](https://ascotcardiologygroup.co.nz/nz/casino-reviews/lucky-circus/) | 100% up to NZ$10,000 + 450 free spins over four deposits (reported) | Anjouan + Tobique | Yes | 6.8 | **6.8** |
-| [Kingdom](https://ascotcardiologygroup.co.nz/nz/casino-reviews/kingdom/) | 600% up to €9,500 + 20% cashback (reported) | Not confirmed | Not confirmed | No profile | **4.1** |
+| [Lucky7even](https://ascotcardiologygroup.co.nz/nz/casino-reviews/lucky7even/) | 100% up to NZ$500 + 50 free spins on the first deposit | Tobique + Anjouan | Yes | 8.9 | **8.0** |
+| [Lucky Vibe](https://ascotcardiologygroup.co.nz/nz/casino-reviews/lucky-vibe/) | up to $5,000 + 300 free spins | Tobique + Anjouan | Yes | 8.5 | **8.1** |
+| [Rooster Bet](https://ascotcardiologygroup.co.nz/nz/casino-reviews/rooster-bet/) | up to $5,000 + 300 free spins over four deposits | Tobique + Anjouan + Estonia | Yes | 8.5 | **8.1** |
+| [Fortune Play](https://ascotcardiologygroup.co.nz/nz/casino-reviews/fortune-play/) | up to $5,000 + 300 free spins over four deposits | Tobique + Anjouan | Yes | 8.4 | **8.1** |
+| [Lucky Circus](https://ascotcardiologygroup.co.nz/nz/casino-reviews/lucky-circus/) | 100% up to NZ$10,000 + 450 free spins over four deposits | Anjouan + Tobique | Yes | 6.8 | **6.8** |
+| [Kingdom](https://ascotcardiologygroup.co.nz/nz/casino-reviews/kingdom/) | 600% up to €9,500 + 20% cashback | Not confirmed | Not confirmed | No profile | **4.1** |
 | [Smash](https://ascotcardiologygroup.co.nz/nz/casino-reviews/smash/) | 600% up to €10,000 at 10x (sports: 250% up to €5,000) | Anjouan | No | 3.9 | **5.1** |
 | [Trixino](https://ascotcardiologygroup.co.nz/nz/casino-reviews/trixino/) | 777% across six deposits, up to €7,777 in total, at 7x wagering | Not confirmed | Not confirmed | No profile | **4.1** |
 | [Rivo](https://ascotcardiologygroup.co.nz/nz/casino-reviews/rivo/) | 1000% up to €10,000 across eight deposits at 10x (sports: 100% up to €500) | Anjouan | No | 6.2 | **6.3** |
-| [Spino](https://ascotcardiologygroup.co.nz/nz/casino-reviews/spino/) | 20% cashback up to 2,000 USDT, no wagering (reported) | Anjouan | No | 7.2 | **6.0** |
+| [Spino](https://ascotcardiologygroup.co.nz/nz/casino-reviews/spino/) | 20% cashback up to 2,000 USDT, no wagering | Anjouan | No | 7.2 | **6.0** |
 
 ## How to sign up, claim a bonus and withdraw
 
@@ -192,18 +192,18 @@ We only quote offers supplied to us or reported by a source we can name, in the 
 | Brand | Offer on record | Wagering | Status |
 |---|---|---|---|
 | [CrownSlots](https://ascotcardiologygroup.co.nz/nz/casino-reviews/crownslots/) | 390% up to €3,700 + 175 free spins across the first deposits | 40x (reported) | Supplied |
-| [Spinjo](https://ascotcardiologygroup.co.nz/nz/casino-reviews/spinjo/) | up to NZ$5,000 + 300 free spins over four deposits (reported) | Not confirmed | Reported, unconfirmed |
+| [Spinjo](https://ascotcardiologygroup.co.nz/nz/casino-reviews/spinjo/) | up to NZ$5,000 + 300 free spins over four deposits | Not confirmed | Reported, unconfirmed |
 | [MadCasino](https://ascotcardiologygroup.co.nz/nz/casino-reviews/madcasino/) | 777% up to €7,500 (sports: 250% up to €3,500) | 30x bonus (reported) | Supplied |
-| [Lucky7even](https://ascotcardiologygroup.co.nz/nz/casino-reviews/lucky7even/) | 100% up to NZ$500 + 50 free spins on the first deposit (reported) | 40x (reported) | Reported, unconfirmed |
-| [Lucky Vibe](https://ascotcardiologygroup.co.nz/nz/casino-reviews/lucky-vibe/) | up to $5,000 + 300 free spins (reported) | Not confirmed | Reported, unconfirmed |
-| [Rooster Bet](https://ascotcardiologygroup.co.nz/nz/casino-reviews/rooster-bet/) | up to $5,000 + 300 free spins over four deposits (reported) | 40x (reported) | Reported, unconfirmed |
-| [Fortune Play](https://ascotcardiologygroup.co.nz/nz/casino-reviews/fortune-play/) | up to $5,000 + 300 free spins over four deposits (reported) | Not confirmed | Reported, unconfirmed |
-| [Lucky Circus](https://ascotcardiologygroup.co.nz/nz/casino-reviews/lucky-circus/) | 100% up to NZ$10,000 + 450 free spins over four deposits (reported) | 40x (reported) | Reported, unconfirmed |
-| [Kingdom](https://ascotcardiologygroup.co.nz/nz/casino-reviews/kingdom/) | 600% up to €9,500 + 20% cashback (reported) | Not confirmed | Reported, unconfirmed |
+| [Lucky7even](https://ascotcardiologygroup.co.nz/nz/casino-reviews/lucky7even/) | 100% up to NZ$500 + 50 free spins on the first deposit | 40x (reported) | Reported, unconfirmed |
+| [Lucky Vibe](https://ascotcardiologygroup.co.nz/nz/casino-reviews/lucky-vibe/) | up to $5,000 + 300 free spins | Not confirmed | Reported, unconfirmed |
+| [Rooster Bet](https://ascotcardiologygroup.co.nz/nz/casino-reviews/rooster-bet/) | up to $5,000 + 300 free spins over four deposits | 40x (reported) | Reported, unconfirmed |
+| [Fortune Play](https://ascotcardiologygroup.co.nz/nz/casino-reviews/fortune-play/) | up to $5,000 + 300 free spins over four deposits | Not confirmed | Reported, unconfirmed |
+| [Lucky Circus](https://ascotcardiologygroup.co.nz/nz/casino-reviews/lucky-circus/) | 100% up to NZ$10,000 + 450 free spins over four deposits | 40x (reported) | Reported, unconfirmed |
+| [Kingdom](https://ascotcardiologygroup.co.nz/nz/casino-reviews/kingdom/) | 600% up to €9,500 + 20% cashback | Not confirmed | Reported, unconfirmed |
 | [Smash](https://ascotcardiologygroup.co.nz/nz/casino-reviews/smash/) | 600% up to €10,000 at 10x (sports: 250% up to €5,000) | 10x deposit + bonus | Supplied |
 | [Trixino](https://ascotcardiologygroup.co.nz/nz/casino-reviews/trixino/) | 777% across six deposits, up to €7,777 in total, at 7x wagering | 7x | Supplied |
 | [Rivo](https://ascotcardiologygroup.co.nz/nz/casino-reviews/rivo/) | 1000% up to €10,000 across eight deposits at 10x (sports: 100% up to €500) | 10x | Supplied |
-| [Spino](https://ascotcardiologygroup.co.nz/nz/casino-reviews/spino/) | 20% cashback up to 2,000 USDT, no wagering (reported) | None (reported) | Reported, unconfirmed |
+| [Spino](https://ascotcardiologygroup.co.nz/nz/casino-reviews/spino/) | 20% cashback up to 2,000 USDT, no wagering | None (reported) | Reported, unconfirmed |
 | [Gunsbet](https://ascotcardiologygroup.co.nz/nz/casino-reviews/gunsbet/) | 285% up to €7,500 + 285 free spins | Not confirmed | Supplied (betting listing) |
 | [Bet&Play](https://ascotcardiologygroup.co.nz/nz/casino-reviews/betandplay/) | 100% up to NZ$500 sports bonus at 5x (reported) | 5x at odds 1.80+ (reported) | Reported, unconfirmed (betting listing) |
 
@@ -282,8 +282,8 @@ Ranking pages list wagering multiples. This table turns the multiples on our lis
 |---|---|---|---|
 | 7x bonus | [Trixino](https://ascotcardiologygroup.co.nz/nz/casino-reviews/trixino/) (supplied) | NZ$700 | NZ$28 |
 | 10x deposit + bonus | [Smash](https://ascotcardiologygroup.co.nz/nz/casino-reviews/smash/) | NZ$2,000 (on NZ$100 + NZ$100) | NZ$80 |
-| 30x bonus | [MadCasino](https://ascotcardiologygroup.co.nz/nz/casino-reviews/madcasino/) (reported) | NZ$3,000 | NZ$120 |
-| 40x bonus | [Lucky Circus](https://ascotcardiologygroup.co.nz/nz/casino-reviews/lucky-circus/), [Rooster Bet](https://ascotcardiologygroup.co.nz/nz/casino-reviews/rooster-bet/) (reported) | NZ$4,000 | NZ$160 |
+| 30x bonus | [MadCasino](https://ascotcardiologygroup.co.nz/nz/casino-reviews/madcasino/) | NZ$3,000 | NZ$120 |
+| 40x bonus | [Lucky Circus](https://ascotcardiologygroup.co.nz/nz/casino-reviews/lucky-circus/), [Rooster Bet](https://ascotcardiologygroup.co.nz/nz/casino-reviews/rooster-bet/) | NZ$4,000 | NZ$160 |
 
 ## What are casino bonus codes?
 

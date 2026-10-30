@@ -4,7 +4,7 @@ title: "Spinjo Review NZ [November 2026]: Is It Legit?"
 meta_description: "Is Spinjo safe for Kiwis? Our review checks its Anjouan + Tobique licence, NZD balance, payout limits and safety score, and what 1 December means for NZ."
 h1: "Spinjo Review NZ [November 2026]: Is It Legit? Licence, Owner, NZD Banking and Limits"
 author: Hana McAllister
-words: 1298
+words: 1295
 ---
 
 Facts checked 8 October 2026
@@ -16,7 +16,7 @@ The strongest public record on our list: named owner, two verified licences and 
 **8.3** out of 10  
 Ledger score * 
 
-Offer on record up to NZ$5,000 + 300 free spins over four deposits (reported)[Visit site](https://pokiesrealmoney.co.com/)[See the key facts](#facts)
+Offer on record up to NZ$5,000 + 300 free spins over four deposits[Visit site](https://pokiesrealmoney.co.com/)[See the key facts](#facts)
 
 18+ only. Free help: [0800 654 655](tel:0800654655) 
 
@@ -39,7 +39,7 @@ Casino Guru lists Hollycorn N.V. as the owner, the same group behind Lucky Vibe 
 
 - Anjouan Gaming (Comoros): **ALSI-202509073-FI2** 
 - Tobique Gaming Commission (New Brunswick): **0000064** 
-Launched2024 (reported) NZD balanceYes Withdrawal limitsNZ$3,000 a day, NZ$7,500 a week, NZ$30,000 a month Daily win capNone recorded Payment options26 listed, including Visa, Mastercard, Skrill, Neteller, Paysafecard, Neosurf, MiFinity, Revolut Casino Guru Safety Index**8.9** / 10 TrustpilotRating unavailable: Trustpilot says the company breached its guidelines Complaints (Casino Guru)No figure published Offer on recordup to NZ$5,000 + 300 free spins over four deposits (reported) Facts checked8 October 2026 
+Launched2024 (reported) NZD balanceYes Withdrawal limitsNZ$3,000 a day, NZ$7,500 a week, NZ$30,000 a month Daily win capNone recorded Payment options26 listed, including Visa, Mastercard, Skrill, Neteller, Paysafecard, Neosurf, MiFinity, Revolut Casino Guru Safety Index**8.9** / 10 TrustpilotRating unavailable: Trustpilot says the company breached its guidelines Complaints (Casino Guru)No figure published Offer on recordup to NZ$5,000 + 300 free spins over four deposits Facts checked8 October 2026 
 
 ## Overview
 
@@ -79,7 +79,7 @@ Payment options listed for this brand include Visa, Mastercard, Skrill, Neteller
 
 ## Offer on record
 
-**up to NZ$5,000 + 300 free spins over four deposits (reported)** 
+**up to NZ$5,000 + 300 free spins over four deposits** 
 
 Reported by Gambling.com NZ in 2026: a four-part welcome package worth up to NZ$5,000 and 300 free spins, starting with 100% up to NZ$1,000 plus 100 free spins on the first deposit. Wagering was not confirmed for New Zealand; a Canadian review reports 29x on the bonus. Check the cashier terms before depositing.
 

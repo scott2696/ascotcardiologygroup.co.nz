@@ -93,6 +93,13 @@ def pick(slugs, kind="casino"):
     return [o for o in OPS if o["slug"] in want and o[kind]]
 
 
+def offer_txt(op, empty=""):
+    """The offer as shown to readers: the "(reported)" qualifier is dropped from
+    display; the sourcing stays in each review's offer section."""
+    o = op.get("offer")
+    return re.sub(r"\s*\(reported\)", "", o) if o else empty
+
+
 def review_url(op):
     return f"/casino-reviews/{op['slug']}/"
 
@@ -547,13 +554,14 @@ def toplist(ops, kind="casino", start=1, note_=True, eager=2, visit=None):
         if op["crypto"]:
             chips.append('<span class="chip">Crypto</span>')
         offer = (f'<p class="tl-offer"><span>Offer on record:</span> {esc(op["offer"])}</p>' if op.get("offer") else "")
-        line = esc(op["offer"]) if op.get("offer") else op["tagline"]
+        line = (f'<span class="tl-bonus-k">Welcome bonus</span>{esc(offer_txt(op))}' if op.get("offer")
+                else op["tagline"])
         out.append(
             f'<li class="tl-row">'
             f'<div class="tl-rank" aria-hidden="true"><b>{i}</b></div>'
             f'<div class="tl-logo{" logo--dark" if op.get("logo_dark") else ""}">{logo_img(op, eager=(i - start) < eager)}</div>'
             f'<div class="tl-main"><h3 class="tl-name"><a href="{review_url(op)}">{esc(op["name"])}</a></h3>'
-            f'<p class="tl-offer">{line}</p><ul class="tl-facts">{fl}</ul></div>'
+            f'<p class="tl-offer{" tl-bonus" if op.get("offer") else ""}">{line}</p><ul class="tl-facts">{fl}</ul></div>'
             f'<div class="tl-score" role="img" aria-label="Ledger score {op["rating"]:.1f} out of 10">'
             + GAUGE.replace("{elev}", f'{op["rating"] / 10:.2f}')
             + f'<span class="tl-num">{op["rating"]:.1f}<small>/10</small></span></div>'
@@ -574,7 +582,7 @@ def compare(ops, cols=None, caption=None):
            "nzd": lambda o: nzd_txt(o), "limit": lambda o: esc(limit_txt(o)), "safety": lambda o: safety_txt(o),
            "score": lambda o: f'<b>{o["rating"]:.1f}</b>', "pay": lambda o: str(o["n_pay"] or "n/a"),
            "cap": lambda o: esc(o["win_cap"] or "None published"), "crypto": lambda o: "Yes" if o["crypto"] else "No",
-           "offer": lambda o: esc(o["offer"] or "None on record"),
+           "offer": lambda o: esc(offer_txt(o, "None on record")),
            "lyear": lambda o: str(o["licence_year"] or "Not confirmed"), "tp": lambda o: tp_txt(o),
            "products": lambda o: " + ".join(x for x, f in (("Casino", o["casino"]), ("Sport", o["sports"])) if f)}
     rows = [[op_cell(o)] + [get[c](o) for c in cols] for o in ops]
