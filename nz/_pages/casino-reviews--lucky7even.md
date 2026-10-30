@@ -11,7 +11,7 @@ Facts checked 8 October 2026
 
 # Lucky7even Review NZ [November 2026] : Is It Legit? Licence, Owner, NZD Banking and Limits
 
-Joint-highest independent safety rating here, with NZD banking from the Hollycorn group.![Hana McAllister](/images/authors/hana-mcallister.jpg)Written by [**Hana McAllister** ](https://ascotcardiologygroup.co.nz/nz/authors/#hana-mcallister), Editor Checked by [Wiremu Salter](https://ascotcardiologygroup.co.nz/nz/authors/#wiremu-salter) Updated 30 October 2026     ![Lucky7even logo](/logos/lucky7even.jpg) 
+Joint-highest independent safety rating here, with NZD banking from the Hollycorn group.![Hana McAllister](/images/authors/hana-mcallister.jpg)Written by [**Hana McAllister** ](https://ascotcardiologygroup.co.nz/nz/authors/#hana-mcallister), Editor Checked by [Wiremu Salter](https://ascotcardiologygroup.co.nz/nz/authors/#wiremu-salter) Updated 1 November 2026     ![Lucky7even logo](/logos/lucky7even.jpg) 
 
 **8.0** out of 10  
 Ledger score * 

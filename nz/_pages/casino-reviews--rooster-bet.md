@@ -11,7 +11,7 @@ Facts checked 8 October 2026
 
 # Rooster Bet Review NZ [November 2026] : Is It Legit? Licence, Owner, NZD Banking and Limits
 
-Three licences and an owner named on its own website, with casino and sport in one place.![Hana McAllister](/images/authors/hana-mcallister.jpg)Written by [**Hana McAllister** ](https://ascotcardiologygroup.co.nz/nz/authors/#hana-mcallister), Editor Checked by [Wiremu Salter](https://ascotcardiologygroup.co.nz/nz/authors/#wiremu-salter) Updated 30 October 2026     ![Rooster Bet logo](/logos/rooster-bet.png) 
+Three licences and an owner named on its own website, with casino and sport in one place.![Hana McAllister](/images/authors/hana-mcallister.jpg)Written by [**Hana McAllister** ](https://ascotcardiologygroup.co.nz/nz/authors/#hana-mcallister), Editor Checked by [Wiremu Salter](https://ascotcardiologygroup.co.nz/nz/authors/#wiremu-salter) Updated 1 November 2026     ![Rooster Bet logo](/logos/rooster-bet.png) 
 
 **8.1** out of 10  
 Ledger score * 

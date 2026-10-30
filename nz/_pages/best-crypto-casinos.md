@@ -11,7 +11,7 @@ Facts checked 8 October 2026
 
 # Best Crypto Casinos NZ [November 2026] : Bitcoin, USDT and Ethereum Casinos, With Fees and Tax for Kiwis
 
-How Bitcoin, USDT, Litecoin and Ethereum casinos work, what moving each coin costs, the route from NZ dollars to crypto and back, the risks, and how Inland Revenue treats crypto. Every casino here accepts crypto. Show more![Tama Rewiti](/images/authors/tama-rewiti.jpg)Written by [**Tama Rewiti** ](https://ascotcardiologygroup.co.nz/nz/authors/#tama-rewiti), Payments Writer Checked by [Wiremu Salter](https://ascotcardiologygroup.co.nz/nz/authors/#wiremu-salter) Updated 30 October 2026    
+How Bitcoin, USDT, Litecoin and Ethereum casinos work, what moving each coin costs, the route from NZ dollars to crypto and back, the risks, and how Inland Revenue treats crypto. Every casino here accepts crypto. Show more![Tama Rewiti](/images/authors/tama-rewiti.jpg)Written by [**Tama Rewiti** ](https://ascotcardiologygroup.co.nz/nz/authors/#tama-rewiti), Payments Writer Checked by [Wiremu Salter](https://ascotcardiologygroup.co.nz/nz/authors/#wiremu-salter) Updated 1 November 2026    
 
 - **13** casinos accepting crypto 
 - **Spino** crypto-first, no NZD 

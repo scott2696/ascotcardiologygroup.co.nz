@@ -11,7 +11,7 @@ Facts checked 8 October 2026
 
 # New Online Casinos NZ [November 2026] : Best New Casino Sites, Dated by Licence and Checked Before You Join
 
-Ten newer casino brands that New Zealanders ask about, dated by their licence numbers rather than marketing claims. Plus the six checks for any new casino and why the 2026 Act stopped new brands entering New Zealand. Show more![Hana McAllister](/images/authors/hana-mcallister.jpg)Written by [**Hana McAllister** ](https://ascotcardiologygroup.co.nz/nz/authors/#hana-mcallister), Editor Checked by [Wiremu Salter](https://ascotcardiologygroup.co.nz/nz/authors/#wiremu-salter) Updated 30 October 2026    
+Ten newer casino brands that New Zealanders ask about, dated by their licence numbers rather than marketing claims. Plus the six checks for any new casino and why the 2026 Act stopped new brands entering New Zealand. Show more![Hana McAllister](/images/authors/hana-mcallister.jpg)Written by [**Hana McAllister** ](https://ascotcardiologygroup.co.nz/nz/authors/#hana-mcallister), Editor Checked by [Wiremu Salter](https://ascotcardiologygroup.co.nz/nz/authors/#wiremu-salter) Updated 1 November 2026    
 
 - **9** newer brands checked 
 - **June 2026** newest licence on our list 

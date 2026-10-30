@@ -11,7 +11,7 @@ Facts checked 8 October 2026
 
 # Best Sports Betting Sites NZ [November 2026] : Top Bookies Compared on Licence, Limits and the 2025 Law
 
-How TAB NZ compares with the offshore sportsbooks New Zealanders still ask about, checked on licence, owner, NZD banking and limits. Since June 2025 only TAB NZ may lawfully take your bets. Show more![Alex McDonald](/images/authors/alex-mcdonald.jpg)Written by [**Alex McDonald** ](https://ascotcardiologygroup.co.nz/nz/authors/#alex-mcdonald), Sport Writer Checked by [Wiremu Salter](https://ascotcardiologygroup.co.nz/nz/authors/#wiremu-salter) Updated 30 October 2026    
+How TAB NZ compares with the offshore sportsbooks New Zealanders still ask about, checked on licence, owner, NZD banking and limits. Since June 2025 only TAB NZ may lawfully take your bets. Show more![Alex McDonald](/images/authors/alex-mcdonald.jpg)Written by [**Alex McDonald** ](https://ascotcardiologygroup.co.nz/nz/authors/#alex-mcdonald), Sport Writer Checked by [Wiremu Salter](https://ascotcardiologygroup.co.nz/nz/authors/#wiremu-salter) Updated 1 November 2026    
 
 - **1** lawful online bookmaker 
 - **11** offshore books checked 

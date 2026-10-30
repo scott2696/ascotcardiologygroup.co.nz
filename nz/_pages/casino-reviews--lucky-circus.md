@@ -11,7 +11,7 @@ Facts checked 8 October 2026
 
 # Lucky Circus Review NZ [November 2026] : Is It Legit? Licence, Owner, NZD Banking and Limits
 
-Novatrix casino with NZD support, but a low weekly limit and a daily win cap.![Hana McAllister](/images/authors/hana-mcallister.jpg)Written by [**Hana McAllister** ](https://ascotcardiologygroup.co.nz/nz/authors/#hana-mcallister), Editor Checked by [Wiremu Salter](https://ascotcardiologygroup.co.nz/nz/authors/#wiremu-salter) Updated 30 October 2026     ![Lucky Circus logo](/logos/lucky-circus.jpg) 
+Novatrix casino with NZD support, but a low weekly limit and a daily win cap.![Hana McAllister](/images/authors/hana-mcallister.jpg)Written by [**Hana McAllister** ](https://ascotcardiologygroup.co.nz/nz/authors/#hana-mcallister), Editor Checked by [Wiremu Salter](https://ascotcardiologygroup.co.nz/nz/authors/#wiremu-salter) Updated 1 November 2026     ![Lucky Circus logo](/logos/lucky-circus.jpg) 
 
 **6.8** out of 10  
 Ledger score * 

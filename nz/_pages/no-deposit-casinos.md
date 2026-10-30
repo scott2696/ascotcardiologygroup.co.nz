@@ -11,7 +11,7 @@ Facts checked 8 October 2026
 
 # No Deposit Bonus NZ [November 2026] : Free Spins and No Deposit Offers, and the Win Caps Behind Them
 
-No deposit bonuses are free to claim and designed so few players cash out. Here is how free spins and bonus cash really work, the maths of a typical offer, and how to tell a real offer from bait. Show more![Hana McAllister](/images/authors/hana-mcallister.jpg)Written by [**Hana McAllister** ](https://ascotcardiologygroup.co.nz/nz/authors/#hana-mcallister), Editor Checked by [Tama Rewiti](https://ascotcardiologygroup.co.nz/nz/authors/#tama-rewiti) Updated 30 October 2026    
+No deposit bonuses are free to claim and designed so few players cash out. Here is how free spins and bonus cash really work, the maths of a typical offer, and how to tell a real offer from bait. Show more![Hana McAllister](/images/authors/hana-mcallister.jpg)Written by [**Hana McAllister** ](https://ascotcardiologygroup.co.nz/nz/authors/#hana-mcallister), Editor Checked by [Tama Rewiti](https://ascotcardiologygroup.co.nz/nz/authors/#tama-rewiti) Updated 1 November 2026    
 
 - **NZ$50–100** typical max cashout 
 - **40x+** typical wagering 

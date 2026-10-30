@@ -9,7 +9,7 @@ words: 2702
 
 # Online Casino Reviews NZ [November 2026] : 15 Casinos and Betting Sites Rated on Licence, Owner and Limits
 
-Fifteen casino and betting sites that New Zealanders ask about, each checked against public licence records, the operator's own terms and independent safety data. No links, no sign-up offers, sources on every page. Show more![Hana McAllister](/images/authors/hana-mcallister.jpg)Written by [**Hana McAllister** ](https://ascotcardiologygroup.co.nz/nz/authors/#hana-mcallister), Editor Checked by [Wiremu Salter](https://ascotcardiologygroup.co.nz/nz/authors/#wiremu-salter) Updated 30 October 2026    
+Fifteen casino and betting sites that New Zealanders ask about, each checked against public licence records, the operator's own terms and independent safety data. No links, no sign-up offers, sources on every page. Show more![Hana McAllister](/images/authors/hana-mcallister.jpg)Written by [**Hana McAllister** ](https://ascotcardiologygroup.co.nz/nz/authors/#hana-mcallister), Editor Checked by [Wiremu Salter](https://ascotcardiologygroup.co.nz/nz/authors/#wiremu-salter) Updated 1 November 2026    
 
 - **15** sites reviewed 
 - **9** with an NZD balance 

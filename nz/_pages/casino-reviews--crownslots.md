@@ -11,7 +11,7 @@ Facts checked 8 October 2026
 
 # CrownSlots Review NZ [November 2026] : Is It Legit? Licence, Owner, NZD Banking and Limits
 
-A large staged welcome package, but the operator and licence number are not clearly published.![Hana McAllister](/images/authors/hana-mcallister.jpg)Written by [**Hana McAllister** ](https://ascotcardiologygroup.co.nz/nz/authors/#hana-mcallister), Editor Checked by [Wiremu Salter](https://ascotcardiologygroup.co.nz/nz/authors/#wiremu-salter) Updated 30 October 2026     ![CrownSlots logo](/logos/crownslots.png) 
+A large staged welcome package, but the operator and licence number are not clearly published.![Hana McAllister](/images/authors/hana-mcallister.jpg)Written by [**Hana McAllister** ](https://ascotcardiologygroup.co.nz/nz/authors/#hana-mcallister), Editor Checked by [Wiremu Salter](https://ascotcardiologygroup.co.nz/nz/authors/#wiremu-salter) Updated 1 November 2026     ![CrownSlots logo](/logos/crownslots.png) 
 
 **4.8** out of 10  
 Ledger score * 

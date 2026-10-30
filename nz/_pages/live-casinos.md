@@ -11,7 +11,7 @@ Facts checked 8 October 2026
 
 # Live Casino NZ [November 2026] : Best Live Dealer Casinos for Blackjack, Roulette, Baccarat and Game Shows
 
-How live dealer blackjack, roulette, baccarat and game shows work, the house edge on each bet, stake ranges and studio hours for New Zealand players. Plus the casinos New Zealanders ask about, checked. Show more![Olivia Brandt](/images/authors/olivia-brandt.jpg)Written by [**Olivia Brandt** ](https://ascotcardiologygroup.co.nz/nz/authors/#olivia-brandt), Games Writer Checked by [Hana McAllister](https://ascotcardiologygroup.co.nz/nz/authors/#hana-mcallister) Updated 30 October 2026    
+How live dealer blackjack, roulette, baccarat and game shows work, the house edge on each bet, stake ranges and studio hours for New Zealand players. Plus the casinos New Zealanders ask about, checked. Show more![Olivia Brandt](/images/authors/olivia-brandt.jpg)Written by [**Olivia Brandt** ](https://ascotcardiologygroup.co.nz/nz/authors/#olivia-brandt), Games Writer Checked by [Hana McAllister](https://ascotcardiologygroup.co.nz/nz/authors/#hana-mcallister) Updated 1 November 2026    
 
 - **0.5%** live blackjack edge 
 - **1.06%** baccarat banker 

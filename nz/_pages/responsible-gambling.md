@@ -11,7 +11,7 @@ Checked 8 October 2026
 
 # Responsible Gambling NZ [November 2026] : Free Help, Tools, Bank Blocks and Self-Exclusion
 
-Free, confidential help is available 24/7. Here are the warning signs, the tools that actually work, including bank gambling blocks and self-exclusion, and how to support someone in your whānau. Show more![Wiremu Salter](/images/authors/wiremu-salter.jpg)Written by [**Wiremu Salter** ](https://ascotcardiologygroup.co.nz/nz/authors/#wiremu-salter), Law and Safety Writer Checked by [Hana McAllister](https://ascotcardiologygroup.co.nz/nz/authors/#hana-mcallister) Updated 30 October 2026    
+Free, confidential help is available 24/7. Here are the warning signs, the tools that actually work, including bank gambling blocks and self-exclusion, and how to support someone in your whānau. Show more![Wiremu Salter](/images/authors/wiremu-salter.jpg)Written by [**Wiremu Salter** ](https://ascotcardiologygroup.co.nz/nz/authors/#wiremu-salter), Law and Safety Writer Checked by [Hana McAllister](https://ascotcardiologygroup.co.nz/nz/authors/#hana-mcallister) Updated 1 November 2026    
 
 - **0800 654 655** Gambling Helpline 
 - **8006** free text 

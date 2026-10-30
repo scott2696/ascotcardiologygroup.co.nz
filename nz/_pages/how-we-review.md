@@ -11,7 +11,7 @@ Checked 8 October 2026
 
 # How We Rate Online Casinos [November 2026] : Our Review Method, the Ledger Score and Our Sources
 
-Every number on this site can be traced back to a public source. Here is exactly how the Ledger score is calculated, the sources we use, how often we recheck, and the rules we never break. Show more![Hana McAllister](/images/authors/hana-mcallister.jpg)Written by [**Hana McAllister** ](https://ascotcardiologygroup.co.nz/nz/authors/#hana-mcallister), Editor Checked by [Wiremu Salter](https://ascotcardiologygroup.co.nz/nz/authors/#wiremu-salter) Updated 30 October 2026    
+Every number on this site can be traced back to a public source. Here is exactly how the Ledger score is calculated, the sources we use, how often we recheck, and the rules we never break. Show more![Hana McAllister](/images/authors/hana-mcallister.jpg)Written by [**Hana McAllister** ](https://ascotcardiologygroup.co.nz/nz/authors/#hana-mcallister), Editor Checked by [Wiremu Salter](https://ascotcardiologygroup.co.nz/nz/authors/#wiremu-salter) Updated 1 November 2026    
 
 - **5** weighted inputs 
 - **40%** independent safety 

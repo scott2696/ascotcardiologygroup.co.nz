@@ -34,6 +34,9 @@ CHECKED = "8 October 2026"
 NEXT_CHECK = "8 November 2026"
 
 UPDATED = "@@LASTMOD@@"
+# Publication refresh: every page shows at least this updated date (byline,
+# dateModified, sitemap lastmod). Set for the 1 November 2026 release.
+UPDATED_FLOOR = "2026-11-01"
 UPDATED_NZ = "@@LASTMOD_NZ@@"
 
 # ---------------------------------------------------------------------------
@@ -824,14 +827,15 @@ def write(path, body, schema=None, priority=0.7, freq="monthly", author=None):
     if not rec or rec.get("hash") != h:
         rec = {"hash": h, "date": TODAY}
         LASTMOD[path] = rec
-    doc = doc.replace(UPDATED_NZ, nzdate(rec["date"])).replace(UPDATED, rec["date"])
+    shown = max(rec["date"], UPDATED_FLOOR)
+    doc = doc.replace(UPDATED_NZ, nzdate(shown)).replace(UPDATED, shown)
     # Pages are written with site-relative links; prefix every one with BASE.
     doc = re.sub(r'(\s(?:href|src|action)=")/(?!/)', r"\1" + BASE + "/", doc)
     out = os.path.join(ROOT, "index.html") if path == "/" else os.path.join(ROOT, path.strip("/"), "index.html")
     os.makedirs(os.path.dirname(out), exist_ok=True)
     open(out, "w", encoding="utf-8").write(doc)
-    PAGES.append((path, rec["date"], priority, freq))
-    SOURCES[path] = (author, body.replace(UPDATED_NZ, nzdate(rec["date"])).replace(UPDATED, rec["date"]))
+    PAGES.append((path, shown, priority, freq))
+    SOURCES[path] = (author, body.replace(UPDATED_NZ, nzdate(shown)).replace(UPDATED, shown))
     return path
 
 

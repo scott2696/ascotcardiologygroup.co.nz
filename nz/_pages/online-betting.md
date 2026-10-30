@@ -11,7 +11,7 @@ Checked 8 October 2026
 
 # Online Betting NZ [November 2026] : Racing and Sports Betting, TAB NZ and the Offshore Ban Explained
 
-Online betting in New Zealand changed in June 2025, when TAB NZ became the only lawful online bookmaker. This guide explains the law, how odds and bookmaker margins work, every main bet type, the rugby, league, netball, cricket and racing markets Kiwis bet on, and how to bet within your limits. Show more![Alex McDonald](/images/authors/alex-mcdonald.jpg)Written by [**Alex McDonald** ](https://ascotcardiologygroup.co.nz/nz/authors/#alex-mcdonald), Sport Writer Checked by [Wiremu Salter](https://ascotcardiologygroup.co.nz/nz/authors/#wiremu-salter) Updated 30 October 2026    
+Online betting in New Zealand changed in June 2025, when TAB NZ became the only lawful online bookmaker. This guide explains the law, how odds and bookmaker margins work, every main bet type, the rugby, league, netball, cricket and racing markets Kiwis bet on, and how to bet within your limits. Show more![Alex McDonald](/images/authors/alex-mcdonald.jpg)Written by [**Alex McDonald** ](https://ascotcardiologygroup.co.nz/nz/authors/#alex-mcdonald), Sport Writer Checked by [Wiremu Salter](https://ascotcardiologygroup.co.nz/nz/authors/#wiremu-salter) Updated 1 November 2026    
 
 - **28 Jun 2025** offshore bookmaker ban in force 
 - **1** lawful online bookmaker: TAB NZ 

@@ -11,7 +11,7 @@ Facts checked 8 October 2026
 
 # Gunsbet Review NZ [November 2026] : Is It Legit? Licence, Owner, NZD Banking and Limits
 
-Sportsbook listing with a very large supplied welcome headline and a named owner.![Hana McAllister](/images/authors/hana-mcallister.jpg)Written by [**Hana McAllister** ](https://ascotcardiologygroup.co.nz/nz/authors/#hana-mcallister), Editor Checked by [Wiremu Salter](https://ascotcardiologygroup.co.nz/nz/authors/#wiremu-salter) Updated 30 October 2026     ![Gunsbet logo](/logos/gunsbet.png) 
+Sportsbook listing with a very large supplied welcome headline and a named owner.![Hana McAllister](/images/authors/hana-mcallister.jpg)Written by [**Hana McAllister** ](https://ascotcardiologygroup.co.nz/nz/authors/#hana-mcallister), Editor Checked by [Wiremu Salter](https://ascotcardiologygroup.co.nz/nz/authors/#wiremu-salter) Updated 1 November 2026     ![Gunsbet logo](/logos/gunsbet.png) 
 
 **7.3** out of 10  
 Ledger score * 
