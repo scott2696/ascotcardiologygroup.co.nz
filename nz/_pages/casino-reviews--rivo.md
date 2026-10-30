@@ -4,16 +4,19 @@ title: "Rivo Review NZ [October 2026]: Is It Legit?"
 meta_description: "Is Rivo safe for Kiwis? Our review checks its Anjouan licence, currency, payout limits and safety score, and what 1 December means for NZ."
 h1: "Rivo Review NZ [October 2026]: Is It Legit? Licence, Owner, NZD Banking and Limits"
 author: Hana McAllister
-words: 1083
+words: 1101
 ---
 
-Facts checked 8 October 2026![Rivo logo](/logos/rivo.png) 
+Facts checked 8 October 2026
 
 # Rivo Review NZ [October 2026] : Is It Legit? Licence, Owner, NZD Banking and Limits
 
-Exceptiosoft-run casino and sportsbook with a 2026 Anjouan licence and euro-only limits.Written by [**Hana McAllister** ](https://ascotcardiologygroup.co.nz/nz/authors/#hana-mcallister), Editor Checked by [Wiremu Salter](https://ascotcardiologygroup.co.nz/nz/authors/#wiremu-salter) Updated 30 October 2026     
+Exceptiosoft-run casino and sportsbook with a 2026 Anjouan licence and euro-only limits.Written by [**Hana McAllister** ](https://ascotcardiologygroup.co.nz/nz/authors/#hana-mcallister), Editor Checked by [Wiremu Salter](https://ascotcardiologygroup.co.nz/nz/authors/#wiremu-salter) Updated 30 October 2026     ![Rivo logo](/logos/rivo.png) 
 
-**6.3** Ledger score / 10   
+**6.3** out of 10  
+Ledger score * Visit site[See the key facts](#facts)
+
+18+ only. Free help: [0800 654 655](tel:0800654655) 
 
 The legal position, in short
 

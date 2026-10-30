@@ -134,10 +134,18 @@ def build_review(op):
     t, d, h1 = _meta(op)
     PAGE_EXTRA[P] = (t, d, h1)
     trail = [("Casino reviews", "/casino-reviews/"), (op["name"], P)]
-    head = (f'<header class="hero"><div class="wrap"><p class="kicker">Facts checked {CHECKED}</p>'
-            f'<div class="rv-top"><div class="rv-logo{" logo--dark" if op.get("logo_dark") else ""}">{logo_img(op, 200, 96, True)}</div>'
-            f'<div><h1>{stamp(h1)}</h1><p class="lead">{op["tagline"]}</p>{byline(AUTH, CHECK)}</div>'
-            f'<p class="rv-score"><b>{op["rating"]:.1f}</b><span>Ledger score / 10</span></p></div></div></header>')
+    offer = f'<p class="rv-offer"><span>Offer on record</span>{esc(op["offer"])}</p>' if op.get("offer") else ""
+    head = (f'<header class="hero hero--rv"><div class="wrap rv-grid">'
+            f'<div class="rv-copy"><p class="kicker">Facts checked {CHECKED}</p><h1>{stamp(h1)}</h1>'
+            f'<p class="lead">{op["tagline"]}</p>{byline(AUTH, CHECK)}</div>'
+            f'<aside class="rv-card" aria-label="{attr(op["name"])} scorecard">'
+            f'<div class="rv-logo{" logo--dark" if op.get("logo_dark") else ""}">{logo_img(op, 200, 96, True)}</div>'
+            f'<p class="rv-score"><b>{op["rating"]:.1f}</b><span>out of 10<br>Ledger score</span></p>'
+            f'<div class="rv-bar" aria-hidden="true"><i style="width:{op["rating"] * 10:.0f}%"></i></div>'
+            f'{offer}{visit_btn(op, "casino" if op["casino"] else "sports", "btn btn--block")}'
+            f'<a class="rv-jump" href="#facts">See the key facts</a>'
+            f'<p class="rv-rg">18+ only. Free help: <a href="tel:0800654655">0800 654 655</a></p></aside>'
+            f'</div></header>')
     faq_html, ents = faq(_faqs(op), heading=f"{op['name']}: common questions")
     srcs = "".join(f'<li>{esc(n)}{": " + esc(u) if u else ""}</li>' for n, u in op["sources"])
     body = (head + crumbs(trail)

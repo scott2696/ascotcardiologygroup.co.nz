@@ -4,16 +4,19 @@ title: "Lucky7even Review NZ [October 2026]: Is It Legit?"
 meta_description: "Is Lucky7even safe for Kiwis? Our review checks its Tobique + Anjouan licence, NZD balance, payout limits and safety score, and what 1 December means for NZ."
 h1: "Lucky7even Review NZ [October 2026]: Is It Legit? Licence, Owner, NZD Banking and Limits"
 author: Hana McAllister
-words: 1118
+words: 1136
 ---
 
-Facts checked 8 October 2026![Lucky7even logo](/logos/lucky7even.jpg) 
+Facts checked 8 October 2026
 
 # Lucky7even Review NZ [October 2026] : Is It Legit? Licence, Owner, NZD Banking and Limits
 
-Joint-highest independent safety rating here, with NZD banking from the Hollycorn group.Written by [**Hana McAllister** ](https://ascotcardiologygroup.co.nz/nz/authors/#hana-mcallister), Editor Checked by [Wiremu Salter](https://ascotcardiologygroup.co.nz/nz/authors/#wiremu-salter) Updated 30 October 2026     
+Joint-highest independent safety rating here, with NZD banking from the Hollycorn group.Written by [**Hana McAllister** ](https://ascotcardiologygroup.co.nz/nz/authors/#hana-mcallister), Editor Checked by [Wiremu Salter](https://ascotcardiologygroup.co.nz/nz/authors/#wiremu-salter) Updated 30 October 2026     ![Lucky7even logo](/logos/lucky7even.jpg) 
 
-**8.0** Ledger score / 10   
+**8.0** out of 10  
+Ledger score * Visit site[See the key facts](#facts)
+
+18+ only. Free help: [0800 654 655](tel:0800654655) 
 
 The legal position, in short
 

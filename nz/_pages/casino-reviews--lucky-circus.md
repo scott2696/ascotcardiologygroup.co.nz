@@ -4,16 +4,19 @@ title: "Lucky Circus Review NZ [October 2026]: Is It Legit?"
 meta_description: "Is Lucky Circus safe for Kiwis? Our review checks its Anjouan + Tobique licence, NZD balance, payout limits and safety score, and what 1 December means for NZ."
 h1: "Lucky Circus Review NZ [October 2026]: Is It Legit? Licence, Owner, NZD Banking and Limits"
 author: Hana McAllister
-words: 1120
+words: 1138
 ---
 
-Facts checked 8 October 2026![Lucky Circus logo](/logos/lucky-circus.jpg) 
+Facts checked 8 October 2026
 
 # Lucky Circus Review NZ [October 2026] : Is It Legit? Licence, Owner, NZD Banking and Limits
 
-Novatrix casino with NZD support, but a low weekly limit and a daily win cap.Written by [**Hana McAllister** ](https://ascotcardiologygroup.co.nz/nz/authors/#hana-mcallister), Editor Checked by [Wiremu Salter](https://ascotcardiologygroup.co.nz/nz/authors/#wiremu-salter) Updated 30 October 2026     
+Novatrix casino with NZD support, but a low weekly limit and a daily win cap.Written by [**Hana McAllister** ](https://ascotcardiologygroup.co.nz/nz/authors/#hana-mcallister), Editor Checked by [Wiremu Salter](https://ascotcardiologygroup.co.nz/nz/authors/#wiremu-salter) Updated 30 October 2026     ![Lucky Circus logo](/logos/lucky-circus.jpg) 
 
-**6.8** Ledger score / 10   
+**6.8** out of 10  
+Ledger score * Visit site[See the key facts](#facts)
+
+18+ only. Free help: [0800 654 655](tel:0800654655) 
 
 The legal position, in short
 

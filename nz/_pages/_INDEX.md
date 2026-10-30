@@ -1,6 +1,6 @@
 # Page index
 
-38 pages, 49,945 words.
+38 pages, 50,265 words.
 
 | Words | URL | File |
 |---:|---|---|
@@ -18,22 +18,22 @@
 | 1,524 | `/fast-payout-casinos/` | `_pages/fast-payout-casinos.md` |
 | 1,405 | `/casino-reviews/` | `_pages/casino-reviews.md` |
 | 1,331 | `/payment-methods/` | `_pages/payment-methods.md` |
-| 1,178 | `/casino-reviews/spinjo/` | `_pages/casino-reviews--spinjo.md` |
-| 1,172 | `/casino-reviews/crownslots/` | `_pages/casino-reviews--crownslots.md` |
-| 1,168 | `/casino-reviews/gunsbet/` | `_pages/casino-reviews--gunsbet.md` |
-| 1,156 | `/casino-reviews/rooster-bet/` | `_pages/casino-reviews--rooster-bet.md` |
-| 1,120 | `/casino-reviews/lucky-circus/` | `_pages/casino-reviews--lucky-circus.md` |
-| 1,118 | `/casino-reviews/lucky7even/` | `_pages/casino-reviews--lucky7even.md` |
-| 1,112 | `/casino-reviews/betandplay/` | `_pages/casino-reviews--betandplay.md` |
-| 1,106 | `/casino-reviews/trixino/` | `_pages/casino-reviews--trixino.md` |
-| 1,102 | `/casino-reviews/fortune-play/` | `_pages/casino-reviews--fortune-play.md` |
-| 1,098 | `/casino-reviews/madcasino/` | `_pages/casino-reviews--madcasino.md` |
-| 1,088 | `/casino-reviews/kingdom/` | `_pages/casino-reviews--kingdom.md` |
-| 1,086 | `/casino-reviews/lucky-vibe/` | `_pages/casino-reviews--lucky-vibe.md` |
-| 1,083 | `/casino-reviews/rivo/` | `_pages/casino-reviews--rivo.md` |
-| 1,066 | `/casino-reviews/smash/` | `_pages/casino-reviews--smash.md` |
+| 1,204 | `/casino-reviews/crownslots/` | `_pages/casino-reviews--crownslots.md` |
+| 1,196 | `/casino-reviews/spinjo/` | `_pages/casino-reviews--spinjo.md` |
+| 1,196 | `/casino-reviews/gunsbet/` | `_pages/casino-reviews--gunsbet.md` |
+| 1,174 | `/casino-reviews/rooster-bet/` | `_pages/casino-reviews--rooster-bet.md` |
+| 1,139 | `/casino-reviews/trixino/` | `_pages/casino-reviews--trixino.md` |
+| 1,138 | `/casino-reviews/lucky-circus/` | `_pages/casino-reviews--lucky-circus.md` |
+| 1,136 | `/casino-reviews/lucky7even/` | `_pages/casino-reviews--lucky7even.md` |
+| 1,130 | `/casino-reviews/betandplay/` | `_pages/casino-reviews--betandplay.md` |
+| 1,120 | `/casino-reviews/fortune-play/` | `_pages/casino-reviews--fortune-play.md` |
+| 1,117 | `/casino-reviews/kingdom/` | `_pages/casino-reviews--kingdom.md` |
+| 1,116 | `/casino-reviews/madcasino/` | `_pages/casino-reviews--madcasino.md` |
+| 1,104 | `/casino-reviews/lucky-vibe/` | `_pages/casino-reviews--lucky-vibe.md` |
+| 1,101 | `/casino-reviews/rivo/` | `_pages/casino-reviews--rivo.md` |
+| 1,084 | `/casino-reviews/smash/` | `_pages/casino-reviews--smash.md` |
+| 989 | `/casino-reviews/spino/` | `_pages/casino-reviews--spino.md` |
 | 988 | `/responsible-gambling/` | `_pages/responsible-gambling.md` |
-| 971 | `/casino-reviews/spino/` | `_pages/casino-reviews--spino.md` |
 | 869 | `/how-we-review/` | `_pages/how-we-review.md` |
 | 813 | `/gambling-winnings-tax-nz/` | `_pages/gambling-winnings-tax-nz.md` |
 | 408 | `/authors/` | `_pages/authors.md` |

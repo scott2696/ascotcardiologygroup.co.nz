@@ -4,16 +4,21 @@ title: "Trixino Review NZ [October 2026]: Is It Legit?"
 meta_description: "Is Trixino safe for Kiwis? Our review checks its not confirmed licence, currency, payout limits and safety score, and what 1 December means for NZ."
 h1: "Trixino Review NZ [October 2026]: Is It Legit? Licence, Owner, NZD Banking and Limits"
 author: Hana McAllister
-words: 1106
+words: 1139
 ---
 
-Facts checked 8 October 2026![Trixino logo](/logos/trixino.png) 
+Facts checked 8 October 2026
 
 # Trixino Review NZ [October 2026] : Is It Legit? Licence, Owner, NZD Banking and Limits
 
-Unusually low 7x wagering on a 777% six-stage package, but licence and owner unconfirmed.Written by [**Hana McAllister** ](https://ascotcardiologygroup.co.nz/nz/authors/#hana-mcallister), Editor Checked by [Wiremu Salter](https://ascotcardiologygroup.co.nz/nz/authors/#wiremu-salter) Updated 30 October 2026     
+Unusually low 7x wagering on a 777% six-stage package, but licence and owner unconfirmed.Written by [**Hana McAllister** ](https://ascotcardiologygroup.co.nz/nz/authors/#hana-mcallister), Editor Checked by [Wiremu Salter](https://ascotcardiologygroup.co.nz/nz/authors/#wiremu-salter) Updated 30 October 2026     ![Trixino logo](/logos/trixino.png) 
 
-**4.1** Ledger score / 10   
+**4.1** out of 10  
+Ledger score * 
+
+Offer on record 777% across six deposits, up to €7,777 in total, at 7x wageringVisit site[See the key facts](#facts)
+
+18+ only. Free help: [0800 654 655](tel:0800654655) 
 
 The legal position, in short
 

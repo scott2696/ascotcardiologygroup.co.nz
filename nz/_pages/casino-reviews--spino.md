@@ -4,16 +4,19 @@ title: "Spino Review NZ [October 2026]: Is It Legit?"
 meta_description: "Is Spino safe for Kiwis? Our review checks its Anjouan licence, currency, payout limits and safety score, and what 1 December means for NZ."
 h1: "Spino Review NZ [October 2026]: Is It Legit? Licence, Owner, NZD Banking and Limits"
 author: Hana McAllister
-words: 971
+words: 989
 ---
 
-Facts checked 8 October 2026![Spino logo](/logos/spino.jpg) 
+Facts checked 8 October 2026
 
 # Spino Review NZ [October 2026] : Is It Legit? Licence, Owner, NZD Banking and Limits
 
-Crypto-first casino and sportsbook with an Anjouan licence and a clean complaint record.Written by [**Hana McAllister** ](https://ascotcardiologygroup.co.nz/nz/authors/#hana-mcallister), Editor Checked by [Wiremu Salter](https://ascotcardiologygroup.co.nz/nz/authors/#wiremu-salter) Updated 30 October 2026     
+Crypto-first casino and sportsbook with an Anjouan licence and a clean complaint record.Written by [**Hana McAllister** ](https://ascotcardiologygroup.co.nz/nz/authors/#hana-mcallister), Editor Checked by [Wiremu Salter](https://ascotcardiologygroup.co.nz/nz/authors/#wiremu-salter) Updated 30 October 2026     ![Spino logo](/logos/spino.jpg) 
 
-**6.0** Ledger score / 10   
+**6.0** out of 10  
+Ledger score * Visit site[See the key facts](#facts)
+
+18+ only. Free help: [0800 654 655](tel:0800654655) 
 
 The legal position, in short
 

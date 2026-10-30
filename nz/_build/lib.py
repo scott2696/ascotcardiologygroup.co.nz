@@ -499,6 +499,15 @@ def badge(op):
     return ""
 
 
+def visit_btn(op, kind="casino", cls="btn"):
+    """The Visit site button: the affiliate link when links are on for this
+    market, otherwise a placeholder with no destination."""
+    u = aff_url(op, kind)
+    if u:
+        return f'<a class="{cls}" href="{attr(u)}" rel="sponsored nofollow noopener" target="_blank">Visit site</a>'
+    return f'<button type="button" class="{cls}">Visit site</button>'
+
+
 def toplist(ops, kind="casino", start=1, note_=True, eager=2):
     """The ranked list. Every row is a set of checkable facts and a link to our
     own review. There is no outbound link."""
@@ -525,12 +534,7 @@ def toplist(ops, kind="casino", start=1, note_=True, eager=2):
             f'<p class="tl-why">{op["tagline"]}</p>{offer}'
             f'<ul class="tl-facts">{fl}</ul><div class="tl-chips">{"".join(chips)}</div></div>'
             f'<div class="tl-side"><p class="tl-score"><b>{op["rating"]:.1f}</b><span>Ledger score</span></p>'
-            + (f'<a class="btn" href="{attr(aff_url(op, kind))}" rel="sponsored nofollow noopener" target="_blank">Visit site</a>'
-               f'<a class="btn btn--ghost" href="{review_url(op)}">Read the review</a>' if aff_url(op, kind) else
-               # Placeholder until affiliate links are switched on: the publisher
-               # wants the button in place; it has no destination.
-               f'<button type="button" class="btn">Visit site</button>'
-               f'<a class="btn btn--ghost" href="{review_url(op)}">Read the review</a>')
+            + visit_btn(op, kind) + f'<a class="btn btn--ghost" href="{review_url(op)}">Read the review</a>'
             + f'<p class="tl-tc">Facts checked {CHECKED}</p></div></li>')
     out.append("</ol>")
     if note_:
