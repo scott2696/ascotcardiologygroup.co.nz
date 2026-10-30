@@ -520,3 +520,33 @@ h3,h4{font-weight:700}
 .brand{font-size:1.4rem;gap:12px;letter-spacing:.03em}
 .brand .mark{width:46px;height:46px}
 @media(max-width:759px){.brand{font-size:1.12rem;gap:9px}.brand .mark{width:36px;height:36px}}
+
+/* Stars: hidden on desktop (the dial is shown there), used by the mobile card */
+.tl-stars{display:none}
+
+/* Mobile: centred card - rank badge, logo, stars, name, highlighted bonus, full-width button */
+@media(max-width:759px){
+  .tl{gap:18px}
+  .tl-row{display:flex;flex-direction:column;align-items:center;text-align:center;position:relative;
+    padding:20px 18px 18px;background:var(--berm);border:1px solid var(--wire);border-bottom:1px solid var(--wire);
+    border-radius:14px;box-shadow:0 10px 24px rgba(0,0,0,.28)}
+  .tl-rank{position:absolute;top:14px;left:14px;width:40px;height:40px;border-radius:50%;clip-path:none;padding:0;
+    display:grid;place-items:center;background:var(--flash);z-index:1}
+  .tl-rank b{font-size:18px;padding:0}
+  .tl-logo{order:1;width:220px;max-width:70%;height:104px;min-height:0;margin:0 auto;padding:10px 16px;border-radius:12px;background:var(--bone)}
+  .tl-logo img{max-height:80px}
+  .tl-stars{order:2;display:block;margin:12px 0 0;font-size:21px;line-height:1;letter-spacing:4px;
+    background:linear-gradient(90deg,var(--flare) var(--pct),var(--wire) var(--pct));-webkit-background-clip:text;background-clip:text;color:transparent}
+  .tl-score{display:none}
+  .tl-main{order:3;padding:0;margin-top:12px;width:100%}
+  .tl-name{font-size:22px;text-transform:none;letter-spacing:0}
+  .tl-name a{color:var(--lamp)}
+  .tl-offer.tl-bonus{margin:12px 0 0;padding:12px 14px;border:1px dashed var(--flash);border-left:1px dashed var(--flash);border-radius:10px;
+    background:rgba(196,56,35,.14);color:var(--flare);font-size:19px;line-height:1.3;text-align:center}
+  .tl-bonus-k{color:var(--dust);font-size:10.5px;margin-bottom:5px}
+  .tl-offer:not(.tl-bonus){border-top:0;padding-top:0}
+  .tl-facts{display:none}
+  .tl-side{order:4;width:100%;margin-top:14px;padding:0;gap:10px}
+  .btn--play{min-height:56px;border-radius:10px;font-size:15px;letter-spacing:.06em}
+  .tl-rev{font-size:11.5px}
+}

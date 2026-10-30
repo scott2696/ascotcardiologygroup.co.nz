@@ -565,6 +565,9 @@ def toplist(ops, kind="casino", start=1, note_=True, eager=2, visit=None):
             f'<div class="tl-logo{" logo--dark" if op.get("logo_dark") else ""}">{logo_img(op, eager=(i - start) < eager)}</div>'
             f'<div class="tl-main"><h3 class="tl-name"><a href="{review_url(op)}">{esc(op["name"])}</a></h3>'
             f'<p class="tl-offer{" tl-bonus" if op.get("offer") else ""}">{line}</p><ul class="tl-facts">{fl}</ul></div>'
+            # Stars (score out of 10 shown as five stars) are used by the mobile card layout
+            f'<span class="tl-stars" role="img" aria-label="Ledger score {op["rating"]:.1f} out of 10" '
+            f'style="--pct:{op["rating"] * 10:.0f}%">\u2605\u2605\u2605\u2605\u2605</span>'
             f'<div class="tl-score" role="img" aria-label="Ledger score {op["rating"]:.1f} out of 10">'
             + GAUGE.replace("{elev}", f'{op["rating"] / 10:.2f}')
             + f'<span class="tl-num">{op["rating"]:.1f}<small>/10</small></span></div>'
