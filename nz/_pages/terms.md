@@ -4,12 +4,12 @@ title: "Terms and Conditions [October 2026]: Kiwi Casino Ledger"
 meta_description: "The terms and conditions for using Kiwi Casino Ledger: who the site is for, accuracy of information, no casino links, liability, copyright and the law that applies."
 h1: "Terms and Conditions [October 2026]: The Rules for Using This Site"
 author: Hana McAllister
-words: 372
+words: 374
 ---
 
 # Terms and Conditions [October 2026] : The Rules for Using This Site
 
-The rules for using Kiwi Casino Ledger: who it is for, accuracy, our no-links policy, liability, copyright and the law that applies. 
+The rules for using Kiwi Casino Ledger: who it is for, accuracy, our no-links policy, liability, copyright and the law that applies. Show more 
 
 These terms apply to your use of Kiwi Casino Ledger at https://ascotcardiologygroup.co.nz/nz. By using the site you agree to them.
 

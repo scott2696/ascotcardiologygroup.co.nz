@@ -364,7 +364,8 @@ def hero(h1, lead, author=None, checker=None, facts=None, kicker=None):
         f = '<ul class="hero-facts">' + "".join(f"<li><b>{b}</b><span>{s}</span></li>" for b, s in facts) + "</ul>"
     b = byline(author, checker) if author else ""
     return (f'<header class="hero"><div class="wrap">{k}<h1>{stamp(h1)}</h1>'
-            f'<p class="lead">{lead}</p>{b}{f}</div></header>')
+            f'<div class="brief" data-brief><p class="lead">{lead}</p></div>'
+            f'<button class="brief-more" data-brief-more type="button" hidden>Show more</button>{b}{f}</div></header>')
 
 
 def crumbs(trail):
@@ -528,13 +529,15 @@ def visit_btn(op, kind="casino", cls="btn", fallback=None):
     return f'<a class="{cls}" href="{href}" rel="noopener" target="_blank">Visit site</a>'
 
 
+GAUGE = '<svg class="tl-dial" viewBox="0 0 136 104" aria-hidden="true"><g class="dl-tick"><line x1="112" y1="56" x2="126" y2="56"></line><line x1="112" y1="56" x2="126" y2="56" transform="rotate(-4 58 56)"></line><line x1="112" y1="56" x2="126" y2="56" transform="rotate(-8 58 56)"></line><line x1="112" y1="56" x2="126" y2="56" transform="rotate(-12 58 56)"></line><line x1="112" y1="56" x2="126" y2="56" transform="rotate(-16 58 56)"></line><line x1="112" y1="56" x2="126" y2="56" transform="rotate(-20 58 56)"></line><line x1="112" y1="56" x2="126" y2="56" transform="rotate(-24 58 56)"></line><line x1="112" y1="56" x2="126" y2="56" transform="rotate(-28 58 56)"></line><line x1="112" y1="56" x2="126" y2="56" transform="rotate(-32 58 56)"></line><line x1="112" y1="56" x2="126" y2="56" transform="rotate(-36 58 56)"></line></g><path class="dl-arm" d="M44 46 116 26 116 48 44 66Z" style="--elev:{elev}"></path><path class="dl-body" d="M40 60 8 92 26 98 58 70Z"></path><circle class="dl-body" cx="58" cy="70" r="24"></circle><g class="dl-spoke"><line x1="58" y1="46" x2="58" y2="94"></line><line x1="34" y1="70" x2="82" y2="70"></line><line x1="41" y1="53" x2="75" y2="87"></line><line x1="75" y1="53" x2="41" y2="87"></line></g><circle class="dl-hub" cx="58" cy="70" r="6"></circle></svg>'
+
+
 def toplist(ops, kind="casino", start=1, note_=True, eager=2, visit=None):
     """The ranked list. Every row is a set of checkable facts and a link to our
     own review. There is no outbound link."""
     out = [f'<ol class="tl" start="{start}">']
     for i, op in enumerate(ops, start):
-        facts = [("Licence", op["licence_short"]), ("NZD balance", nzd_txt(op)),
-                 ("Withdrawal limit", limit_txt(op)), ("Safety Index", safety_txt(op))]
+        facts = [("Licence", op["licence_short"]), ("NZD", nzd_txt(op)), ("Limit", limit_txt(op))]
         fl = "".join(f"<li><span>{k}</span><b>{esc(v)}</b></li>" for k, v in facts)
         chips = []
         if op["casino"]:
@@ -544,16 +547,18 @@ def toplist(ops, kind="casino", start=1, note_=True, eager=2, visit=None):
         if op["crypto"]:
             chips.append('<span class="chip">Crypto</span>')
         offer = (f'<p class="tl-offer"><span>Offer on record:</span> {esc(op["offer"])}</p>' if op.get("offer") else "")
+        line = esc(op["offer"]) if op.get("offer") else op["tagline"]
         out.append(
             f'<li class="tl-row">'
-            f'<div class="tl-rank" aria-hidden="true">{i}</div>'
+            f'<div class="tl-rank" aria-hidden="true"><b>{i}</b></div>'
             f'<div class="tl-logo{" logo--dark" if op.get("logo_dark") else ""}">{logo_img(op, eager=(i - start) < eager)}</div>'
-            f'<div class="tl-main"><div class="tl-head"><h3 class="tl-name"><a href="{review_url(op)}">{esc(op["name"])}</a></h3></div>'
-            f'<p class="tl-why">{op["tagline"]}</p>{offer}'
-            f'<ul class="tl-facts">{fl}</ul><div class="tl-chips">{"".join(chips)}</div></div>'
-            f'<div class="tl-side"><p class="tl-score"><b>{op["rating"]:.1f}</b><span>Ledger score</span></p>'
-            + visit_btn(op, kind, fallback=visit) + f'<a class="btn btn--ghost" href="{review_url(op)}">Read the review</a>'
-            + f'<p class="tl-tc">Facts checked {CHECKED}</p></div></li>')
+            f'<div class="tl-main"><h3 class="tl-name"><a href="{review_url(op)}">{esc(op["name"])}</a></h3>'
+            f'<p class="tl-offer">{line}</p><ul class="tl-facts">{fl}</ul></div>'
+            f'<div class="tl-score" role="img" aria-label="Ledger score {op["rating"]:.1f} out of 10">'
+            + GAUGE.replace("{elev}", f'{op["rating"] / 10:.2f}')
+            + f'<span class="tl-num">{op["rating"]:.1f}<small>/10</small></span></div>'
+            f'<div class="tl-side">' + visit_btn(op, kind, "btn btn--play", fallback=visit)
+            + f'<a class="tl-rev" href="{review_url(op)}">Read the review</a></div></li>')
     out.append("</ol>")
     if note_:
         out.append(ORDER_NOTE)
@@ -755,7 +760,7 @@ def page(path, body, schema=None):
 <link rel="manifest" href="/site.webmanifest">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,650&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700&family=Sora:wght@700;800&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="/assets/css/site.css?v={CSS_V}">
 <script type="application/ld+json">{ld}</script>
 </head>
@@ -773,6 +778,7 @@ def page(path, body, schema=None):
 {body}
 </main>
 {_footer()}
+<script defer src="/assets/js/site.js?v={CSS_V}"></script>
 </body>
 </html>
 """

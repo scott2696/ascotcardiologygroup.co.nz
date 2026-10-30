@@ -63,7 +63,7 @@ for p, h in pages.items():
         tgt = pages.get(u or p, "")
         if tgt and f'id="{frag}"' not in tgt: err.append(f"{p}: missing anchor {a}")
     for s in re.findall(r'src="(/[^"]+)"', h):
-        if not os.path.exists(os.path.join(ROOT, s.lstrip("/"))): err.append(f"{p}: missing img {s}")
+        if not os.path.exists(os.path.join(ROOT, s.split("?")[0].lstrip("/"))): err.append(f"{p}: missing file {s}")
     nav = re.search(r'<nav class="nav".*?</nav>', h, re.S).group(0)
     foot = re.search(r'<footer.*?</footer>', h, re.S).group(0)
     for u in ("/about/", "/contact/"):

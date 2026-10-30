@@ -4,14 +4,14 @@ title: "Best Sports Betting Sites NZ [October 2026]: Bookmakers"
 meta_description: "Best betting sites NZ punters search for: TAB NZ against offshore bookmakers on licence, NZD banking, limits and odds, and what the 2025 offshore betting ban changed."
 h1: "Best Sports Betting Sites NZ [October 2026]: Top Bookies Compared on Licence, Limits and the 2025 Law"
 author: Alex McDonald
-words: 2916
+words: 2746
 ---
 
 Facts checked 8 October 2026
 
 # Best Sports Betting Sites NZ [October 2026] : Top Bookies Compared on Licence, Limits and the 2025 Law
 
-How TAB NZ compares with the offshore sportsbooks New Zealanders still ask about, checked on licence, owner, NZD banking and limits. Since June 2025 only TAB NZ may lawfully take your bets.![Alex McDonald](/images/authors/alex-mcdonald.jpg)Written by [**Alex McDonald** ](https://ascotcardiologygroup.co.nz/nz/authors/#alex-mcdonald), Sport Writer Checked by [Wiremu Salter](https://ascotcardiologygroup.co.nz/nz/authors/#wiremu-salter) Updated 30 October 2026    
+How TAB NZ compares with the offshore sportsbooks New Zealanders still ask about, checked on licence, owner, NZD banking and limits. Since June 2025 only TAB NZ may lawfully take your bets. Show more![Alex McDonald](/images/authors/alex-mcdonald.jpg)Written by [**Alex McDonald** ](https://ascotcardiologygroup.co.nz/nz/authors/#alex-mcdonald), Sport Writer Checked by [Wiremu Salter](https://ascotcardiologygroup.co.nz/nz/authors/#wiremu-salter) Updated 30 October 2026    
 
 - **1** lawful online bookmaker 
 - **11** offshore books checked 
@@ -24,17 +24,17 @@ For information only; none may take bets from New Zealanders under the 2025 law.
 
 | Site | Offer on record | Key facts | Ledger score |
 |---|---|---|---|
-| [MadCasino](https://ascotcardiologygroup.co.nz/nz/casino-reviews/madcasino/) | 777% up to €7,500 (sports: 250% up to €3,500) | Licence: Curaçao (CGA); NZD balance: Yes; Withdrawal limit: NZ$4,500 a week; Safety Index: 6.7 | 6.5/10 |
-| [Gunsbet](https://ascotcardiologygroup.co.nz/nz/casino-reviews/gunsbet/) | 285% up to €7,500 + 285 free spins | Licence: Anjouan + Tobique; NZD balance: Yes; Withdrawal limit: NZ$7,500 a week; Safety Index: 6.8 | 7.3/10 |
-| [Lucky Vibe](https://ascotcardiologygroup.co.nz/nz/casino-reviews/lucky-vibe/) | up to $5,000 + 300 free spins (reported) | Licence: Tobique + Anjouan; NZD balance: Yes; Withdrawal limit: NZ$7,500 a week; Safety Index: 8.5 | 8.1/10 |
-| [Rooster Bet](https://ascotcardiologygroup.co.nz/nz/casino-reviews/rooster-bet/) | up to $5,000 + 300 free spins over four deposits (reported) | Licence: Tobique + Anjouan + Estonia; NZD balance: Yes; Withdrawal limit: NZ$7,500 a week; Safety Index: 8.5 | 8.1/10 |
-| [Fortune Play](https://ascotcardiologygroup.co.nz/nz/casino-reviews/fortune-play/) | up to $5,000 + 300 free spins over four deposits (reported) | Licence: Tobique + Anjouan; NZD balance: Yes; Withdrawal limit: NZ$7,500 a week; Safety Index: 8.4 | 8.1/10 |
-| [Kingdom](https://ascotcardiologygroup.co.nz/nz/casino-reviews/kingdom/) | 600% up to €9,500 + 20% cashback (reported) | Licence: Not confirmed; NZD balance: Not confirmed; Withdrawal limit: Not published; Safety Index: No profile | 4.1/10 |
-| [Smash](https://ascotcardiologygroup.co.nz/nz/casino-reviews/smash/) | 600% up to €10,000 at 10x (sports: 250% up to €5,000) | Licence: Anjouan; NZD balance: No; Withdrawal limit: €2,000 a week; Safety Index: 3.9 | 5.1/10 |
-| [Trixino](https://ascotcardiologygroup.co.nz/nz/casino-reviews/trixino/) | 777% across six deposits, up to €7,777 in total, at 7x wagering | Licence: Not confirmed; NZD balance: Not confirmed; Withdrawal limit: Not published; Safety Index: No profile | 4.1/10 |
-| [Rivo](https://ascotcardiologygroup.co.nz/nz/casino-reviews/rivo/) | 1000% up to €10,000 across eight deposits at 10x (sports: 100% up to €500) | Licence: Anjouan; NZD balance: No; Withdrawal limit: €1,000 a day; Safety Index: 6.2 | 6.3/10 |
-| [Bet&Play](https://ascotcardiologygroup.co.nz/nz/casino-reviews/betandplay/) | 100% up to NZ$500 sports bonus at 5x (reported) | Licence: Anjouan + Tobique; NZD balance: Yes; Withdrawal limit: €5,000 a week; Safety Index: 6.8 | 7.1/10 |
-| [Spino](https://ascotcardiologygroup.co.nz/nz/casino-reviews/spino/) | 20% cashback up to 2,000 USDT, no wagering (reported) | Licence: Anjouan; NZD balance: No; Withdrawal limit: Not published; Safety Index: 7.2 | 6.0/10 |
+| [MadCasino](https://ascotcardiologygroup.co.nz/nz/casino-reviews/madcasino/) | None on record | Licence: Curaçao (CGA); NZD: Yes; Limit: NZ$4,500 a week | /10 |
+| [Gunsbet](https://ascotcardiologygroup.co.nz/nz/casino-reviews/gunsbet/) | None on record | Licence: Anjouan + Tobique; NZD: Yes; Limit: NZ$7,500 a week | /10 |
+| [Lucky Vibe](https://ascotcardiologygroup.co.nz/nz/casino-reviews/lucky-vibe/) | None on record | Licence: Tobique + Anjouan; NZD: Yes; Limit: NZ$7,500 a week | /10 |
+| [Rooster Bet](https://ascotcardiologygroup.co.nz/nz/casino-reviews/rooster-bet/) | None on record | Licence: Tobique + Anjouan + Estonia; NZD: Yes; Limit: NZ$7,500 a week | /10 |
+| [Fortune Play](https://ascotcardiologygroup.co.nz/nz/casino-reviews/fortune-play/) | None on record | Licence: Tobique + Anjouan; NZD: Yes; Limit: NZ$7,500 a week | /10 |
+| [Kingdom](https://ascotcardiologygroup.co.nz/nz/casino-reviews/kingdom/) | None on record | Licence: Not confirmed; NZD: Not confirmed; Limit: Not published | /10 |
+| [Smash](https://ascotcardiologygroup.co.nz/nz/casino-reviews/smash/) | None on record | Licence: Anjouan; NZD: No; Limit: €2,000 a week | /10 |
+| [Trixino](https://ascotcardiologygroup.co.nz/nz/casino-reviews/trixino/) | None on record | Licence: Not confirmed; NZD: Not confirmed; Limit: Not published | /10 |
+| [Rivo](https://ascotcardiologygroup.co.nz/nz/casino-reviews/rivo/) | None on record | Licence: Anjouan; NZD: No; Limit: €1,000 a day | /10 |
+| [Bet&Play](https://ascotcardiologygroup.co.nz/nz/casino-reviews/betandplay/) | None on record | Licence: Anjouan + Tobique; NZD: Yes; Limit: €5,000 a week | /10 |
+| [Spino](https://ascotcardiologygroup.co.nz/nz/casino-reviews/spino/) | None on record | Licence: Anjouan; NZD: No; Limit: Not published | /10 |
 
 **About this list.** Sites are shown in the order set by our editor, which is not the score order. The **Ledger score** comes from five published inputs and is the number to compare; [see every site sorted by score](https://ascotcardiologygroup.co.nz/nz/casino-reviews/#by-score). We do not link to any casino or carry sign-up offers. [How we score](https://ascotcardiologygroup.co.nz/nz/how-we-review/).*Casino Guru Safety Index, read 8 October 2026. Ledger score: our five-input score.
 

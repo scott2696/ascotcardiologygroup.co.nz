@@ -4,14 +4,14 @@ title: "New Online Casinos NZ [October 2026]: Newest Casino Sites"
 meta_description: "Newest online casino sites in NZ for 2026, dated by licence rather than launch hype, why no new casino may enter NZ under the 2026 Act, and what the DIA auction means."
 h1: "New Online Casinos NZ [October 2026]: Best New Casino Sites, Dated by Licence and Checked Before You Join"
 author: Hana McAllister
-words: 3172
+words: 3024
 ---
 
 Facts checked 8 October 2026
 
 # New Online Casinos NZ [October 2026] : Best New Casino Sites, Dated by Licence and Checked Before You Join
 
-Ten newer casino brands that New Zealanders ask about, dated by their licence numbers rather than marketing claims. Plus the six checks for any new casino and why the 2026 Act stopped new brands entering New Zealand.![Hana McAllister](/images/authors/hana-mcallister.jpg)Written by [**Hana McAllister** ](https://ascotcardiologygroup.co.nz/nz/authors/#hana-mcallister), Editor Checked by [Wiremu Salter](https://ascotcardiologygroup.co.nz/nz/authors/#wiremu-salter) Updated 30 October 2026    
+Ten newer casino brands that New Zealanders ask about, dated by their licence numbers rather than marketing claims. Plus the six checks for any new casino and why the 2026 Act stopped new brands entering New Zealand. Show more![Hana McAllister](/images/authors/hana-mcallister.jpg)Written by [**Hana McAllister** ](https://ascotcardiologygroup.co.nz/nz/authors/#hana-mcallister), Editor Checked by [Wiremu Salter](https://ascotcardiologygroup.co.nz/nz/authors/#wiremu-salter) Updated 30 October 2026    
 
 - **9** newer brands checked 
 - **June 2026** newest licence on our list 
@@ -24,15 +24,15 @@ Brands reported as launched since 2024 or licensed since 2025, in our editor's o
 
 | Site | Offer on record | Key facts | Ledger score |
 |---|---|---|---|
-| [CrownSlots](https://ascotcardiologygroup.co.nz/nz/casino-reviews/crownslots/) | 390% up to €3,700 + 175 free spins across the first deposits | Licence: Curaçao (reported); NZD balance: Not confirmed; Withdrawal limit: Not published; Safety Index: No profile | 4.8/10 |
-| [Spinjo](https://ascotcardiologygroup.co.nz/nz/casino-reviews/spinjo/) | up to NZ$5,000 + 300 free spins over four deposits (reported) | Licence: Anjouan + Tobique; NZD balance: Yes; Withdrawal limit: NZ$7,500 a week; Safety Index: 8.9 | 8.3/10 |
-| [Lucky Vibe](https://ascotcardiologygroup.co.nz/nz/casino-reviews/lucky-vibe/) | up to $5,000 + 300 free spins (reported) | Licence: Tobique + Anjouan; NZD balance: Yes; Withdrawal limit: NZ$7,500 a week; Safety Index: 8.5 | 8.1/10 |
-| [Fortune Play](https://ascotcardiologygroup.co.nz/nz/casino-reviews/fortune-play/) | up to $5,000 + 300 free spins over four deposits (reported) | Licence: Tobique + Anjouan; NZD balance: Yes; Withdrawal limit: NZ$7,500 a week; Safety Index: 8.4 | 8.1/10 |
-| [Lucky Circus](https://ascotcardiologygroup.co.nz/nz/casino-reviews/lucky-circus/) | 100% up to NZ$10,000 + 450 free spins over four deposits (reported) | Licence: Anjouan + Tobique; NZD balance: Yes; Withdrawal limit: €2,500 a week; Safety Index: 6.8 | 6.8/10 |
-| [Smash](https://ascotcardiologygroup.co.nz/nz/casino-reviews/smash/) | 600% up to €10,000 at 10x (sports: 250% up to €5,000) | Licence: Anjouan; NZD balance: No; Withdrawal limit: €2,000 a week; Safety Index: 3.9 | 5.1/10 |
-| [Trixino](https://ascotcardiologygroup.co.nz/nz/casino-reviews/trixino/) | 777% across six deposits, up to €7,777 in total, at 7x wagering | Licence: Not confirmed; NZD balance: Not confirmed; Withdrawal limit: Not published; Safety Index: No profile | 4.1/10 |
-| [Rivo](https://ascotcardiologygroup.co.nz/nz/casino-reviews/rivo/) | 1000% up to €10,000 across eight deposits at 10x (sports: 100% up to €500) | Licence: Anjouan; NZD balance: No; Withdrawal limit: €1,000 a day; Safety Index: 6.2 | 6.3/10 |
-| [Spino](https://ascotcardiologygroup.co.nz/nz/casino-reviews/spino/) | 20% cashback up to 2,000 USDT, no wagering (reported) | Licence: Anjouan; NZD balance: No; Withdrawal limit: Not published; Safety Index: 7.2 | 6.0/10 |
+| [CrownSlots](https://ascotcardiologygroup.co.nz/nz/casino-reviews/crownslots/) | None on record | Licence: Curaçao (reported); NZD: Not confirmed; Limit: Not published | /10 |
+| [Spinjo](https://ascotcardiologygroup.co.nz/nz/casino-reviews/spinjo/) | None on record | Licence: Anjouan + Tobique; NZD: Yes; Limit: NZ$7,500 a week | /10 |
+| [Lucky Vibe](https://ascotcardiologygroup.co.nz/nz/casino-reviews/lucky-vibe/) | None on record | Licence: Tobique + Anjouan; NZD: Yes; Limit: NZ$7,500 a week | /10 |
+| [Fortune Play](https://ascotcardiologygroup.co.nz/nz/casino-reviews/fortune-play/) | None on record | Licence: Tobique + Anjouan; NZD: Yes; Limit: NZ$7,500 a week | /10 |
+| [Lucky Circus](https://ascotcardiologygroup.co.nz/nz/casino-reviews/lucky-circus/) | None on record | Licence: Anjouan + Tobique; NZD: Yes; Limit: €2,500 a week | /10 |
+| [Smash](https://ascotcardiologygroup.co.nz/nz/casino-reviews/smash/) | None on record | Licence: Anjouan; NZD: No; Limit: €2,000 a week | /10 |
+| [Trixino](https://ascotcardiologygroup.co.nz/nz/casino-reviews/trixino/) | None on record | Licence: Not confirmed; NZD: Not confirmed; Limit: Not published | /10 |
+| [Rivo](https://ascotcardiologygroup.co.nz/nz/casino-reviews/rivo/) | None on record | Licence: Anjouan; NZD: No; Limit: €1,000 a day | /10 |
+| [Spino](https://ascotcardiologygroup.co.nz/nz/casino-reviews/spino/) | None on record | Licence: Anjouan; NZD: No; Limit: Not published | /10 |
 
 **About this list.** Sites are shown in the order set by our editor, which is not the score order. The **Ledger score** comes from five published inputs and is the number to compare; [see every site sorted by score](https://ascotcardiologygroup.co.nz/nz/casino-reviews/#by-score). We do not link to any casino or carry sign-up offers. [How we score](https://ascotcardiologygroup.co.nz/nz/how-we-review/).*Casino Guru Safety Index, read 8 October 2026. Ledger score: our five-input score.
 

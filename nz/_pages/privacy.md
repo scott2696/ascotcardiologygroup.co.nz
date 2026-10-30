@@ -4,12 +4,12 @@ title: "Privacy Policy [October 2026]: NZ Privacy Act 2020"
 meta_description: "How Kiwi Casino Ledger collects, uses, stores and protects personal information under the New Zealand Privacy Act 2020, and how to access or correct what we hold."
 h1: "Privacy Policy [October 2026]: How We Handle Personal Information"
 author: Hana McAllister
-words: 294
+words: 296
 ---
 
 # Privacy Policy [October 2026] : How We Handle Personal Information
 
-What personal information we collect, why, how we protect it, and how to access or correct it under the Privacy Act 2020. 
+What personal information we collect, why, how we protect it, and how to access or correct it under the Privacy Act 2020. Show more 
 
 This policy explains how Kiwi Casino Ledger handles personal information under the New Zealand **Privacy Act 2020** and its Information Privacy Principles.
 

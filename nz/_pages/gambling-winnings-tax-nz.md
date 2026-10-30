@@ -4,14 +4,14 @@ title: "Gambling Winnings Tax NZ [October 2026]: IRD Rules"
 meta_description: "Are gambling winnings taxable in NZ? IRD treats casual casino, pokies, betting and Lotto wins as tax-free, but professional gambling and crypto gains can be taxed."
 h1: "Gambling Winnings Tax NZ [October 2026]: Is Gambling Taxed on Casino, Betting and Lotto Wins?"
 author: Wiremu Salter
-words: 825
+words: 827
 ---
 
 Checked 8 October 2026
 
 # Gambling Winnings Tax NZ [October 2026] : Is Gambling Taxed on Casino, Betting and Lotto Wins?
 
-Casual gambling wins are not income in New Zealand, whether from a pokie, a bet or Lotto. The exceptions are professional gambling and gains on crypto. Here is Inland Revenue's position with worked examples.![Wiremu Salter](/images/authors/wiremu-salter.jpg)Written by [**Wiremu Salter** ](https://ascotcardiologygroup.co.nz/nz/authors/#wiremu-salter), Law and Safety Writer Checked by [Tama Rewiti](https://ascotcardiologygroup.co.nz/nz/authors/#tama-rewiti) Updated 30 October 2026    
+Casual gambling wins are not income in New Zealand, whether from a pokie, a bet or Lotto. The exceptions are professional gambling and gains on crypto. Here is Inland Revenue's position with worked examples. Show more![Wiremu Salter](/images/authors/wiremu-salter.jpg)Written by [**Wiremu Salter** ](https://ascotcardiologygroup.co.nz/nz/authors/#wiremu-salter), Law and Safety Writer Checked by [Tama Rewiti](https://ascotcardiologygroup.co.nz/nz/authors/#tama-rewiti) Updated 30 October 2026    
 
 - **0%** tax on casual winnings 
 - **Pro** gamblers can be taxed 

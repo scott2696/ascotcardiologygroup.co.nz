@@ -4,12 +4,12 @@ title: "Contact Kiwi Casino Ledger [October 2026]: Get in Touch"
 meta_description: "Contact Kiwi Casino Ledger for corrections, questions about a casino we cover, privacy requests or media enquiries. We aim to reply within two working days."
 h1: "Contact Kiwi Casino Ledger [October 2026]: Corrections, Complaints and Questions"
 author: Hana McAllister
-words: 260
+words: 262
 ---
 
 # Contact Kiwi Casino Ledger [October 2026] : Corrections, Complaints and Questions
 
-Corrections, questions about a casino we cover, complaints and privacy requests. We aim to reply within two working days. 
+Corrections, questions about a casino we cover, complaints and privacy requests. We aim to reply within two working days. Show more 
 
 ## Email us
 

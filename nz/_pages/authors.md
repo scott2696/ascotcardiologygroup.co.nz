@@ -4,12 +4,12 @@ title: "Our Writers and Editors [October 2026]: Kiwi Casino Ledger"
 meta_description: "Meet the writers and editors behind Kiwi Casino Ledger: who covers casinos, payments, games, law and betting, and which pages each person is responsible for."
 h1: "Our Writers and Editors [October 2026]: Who Writes and Checks Every Page"
 author: Hana McAllister
-words: 438
+words: 440
 ---
 
 # Our Writers and Editors [October 2026] : Who Writes and Checks Every Page
 
-The writers and editors behind every page, what each of them covers, and how pages are checked. 
+The writers and editors behind every page, what each of them covers, and how pages are checked. Show more 
 
 Every page names the person who wrote it and the person who checked it. Here is who does what.![Hana McAllister](/images/authors/hana-mcallister.jpg)
 

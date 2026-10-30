@@ -4,12 +4,12 @@ title: "Cookie Policy [October 2026]: Kiwi Casino Ledger"
 meta_description: "Which cookies Kiwi Casino Ledger sets, why there are no affiliate or advertising cookies here, and how to block or delete cookies in every major browser."
 h1: "Cookie Policy [October 2026]: The Cookies We Use and How to Control Them"
 author: Hana McAllister
-words: 198
+words: 200
 ---
 
 # Cookie Policy [October 2026] : The Cookies We Use and How to Control Them
 
-Kiwi Casino Ledger sets no cookies. Here is why there are no affiliate or tracking cookies, what third parties receive, and how to control cookies in your browser. 
+Kiwi Casino Ledger sets no cookies. Here is why there are no affiliate or tracking cookies, what third parties receive, and how to control cookies in your browser. Show more 
 
 ## The short version
 
